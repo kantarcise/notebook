@@ -34,6 +34,11 @@ Just expect **everything** to break.
 
 - [Live Video Streaming Using Multiple Smartphones With ImageZMQ](https://towardsdatascience.com/live-video-streaming-using-multiple-smartphones-with-imagezmq-e260bd081224)
 
+- [High-performance Scalable Realtime Distributed Video Processing With Python3, OpenCV and ZeroMQ](https://bitworks.software/en/scalable-realtime-opencv-processing-with-zeromq.html)
+
+
+
+
 
 
 
