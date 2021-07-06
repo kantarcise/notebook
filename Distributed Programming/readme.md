@@ -37,7 +37,9 @@ Just expect **everything** to break.
 - [High-performance Scalable Realtime Distributed Video Processing With Python3, OpenCV and ZeroMQ](https://bitworks.software/en/scalable-realtime-opencv-processing-with-zeromq.html)
 
 
+### Possibly Best Source For Agile Development
 
+- [ØMQ - The Guide](https://zguide.zeromq.org/)
 
 
 
