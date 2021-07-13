@@ -11,4 +11,3 @@ Write it down, so you don't lose it in the sea :)
 
 - [How to Write GREAT Software Documentation in 7 Simple Steps](https://technicalwriterhq.com/how-to-write-software-documentation/)
 - [Design Docs at Google](https://www.industrialempathy.com/posts/design-docs-at-google/)
-- [Software Design Document - Testing, Deployment and Configuration Management](https://arxiv.org/pdf/1005.0595.pdf)
