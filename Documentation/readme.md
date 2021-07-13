@@ -10,9 +10,4 @@ Write it down, so you don't lose it in the sea :)
 ## Links
 
 - [How to Write GREAT Software Documentation in 7 Simple Steps](https://technicalwriterhq.com/how-to-write-software-documentation/)
-
--
-
--
-
--
+- [Design Docs at Google](https://www.industrialempathy.com/posts/design-docs-at-google/)
