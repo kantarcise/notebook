@@ -19,5 +19,7 @@ So, let's do it right :)
 
 - [GitLab Basics](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html)
 
+- [Code Review Guidelines at GitLab - (Gold)](https://docs.gitlab.com/ee/development/code_review.html)
+
 
 
