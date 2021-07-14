@@ -1,7 +1,7 @@
 # notebook 📒
 
 
-Personal notebook to share information :relaxed:
+General notebook to share information :relaxed:
 
 
 <p align="center">
