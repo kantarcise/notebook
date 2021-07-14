@@ -8,3 +8,16 @@ So, let's do it right :)
 <p align="center">
   <img src="https://i.redd.it/05b6u19pseoz.png" title="Oh well"/>
 </p>
+
+
+---
+
+
+### Online Articles
+
+- [Ubuntu Git Tutorial](http://manpages.ubuntu.com/manpages/trusty/man7/gittutorial.7.html)
+
+- [GitLab Basics](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html)
+
+
+
