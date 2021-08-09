@@ -18,3 +18,6 @@ Write it down, so you don't lose it in the sea :)
 - [How to write a good software design doc - Medium](https://medium.com/free-code-camp/how-to-write-a-good-software-design-document-66fcf019569c)
 - [Software Development Processes - MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-170-software-studio-spring-2013/lecture-notes/MIT6_170S13_54-devel-proce.pdf)
 - [Sufficient Design - Industrial Logic](https://www.industriallogic.com/blog/sufficient-design/)
+---------------------
+- [How to make a Use Case Diagram](https://drawio-app.com/uml-use-case-diagrams-with-draw-io/)
+- 
