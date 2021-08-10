@@ -43,7 +43,7 @@ Just expect **everything** to break.
 
 
 
-### Multiprocessing Has To Be Learned
+### Multiprocessing - Really Important Concept of Programming 
 
 - [Multiprocessing - Part 1](https://www.geeksforgeeks.org/multiprocessing-python-set-1/)
 
