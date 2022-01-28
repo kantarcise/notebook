@@ -2,5 +2,5 @@
 
 
 <p align="center">
-  <img src="http://direct-direction.com/static/img/18.jpg" title="Magnificent"/>
+  <img src="https://gradually.co/wp-content/uploads/2020/11/GD29-Intro.png" title="Magnificent"/>
 </p>
