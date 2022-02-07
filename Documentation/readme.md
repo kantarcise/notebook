@@ -21,3 +21,4 @@ Write it down, so you don't lose it in the sea :)
 ---------------------
 - [How to make a Use Case Diagram](https://drawio-app.com/uml-use-case-diagrams-with-draw-io/)
 - [Sequence Diagram](https://creately.com/blog/diagrams/sequence-diagram-tutorial/#Draw)
+- [Formatting Your Documentation Content from Apple](https://developer.apple.com/documentation/xcode/formatting-your-documentation-content)
