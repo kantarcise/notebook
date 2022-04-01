@@ -6,7 +6,7 @@
 </p>
 
 <div align="center">
-  <a href="https://github.com/kantarcise/notebook/blob/master/Computer%20Vision/New%20Edge%20Detection.pdf">Why is Edge Detection is a Thing?</a>
+  <a href="https://github.com/kantarcise/notebook/blob/master/Computer%20Vision/New%20Edge%20Detection.pdf">Why is Edge Detection a Thing?</a>
 </div>
 
 ---
