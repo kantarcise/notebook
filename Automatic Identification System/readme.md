@@ -1,4 +1,4 @@
-## Ships has a weird way to communicate.
+## Ships has a unique way to communicate with their environment.
 
 <p align="center">
   <img src="img/multitaskdl.png">
