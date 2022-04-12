@@ -9,6 +9,16 @@ This folder contains papers from conferances and global journals about deep lear
 
 ---
 
+<p align="center">
+  <img src="img/introtocnns.png">
+</p>
+
+<div align="center">
+  <a href="https://github.com/kantarcise/notebook/blob/master/Deep%20Learning/An%20Introduction%20to%20Convolutional%20Neural%20Networks.pdf"> What are CNN's, in the most basic sense?</a> 
+</div>
+
+---
+
 
 <p align="center">
   <img src="img/yolor.png">
@@ -38,3 +48,29 @@ This folder contains papers from conferances and global journals about deep lear
 <div align="center">
   <a href="https://github.com/kantarcise/notebook/blob/master/Deep%20Learning/A%20Neural%20Algorithm%20of%20Artistic%20Style.pdf"> Can we make artistic content with Deep learning ?</a> 
 </div>
+
+
+
+---
+
+<p align="center">
+  <img src="img/algorithmicregularization.png">
+</p>
+
+<div align="center">
+  <a href="https://github.com/kantarcise/notebook/blob/master/Deep%20Learning/Algorithmic%20Regularization%20in%20Learning%20Deep%20Homogeneous%20Models.pdf"> How do you optimize a deep learning model?</a> 
+</div>
+
+
+
+
+---
+
+<p align="center">
+  <img src="img/alphafold.png">
+</p>
+
+<div align="center">
+  <a href="https://github.com/kantarcise/notebook/blob/master/Deep%20Learning/AlphaFold-Protein.pdf"> Can DL used to construct protein models?</a> 
+</div>
+
