@@ -74,3 +74,42 @@ This folder contains papers from conferances and global journals about deep lear
   <a href="https://github.com/kantarcise/notebook/blob/master/Deep%20Learning/AlphaFold-Protein.pdf"> Can DL used to construct protein models?</a> 
 </div>
 
+
+
+---
+
+<p align="center">
+  <img src="img/cocofunit.png">
+</p>
+
+<div align="center">
+  <a href="https://github.com/kantarcise/notebook/blob/master/Deep%20Learning/COCO-FUNIT.pdf"> How can we tackle content loss problem in image-to-image translation?</a> 
+</div>
+
+
+
+
+---
+
+<p align="center">
+  <img src="img/deepcnnreview.png">
+</p>
+
+<div align="center">
+  <a href="https://github.com/kantarcise/notebook/blob/master/Deep%20Learning/Deep%20Convolutional%20Neural%20Networks%20for%20Image%20Classification%20A%20Comprehensive%20Review.pdf"> Why is CNN's good at image classification?</a> 
+</div>
+
+
+
+
+---
+
+<p align="center">
+  <img src="img/yolov3pcb.png">
+</p>
+
+<div align="center">
+  <a href="https://github.com/kantarcise/notebook/blob/master/Deep%20Learning/Application%20Research%20of%20Improved%20YOLO%20V3%20Algorithm%20in%20PCB%20Electronic%20Component%20Detection.pdf"> Can we use CNN's to detect electronic components?</a> 
+</div>
+
+
