@@ -41,7 +41,7 @@
 
 
 
-### Multiprocessing - Really Important Concept of Programming 
+### Multiprocessing
 
 - [Multiprocessing - Part 1](https://www.geeksforgeeks.org/multiprocessing-python-set-1/)
 
