@@ -22,3 +22,24 @@ Write it down, so you don't lose it in the sea :)
 - [How to make a Use Case Diagram](https://drawio-app.com/uml-use-case-diagrams-with-draw-io/)
 - [Sequence Diagram](https://creately.com/blog/diagrams/sequence-diagram-tutorial/#Draw)
 - [Formatting Your Documentation Content from Apple](https://developer.apple.com/documentation/xcode/formatting-your-documentation-content)
+
+
+---
+
+<p align="center">
+  <img src="img/sddfofinventorysystems.png">
+</p>
+
+<div align="center">
+  <a href="https://github.com/kantarcise/notebook/blob/master/Documentation/Software%20Design%20Document%20-%20Testing%2C%20Deployment%20and%20Configuration%20Management.pdf">How does one approach to design a Software Design Document?</a>
+</div>
+
+---
+
+<p align="center">
+  <img src="img/systemdesigndoc.png">
+</p>
+
+<div align="center">
+  <a href="https://github.com/kantarcise/notebook/blob/master/Documentation/MSAA-System%20Design%20Document.pdf">Why is a System Design Document important in a big project?</a>
+</div>
