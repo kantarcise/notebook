@@ -28,6 +28,7 @@
 
 ---
 
+
 <p align="center">
   <img src="img/kempinski.png">
 </p>
