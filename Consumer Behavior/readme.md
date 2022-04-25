@@ -1,5 +1,7 @@
 ## Best Brands in the World - Marketing.
 
+It's all about communication.
+
 
 <p align="center">
   <img src="img/nike.png">
