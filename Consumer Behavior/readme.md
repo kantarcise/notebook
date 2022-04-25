@@ -1,6 +1,6 @@
 ## Best Brands in the World - Marketing.
 
-It's all about communication.
+It's all about communication. 
 
 
 <p align="center">
