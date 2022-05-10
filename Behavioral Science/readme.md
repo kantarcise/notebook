@@ -29,3 +29,14 @@
 <div align="center">
   <a href="https://github.com/kantarcise/notebook/blob/master/Behavioral%20Science/behavsci-12-00059-v3.pdf">Are we aware about manipulative content?</a> 
 </div>
+
+
+---
+
+<p align="center">
+  <img src="img/timeconfetti.png">
+</p>
+
+<div align="center">
+  <a href="https://github.com/kantarcise/notebook/blob/master/Behavioral%20Science/TimeConfetti.pdf">How can we achieve time affluance - feeling of having control and feeling like you have enough time on an everyday basis?</a> 
+</div>
