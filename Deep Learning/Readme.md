@@ -113,3 +113,38 @@ This folder contains papers from conferances and global journals about deep lear
 </div>
 
 
+---
+
+<p align="center">
+  <img src="img/diseasesandpests.png">
+</p>
+
+<div align="center">
+  <a href="https://github.com/kantarcise/notebook/blob/master/Deep%20Learning/Detection%20of%20diseases%20and%20pests%20on%20images%20captured%20in%20uncontrolled%20conditions%20from%20tea%20plantations.pdf"> How can DL help to plants?</a> 
+</div>
+
+
+
+---
+
+<p align="center">
+  <img src="img/dlhardware.png">
+</p>
+
+<div align="center">
+  <a href="https://github.com/kantarcise/notebook/blob/master/Deep%20Learning/Deep%20Learning%20Hardware%20Past%2C%20Present%2C%20and%20Future.pdf"> What is the current status of Hardware in use of DL?</a> 
+</div>
+
+
+
+---
+
+<p align="center">
+  <img src="img/residuallearning.png">
+</p>
+
+<div align="center">
+  <a href="https://github.com/kantarcise/notebook/blob/master/Deep%20Learning/Deep%20Residual%20Learning%20for%20Image%20Recognition.pdf"> Can residual networks help models to be better?</a> 
+</div>
+
+
