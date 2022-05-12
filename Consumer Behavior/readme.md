@@ -13,7 +13,6 @@ It's all about communication.
 
 ---
 
-
 <p align="center">
   <img src="img/habitualconsumer.png">
 </p>
