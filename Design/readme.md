@@ -63,3 +63,15 @@
 
 
 
+---
+
+<p align="center">
+  <img src="img/sundance.png">
+</p>
+
+<div align="center">
+  <a href="https://github.com/kantarcise/notebook/blob/master/Design/project_sundance.pdf">How do you design a 90 meter gorgeousness?</a>  
+</div>
+
+
+---
