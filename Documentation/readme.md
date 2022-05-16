@@ -43,3 +43,14 @@ Write it down, so you don't lose it in the sea :)
 <div align="center">
   <a href="https://github.com/kantarcise/notebook/blob/master/Documentation/MSAA-System%20Design%20Document.pdf">Why is a System Design Document important in a big project?</a>
 </div>
+
+
+---
+
+<p align="center">
+  <img src="img/benefitsofwriting.png">
+</p>
+
+<div align="center">
+  <a href="https://github.com/kantarcise/notebook/blob/master/Documentation/the-benefits-of-writing.pdf">What are the benefits of writing?</a>
+</div>
