@@ -36,3 +36,15 @@
 <div align="center">
   <a href="https://github.com/kantarcise/notebook/blob/master/Interior%20Design/1463496953_a4_brochure_rebosio-spangulo.pdf"> How interior design is made for a World Class Hotel Brand? </a>  
 </div>
+
+---
+
+
+<p align="center">
+  <img src="img/jeffstober.png">
+</p>
+
+<div align="center">
+  <a href="https://github.com/kantarcise/notebook/blob/master/Interior%20Design/HouseHome_08_2019_WellingtonResidence.pdf"> How does a Hotel CEO design a home for himself? </a>  
+</div>
+
