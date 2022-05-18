@@ -27,3 +27,15 @@
 
 
 ---
+
+<p align="center">
+  <img src="img/optimismundergrad.png">
+</p>
+
+<div align="center">
+  <a href="https://github.com/kantarcise/notebook/blob/master/Optimism/1695-2294-ap-36-02-320.pdf">What is the relation between optimism, cognitive flexibility and happiness?</a>  
+</div>
+
+
+---
+
