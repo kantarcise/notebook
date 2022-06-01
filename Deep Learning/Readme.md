@@ -148,3 +148,16 @@ This folder contains papers from conferances and global journals about deep lear
 </div>
 
 
+
+---
+
+<p align="center">
+  <img src="img/dreamcoder.png">
+</p>
+
+<div align="center">
+  <a href="https://github.com/kantarcise/notebook/blob/master/Deep%20Learning/DreamCoder.pdf"> Wake-sleep Bayesian program learning, how does it work for solving basic & complex problems?</a> 
+</div>
+
+
+
