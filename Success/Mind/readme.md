@@ -9,18 +9,18 @@ These ideas from Jordan deserves some **thinking**:
 [After being eliminated in the 2003 playoffs: ‘I’ll push myself to exhaustion.’ 🐍- Kobe Bryant](https://www.youtube.com/watch?v=Be2VxMgiKJE)
 
 
-How disappointed are you?
+**Interviewer:** How disappointed are you?
 
-Well, you know, I just hate losing. You know, it's a tough loss. Uh, you know, they played  better.  You have to get ready for the off season. Next season for us starts right now.
+**Kobe:** Well, you know, I just hate losing. You know, it's a tough loss. Uh, you know, they played  better.  You have to get ready for the off season. Next season for us starts right now.
 
-Can you assess exactly what went wrong? 
+**Interviewer:** Can you assess exactly what went wrong? 
 
-I mean, we have a million excuses that we could go to. Fact of the matter is, we're not going to make any. They played better than we did in the series. We had opportunities to win it. So we have to regroup. Like I said, next season starts right now and we will come back next season to play.
+**Kobe:** I mean, we have a million excuses that we could go to. Fact of the matter is, we're not going to make any. They played better than we did in the series. We had opportunities to win it. So we have to regroup. Like I said, next season starts right now and we will come back next season to play.
 
-How much harder will you wear working this off season now to get back to the Championship?
+**Interviewer:** How much harder will you wear working this off season now to get back to the Championship?
 
-**I'll push myself to exhaustion.** 
+**Kobe:** **I'll push myself to exhaustion.** 
 
-We thank you for your time.
+**Interviewer:** We thank you for your time.
 
 ---
