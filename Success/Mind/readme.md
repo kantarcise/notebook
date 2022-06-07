@@ -24,3 +24,7 @@ These ideas from Jordan deserves some **thinking**:
 **Interviewer:** We thank you for your time.
 
 ---
+
+[A Day in Our Life: Harvard Swimming](https://www.youtube.com/watch?v=ct5nX-5x2zA)
+
+Iron Crimson: Make Today Matter. - At 0:30 in the video.
