@@ -65,4 +65,4 @@ The author Madeleine L'Engle wrote:
 
 “Humility is throwing oneself away in complete concentration on something or someone else.” 
 
-In other words, whatever you do with your life, be a builder.
+In other words, whatever you do with your life, **be a builder**.
