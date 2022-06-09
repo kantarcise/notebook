@@ -83,3 +83,11 @@ The minute that you understand that you can poke life and actually something wil
 I think that’s very important and however you learn that, once you learn it, you’ll want to change life and make it better, cause it’s kind of messed up, in a lot of ways. Once you learn that, you’ll never be the same again.”
 
 
+---
+
+[Elon Musk Interview - No One Will Replace Steve Jobs](https://www.youtube.com/watch?v=cUOZlyqk2LM)
+
+"He was ultra product focused, down to the little details."
+
+"The product was, it would just make you happy."
+
