@@ -33,7 +33,7 @@ Iron Crimson: Make Today Matter. - At 0:30 in the video.
 
 [The Secret To Becoming Mentally Strong - Jordan Peterson Motivation](https://www.youtube.com/watch?v=fIEKfr9CaZA)
 
-**Starts from 15:47**
+**Starts from [15:47](https://youtu.be/fIEKfr9CaZA?t=951)**
 
 I figured something out that i thought i'd tell you about this took me like 30 years to figure out and i figured it out on this tour so there's this old idea you know that you have to rescue your father from the belly of the whale right from some monster that's deep in the abyss you see that pinocchio for example but it's a very common idea and i figured out why that is i think.
 
@@ -53,4 +53,16 @@ So you imagine that there's a lot of potential you locked in your genetic code a
 
 So now, here's the idea. So let's assume that that scales as you take on heavier and heavier loads that more and more of you you get more and more informed because you're doing more and more difficult things but more and more of you gets unlocked and so then what that would imply is that if you got to the point where you could look at the darkest things so that would be the abyss right that would be the deepest abyss if you could look at the harshest things like the most brutal parts of the suffering of the world and the malevolence of people and society if you could look that look at that straight and and directly that that would turn you on maximally 
 
-That's the idea of rescuing your father because imagine that you're like the potential composite of of all your all the ancestral wisdom that's locked inside of you biologically but that's not going to come out at all unless you stress yourself unless you unless you challenge yourself and the bigger the challenge you take on the more that's going to turn on and so that as you take on a broader and broader range of challenges and you push yourself harder then more and more of what you could be turns on and that's equivalent to transforming yourself into the ancestral father into all because you're you're like the what would you call it you're the consequence of all these living beings that have come before you and that's all part of your biological potentiality and then if you can push yourself then all that clicks on and that turns you into who you could be that's and that's the re-representation of that positive ancestral father so that's why you rescue your father from the belly of the beast 
+That's the idea of rescuing your father because imagine that you're like the potential composite of of all your all the ancestral wisdom that's locked inside of you biologically but that's not going to come out at all unless you stress yourself unless you unless you challenge yourself and the bigger the challenge you take on the more that's going to turn on and so that as you take on a broader and broader range of challenges and you push yourself harder then more and more of what you could be turns on and that's equivalent to transforming yourself into the ancestral father into all because you're you're like the what would you call it you're the consequence of all these living beings that have come before you and that's all part of your biological potentiality and then if you can push yourself then all that clicks on and that turns you into who you could be that's and that's the re-representation of that positive ancestral father so that's why you rescue your father from the belly of the beast.
+
+---
+
+[Tim Cook's Life Advice](https://www.youtube.com/watch?v=dZzJSllF7SI)
+
+Starts at [5:31](https://youtu.be/dZzJSllF7SI?t=327)
+
+The author Madeleine L'Engle wrote: 
+
+“Humility is throwing oneself away in complete concentration on something or someone else.” 
+
+In other words, whatever you do with your life, be a builder.
