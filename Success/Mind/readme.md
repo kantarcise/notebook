@@ -91,3 +91,15 @@ I think that’s very important and however you learn that, once you learn it, y
 
 "The product was, it would just make you happy."
 
+---
+
+[Conor McGregor "THE LAW OF ATTRACTION" | MOTIVATIONAL VIDEO 2018 | HD]([https://www.youtube.com/watch?v=aQPu8O03Vsw](https://www.youtube.com/watch?v=tAiyrTJNHrg))
+
+Starts at 2:42
+
+“There is no opponent, there is no Jose Aldo. Who the f-ck is Jose Aldo? There is no no-one."
+
+"You’re against yourself.”
+
+
+
