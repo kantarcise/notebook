@@ -99,7 +99,7 @@ Starts at 2:42
 
 “There is no opponent, there is no Jose Aldo. Who the f-ck is Jose Aldo? There is no no-one."
 
-"You’re against yourself.”
+**"You’re against yourself.”**
 
 
 
