@@ -93,7 +93,7 @@ I think that’s very important and however you learn that, once you learn it, y
 
 ---
 
-[Conor McGregor "THE LAW OF ATTRACTION" | MOTIVATIONAL VIDEO 2018 | HD]([https://www.youtube.com/watch?v=aQPu8O03Vsw](https://www.youtube.com/watch?v=tAiyrTJNHrg))
+[Conor McGregor "THE LAW OF ATTRACTION" | MOTIVATIONAL VIDEO 2018 | HD](https://www.youtube.com/watch?v=tAiyrTJNHrg)
 
 Starts at 2:42
 
