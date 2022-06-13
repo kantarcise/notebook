@@ -8,6 +8,10 @@ a + b - 5
 # A sequence of operands and operators, like a + b - 5, is called an expression.
 # Python supports many operators for combining data objects into expressions.
 
+#
+# Arithmetic Operators
+#
+
 a = 4
 b = 3
 
@@ -46,3 +50,39 @@ a // b
 # Exponentiation
 a ** b
 # 64
+
+
+#
+# Comparison Operators
+#
+
+a = 10
+b = 20
+
+# Equal to
+a == b
+# False
+
+# Not equal to
+a != b
+# True
+
+# Less than or equal to
+a <= b
+# True
+
+# Greater than or equal to
+a >= b
+# False
+
+a = 30
+b = 30
+
+a == b
+# True
+
+a <= b
+# True
+
+a >= b
+# True
