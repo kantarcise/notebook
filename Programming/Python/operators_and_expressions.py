@@ -86,3 +86,31 @@ a <= b
 
 a >= b
 # True
+
+
+# Bitwise Operators
+
+# & 	a & b 	  bitwise AND 	Each bit position in the result is the logical AND of the bits in the corresponding position of the operands. (1 if both are 1, otherwise 0.)
+# | 	a | b 	  bitwise OR 	Each bit position in the result is the logical OR of the bits in the corresponding position of the operands. (1 if either is 1, otherwise 0.)
+# ~ 	~a 	      bitwise negation 	Each bit position in the result is the logical negation of the bit in the corresponding position of the operand. (1 if 0, 0 if 1.)
+# ^ 	a ^ b 	  bitwise XOR (exclusive OR) 	Each bit position in the result is the logical XOR of the bits in the corresponding position of the operands. (1 if the bits in the operands are different, 0 if they are the same.)
+# >> 	a >> n 	  Shift right n places 	Each bit is shifted right n places.
+# << 	a << n 	  Shift left n places 	Each bit is shifted left n places.
+
+# Operator Precedence
+
+# lowest precedence 	                        or 	Boolean OR
+# 	                                          and 	Boolean AND
+# 	                                          not 	Boolean NOT
+# 	                                          ==, !=, <, <=, >, >=, is, is not 	comparisons, identity
+# 	                                          | 	bitwise OR
+# 	                                          ^ 	bitwise XOR
+# 	                                          & 	bitwise AND
+# 	                                          <<, >> 	bit shifts
+# 	                                          +, - 	addition, subtraction
+# 	                                          *, /, //, % 	multiplication, division, floor division, modulo
+# 	                                          +x, -x, ~x 	unary positive, unary negation, bitwise negation##
+# highest precedence 	                        ** 	exponentiation
+
+
+# Left at - Augmented Assignment Operators
