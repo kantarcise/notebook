@@ -15,3 +15,13 @@ Repetation, weekly emails.
 
 
 ---
+
+
+[Naval Ravikant | The Most Important Skill To Get Rich - And Debunking The Lies](https://www.youtube.com/watch?v=4AXTmL4TC6c)
+
+This alone needs a lot of thinking about.
+
+"You have to learn anything you want to learn."
+
+Reading complex books and the confusion comes along with it, is just simply pump for your mind muscles.
+
