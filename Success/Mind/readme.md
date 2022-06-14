@@ -102,4 +102,15 @@ Starts at 2:42
 **"You’re against yourself.”**
 
 
+---
+
+It's the chase.
+
+...
+
+I love the hunt.
+
+Starts at [11:31](https://youtu.be/_cA_esfrv9I?t=692)
+
+[STOP BEING A PEOPLE PLEASER](https://www.youtube.com/watch?v=_cA_esfrv9I)
 
