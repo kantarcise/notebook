@@ -114,3 +114,22 @@ Starts at [11:31](https://youtu.be/_cA_esfrv9I?t=692)
 
 [STOP BEING A PEOPLE PLEASER](https://www.youtube.com/watch?v=_cA_esfrv9I)
 
+---
+
+I'm a clinical psychologist and here's one of the things you do to make people less afraid.
+
+You don't make the world **safer.** What you do is, people tell you what they're afraid of and then you break it into little bits so that they can go confront them.
+
+So, maybe they're afraid of going to a party and you break that down, you say, well do you know how to introduce yourself and they said well i know i don't really know how to shake someone's hand and so then you practice having them shake their hand and introduce themselves because maybe they weren't taught by that by their half-witted parents when they were when they were young because they were ignored.
+
+So then, you say well maybe you can go to a party for half an hour and all you have to do is introduce yourself to two people and we'll call that success.
+
+And you build up their confidence and their confidence one step at a time and what happens the the clinical literature indicates quite clearly is:
+
+**You don't make people less anxious by doing that you make them braver it's not the same thing you don't make the world and its horrors smaller you make the person and their their their capacity to deal with horror larger you encourage them, you strengthen them**
+
+
+[Why YOU MUST Voluntarily Face Suffering in Life : Jordan Peterson Motivation](https://www.youtube.com/watch?v=15_bwZQiKu8)
+
+
+---
