@@ -150,3 +150,18 @@ And you build up their confidence and their confidence one step at a time and wh
 
 
 ---
+
+## Justin Rossi
+
+**The Chase.**
+
+One of the best documentaries I've ever seen.
+
+Starts at [16:06](https://youtu.be/H-ieUi9A2iw?t=966)
+
+"Crossed the line 48:08 - Average speed 31.2 mph - Average power was almost 370."
+
+[The Chase: An Inside Look at What It Takes to Be the Best](https://www.youtube.com/watch?v=H-ieUi9A2iw)
+
+
+---
