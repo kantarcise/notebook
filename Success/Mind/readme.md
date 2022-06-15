@@ -6,6 +6,8 @@ These ideas from Jordan deserves some **thinking**:
 
 ---
 
+## Kobe Bryant
+
 [After being eliminated in the 2003 playoffs: ‘I’ll push myself to exhaustion.’ 🐍- Kobe Bryant](https://www.youtube.com/watch?v=Be2VxMgiKJE)
 
 
@@ -25,11 +27,15 @@ These ideas from Jordan deserves some **thinking**:
 
 ---
 
+## Harvard Undergrads
+
 [A Day in Our Life: Harvard Swimming](https://www.youtube.com/watch?v=ct5nX-5x2zA)
 
 Iron Crimson: Make Today Matter. - At 0:30 in the video.
 
 ---
+
+## Jordan Peterson
 
 [The Secret To Becoming Mentally Strong - Jordan Peterson Motivation](https://www.youtube.com/watch?v=fIEKfr9CaZA)
 
@@ -57,6 +63,8 @@ That's the idea of rescuing your father because imagine that you're like the pot
 
 ---
 
+## Tim Cook
+
 [Tim Cook's Life Advice](https://www.youtube.com/watch?v=dZzJSllF7SI)
 
 Starts at [5:31](https://youtu.be/dZzJSllF7SI?t=327)
@@ -69,6 +77,7 @@ In other words, whatever you do with your life, **be a builder**.
 
 ---
 
+## Steve Jobs
 
 [Celebrating Steve - Apple](https://www.youtube.com/watch?v=CeSAjK2CBEA) 
 
@@ -85,6 +94,8 @@ I think that’s very important and however you learn that, once you learn it, y
 
 ---
 
+## Elon Musk
+
 [Elon Musk Interview - No One Will Replace Steve Jobs](https://www.youtube.com/watch?v=cUOZlyqk2LM)
 
 "He was ultra product focused, down to the little details."
@@ -92,6 +103,8 @@ I think that’s very important and however you learn that, once you learn it, y
 "The product was, it would just make you happy."
 
 ---
+
+## Conor McGregor
 
 [Conor McGregor "THE LAW OF ATTRACTION" | MOTIVATIONAL VIDEO 2018 | HD](https://www.youtube.com/watch?v=tAiyrTJNHrg)
 
@@ -104,6 +117,8 @@ Starts at 2:42
 
 ---
 
+## Gary Vaynerchuk
+
 It's the chase.
 
 ...
@@ -115,6 +130,8 @@ Starts at [11:31](https://youtu.be/_cA_esfrv9I?t=692)
 [STOP BEING A PEOPLE PLEASER](https://www.youtube.com/watch?v=_cA_esfrv9I)
 
 ---
+
+## Jordan Peterson 
 
 I'm a clinical psychologist and here's one of the things you do to make people less afraid.
 
