@@ -165,3 +165,26 @@ Starts at [16:06](https://youtu.be/H-ieUi9A2iw?t=966)
 
 
 ---
+
+## Jordan Peterson
+
+**The Hustle**
+
+Life is suffering. Yes. 
+
+What do you do?
+
+**TRY TO REDUCE IT.**
+
+Try to be some sort of hero.
+
+...
+
+"How do you overcome the suffering of life?"
+
+***"Be a better person."***
+
+[TRANSCEND YOUR SUFFERING - Powerful Motivational Video | Jordan Peterson](https://www.youtube.com/watch?v=15_bwZQiKu8 )
+
+---
+
