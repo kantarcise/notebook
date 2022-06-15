@@ -113,4 +113,11 @@ a >= b
 # highest precedence 	                        ** 	exponentiation
 
 
-# Left at - Augmented Assignment Operators
+# Augmented Assignment Operators
+
+# Augmented Assignment 		Standard Assignment
+# a += 5 	   is equivalent to 	          a = a + 5
+# a /= 10 	 is equivalent to 	          a = a / 10
+# a ^= b 	   is equivalent to 	          a = a ^ b
+
+# The end
