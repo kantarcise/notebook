@@ -16,6 +16,7 @@ Repetation, weekly emails.
 
 ---
 
+## Naval Ravikant
 
 [Naval Ravikant | The Most Important Skill To Get Rich - And Debunking The Lies](https://www.youtube.com/watch?v=4AXTmL4TC6c)
 
@@ -25,3 +26,16 @@ This alone needs a lot of thinking about.
 
 Reading complex books and the confusion comes along with it, is just simply pump for your mind muscles.
 
+---
+
+## Gary Vee
+
+Starts at [13:41](https://youtu.be/LCuKRHfYazc?t=820)
+
+There is nothing like building something.
+
+It was much more fun before it was 6 figures.
+
+Enjoy the process.
+
+---
