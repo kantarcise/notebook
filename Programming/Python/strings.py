@@ -66,8 +66,20 @@ s = 'foO BaR BAZ quX'
 s.capitalize()
 #  'Foo bar baz qux'
 
+s.upper()
+# "FOO BAR BAZ QUX"
 
+'foo goo moo'.count('oo')
+# 3
 
+# .join() - Concatantes Strings (Or add pieces between them)
 
+':'.join('corge')
+# 'c:o:r:g:e'
+
+# .partition() -  Divides a string based on a separator.
+
+'foo.bar'.partition('.')
+#('foo', '.', 'bar')
 
 
