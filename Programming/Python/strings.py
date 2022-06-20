@@ -83,3 +83,25 @@ s.upper()
 #('foo', '.', 'bar')
 
 
+# An f-string looks like an ordinary string, but it is
+# prefixed with f or F. Interpolated variables in an f-string are enclosed in curly braces.
+
+name = "Eric"
+age = 74
+
+f"Hello, {name}. You are {age}."
+
+# 'Hello, Eric. You are 74.'
+
+
+#   The f in f-strings may as well stand for “fast.”
+# f-strings are faster than both %-formatting and str.format(). 
+# As you already saw, f-strings are expressions evaluated at runtime rather than constant values.
+
+# With Dictionaries
+comedian = {'name': 'Eric Idle', 'age': 74}
+
+f"The comedian is {comedian['name']}, aged {comedian['age']}."
+# The comedian is Eric Idle, aged 74.
+
+
