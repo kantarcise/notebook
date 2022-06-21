@@ -188,3 +188,14 @@ Try to be some sort of hero.
 
 ---
 
+## Jordan Peterson
+
+I will give you a practical piece of a suggestion on that. This is another thing you can do in your own household.
+
+This is so useful, man, if you get good at doing this your life will get so much better, you can't believe it.
+
+Watch the people around you and whenever they do anything that you would like to see repeated on a regular basis:
+
+"Tell them exactly what they did in detail, with you, know be positive about it obviously and just indicate that you noticed."
+
+[Golden Rules Of Relationships | Jordan Peterson](https://www.youtube.com/watch?v=U3M7ytgqJmg)
