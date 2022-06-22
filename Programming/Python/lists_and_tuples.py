@@ -55,6 +55,103 @@ a[:] is a
 # False
 
 
-# Left at in and not operators
-  
+a
+# ['foo', 'bar', 'baz', 'qux', 'quux', 'corge']
+
+'qux' in a
+# True
+'thud' not in a
+# False
+
+
+a + ["additional" , "members"]
+
+a
+# ['foo', 'bar', 'baz', 'qux', 'quux', 'corge', 'additional', 'members']
+
+len(a)
+# 8
+
+min(a)
+# 'bar'
+
+max(a)
+# 'qux'
+
+# The smallest possible character is the capital letter A, since 
+# all capital letters come first in Python. Our largest character is the lowercase letter z.
+
+# Nested Lists
+x = ['a', ['bb', ['ccc', 'ddd'], 'ee', 'ff'], 'g', ['hh', 'ii'], 'j']
+
+x[1][1][-1]
+# 'ddd'
+
+# The list is the first mutable data type you have encountered. 
+# Once a list has been created, elements can be added, deleted, 
+# shifted, and moved around at will. Python provides a wide range of ways to modify lists.
+
+
+# You can insert multiple elements in place of a single element—just use a slice that denotes only one element:
+
+
+a = [1, 2, 3]
+a[1:2] = [2.1, 2.2, 2.3]
+a
+# [1, 2.1, 2.2, 2.3, 3]
+
+# You can also insert elements into a list without removing anything.
+
+a = [1, 2, 7, 8]
+a[2:2] = [3, 4, 5, 6]
+a
+# [1, 2, 3, 4, 5, 6, 7, 8]
+
+# Methods That Modify a List
+
+a = ['a', 'b']
+a.append(123)
+a
+# ['a', 'b', 123]
+
+# extend() also adds to the end of a list, but the argument is expected to be an iterable.
+
+a = ['a', 'b']
+a.extend([1, 2, 3])
+a
+# ['a', 'b', 1, 2, 3]
+
+# Inserting an object to a specified index
+
+a = ['foo', 'bar', 'baz', 'qux', 'quux', 'corge']
+a.insert(3, 3.14159)
+a[3]
+# 3.14159
+a
+# ['foo', 'bar', 'baz', 3.14159, 'qux', 'quux', 'corge']
+
+# Removing objects from lists
+
+a = ['foo', 'bar', 'baz', 'qux', 'quux', 'corge']
+a.remove('baz')
+a
+# ['foo', 'bar', 'qux', 'quux', 'corge']
+
+# Pop it!
+a = ['foo', 'bar', 'baz', 'qux', 'quux', 'corge']
+
+a.pop()
+# 'corge'
+a
+# ['foo', 'bar', 'baz', 'qux', 'quux']
+
+a.pop()
+# 'quux'
+a
+# ['foo', 'bar', 'baz', 'qux']
+
+#
+# Python Tuples
+#
+
 
