@@ -1,3 +1,14 @@
+## So, you need some motivation? That's funny.
+
+There you go.
+
+**Only one thing you need to remember.**
+
+[Mighty Final Fight](https://www.youtube.com/watch?v=fccaMp8aqz8)
+
+
+
+---
 
 ## This might be the **only** video that I ever need to keep training to be the best. 
 
@@ -36,6 +47,6 @@ Starts at [9:04](https://youtu.be/L3tjaPZU3FE?t=543)
 [Mat Fraser Fittest Man on Earth | Documentary](https://www.youtube.com/watch?v=L3tjaPZU3FE)
 
 
-
-
 ---
+
+
