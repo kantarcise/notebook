@@ -154,6 +154,10 @@ a
 # Python Tuples
 #
 
+# Single element Tuple
+t = ("foo",)
+# If we don't use the comma it will just be an int.
+
 
 # Tuples are defined by enclosing the elements 
 # in parentheses (()) instead of square brackets ([]).
