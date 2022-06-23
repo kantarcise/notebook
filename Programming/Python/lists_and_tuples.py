@@ -155,3 +155,50 @@ a
 #
 
 
+# Tuples are defined by enclosing the elements 
+# in parentheses (()) instead of square brackets ([]).
+# Tuples are immutable.
+
+
+# Everything you’ve learned about lists—they are ordered, 
+# they can contain arbitrary objects, they can be indexed and sliced, 
+# they can be nested—is true of tuples as well. But they can’t be modified:
+
+t = ('foo', 'bar', 'baz', 'qux', 'quux', 'corge')
+t
+# ('foo', 'bar', 'baz', 'qux', 'quux', 'corge')
+
+t[0]
+# 'foo'
+t[-1]
+# 'corge'
+t[1::2]
+# ('bar', 'qux', 'corge')
+
+t[2] = 'Bark!'
+# Traceback (most recent call last):
+#   File "<pyshell#65>", line 1, in <module>
+#     t[2] = 'Bark!'
+# TypeError: 'tuple' object does not support item assignment
+
+# Packing and Unpacking in a Tuple
+
+t = ('foo', 'bar', 'baz', 'qux')
+
+t[0]
+# 'foo'
+t[-1]
+# 'qux'
+
+(s1, s2, s3, s4) = t
+s1
+# 'foo'
+s2
+# 'bar'
+s3
+# 'baz'
+s4
+# 'qux'
+
+
+
