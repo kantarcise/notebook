@@ -41,3 +41,12 @@ It was much more fun before it was 6 figures.
 Enjoy the process.
 
 ---
+
+## Vineet Nayar
+
+[Being excited about problems.](https://youtu.be/6zXJ_sva98E?t=43)
+
+A story about not being an ant but being a **butterfly.**
+
+
+---
