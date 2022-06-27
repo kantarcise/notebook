@@ -244,4 +244,20 @@ Timestamps
 
 25:20 - Feeling sorry for someone is not a moral virtue.
 
+32:23 - "It is not you I care about, it is who you could be."
+
+36:08 - "You are not gonna be who you could be without pushing yourself to the limit. Because why would you be?" 
+
+37:25 - As Jordan became obsedded with learning, he had to drop bad habits. (He stopped drinking as he started taking writing seriously.)
+
+40:45 - "People need purpose, more than money."
+
+42:23 - How to make people understand the importance of responsibility?
+
+44:14 - You cannot be narrowly selfish and survive. Because you have to take care of yourself, now.
+
+44:47 - Taking care of yourself in the future and taking care of other people actually turns out to be exactly the same.
+
+44:53 - "You are actually a community of people that's distributed across time."
+
 ---
