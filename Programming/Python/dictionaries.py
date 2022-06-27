@@ -103,6 +103,65 @@ MLB_team = {
 len(MLB_team)
 # 5
 
+d = {first: "1" , second: "2"}
+# Clears a dictionary
+d.clear()
+d
+# {}
+ 
+# d.get()
+# The Python dictionary .get() method provides a convenient way of getting the value of a 
+# key from a dictionary without checking ahead of time whether the key exists, and without raising an error.
+
+d = {'a': 10, 'b': 20, 'c': 30}
+
+print(d.get('b'))
+# 20
+print(d.get('z'))
+# None
+
+# d.keys()
+# Returns a list of keys in a dictionary.
+d = {'a': 10, 'b': 20, 'c': 30}
+d
+# {'a': 10, 'b': 20, 'c': 30}
+list(d.keys())
+# ['a', 'b', 'c']
 
 
+# d.values()
+# Returns a list of values in a dictionary.
+d = {'a': 10, 'b': 20, 'c': 30}
+d
+# {'a': 10, 'b': 20, 'c': 30}
+list(d.values())
+# [10, 20, 30]
 
+
+# d.pop(<key>[, <default>])
+# Removes a key from a dictionary, if it is present, and returns its value.
+d = {'a': 10, 'b': 20, 'c': 30}
+d.pop('b')
+# 20
+d
+# {'a': 10, 'c': 30}
+
+
+# d.popitem()
+# Removes a key-value pair from a dictionary.
+d = {'a': 10, 'b': 20, 'c': 30}
+d.popitem()
+# ('c', 30)
+d
+# {'a': 10, 'b': 20}
+
+
+# d.update(<obj>)
+# Merges a dictionary with another dictionary or with an iterable of key-value pairs.
+
+d1 = {'a': 10, 'b': 20, 'c': 30}
+d2 = {'b': 200, 'd': 400}
+
+d1.update(d2)
+d1
+# {'a': 10, 'b': 200, 'c': 30, 'd': 400}
