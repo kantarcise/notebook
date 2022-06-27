@@ -199,3 +199,28 @@ Watch the people around you and whenever they do anything that you would like to
 "Tell them exactly what they did in detail, with you, know be positive about it obviously and just indicate that you noticed."
 
 [Golden Rules Of Relationships | Jordan Peterson](https://www.youtube.com/watch?v=U3M7ytgqJmg)
+
+---
+
+## Jordan Peterson - Mehmet Oz
+
+Timestamps
+
+0:58 - What is Jordan Peterson doing different? About life being difficult, learning how to conduct yourself in the world.
+4:02 - Life is unfair, but despite that, the best level (also the most practical) of analysis is the level of the individual.  
+5:02 - Jordan choose clinical psychology as a profession, why?
+6:24 - Why Jordan researched totalitarianism and it's connection with individuals? What does this search taught Jordan?
+8:44 - Everything you do matters, way more than you think.
+9:21 - 12 Rules for Life, how did the book came together?
+9:39 - What is the Goal of Life ? (- Conduct yourself that so life improves.)
+10:19 - What is the Meaning of life? 
+12:15 - "Being better than yesterday." Rule 4 in the book. Incremental improvement.
+14:15 - How does Jordan think about suffering and pain?
+15:34 - You are not who you could be and that's everyones problem.
+16:50 - "Oh my god, life is so difficult, I don't know if i can stand this. There must be something wrong with me, does anybody else feels this way?"
+17:23 - If people are afraid of something, you breakdown what they are afraid of, you take it on step by step.
+18:23 - How you learn in life ?
+
+
+
+---
