@@ -264,4 +264,10 @@ Timestamps
 
 52:03 - "The capacity of evil is not easily distinguishable than strength."
 
+1:03:41 - "What is the current status of Marriage?"
+
+1:10:22 - People require so little encouragement!
+
+1:14:46 - How does Jordan Peterson wants to be remembered?
+
 ---
