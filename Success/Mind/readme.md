@@ -234,6 +234,14 @@ Timestamps
 
 18:23 - How you learn in life ?
 
+19:09 - How can taking responsiblity for your life helps you?
 
+20:47 - The relation between responsiblity and rights.
+
+21.51 - People feel like they are victims, how come?
+
+23:12 - How does a card game resembles life?
+
+25:20 - Feeling sorry for someone is not a moral virtue.
 
 ---
