@@ -260,4 +260,8 @@ Timestamps
 
 44:53 - "You are actually a community of people that's distributed across time."
 
+48:38 - Why doesn't anyone get away with anything?
+
+52:03 - "The capacity of evil is not easily distinguishable than strength."
+
 ---
