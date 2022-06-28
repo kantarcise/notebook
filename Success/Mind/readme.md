@@ -284,4 +284,6 @@ Timestamps
 
 1:37:46 - What is an architype, how does it related to biology and storytelling?
 
+1:41:33 -
+
 ---
