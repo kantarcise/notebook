@@ -270,4 +270,16 @@ Timestamps
 
 1:14:46 - How does Jordan Peterson wants to be remembered?
 
+1:16:45 - "You are not driven by your past, like clock."
+
+1:18:56 - What is faith?
+
+1:21:15 - Relation between science and religion.
+
+1:24:03 - "What you believe is most appropriately expressed through your actions."
+
+
+
+
+
 ---
