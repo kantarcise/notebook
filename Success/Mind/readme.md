@@ -278,8 +278,10 @@ Timestamps
 
 1:24:03 - "What you believe is most appropriately expressed through your actions."
 
+1:30:26 - Why Jordan does not like Identity Politics?
 
+1:34:55 - How does agriculture and hunting effected humans in Gobeklitepe?
 
-
+1:37:46 - What is an architype, how does it related to biology and storytelling?
 
 ---
