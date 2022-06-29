@@ -284,6 +284,40 @@ Timestamps
 
 1:37:46 - What is an architype, how does it related to biology and storytelling?
 
-1:41:33 -
+1:41:33 - "We think up the rules and we apply them - No, that's not how it works."
+
+1:43:28 - The emergence of Fair Play.
+
+1:46:44 - How does natural ethics form in humanity?
+
+1:48:22 - What is "complexity management" problem?
+
+1:52:23 - You have to accomplish useful things in the world, just to survive.
+
+1:54:00 - Hierachies need to exist but they also tend towards corruption.
+
+1:56:05 - What's the issue with hate speech?
+
+1:58:30 - Why are people suffering from depression, anxiety and addiction?
+
+2:00:46 - "You treat yourself as if you are someone that you are taking care of."
+
+2:01:40 - "You cannot catch something you are not pursuing."
+
+2:03:35 - What is abstraction and why is it important?
+
+2:04:13 - How to criticize something?
+
+2:05:59 - Why don't we have gratitude?
+
+2:09:24 - How to help people that are scared.
+
+2:11:20 - There are a lot of hierachies, find one that matches your temperament.
+
+2:14:50 - How does Jordan Peterson define Success?
+
+2:17:37 - How to decide what you are aiming at?
+
+2:18:29 - What does clinicians do ?
 
 ---
