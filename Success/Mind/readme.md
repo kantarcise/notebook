@@ -328,4 +328,25 @@ Timestamps
 
 2:18:29 - What does clinicians do ?
 
+2:21:55 - Whats the fundemental differences between man and woman?
+
+2:25:40 - What is precision and speech?
+
+2:26:34 - "Pursue what makes you good, as opposed to evil."
+
+2:30:45 - What should parents do when raising a child?
+
+2:34:45 - What if one is not a great parent?
+
+2:37:04 - What is Jordan's diet looks like?
+
+2:42:20 - End of first talk.
+
+...
+
+2:42:50 - Why do we have such deeply conflicting values?
+
+
+
+
 ---
