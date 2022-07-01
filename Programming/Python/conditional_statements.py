@@ -47,6 +47,18 @@ raining = True
 print("Let's go to the", 'beach' if not raining else 'library')
 # Let's go to the library
 
+# The Python pass statement. 
+# It doesn’t change program behavior at all. It is used as a placeholder to
+# keep the interpreter happy in any situation where a statement is syntactically required, but you don’t really want to do anything:
+
+# Happy interpreters =)
+
+if True:
+    pass
+  
+print('foo')
+
+
 
 
 
