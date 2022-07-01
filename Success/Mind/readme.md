@@ -346,6 +346,38 @@ Timestamps
 
 2:42:50 - Why do we have such deeply conflicting values?
 
+2:48:10 - Why do people make decisions with only hearing one part of the story.
+
+2:55:00 - What does Jordan think about 2020 election in America?
+
+2:57:33 - End od second talk.
+
+...
+
+2:57:57 - What should we be seeking in life?
+
+3:00:50 - "To be someone who could be relied upon in a crisis."
+
+3:06:50 - "If you become a better person, you start to become good for things, you can fix problems."
+
+3:07:17 - (Mehmet to Jordan) Are your personal goals always gonna be aligned in the needs for society, for humanity?
+
+3:10:45 - "There is nothing selfish on getting your act together."
+
+3:11:30 - ".. Beasts of Burden"
+
+3:14:37 - End of third talk.
+
+...
+
+3:15:08 - Why is the need of human connection is so fundemental about who we are?
+
+3:17:54 - Why do humans tend to from pair fonds?
+
+3:19:16 - How about marriage in terms of pair bonding?
+
+
+
 
 
 
