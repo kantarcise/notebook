@@ -60,3 +60,51 @@ while <expr>:
 else:
     <additional_statement(s)>
 
+# An example, loop down below is terminated prematurely with break, so the else clause isn’t executed.
+
+n = 5
+while n > 0:
+    n -= 1
+    print(n)
+    if n == 2:
+        break
+else:
+    print('Loop done.')
+
+# 4
+# 3
+# 2
+
+# Quick note about searching in list:
+# The list.index() method would also work. This method raises a ValueError exception
+# if the item isn’t found in the list, so you need to understand exception
+# handling to use it. In Python, you use a try statement to handle an exception. 
+
+a = ['foo', 'bar', 'baz', 'qux']
+s = 'corge'
+
+try:
+    print(a.index('corge'))
+except ValueError:
+    print(s, 'not found in list.')
+
+# corge not found in list.
+
+# Can nest the while loops.
+
+a = ['foo', 'bar']
+while len(a):
+    print(a.pop(0))
+    b = ['baz', 'qux']
+    while len(b):
+        print('>', b.pop(0))
+
+# foo
+# > baz
+# > qux
+# bar
+# > baz
+# > qux
+
+# If there was no (0) in pop, it would pop from the end of the list.
+
