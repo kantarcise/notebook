@@ -384,7 +384,7 @@ Timestamps
 
 3:29:00 - "The best person to compare yourself to is you yesterday."
 
-
+3:36:14 - "If you want the future to work out properly, the sacrifies you make have to be real."
 
 
 
