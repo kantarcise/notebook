@@ -376,6 +376,15 @@ Timestamps
 
 3:19:16 - How about marriage in terms of pair bonding?
 
+3:25:55 - How do you get to true intimacy with your partner?
+
+3:28:18 - End of fourth talk
+
+...
+
+3:29:00 - "The best person to compare yourself to is you yesterday."
+
+
 
 
 
