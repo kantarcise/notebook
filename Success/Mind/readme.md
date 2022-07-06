@@ -379,6 +379,17 @@ Timestamps
 
 
 
-
+To Be Continued:
 
 ---
+
+## Kobe Bryant
+
+[Kobe Bryant's Greatest Speech | BEST Motivation Ever](https://www.youtube.com/watch?v=dTRBnHtHehQ)
+
+
+[0:58](https://youtu.be/dTRBnHtHehQ?t=59)
+
+I would watch Magic play, I'd watch Michael play. I would see them do these unbelieveable things and I said, "You know, can I get to that level?"
+
+**"Let's find out."**
