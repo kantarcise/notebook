@@ -53,8 +53,7 @@ Starts at [9:04](https://youtu.be/L3tjaPZU3FE?t=543)
 
 [ Sugar: The Bitter Truth  | Robert H. Lustig](https://www.youtube.com/watch?v=dBnniua6-oM)
 
-
-
+[Fructose is ethanol without the buzz.](https://youtu.be/dBnniua6-oM?t=4886)
 
 
 ---
