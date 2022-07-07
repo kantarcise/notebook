@@ -386,6 +386,23 @@ Timestamps
 
 3:36:14 - "If you want the future to work out properly, the sacrifies you make have to be real."
 
+3:37:27 - How do you cultivate acting better today for a more successful tomorrow?
+
+3:38:42 - "Small improvements accumulate, they compound."
+
+3:39:05 - Behaviour Therapy: "Let's figure out what your problem is, let's figure out what your goal is, let's break down your problem until we have a small enough piece that you can address it succesfully."
+
+3:40:22 - End of fifth talk.
+
+...
+
+3:40:24 - Jordan talks with a couple that are married.
+
+3:45:32 - End of sixth talk.
+
+...
+
+
 
 
 To Be Continued:
