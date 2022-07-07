@@ -22,5 +22,53 @@ for i in a:
 # bar
 # baz
 
-# Left at iterables.
+# Iterables 
+
+# If an object is iterable, it can be passed to the built-in Python function iter(), which returns something called an iterator. 
+
+# Each of the objects in the following example is an iterable and returns some type of iterator when passed to iter():
+
+iter('foobar')                             # String
+# <str_iterator object at 0x036E2750>
+
+iter(['foo', 'bar', 'baz'])                # List
+# <list_iterator object at 0x036E27D0>
+
+iter(('foo', 'bar', 'baz'))                # Tuple
+# <tuple_iterator object at 0x036E27F0>
+
+iter({'foo', 'bar', 'baz'})                # Set
+# <set_iterator object at 0x036DEA08>
+
+iter({'foo': 1, 'bar': 2, 'baz': 3})       # Dict
+# <dict_keyiterator object at 0x036DD990>
+
+
+# How do we use iter() function?
+
+a = ['foo', 'bar', 'baz']
+
+itr = iter(a)
+itr
+# <list_iterator object at 0x031EFD10>
+
+next(itr)
+# 'foo'
+next(itr)
+# 'bar'
+next(itr)
+# 'baz'
+
+#  Any further attempts to obtain values from the iterator will fail.
+
+next(itr)
+# Traceback (most recent call last):
+#    File "<pyshell#10>", line 1, in <module>
+#    next(itr)
+# StopIteration
+
+
+
+
+
 
