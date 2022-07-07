@@ -67,8 +67,9 @@ next(itr)
 #    next(itr)
 # StopIteration
 
+# To get all of them (also set(itr) and tuple(itr) works)
 
-
-
-
-
+a = ['foo', 'bar', 'baz']
+itr = iter(a)
+list(itr)
+# ['foo', 'bar', 'baz']
