@@ -402,6 +402,10 @@ Timestamps
 
 ...
 
+3:46:17 - What kind of place tribes take in our lives?
+
+...
+
 
 
 
