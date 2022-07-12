@@ -404,6 +404,8 @@ Timestamps
 
 3:46:17 - What kind of place tribes take in our lives?
 
+3:52:41 - We cannot make the definition of "values" on wour own, Nietzsche's take.
+
 ...
 
 
