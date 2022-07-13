@@ -406,6 +406,9 @@ Timestamps
 
 3:52:41 - We cannot make the definition of "values" on wour own, Nietzsche's take.
 
+3:54:57 - Hierarchy of human conflict, according to Jordan.
+
+
 ...
 
 
