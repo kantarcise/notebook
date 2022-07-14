@@ -408,11 +408,15 @@ Timestamps
 
 3:54:57 - Hierarchy of human conflict, according to Jordan.
 
+4:02:07 - End of seventh talk.
 
 ...
 
+4:02:54 - Why is everyone infatuated with true crime?
 
 
+
+...
 
 To Be Continued:
 
