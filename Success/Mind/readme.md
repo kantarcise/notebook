@@ -414,7 +414,7 @@ Timestamps
 
 4:02:54 - Why is everyone infatuated with true crime?
 
-
+4:05:03 - What does Jordan think about the people in prison?
 
 ...
 
