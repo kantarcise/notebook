@@ -1,7 +1,6 @@
 # In this file:
 
-#    You’ll start with a comparison of some different paradigms used by programming languages to implement definite iteration.
-#    Then you will learn about iterables and iterators, two concepts that form the basis of definite iteration in Python.
+#    You’ll learn about iterables and iterators, two concepts that form the basis of definite iteration in Python.
 #    Finally, you’ll tie it all together and learn about Python’s for loops.
 
 # Python only implements collection-based iteration. 
@@ -73,3 +72,13 @@ a = ['foo', 'bar', 'baz']
 itr = iter(a)
 list(itr)
 # ['foo', 'bar', 'baz']
+
+# All the relevant terms so far:
+
+# Iteration 	The process of looping through the objects or items in a collection
+#
+# Iterable 	    An object (or the adjective used to describe an object) that can be iterated over
+#
+# Iterator 	    The object that produces successive items or values from its associated iterable
+#
+# iter() 	    The built-in function used to obtain an iterator from an iterable
