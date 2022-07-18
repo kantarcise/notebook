@@ -416,6 +416,8 @@ Timestamps
 
 4:05:03 - What does Jordan think about the people in prison?
 
+4:14:06 - Relationship between a parent and a child, what's the dilemma?
+
 ...
 
 To Be Continued:
