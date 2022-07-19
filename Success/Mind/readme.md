@@ -418,7 +418,15 @@ Timestamps
 
 4:14:06 - Relationship between a parent and a child, what's the dilemma?
 
+4:21:12 - End of eighth talk.
+
 ...
+
+4:21:35 - Should happiness be our life goal, if not, what should we be seeking?
+
+
+...
+
 
 To Be Continued:
 
