@@ -82,3 +82,55 @@ list(itr)
 # Iterator 	    The object that produces successive items or values from its associated iterable
 #
 # iter() 	    The built-in function used to obtain an iterator from an iterable
+
+
+# The Pythonic way to iterate through a dictionary,
+# accessing both the keys and values looks like this:
+
+d = {'foo': 1, 'bar': 2, 'baz': 3}
+for k, v in d.items():
+    print('k =', k, ', v =', v)
+
+# k = foo , v = 1
+# k = bar , v = 2
+# k = baz , v = 3
+
+# range()
+
+x = range(5)
+
+for n in x:
+    print(n)
+
+# 0
+# 1
+# 2
+# 3
+# 4
+
+# A for loop can have an else clause as well.
+
+for i in ['foo', 'bar', 'baz', 'qux']:
+    print(i)
+else:
+    print('Done.')  # Will execute
+
+# foo
+# bar
+# baz
+# qux
+# Done.
+
+# The else clause won’t be executed if the list is broken out of with a break statement:
+
+for i in ['foo', 'bar', 'baz', 'qux']:
+    if i == 'bar':
+        break
+    print(i)
+else:
+    print('Done.')  # Will not execute
+
+# foo
+
+
+
