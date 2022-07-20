@@ -424,6 +424,9 @@ Timestamps
 
 4:21:35 - Should happiness be our life goal, if not, what should we be seeking?
 
+4:24:50 - What is the meaning behind being the strongest person in a funeral?
+
+4:27:00 - The mission is the constant improvement of one's character.
 
 ...
 
