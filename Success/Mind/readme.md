@@ -428,6 +428,8 @@ Timestamps
 
 4:27:00 - The mission is the constant improvement of one's character.
 
+4:30:20 - "If you become a better person, you start to become good for things."
+
 ...
 
 
