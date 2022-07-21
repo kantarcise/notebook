@@ -430,6 +430,8 @@ Timestamps
 
 4:30:20 - "If you become a better person, you start to become good for things."
 
+4:38:30 - End of ninth talk.
+
 ...
 
 
