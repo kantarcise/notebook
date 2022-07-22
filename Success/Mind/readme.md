@@ -434,6 +434,10 @@ Timestamps
 
 ...
 
+4:39:00 - How do we modify our expectations?
+
+
+...
 
 To Be Continued:
 
