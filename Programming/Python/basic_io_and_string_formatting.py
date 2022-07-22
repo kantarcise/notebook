@@ -58,4 +58,4 @@ f"Hello, {name}. You are {age}."
 important_number = 23
 number_of_wins = 7
 
-print(f"The number of wins you have today{number_of_wins}, #{important_number} would be proud")
+print(f"The number of wins you have today = {number_of_wins}, #{important_number} would be proud")
