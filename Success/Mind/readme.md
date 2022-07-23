@@ -436,6 +436,7 @@ Timestamps
 
 4:39:00 - How do we modify our expectations?
 
+4:41:40 - The regeneration of stability from the domain of chaos.
 
 ...
 
