@@ -17,3 +17,38 @@ print('{}/{}/{}'.format('foo', 'bar', 'baz'))
 
 '{x}/{y}/{z}'.format(x='foo', y='bar', z='baz')
 # 'foo/bar/baz'
+
+
+# We can use this formatting for lists and dictionaries.
+
+a = ['foo', 'bar', 'baz']
+'{0[0]}, {0[2]}'.format(a)
+# 'foo, baz'
+'{my_list[0]}, {my_list[2]}'.format(my_list=a)
+# 'foo, baz'
+
+d = {'key1': 'foo', 'key2': 'bar'}
+d['key1']
+# 'foo'
+'{0[key1]}'.format(d)
+# 'foo'
+d['key2']
+# 'bar'
+'{my_dict[key2]}'.format(my_dict=d)
+# 'bar'
+
+
+# Attributes of objects aswell.
+
+z = 3 + 5j
+type(z)
+# <class 'complex'>
+z.real
+# 3.0
+z.imag
+# 5.0
+
+z
+# (3+5j)
+'real = {0.real}, imag = {0.imag}'.format(z)
+# 'real = 3.0, imag = 5.0'
