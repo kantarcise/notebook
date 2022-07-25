@@ -438,6 +438,12 @@ Timestamps
 
 4:41:40 - The regeneration of stability from the domain of chaos.
 
+4:48:05 - How do you understand that something belongs to virtue?
+
+
+...
+
+
 ...
 
 To Be Continued:
