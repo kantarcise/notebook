@@ -52,3 +52,31 @@ z
 # (3+5j)
 'real = {0.real}, imag = {0.imag}'.format(z)
 # 'real = 3.0, imag = 5.0'
+
+# A value using the less than sign (<) indicates that the output is left-justified:
+
+'{0:<8s}'.format('foo')
+# 'foo     '
+'{0:<8d}'.format(123)
+# '123     '
+
+# This behavior is the default for string values.
+
+""""""
+
+# A value using the greater than sign (>) indicates that the output should be right-justified:
+
+'{0:>8s}'.format('foo')
+# '     foo'
+'{0:>8d}'.format(123)
+# '     123'
+
+# This behavior is the default for numeric values.
+
+# A value using a caret (^) indicates that the output should be centered in the output field:
+
+'{0:^8s}'.format('foo')
+# '  foo   '
+'{0:^8d}'.format(123)
+# '  123   '
+
