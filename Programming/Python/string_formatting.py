@@ -80,3 +80,74 @@ z
 '{0:^8d}'.format(123)
 # '  123   '
 
+# You can also fill in a print formatting
+'{0:*^8s}'.format('foo')
+# '**foo***' 
+
+# f strings - all you really need
+
+# The magic of f-strings is that you can embed Python expressions directly inside them. Any portion of
+# an f-string that’s enclosed in curly braces ({}) is treated as an 
+# expression. The expression is evaluated and converted to string representation, and
+# the result is interpolated into the original string in that location:
+
+s = 'bar'
+print(f'foo\n{s}\nbaz')
+# foo
+# bar
+# baz
+
+# About all the things you can do with f strings:
+
+# Indexing, slicing, and key references:
+
+a = ['foo', 'bar', 'baz']
+d = {'foo': 1, 'bar': 2}
+
+print(f'First item in list a = {a[0]}')
+# First item in list a = foo
+
+print(f'Last two items in list a = {a[-2:]}')
+# Last two items in list a = ['bar', 'baz']
+
+print(f'List a reversed = {a[::-1]}')
+# List a reversed = ['baz', 'bar', 'foo']
+
+print(f"Dict value for key 'bar' is {d['bar']}")
+# Dict value for key 'bar' is 2
+
+
+# Function and method calls:
+
+a = ['foo', 'bar', 'baz', 'qux', 'quux']
+print(f'List a has {len(a)} items')
+# List a has 5 items
+
+s = 'foobar'
+f'--- {s.upper()} ---'
+# '--- FOOBAR ---'
+
+d = {'foo': 1, 'bar': 2}
+print(f"Dict value for key 'bar' is {d.get('bar')}")
+# Dict value for key 'bar' is 2
+
+# Conditional expressions:
+
+x = 3
+y = 7
+print(f'The larger of {x} and {y} is {x if x > y else y}')
+# The larger of 3 and 7 is 7
+
+age = 13
+f'I am {"a minor" if age < 18 else "an adult"}.'
+# 'I am a minor.'
+
+# Object attributes:
+
+z = 3+5j
+z
+# (3+5j)
+
+print(f'real = {z.real}, imag = {z.imag}')
+# real = 3.0, imag = 5.0
+
