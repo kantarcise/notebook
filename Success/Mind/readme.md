@@ -440,8 +440,10 @@ Timestamps
 
 4:48:05 - How do you understand that something belongs to virtue?
 
+4:53:25 - End of tenth talk. 
 
 ...
+
 
 
 ...
