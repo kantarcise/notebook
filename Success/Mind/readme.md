@@ -444,6 +444,14 @@ Timestamps
 
 ...
 
+4:58:01 - What does a hero do (going beyond the current state) in a damaged structure?
+
+5:04:20 - "People are so desperate for this knowladge."
+
+5:10:51 - End of eleventh talk.
+
+...
+
 
 
 ...
