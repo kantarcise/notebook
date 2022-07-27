@@ -21,3 +21,37 @@
 # Breaking a large task into smaller, bite-sized sub-tasks helps 
 # make the large task easier to think about and manage. As programs become more 
 # complicated, it becomes increasingly beneficial to modularize them in this way.
+
+
+
+# The usual syntax for defining a Python function is as follows:
+
+# def <function_name>([<parameters>]):
+#     <statement(s)>
+
+# Positional Arguments
+  
+# The most straightforward way to pass arguments to a Python function is with
+# positional arguments (also called required arguments). In the
+# function definition, you specify a comma-separated list of parameters inside the parentheses:
+
+def f(qty, item, price):
+    print(f'{qty} {item} cost ${price:.2f}')
+
+# When the function is called, you specify a corresponding list of arguments:
+
+f(6, 'bananas', 1.74)
+# 6 bananas cost $1.74
+
+# Using keyword arguments lifts the restriction on argument order.
+
+f(item='bananas', price=1.74, qty=6)
+# 6 bananas cost $1.74
+
+# You can give default paramaters aswell.
+
+def f(qty=6, item='bananas', price=1.74):
+    print(f'{qty} {item} cost ${price:.2f}')
+
+    
+
