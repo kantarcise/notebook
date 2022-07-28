@@ -452,6 +452,7 @@ Timestamps
 
 ...
 
+5:11:20 - "What do we owe our goverment, what does it owe us?" 
 
 
 ...
