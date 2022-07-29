@@ -454,6 +454,8 @@ Timestamps
 
 5:11:20 - "What do we owe our goverment, what does it owe us?" 
 
+5:13:56 - "Why is border issues are so sensitive, what constitudes a border?" 
+
 
 ...
 
