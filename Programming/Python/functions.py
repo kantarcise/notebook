@@ -105,3 +105,40 @@ my_list
 
 # The return Statement
 
+# A return statement in a Python function serves two purposes:
+#  It immediately terminates the function and passes execution control back to the caller.
+#  It provides a mechanism by which the function can pass data back to the caller.
+
+
+# You can return a function at any time:
+
+# This sort of paradigm can be useful for error checking in a function.
+# You can check several error conditions at the start of the function, with return statements
+# that bail out if there’s a problem:
+
+def f():
+    if error_cond1:
+        return
+    if error_cond2:
+        return
+    if error_cond3:
+        return
+
+    <normal processing>
+
+# A function can return any type of object. In Python, that means pretty much anything whatsoever. 
+
+def double_list(x):
+    r = []
+    for i in x:
+        r.append(i * 2)
+    return r
+
+a = [1, 2, 3, 4, 5]
+double_list(a)
+a
+# [2, 4, 6, 8, 10]
+
+
+
+# Variable-Length Argument Lists
