@@ -456,6 +456,8 @@ Timestamps
 
 5:13:56 - "Why is border issues are so sensitive, what constitudes a border?" 
 
+5:16:37 - "Politics" according to Jordan Peterson.
+
 
 ...
 
