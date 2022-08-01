@@ -203,3 +203,28 @@ avg(1, 'foo', 3)
 # To be as robust as possible, you should add code to check that the arguments are of the proper type. 
 # Later in this tutorial series, you’ll learn how to catch exceptions like TypeError and handle them appropriately.
 
+
+# Argument Tuple Unpacking
+
+# An analogous operation is available on the other side of the equation in a Python function call. 
+# When an argument in a function call is preceded by an asterisk (*), it indicates that the argument
+# is a tuple that should be unpacked and passed to the function as separate values:
+
+def f(x, y, z):
+    print(f'x = {x}')
+    print(f'y = {y}')
+    print(f'z = {z}')
+
+f(1, 2, 3)
+# x = 1
+# y = 2
+# z = 3
+
+t = ('foo', 'bar', 'baz')
+f(*t)
+# x = foo
+# y = bar
+# z = baz
+
+
+
