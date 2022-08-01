@@ -458,6 +458,7 @@ Timestamps
 
 5:16:37 - "Politics" according to Jordan Peterson.
 
+5:21:02 - "Citizenship is about responsility. Your responsiblity is to, constrain unneccesary suffering, to push back againts malevolence.
 
 ...
 
