@@ -139,6 +139,67 @@ double_list(a)
 a
 # [2, 4, 6, 8, 10]
 
-
-
 # Variable-Length Argument Lists
+
+# In some cases, when you’re defining a function, you may not know beforehand how many arguments you’ll want it to take.
+
+# For example, how would you describe an average function. Whwat kind of arguments does it take, how many of them?
+
+def avg(a, b, c):
+    return (a + b + c) / 3
+
+# LOL NO, this will not work for obvious reasons.
+
+# To save us, Python provides a way to pass a function a
+# variable number of arguments with argument tuple packing and unpacking using the asterisk (*) operator.
+
+# Makes everything in a Tuple.
+
+def f(*args):
+    print(args)
+    print(type(args), len(args))
+    for x in args:
+            print(x)
+
+f(1, 2, 3)
+# (1, 2, 3)        
+# <class 'tuple'> 3
+# 1
+# 2
+# 3
+
+f('foo', 'bar', 'baz', 'qux', 'quux')
+# ('foo', 'bar', 'baz', 'qux', 'quux')
+# <class 'tuple'> 5
+# foo
+# bar
+# baz
+# qux
+# quux
+
+# Now we can write the average function as:
+
+def avg (*args):
+    sum = 0
+    for i in args:
+        sum +=i
+    return sum / len(args)
+  
+# Or:
+
+def avg(*args):
+    return sum(args) / len(args)
+
+# Still, depending on how this code will be used, there may still be work to do. 
+# As written, avg() will produce a TypeError exception if any arguments are non-numeric:
+
+avg(1, 'foo', 3)
+# Traceback (most recent call last):
+#   File "<stdin>", line 1, in <module>
+#   File "<stdin>", line 2, in avg
+# TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+
+# To be as robust as possible, you should add code to check that the arguments are of the proper type. 
+# Later in this tutorial series, you’ll learn how to catch exceptions like TypeError and handle them appropriately.
+
