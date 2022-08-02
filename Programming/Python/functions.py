@@ -230,4 +230,22 @@ f(*t)
 # and the items passed to f() as individual values. The parameter
 # specification *args causes the values to be packed back up into the tuple args.
 
+# Argument Dictionary Packing
+
+def f(**kwargs):
+    print(kwargs)
+    print(type(kwargs))
+    for key, val in kwargs.items():
+            print(key, '->', val)
+
+f(foo=1, bar=2, baz=3)
+# {'foo': 1, 'bar': 2, 'baz': 3}
+# <class 'dict'>
+# foo -> 1
+# bar -> 2
+# baz -> 3
+
+# In this case, the arguments foo=1, bar=2, and baz=3 are packed into 
+# a dictionary that the function can reference by the name kwargs. 
+
 
