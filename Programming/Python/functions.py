@@ -226,5 +226,8 @@ f(*t)
 # y = bar
 # z = baz
 
+# Here, f(*a) indicates that list a should be unpacked
+# and the items passed to f() as individual values. The parameter
+# specification *args causes the values to be packed back up into the tuple args.
 
 
