@@ -462,6 +462,12 @@ Timestamps
 
 5:33:02 - "It isn't about how much money you have, it's what you do with it."
 
+5:39:55 - End of twelfth talk.
+
+...
+
+
+
 
 ...
 
