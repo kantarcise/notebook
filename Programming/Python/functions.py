@@ -262,3 +262,25 @@ f(1, 2, 'foo', 'bar', 'baz', 'qux', x=100, y=200, z=300)
 # b = 2
 # args = ('foo', 'bar', 'baz', 'qux')
 # kwargs = {'x': 100, 'y': 200, 'z': 300}
+
+# Keyword only arguments:
+
+# Basically in a definition, you give positional arguments first than keyword arguments.
+
+def concat(*args, prefix='-> ', sep='.'):
+    print(f'{prefix}{sep.join(args)}')
+
+
+concat('a', 'b', 'c')
+# -> a.b.c
+concat('a', 'b', 'c', prefix='//')
+# //a.b.c
+concat('a', 'b', 'c', prefix='//', sep='-')
+# //a-b-c
+
+def arguments(x,y,z , prefix : str = "--"  , suffix : str = "." ):
+    print(f"test {x}")
+    print(y)
+    print(f"the real slim shady: {z}")
+    print(prefix + suffix)
+
