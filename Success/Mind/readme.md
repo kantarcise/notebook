@@ -460,6 +460,9 @@ Timestamps
 
 5:21:02 - "Citizenship is about responsility. Your responsiblity is to, constrain unneccesary suffering, to push back againts malevolence.
 
+5:33:02 - "It isn't about how much money you have, it's what you do with it."
+
+
 ...
 
 To Be Continued:
