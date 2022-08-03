@@ -10,3 +10,6 @@
 </div>
 
 ---
+
+
+[Practical Data Engineering](https://hpi.de/fileadmin/user_upload/fachgebiete/rabl/Lectures/PDE_Poster/PDE_Angelika_Wieck.pdf)
