@@ -466,12 +466,7 @@ Timestamps
 
 ...
 
-
-
-
-...
-
-To Be Continued:
+5:57:55 - "You wanna only say yes to things that you agree with."
 
 ---
 
