@@ -286,3 +286,57 @@ def arguments(x,y,z , prefix : str = "--"  , suffix : str = "." ):
 
     
 # Positional-Only Arguments
+
+# To designate some parameters as positional-only, you specify a bare slash (/) in the parameter list of a function definition. 
+
+# For only keyword arguments, you can use *.
+
+# For Python 3.8
+def f(x, y, /, z, w, *, a, b):
+    print(x, y, z, w, a, b)
+
+f(1, 2, z=3, w=4, a=5, b=6)
+# 1 2 3 4 5 6
+
+f(1, 2, 3, w=4, a=5, b=6)
+# 1 2 3 4 5 6
+
+# In this example:
+
+#  x and y are positional-only.
+#  a and b are keyword-only.
+#  z and w may be specified positionally or by keyword.
+
+
+# Docstrings
+
+# When the first statement in the body of a Python function is a string literal, it’s known as the function’s docstring.
+
+# Docstring formatting and semantic conventions are detailed in PEP 257. (https://peps.python.org/pep-0257/)
+
+def foo(bar=0, baz=1):
+    """Perform a foo transformation.
+    
+    Keyword arguments:
+    bar -- magnitude along the bar axis (default=0)
+    baz -- magnitude along the baz axis (default=1)
+    """
+    <function_body>
+    
+    
+print(foo.__doc__)
+# Perform a foo transformation.
+#
+#     Keyword arguments:
+#     bar -- magnitude along the bar axis (default=0)
+#     baz -- magnitude along the baz axis (default=1)
+
+
+# Type Hinting
+
+def hello_name(name: str) -> str:
+    return(f"Hello {name}")
+
+# From examining the type hinting, you can immediately tell that the function expects the input name to be of a type str, or string. 
+# You can also tell that the expected output of the function will be of a type str, or string, as well. 
+
