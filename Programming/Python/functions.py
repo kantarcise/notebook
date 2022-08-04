@@ -340,3 +340,32 @@ def hello_name(name: str) -> str:
 # From examining the type hinting, you can immediately tell that the function expects the input name to be of a type str, or string. 
 # You can also tell that the expected output of the function will be of a type str, or string, as well. 
 
+
+# Python Function Annotations
+
+# They can be any expression or object. 
+
+def f(a: int, b: str) -> float:
+    print(a, b)
+    return(3.5)
+
+f(1, 'foo')
+# 1 foo
+# 3.5
+
+f.__annotations__
+# {'a': <class 'int'>, 'b': <class 'str'>, 'return': <class 'float'>}
+
+# Annotations don’t impose any semantic restrictions on the code whatsoever. 
+# They’re simply bits of metadata attached to the Python function parameters and return value. 
+
+# Done!
+
+# We’ve learned:
+#
+#  How to create a user-defined function in Python
+#  Several different ways you can pass arguments to a function
+#  How you can return data from a function to its caller
+#  How to add documentation to functions with docstrings and annotations
+
+
