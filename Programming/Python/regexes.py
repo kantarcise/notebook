@@ -66,6 +66,8 @@ re.search(<regex>, <string>, <flags>)
 
 # Also, apart from search, here are some other functions of regex:
 
+# Search
+
 re.search() 	# Scans a string for a regex match
 re.match() 	# Looks for a regex match at the beginning of a string
 re.fullmatch() 	# Looks for a regex match on an entire string
