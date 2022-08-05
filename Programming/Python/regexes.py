@@ -49,8 +49,20 @@ print(re.search('1.3', s))
 # None
 
 
+# For all Metacharacters Supported by the re Module you can visit (https://realpython.com/regex-python/#metacharacters-supported-by-the-re-module)
 
 
+# It’s a lot to digest, but once you become familiar with regex syntax in Python, the complexity of pattern
+# matching that you can perform is almost limitless. These tools come in very handy when you’re writing code to process textual data.
+
+# Also, just like in any search mechanism, you can use flags (case sensitive, ascii, unicode etc.).
+
+# Most of the functions in the re module take an optional <flags> argument. This includes the function you’re now very familiar with, re.search().
+
+re.search(<regex>, <string>, <flags>)
+#  Scans a string for a regex match, applying the specified modifier <flags>.
+
+Flags modify regex parsing behavior, allowing you to refine your pattern matching even further.
 
 
 
