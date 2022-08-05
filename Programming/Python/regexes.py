@@ -62,7 +62,25 @@ print(re.search('1.3', s))
 re.search(<regex>, <string>, <flags>)
 #  Scans a string for a regex match, applying the specified modifier <flags>.
 
-Flags modify regex parsing behavior, allowing you to refine your pattern matching even further.
+# Flags modify regex parsing behavior, allowing you to refine your pattern matching even further.
+
+# Also, apart from search, here are some other functions of regex:
+
+re.search() 	# Scans a string for a regex match
+re.match() 	# Looks for a regex match at the beginning of a string
+re.fullmatch() 	# Looks for a regex match on an entire string
+re.findall() 	# Returns a list of all regex matches in a string
+re.finditer() 	# Returns an iterator that yields regex matches from a string
+
+# Substitution
+
+re.sub() 	# Scans a string for regex matches, replaces the matching portions of the string with the specified replacement string, and returns the result
+re.subn() 	# Behaves just like re.sub() but also returns information regarding the number of substitutions made
+
+# Utility
+
+re.split() 	# Splits a string into substrings using a regex as a delimiter
+re.escape() 	# Escapes characters in a regex
 
 
 
