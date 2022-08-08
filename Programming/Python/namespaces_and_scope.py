@@ -56,3 +56,8 @@
 
 # You’ll see some objects here that you may recognize from previous tutorials—for example, the StopIteration exception,
 # built-in functions like max() and len(), and object types like int and str.
+
+
+# The Python interpreter creates the built-in namespace when it starts up. 
+# This namespace remains in existence until the interpreter terminates.
+
