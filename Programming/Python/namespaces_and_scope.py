@@ -61,3 +61,53 @@
 # The Python interpreter creates the built-in namespace when it starts up. 
 # This namespace remains in existence until the interpreter terminates.
 
+def f():
+    print('Start f()')
+    def g():
+        print('Start g()')
+        print('End g()')
+        return
+    g()
+    print('End f()')
+    return
+
+f()
+
+# Start f()
+# Start g()
+# End g()
+# End f()
+
+# When the main program calls f(), Python creates a new namespace for f(). 
+# Similarly, when f() calls g(), g() gets its own separate namespace. The namespace
+# created for g() is the local namespace, and the namespace created for f() is the enclosing namespace.
+
+# Each of these namespaces remains in existence until its respective function terminates. 
+
+# For a defined object called x Python will (LEGB):
+  
+# Local: If you refer to x inside a function, then the interpreter first searches for it in the innermost scope that’s local to that function.
+# Enclosing: If x isn’t in the local scope but appears in a function that resides inside another function, then the interpreter searches in the enclosing function’s scope.
+# Global: If neither of the above searches is fruitful, then the interpreter looks in the global scope next.
+# Built-in: If it can’t find x anywhere else, then the interpreter tries the built-in scope.
+
+# The built-in function globals() returns a reference to the current global namespace dictionary.
+
+globals()['y'] = 100
+
+globals()
+
+# {'__name__': '__main__', '__doc__': None, '__package__': None,
+# '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': None,
+# '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>,
+# 'x': 'foo', 'y': 100}
+
+y
+# 100
+
+globals()['y'] = 3.14159
+
+y
+# 3.14159
+
+# You get the idea.
