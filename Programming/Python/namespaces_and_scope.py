@@ -111,3 +111,5 @@ y
 # 3.14159
 
 # You get the idea.
+
+# The locals() function:
