@@ -113,3 +113,13 @@ y
 # You get the idea.
 
 # The locals() function:
+
+# Python also provides a corresponding built-in function called locals(). It’s similar to globals() but accesses objects in the local namespace instead:
+
+def f(x, y):
+    s = 'foo'
+    print(locals())
+
+f(10, 0.5)
+# {'s': 'foo', 'y': 0.5, 'x': 10}
+
