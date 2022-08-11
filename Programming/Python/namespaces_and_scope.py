@@ -123,3 +123,31 @@ def f(x, y):
 f(10, 0.5)
 # {'s': 'foo', 'y': 0.5, 'x': 10}
 
+# Modify Variables Out of Scope
+
+# An immutable argument can never be modified by a function.
+# A mutable argument can’t be redefined wholesale, but it can be modified in place.
+
+x = 20
+
+def f():
+    x = 40
+    print(x)
+
+f()
+# 40
+x
+# 20
+
+# A function can modify an object of mutable type that’s outside its local scope if it modifies the object in place:
+
+my_list = ['foo', 'bar', 'baz']
+def f():
+    my_list[1] = 'quux'
+
+f()
+my_list
+# ['foo', 'quux', 'baz']
+
+
+
