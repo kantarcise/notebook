@@ -151,4 +151,17 @@ my_list
 
 # The nonlocal Declaration
 
+def f():
+
+    x = 20
+    def g():
+        nonlocal x
+        x = 40
+    g()
+    print(x)
+
+f()
+# 40
+
+# Kinda weird don't use it.
 
