@@ -39,4 +39,15 @@ def outer(function):
 outer(inner)
 # I am function inner()!
 
+# Technical note: Python provides a shortcut notation called a "decorator" to facilitate wrapping one function inside another.
+
+# A callback function
+
+# When you pass a function to another function, the passed-in function sometimes is 
+# referred to as a callback because a call back to the inner function can modify the outer function’s behavior.
+
+animals = ["ferret", "vole", "dog", "gecko"]
+sorted(animals)
+# ['dog', 'ferret', 'gecko', 'vole']
+
 
