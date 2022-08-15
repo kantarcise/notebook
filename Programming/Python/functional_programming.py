@@ -50,4 +50,13 @@ animals = ["ferret", "vole", "dog", "gecko"]
 sorted(animals)
 # ['dog', 'ferret', 'gecko', 'vole']
 
+# Defining an Anonymous Function With lambda
+
+# Functional programming is all about calling functions and passing them around, so it
+# naturally involves defining a lot of functions. You can always define a function
+# in the usual way, using the def keyword.
+
+# Sometimes, though, it’s convenient to be able to define an anonymous function on the fly, without having to give it a name. 
+# In Python, you can do this with a lambda expression.
+
 
