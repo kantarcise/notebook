@@ -78,3 +78,16 @@ def reverse(s):
 
 reverse("I am a string")
 # 'gnirts a ma I'
+
+# You can also call the function defined by a lambda expression directly:
+
+(lambda x1, x2, x3: (x1 + x2 + x3) / 3)(9, 6, 6)
+# 7.0
+
+# You can define a lambda function without parameters. The return value is then not dependent on any input parameters:
+
+forty_two_producer = lambda: 42
+forty_two_producer()
+# 42
+
+
