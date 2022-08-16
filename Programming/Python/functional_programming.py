@@ -59,4 +59,22 @@ sorted(animals)
 # Sometimes, though, it’s convenient to be able to define an anonymous function on the fly, without having to give it a name. 
 # In Python, you can do this with a lambda expression.
 
+# The syntax looks like this:
 
+# lambda <parameter_list>: <expression>
+
+# There is no difference between these two below:
+
+# 1
+
+reverse = lambda s: s[::-1]
+reverse("I am a string")
+'gnirts a ma I'
+
+# 2
+
+def reverse(s):
+    return s[::-1]
+
+reverse("I am a string")
+# 'gnirts a ma I'
