@@ -108,11 +108,11 @@ func(3)
 
 # Suppose we have reverse():
 
->>> def reverse(s):
-...     return s[::-1]
-...
->>> reverse("I am a string")
-'gnirts a ma I'
+def reverse(s):
+    return s[::-1]
+
+reverse("I am a string")
+# 'gnirts a ma I'
 
 # If you have a list of strings, then you can use map() to apply reverse() to each element of the list:
 # But remember, map() doesn’t return a list. It returns an iterator called a map object. To obtain 
