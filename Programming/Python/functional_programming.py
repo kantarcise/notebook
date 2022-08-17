@@ -90,4 +90,31 @@ forty_two_producer = lambda: 42
 forty_two_producer()
 # 42
 
+# The return value from a lambda expression can only be one single expression.
+
+# In a function, If a return statement in a function contains several comma-separated values, then Python packs them and returns them as a tuple:
+
+def func(x):
+    return x, x ** 2, x ** 3
+
+func(3)
+# (3, 9, 27)
+
+# Calling map() With a Single Iterable
+
+# COOL STUFF:
+
+# map(<f>, <iterable>) returns in iterator that yields the results of applying function <f> to each element of <iterable>.
+
+# Suppose we have reverse():
+
+>>> def reverse(s):
+...     return s[::-1]
+...
+>>> reverse("I am a string")
+'gnirts a ma I'
+
+# If you have a list of strings, then you can use map() to apply reverse() to each element of the list:
+
+>>> animals = ["cat", "dog", "hedgehog", "gecko"]
 
