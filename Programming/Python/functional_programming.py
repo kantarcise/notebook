@@ -124,3 +124,4 @@ iterator = map(lambda s: s[::-1], animals)
 list(iterator)
 # ['tac', 'god', 'gohegdeh', 'okceg']
 
+# You also have filter() and reduce() which is not useful it seems.
