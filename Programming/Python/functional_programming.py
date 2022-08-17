@@ -115,6 +115,12 @@ func(3)
 'gnirts a ma I'
 
 # If you have a list of strings, then you can use map() to apply reverse() to each element of the list:
+# But remember, map() doesn’t return a list. It returns an iterator called a map object. To obtain 
+# the values from the iterator, you need to either iterate over it or use list():
 
->>> animals = ["cat", "dog", "hedgehog", "gecko"]
+animals = ["cat", "dog", "hedgehog", "gecko"]
+
+iterator = map(lambda s: s[::-1], animals)
+list(iterator)
+# ['tac', 'god', 'gohegdeh', 'okceg']
 
