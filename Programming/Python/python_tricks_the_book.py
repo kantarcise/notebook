@@ -58,3 +58,42 @@ dir(t)
 # '__setattr__', '__sizeof__', '__str__',
 # '__subclasshook__', '__weakref__', '_bar', 'foo']
 
+# And if we inherit a class from Test, things get interesting
+
+class ExtendedTest(Test):
+    def __init__(self):
+        self.foo = "overridden"
+        self._bar = "overridden"
+        self.__baz = "overridden"
+        
+# If we tried to check them:
+
+t2 = ExtendedTest()
+t2.foo
+# "overridden"
+t2._bar
+# "overridden"
+t2.__baz
+# AttributeError:
+# "'ExtendedTest' object has no attribute '__baz'"
+
+# What in god's name ?!
+# Let's check dir:
+
+dir(t2)
+# ['_ExtendedTest__baz', '_Test__baz', '__class__',
+# '__delattr__', '__dict__', '__dir__', '__doc__',
+# '__eq__', '__format__', '__ge__', '__getattribute__',
+# '__gt__', '__hash__', '__init__', '__le__', '__lt__',
+# '__module__', '__ne__', '__new__', '__reduce__',
+# '__reduce_ex__', '__repr__', '__setattr__',
+# '__sizeof__', '__str__', '__subclasshook__',
+# '__weakref__', '_bar', 'foo', 'get_vars']
+
+#  As you can see, __baz got turned into _ExtendedTest__baz to prevent
+# accidental modification. But the original _Test__baz is also still around:
+
+t2._ExtendedTest__baz
+# 'overridden'
+t2._Test__baz
+# 42
