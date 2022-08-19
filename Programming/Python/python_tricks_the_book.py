@@ -97,3 +97,21 @@ t2._ExtendedTest__baz
 # 'overridden'
 t2._Test__baz
 # 42
+
+
+# So, you cannot access dunder variables directly, gotta return them from somewhere or write explitcitly _Class__var .
+
+class ManglingTest:
+    def __init__(self):
+        self.__mangled = 'hello'
+
+    def get_mangled(self):
+        return self.__mangled
+
+ManglingTest().get_mangled()
+# 'hello'
+ManglingTest()_ManglingTest__mangled
+# hello
+ManglingTest().__mangled
+# AttributeError:
+# "'ManglingTest' object has no attribute '__mangled'"
