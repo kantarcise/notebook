@@ -31,3 +31,30 @@ class Test:
 def make_object(name, class_):
     pass
 
+# Double Leading Underscore: “__var ”
+
+# A double underscore prefix causes the Python interpreter to rewrite
+# the attribute name in order to avoid naming conflicts in subclasses.
+
+# This is also called name mangling—the interpreter changes the name
+# of the variable in a way that makes it harder to create collisions when
+# the class is extended later.
+
+class Test:
+    def __init__(self):
+        self.foo = 11
+        self._bar = 23
+        self.__baz = 42
+        
+# If we check dir() :
+t = Test()
+dir(t)
+
+# ['_Test__baz', '__class__', '__delattr__', '__dict__',
+# '__dir__', '__doc__', '__eq__', '__format__', '__ge__',
+# '__getattribute__', '__gt__', '__hash__', '__init__',
+# '__le__', '__lt__', '__module__', '__ne__', '__new__',
+# '__reduce__', '__reduce_ex__', '__repr__',
+# '__setattr__', '__sizeof__', '__str__',
+# '__subclasshook__', '__weakref__', '_bar', 'foo']
+
