@@ -115,3 +115,19 @@ ManglingTest()_ManglingTest__mangled
 ManglingTest().__mangled
 # AttributeError:
 # "'ManglingTest' object has no attribute '__mangled'"
+
+# Double Leading and Trailing Underscore: “__var__”
+
+# No mangling here
+
+class PrefixPostfixTest:
+    def __init__(self):
+        self.__bam__ = 42
+
+PrefixPostfixTest().__bam__
+# 42
+
+# However, names that have both leading and trailing double under-
+# scores are reserved for special use in the language. This rule covers
+# things like __init__ for object constructors, or __call__ to make objects callable.
+
