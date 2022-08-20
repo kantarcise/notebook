@@ -131,3 +131,30 @@ PrefixPostfixTest().__bam__
 # scores are reserved for special use in the language. This rule covers
 # things like __init__ for object constructors, or __call__ to make objects callable.
 
+# Single Underscore
+
+# Per convention, a single stand-alone underscore is sometimes used as
+# a name to indicate that a variable is temporary or insignificant.
+
+for _ in range(32):
+    print("Hello World!")
+
+
+# Or a placeholder variable:
+
+# In the following code example, we are unpacking a tuple into separate
+# variables but we are only interested in the values for the color and
+# mileage fields. However, in order for the unpacking expression to
+# succeed, we need to assign all values contained in the tuple to variables.
+# That’s where “_” is useful as a placeholder variable:
+
+
+car = ('red', 'auto', 12, 3812.4)
+color, _, _, mileage = car
+color
+# 'red'
+mileage
+# 3812.4
+_
+# 12
+
