@@ -57,3 +57,12 @@ Starts at [9:04](https://youtu.be/L3tjaPZU3FE?t=543)
 
 
 ---
+
+## Tom Platz
+
+**Mindset.**
+
+[You wanna be strong ? Learn how to be alone.](https://www.youtube.com/watch?v=c_gvgmHFDOI)
+
+I dediced to take all that energy, put into the gym.
+
