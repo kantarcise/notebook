@@ -158,3 +158,47 @@ mileage
 _
 # 12
 
+
+# String Formatting
+
+# There are 4 major ways to do string formatting in Python. Kinda unreal and go againts Zen of Python for sure.
+# Anyway, here they come.
+
+# 1- The old style:
+
+# Strings in Python have a unique built-in operation that can be
+# accessed with the %-operator. It’s a shortcut that lets you do simple
+# positional formatting very easily.
+
+errno = 50159747054
+name = 'Bob'
+
+print("Hello, %s", name)
+# Hello, Bob
+
+# You can control the output of the string aswell:
+
+# Here, we areusing the %x format specifier to convert an int value to a
+# string and to represent it as a hexadecimal number:
+
+'%x' % errno
+# 'badc0ffee'
+
+# 2- The new style:
+
+# You can use the format() function to do simple positional formatting,
+# just like you could with “old style” formatting:
+
+"Hello, {}".format(name)
+# "Hello, Bob"
+
+# 3 – Literal String Interpolation (Python 3.6+)
+
+# Formatted String Literals. So the f-strings.
+
+print(f'Hello, {name}!')
+# 'Hello, Bob!'
+
+# Behind the scenes, formatted string literals are a Python parser feature that converts 
+# f-strings into a series of string constants and expressions. 
+# They then get joined up to build the final string.
