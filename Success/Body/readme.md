@@ -66,3 +66,5 @@ Starts at [9:04](https://youtu.be/L3tjaPZU3FE?t=543)
 
 I dediced to take all that energy, put into the gym.
 
+If you can put it together in the gym, you can do anything.
+
