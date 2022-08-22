@@ -202,3 +202,7 @@ print(f'Hello, {name}!')
 # Behind the scenes, formatted string literals are a Python parser feature that converts 
 # f-strings into a series of string constants and expressions. 
 # They then get joined up to build the final string.
+
+# f-strings are better, faster, stronger. So use them whenever you can.
+
+
