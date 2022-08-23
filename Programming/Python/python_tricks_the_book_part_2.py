@@ -47,4 +47,18 @@ funcs
 funcs[0]("heyho")
 #"HEYHO!"
 
+# Functions Can Be Passed to Other Functions
+
+# Because functions are objects, you can pass them as arguments to
+# other functions. Here’s a greet function that formats a greeting string
+# using the function object passed to it and then prints it:
+
+def greet(func):
+    greeting = func('Hi, I am a Python program')
+    print(greeting)
+
+greet(bark)
+# 'HI, I AM A PYTHON PROGRAM!'
+
+
 
