@@ -63,3 +63,11 @@ greet(bark)
 # Functions that can accept other functions as arguments are also called
 # higher-order functions. They are a necessity for the functional programming style.
 
+# The classical example for higher-order functions in Python is the built-
+# in map function. It takes a function object and an iterable, and then
+# calls the function on each element in the iterable, yielding the results
+# as it goes along.
+
+list(map(bark, ['hello', 'hey', 'hi']))
+# ['HELLO!', 'HEY!', 'HI!']
+
