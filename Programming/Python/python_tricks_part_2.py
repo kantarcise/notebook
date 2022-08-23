@@ -60,5 +60,6 @@ def greet(func):
 greet(bark)
 # 'HI, I AM A PYTHON PROGRAM!'
 
-
+# Functions that can accept other functions as arguments are also called
+# higher-order functions. They are a necessity for the functional programming style.
 
