@@ -83,3 +83,35 @@ def speak(text):
 speak('Hello, World')
 # 'hello, world...'
 
+# Here’s the kicker though—whisper does not exist outside speak:
+
+whisper("Yo")
+# NameError:
+# "name "whisper" is not defined" 
+
+# But what if you really wanted to access that nested whisper function from outside speak? 
+# Well, functions are objects—you can return the inner function to the caller of the parent function.
+
+# For example, here’s a function defining two inner functions. Depending
+# on the argument passed to top-level function, it selects and returns
+# one of the inner functions to the caller:
+
+def get_speak_func(volume):
+    def whisper(text):
+        return text.lower() + '...'
+    def yell(text):
+        return text.upper() + '!'
+    if volume > 0.5:
+        return yell
+    else:
+        return whisper
+
+# Notice how get_speak_func doesn’t actually call any of its inner
+# functions—it simply selects the appropriate inner function based on
+# the volume argument and then returns the function object:
+
+get_speak_func(0.3)
+# <function get_speak_func.<locals>.whisper at 0x10ae18>
+get_speak_func(0.7)
+# <function get_speak_func.<locals>.yell at 0x1008c8>
+
