@@ -71,3 +71,15 @@ greet(bark)
 list(map(bark, ['hello', 'hey', 'hi']))
 # ['HELLO!', 'HEY!', 'HI!']
 
+# Functions Can Be Nested
+
+# Nested Functions or Inner Functions:
+
+def speak(text):
+    def whisper(t):
+        return t.lower() + '...'
+    return whisper(text)
+ 
+speak('Hello, World')
+# 'hello, world...'
+
