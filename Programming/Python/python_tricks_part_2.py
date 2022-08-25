@@ -115,3 +115,6 @@ get_speak_func(0.3)
 get_speak_func(0.7)
 # <function get_speak_func.<locals>.yell at 0x1008c8>
 
+# Of course, you could then go on and call the returned function, either
+# directly or by assigning it to a variable name first:
+
