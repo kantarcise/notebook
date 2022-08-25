@@ -118,3 +118,6 @@ get_speak_func(0.7)
 # Of course, you could then go on and call the returned function, either
 # directly or by assigning it to a variable name first:
 
+speak_func = get_speak_func(0.7)
+speak_func('Hello')
+# 'HELLO!'
