@@ -124,3 +124,7 @@ speak_func('Hello')
 
 # Functions Can Capture Local State
 
+# Not only can functions return other functions, these inner functions
+# can also capture and carry some of the parent function’s state with
+# them. Well, what does that mean?
+
