@@ -121,3 +121,6 @@ get_speak_func(0.7)
 speak_func = get_speak_func(0.7)
 speak_func('Hello')
 # 'HELLO!'
+
+# Functions Can Capture Local State
+
