@@ -142,3 +142,11 @@ get_speak_func('Hello, World', 0.7)()
 # 'HELLO, WORLD!'
 
 # Whisper and Yell no longer has test parameter. What?
+
+# Somehow they can still access the text parameter defined in the parent function. In fact,
+# they seem to capture and “remember” the value of that argument.
+
+# Functions that do this are called lexical closures (or just closures, for
+# short). A closure remembers the values from its enclosing lexical
+# scope even when the program flow is no longer in that scope.
+
