@@ -128,3 +128,17 @@ speak_func('Hello')
 # can also capture and carry some of the parent function’s state with
 # them. Well, what does that mean?
 
+def get_speak_func(text, volume):
+    def whisper():
+        return text.lower() + '...'
+    def yell():
+        return text.upper() + '!'
+    if volume > 0.5:
+        return yell
+    else:
+        return whisper
+
+get_speak_func('Hello, World', 0.7)()
+# 'HELLO, WORLD!'
+
+# Whisper and Yell no longer has test parameter. What?
