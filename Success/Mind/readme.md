@@ -206,7 +206,7 @@ Watch the people around you and whenever they do anything that you would like to
 
 ***You become what you think about.***
 
-[the strangest secret by earl nightingale in English](https://www.youtube.com/watch?v=j_phSn5QF8k)
+[the strangest secret by earl nightingale in English](https://www.youtube.com/watch?v=y5x-KjBME_E)
 
 ---
 
