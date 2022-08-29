@@ -150,3 +150,39 @@ get_speak_func('Hello, World', 0.7)()
 # short). A closure remembers the values from its enclosing lexical
 # scope even when the program flow is no longer in that scope.
 
+#--------------------------------------------------------------------------------------------------#
+
+# 
+# Objects Can Behave Like Functions
+#
+
+# While all functions are objects in Python, the reverse isn’t true. Objects aren’t functions. 
+# But they can be made callable, which allows you to treat them like functions in many cases.
+
+# If an object is callable it means you can use the round parentheses function call syntax on it and even pass in function call arguments.
+# This is all powered by the __call__ dunder method. Here’s an example of class defining a callable object:
+
+class Adder:
+    def __init__(self, n):
+        self.n = n
+    def __call__(self, x):
+        return self.n + x
+
+plus_3 = Adder(3)
+plus_3(4)
+# 7
+
+# Behind the scenes, this object calls it's __call__ method.
+
+# Of course, not all objects will be callable. That’s why there’s a built-in
+# callable function to check whether an object appears to be callable or not:
+
+callable(plus_3)
+# True
+callable(yell)
+# True
+callable('hello')
+# False
+
+
+
