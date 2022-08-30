@@ -36,3 +36,13 @@ list(filter(lambda x: x % 2 == 0, range(16)))
 # Better (just list comprehension)
 [x for x in range(16) if x % 2 == 0]
 # [0, 2, 4, 6, 8, 10, 12, 14]
+
+
+#
+# Decorators
+#
+
+# Decorators allow you to extend and modify the behaviour of a callable (functions, methods and classes) 
+# without permanently modifying the callable itself.
+
+
