@@ -26,3 +26,13 @@ sorted(range(-5, 6), key=lambda x: x * x)
 # [0, -1, 1, -2, 2, -3, 3, -4, 4, -5, 5]
 
 # the key basically returns the value after the colon
+
+# Lambdas can be hard to understand, so might be better of using the readable & maintainable python that we all know.
+
+# Harmful:
+list(filter(lambda x: x % 2 == 0, range(16)))
+# [0, 2, 4, 6, 8, 10, 12, 14]
+
+# Better (just list comprehension)
+[x for x in range(16) if x % 2 == 0]
+# [0, 2, 4, 6, 8, 10, 12, 14]
