@@ -45,4 +45,4 @@ list(filter(lambda x: x % 2 == 0, range(16)))
 # Decorators allow you to extend and modify the behaviour of a callable (functions, methods and classes) 
 # without permanently modifying the callable itself.
 
-
+# Understanding decorators is a milestone for any serious Python programmer.
