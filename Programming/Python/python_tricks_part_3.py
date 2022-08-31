@@ -72,12 +72,11 @@ greet()
 # Note that using the @ syntax decorates the function immediately at
 # definition time. This makes it difficult to access the undecorated 
 # original without brittle hacks. Therefore you might choose to decorate
-# some functions manually in order to retain the ability to call the un-
-# decorated function as well.
+# some functions manually:
 
 # Manually:
-
 greet = uppercase(greet)
 
+# in order to retain the ability to call the undecorated function as well.
 
 
