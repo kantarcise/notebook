@@ -46,3 +46,38 @@ list(filter(lambda x: x % 2 == 0, range(16)))
 # without permanently modifying the callable itself.
 
 # Understanding decorators is a milestone for any serious Python programmer.
+
+# Quick reminder: The most important “first-class functions” takeaways for understanding decorators are:
+# - Functions are objects—they can be assigned to variables and passed to and returned from other functions
+# - Functions can be defined inside other functions—and a child function can capture the parent function’s local state (lexical closures)
+
+# Decorators “decorate” or “wrap” another function and let you execute code before and after the wrapped function runs.
+
+# It's a callable that takes a callable as input and returns another callable.
+
+def uppercase(func):
+    def wrapper():
+        original_result = func()
+        modified_result = original_result.upper()
+        return modified_result
+    return wrapper
+
+@uppercase
+def greet():
+    return 'Hello!'
+
+greet()
+# 'HELLO!'
+
+# Note that using the @ syntax decorates the function immediately at
+# definition time. This makes it difficult to access the undecorated 
+# original without brittle hacks. Therefore you might choose to decorate
+# some functions manually in order to retain the ability to call the un-
+# decorated function as well.
+
+# Manually:
+
+greet = uppercase(greet)
+
+
+
