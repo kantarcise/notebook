@@ -12,3 +12,12 @@
 # Input: x = 121
 # Output: true
 # Explanation: 121 reads as 121 from left to right and from right to left.
+
+# Not the fastest.
+# Change the int to a str and check if it's equal with reversed version.
+
+
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        return str(x)==(str(x))[::-1]
+            
