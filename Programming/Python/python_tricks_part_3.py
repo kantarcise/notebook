@@ -79,4 +79,35 @@ greet = uppercase(greet)
 
 # in order to retain the ability to call the undecorated function as well.
 
+# Applying Multiple Decorators to a Function
 
+# Perhaps not surprisingly, you can apply more than one decorator to a
+# function. This accumulates their effects and it’s what makes decorators
+# so helpful as reusable building blocks.
+
+def strong(func):
+    def wrapper():
+        return '<strong>' + func() + '</strong>'
+    return wrapper
+
+def emphasis(func):
+    def wrapper():
+        return '<em>' + func() + '</em>'
+    return wrapper
+
+@strong
+@emphasis
+def greet():
+    return "Hello!"
+
+greet()
+# '<strong><em>Hello!</em></strong>'
+
+# This clearly shows in what order the decorators were applied: from
+# bottom to top. First, the input function was wrapped by the @emphasis
+# decorator, and then the resulting (decorated) function got wrapped
+# again by the @strong decorator.
+
+# To help me remember this bottom to top order, I like to call this behavior
+# decorator stacking. You start building the stack at the bottom
+# and then keep adding new blocks on top to work your way upwards.
