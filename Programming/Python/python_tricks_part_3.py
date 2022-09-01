@@ -111,3 +111,8 @@ greet()
 # To help me remember this bottom to top order, I like to call this behavior
 # decorator stacking. You start building the stack at the bottom
 # and then keep adding new blocks on top to work your way upwards.
+
+# If we don't use @, it simply looks like this:
+
+decorated_greet = strong(emphasis(greet))
+
