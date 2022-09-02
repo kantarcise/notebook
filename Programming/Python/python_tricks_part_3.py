@@ -119,4 +119,3 @@ decorated_greet = strong(emphasis(greet))
 # What about decorators that takes arguments ?
 
 
-
