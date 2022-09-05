@@ -140,3 +140,51 @@ say('Jane', 'Hello, World')
 # 'TRACE: say() returned "Jane: Hello, World"'
 # 'Jane: Hello, World'
 
+# How to Write “Debuggable” Decorators
+
+# When you use a decorator, really what you’re doing is replacing one
+# function with another. One downside of this process is that it “hides”
+# some of the metadata attached to the original (undecorated) function.
+
+def greet():
+    """Return a friendly greeting."""
+    return 'Hello!'
+
+decorated_greet = uppercase(greet)
+
+# If we tried to access the metadata:
+
+greet.__name__
+# 'greet'
+greet.__doc__
+# 'Return a friendly greeting.'
+decorated_greet.__name__
+# 'wrapper'
+decorated_greet.__doc__
+# None
+
+# This claimed to be making debugging awkward (?). A quick fix for this.
+# functools!
+
+import functools
+    
+defuppercase(func):
+    @functools.wraps(func)
+    def wrapper():
+        return func().upper()
+    return wrapper
+
+@uppercase
+def greet():
+    """Return a friendly greeting."""
+    return 'Hello!'
+
+greet.__name__
+# 'greet'
+greet.__doc__
+# 'Return a friendly greeting.'
+
+# As a best practice, I’d recommend that you use functools.wraps in
+# all of the decorators you write yourself. It doesn’t take much time and
+# it will save you (and others) debugging headaches down the road.
+
