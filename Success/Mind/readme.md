@@ -489,11 +489,19 @@ I would watch Magic play, I'd watch Michael play. I would see them do these unbe
 
 1- Get Alert - 15 deep inhales followed by exhales
 Will deploy adrenaline and get you alert. 
+
 2- Get Focused - use white noise before learning as it will increase focus, also stare at your target 🎯 (the screen) for 10 to 60 seconds with no blinking, this will prime your focus. 
+
 3- Generate repetitions. 
+
 4- Expect and Embrace Errors - mistakes are inevitable. also, they increase focus as your brain searches for errors. 
+
 5- Micro Rest - Incorporate inter practice rest of 10 to 30 seconds in the studying session randomly as it will greatly enhances speed and depth of learning, don't obsess over optimal number and duration, don't move at all during rest. 
+
 6- Use Random Intermittent Reward - Te best reward sometimes is no reward, never expect rewards don't work for them. But have them randomly. 
+
 7- Limit learning sessions to 90 minutes - 2-3 hours apart in between sessions, focus is hard work and doesn't feel necessarily good in the body.
+
 8- Incorporate Non Sleep Deep Rest (NSDR) - For 10 to 30 minutes After session immediately or after hours e.g: reveri hypnosis, Yoga nidra, a nap.
+
 9- Get deep sleep that night - After learning as they increase plasticity . If napping disturbs sleep at night, don't use it as an NSDR or if you do limit it to 10 minutes.
