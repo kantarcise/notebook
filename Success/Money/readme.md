@@ -50,3 +50,22 @@ A story about not being an ant but being a **butterfly.**
 
 
 ---
+
+## Jordan Peterson
+
+[ Take Aim, Even Badly ](https://www.youtube.com/watch?v=ZwGDnSWmqhM)
+
+I tell my students when they're doing their thesis master's thesis. Write a really bad first draft and then we have a little conversation about that.
+
+Because they don't think I mean that, because it sounds like a cliche in some sense. It's not a cliche at all.
+
+You're a terrible writer, but if someone put a gun to your head and said you have to have your hundred page thesis done by next Monday or I'll shoot you. 
+But I don't care how terrible it is.
+
+You would sit down and write it.
+
+And the thing is, then you have it. Right? Then you have something. Then you can fix it.
+
+You can iterate and fix it.
+
+That bad first draft that's the most valuable thing. And so that's what you need, you need a bad first draft of yourself.
