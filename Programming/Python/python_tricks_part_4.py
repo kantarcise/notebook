@@ -21,5 +21,14 @@ foo('hello', 1, 2, 3, key1='value', key2=999)
 # (1, 2, 3)
 # {'key1': 'value', 'key2': 999}
 
+#   *args and **kwargs let you write functions with a variable
+# number of arguments in Python.
+#   *args collects extra positional arguments as a tuple. **kwargs
+# collects the extra keyword arguments as a dictionary.
+#   The actual syntax is * and **. Calling them args and kwargs is
+# just a convention (and one you should stick to).
+
+# Function Argument Unpacking
+
 
         
