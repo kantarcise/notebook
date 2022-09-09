@@ -8,7 +8,7 @@ This video might be the most influential content in my life, so far.
 
 [Youtube](https://www.youtube.com/watch?v=CeSAjK2CBEA)
 
-When you grow up you tend to get told the world is the way it is and your life is just to live your life inside the world. 
+When you grow up, you tend to get told the world is the way it is and your life is just to live your life inside the world. 
 
 Try not to bash into the walls too much. 
 
