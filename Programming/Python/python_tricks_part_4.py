@@ -59,4 +59,17 @@ print_vector(*tuple_vec)
 print_vector(*list_vec)
 # <1, 0, 1>
 
+# To unpack keyword arguments from dicts:
+
+dict_vec = {'y': 0, 'z': 1, 'x': 1}
+
+print_vector(**dict_vec)
+# <1, 0, 1>
+
+# If you were to use the single asterisk (*) operator to unpack the 
+# dictionary, keys would be passed to the function in random order instead:
+
+print_vector(*dict_vec)
+# <y, x, z>
+
         
