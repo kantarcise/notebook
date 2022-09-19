@@ -212,6 +212,8 @@ Watch the people around you and whenever they do anything that you would like to
 
 ## Jordan Peterson - Mehmet Oz
 
+[ Jordan Peterson : The Exclusive Uncut Interview ](https://www.youtube.com/watch?v=daVjWUCIbAc)
+
 Timestamps
 
 0:58 - What is Jordan Peterson doing different? About life being difficult, learning how to conduct yourself in the world.
