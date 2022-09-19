@@ -505,3 +505,25 @@ Will deploy adrenaline and get you alert.
 8- Incorporate Non Sleep Deep Rest (NSDR) - For 10 to 30 minutes After session immediately or after hours e.g: reveri hypnosis, Yoga nidra, a nap.
 
 9- Get deep sleep that night - After learning as they increase plasticity . If napping disturbs sleep at night, don't use it as an NSDR or if you do limit it to 10 minutes.
+
+
+---
+
+## Jordan Peterson
+
+[ Jordan Peterson - Do What is Meaningful, Not What is Expedient ](https://www.youtube.com/watch?v=a28j1G5OUqY)
+
+The first thing I would say is well you should be afraid of taking risks and pursuing something meaningful.
+But you should be more afraid of staying where you are if it's making you miserable.
+
+It's like the first thing you want to do is dispense with the idea that you get to have any any permanent security
+outside of your ability to contend and adapt.
+
+..
+
+You're paying a price by sitting there being miserable.
+
+You might say well the devil I know is better than the one I don't it's like
+don't be so sure of that the clock is ticking yeah and if you're miserable in
+your job now and you change nothing in five years you'll be much more miserable
+and you'll be a lot older.
