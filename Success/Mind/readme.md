@@ -529,3 +529,13 @@ You might say well the devil I know is better than the one I don't it's like
 don't be so sure of that the clock is ticking yeah and if you're miserable in
 your job now and you change nothing in five years you'll be much more miserable
 and you'll be a lot older.
+
+---
+
+## Jack Butcher - Visualize Value
+
+Raise The Floor - Up The Ceiling
+
+[ Variance — Engineering Better Days ](https://www.youtube.com/watch?v=AW_STexKhXo)
+
+---
