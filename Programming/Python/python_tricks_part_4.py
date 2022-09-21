@@ -72,4 +72,11 @@ print_vector(**dict_vec)
 print_vector(*dict_vec)
 # <y, x, z>
 
-        
+# Returns
+
+# Python adds an implicit return None statement to the end of any
+# function. Therefore, if a function doesn’t specify a return value, it re-
+# turns None by default.
+
+
+
