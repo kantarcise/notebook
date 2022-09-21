@@ -545,3 +545,12 @@ Raise The Floor - Up The Ceiling
 [ Advice on Parenting, Business and Self-Awareness | With Jason Portnoy](https://youtu.be/6EYOALdYWhQ?t=1220) 
 
 I have to be valuable to them.
+
+---
+
+## Jordan Peterson
+
+[ How to Have a Meaningful Life | Jordan B Peterson ](https://www.youtube.com/watch?v=GH51mnNoua8)
+
+
+---
