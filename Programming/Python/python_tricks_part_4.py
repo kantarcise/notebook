@@ -78,5 +78,32 @@ print_vector(*dict_vec)
 # function. Therefore, if a function doesn’t specify a return value, it re-
 # turns None by default.
 
+def foo1(value):
+    if value:
+        return value
+    else:
+        return None
 
+def foo2(value):
+    """Bare return statement implies `return None`"""
+    if value:
+        return value
+    else:
+        return
 
+def foo3(value):
+    """Missing return statement implies `return None`"""
+    if value:
+        return value
+
+# All three functions properly return None if you pass them a falsy value
+# as the sole argument:
+
+type(foo1(0))
+# <class 'NoneType'>
+
+type(foo2(0))
+# <class 'NoneType'>
+
+type(foo3(0))
+# <class 'NoneType'>
