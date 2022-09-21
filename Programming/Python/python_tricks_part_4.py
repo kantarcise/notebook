@@ -99,6 +99,29 @@ def foo3(value):
 # All three functions properly return None if you pass them a falsy value
 # as the sole argument:
 
+# Wait a second, what is a falsy value?
+
+# All values are considered "truthy" except for the following, which are "falsy":
+
+# None
+# False
+#   Numbers that are numerically equal to zero, including:
+# 0
+# 0.0
+# 0j
+# decimal.Decimal(0)
+# fraction.Fraction(0, 1)
+#   Empty sequences and collections, including:
+# [] - an empty list
+# {} - an empty dict
+# () - an empty tuple
+# set() - an empty set
+# '' - an empty str
+# b'' - an empty bytes
+# bytearray(b'') - an empty bytearray
+# memoryview(b'') - an empty memoryview
+# an empty range, like range(0)
+
 type(foo1(0))
 # <class 'NoneType'>
 
