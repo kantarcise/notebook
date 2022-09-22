@@ -560,3 +560,11 @@ I have to be valuable to them.
 [Mel Robins - What to do when you're feeling stuck](https://youtu.be/gelTkUE_YdE?t=2125)
 
 ---
+
+## Darran Garnham
+
+[ Why Doing What You Love Will Make You The Most Money - With Darran Garnham ](https://www.youtube.com/watch?v=dvYefKQM7Rw)
+
+17 runs behind the ladder, cold emailed. [23:21](https://youtu.be/dvYefKQM7Rw?t=1401)
+
+---
