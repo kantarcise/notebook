@@ -568,3 +568,11 @@ I have to be valuable to them.
 17 runs behind the ladder, cold emailed. [23:21](https://youtu.be/dvYefKQM7Rw?t=1401)
 
 ---
+
+## Jesse Itzler
+
+[ Why Your Fad Is the Idea to Pursue | Interrupted With Jesse Itzler ](https://www.youtube.com/watch?v=PWXdxRPfQJw&t=1792s)
+
+He created a no lose. 
+
+---
