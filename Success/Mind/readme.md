@@ -576,3 +576,15 @@ I have to be valuable to them.
 He created a no lose. 
 
 ---
+
+## Self Awareness
+
+[ 15 Ways To Develop Self Awareness ](https://www.youtube.com/watch?v=gRam0eedH0g)
+
+3 for me:
+
+1) Know your strengths and weaknesses
+2) Be curious about yourself & ask questions
+3) Write Things Down
+
+---
