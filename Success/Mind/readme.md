@@ -588,3 +588,13 @@ He created a no lose.
 3) Write Things Down
 
 ---
+
+## Matthew McConaughey
+
+[ Matthew McConaughey on Why Red Lights in Your Life Will Eventually Turn Green ](https://www.youtube.com/watch?v=YGB2GTJX448&t=286s)
+
+Delayed Gratification.
+
+"I love the game more than the trophy."
+
+---
