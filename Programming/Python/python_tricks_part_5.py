@@ -38,3 +38,9 @@ type(foo3(0))
 # <class 'NoneType'>
 
       
+# Key Takeaways
+# • If a function doesn’t specify a return value, it returns None.
+# Whether to explicitly return None is a stylistic decision.
+
+# • This is a core Python feature but your code might communicate
+# its intent more clearly with an explicit return None statement.
