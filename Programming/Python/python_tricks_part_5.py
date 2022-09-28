@@ -44,3 +44,47 @@ type(foo3(0))
 
 # • This is a core Python feature but your code might communicate
 # its intent more clearly with an explicit return None statement.
+
+
+# ---------------------------------------------------------------------------------------------------- #
+
+# Classes and OOP
+
+#  Object Comparisons: “is” vs “==”
+
+# The == operator compares by checking for equality: if these cats were
+# Python objects and we compared them with the == operator, we’d get
+# “both cats are equal” as an answer.
+
+# The is operator, however, compares identities: if we compared our
+# cats with the is operator, we’d get “these are two different cats” as an
+# answer.
+
+a = [1,2,3]
+b = a
+
+a == b
+# True
+
+a is b
+# True
+
+c = list(a)
+
+c 
+# [1,2,3]
+
+a == c
+# True
+
+a is c 
+# False
+
+# They have the same content but they are not the same object.
+
+# The result:
+
+# An is expression evaluates to True if two variables point to the same (identical) object.
+
+# An == expression evaluates to True if the objects referred to by the variables are equal (have the same contents).
+
