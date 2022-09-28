@@ -604,3 +604,5 @@ Delayed Gratification.
 [ Consistency — Where to Start ](https://www.youtube.com/watch?v=_Ekxhnj5p0w)
 
 Consistency makes competence. Repetition leads to mastery.
+
+---
