@@ -1,5 +1,6 @@
-# String Conversion (Every Class Needs a __repr__)
+import datetime
 
+# String Conversion (Every Class Needs a __repr__)
 
 # When you define a custom class in Python and then try to print one of
 # its instances to the console (or inspect it in an interpreter session), you
@@ -47,3 +48,27 @@ my_car
 
 # This experiment confirms that inspecting an object in a Python interpreter 
 # session simply prints the result of the object’s __repr__.
+
+# So, how to they differ in real world?
+# Let's use datetime as an example.
+
+today = datetime.date.today()
+
+str(today)
+# "2022-09-29"
+repr(today)
+# "datetime.date(2022, 9, 29)"
+
+# You can keep this test in mind when you are writing your own methods.
+
+# If you don’t add a __str__ method, Python falls back on the result
+# of __repr__ when looking for __str__. Therefore, I recommend that
+# you always add at least a __repr__ method to your classes. This will
+# guarantee a useful string conversion result in almost all cases, with a
+# minimum of implementation work.
+
+# Here is a quality repr example:
+
+def __repr__(self):
+    return (f'{self.__class__.__name__}('
+            f'{self.color!r}, {self.mileage!r})')
