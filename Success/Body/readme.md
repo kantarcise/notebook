@@ -68,3 +68,15 @@ I dediced to take all that energy, put into the gym.
 
 If you can put it together in the gym, you can do anything.
 
+---
+
+## Greg Plitt
+
+[Greg Plitt - Perfect Physique Scenes](https://www.youtube.com/watch?v=ftbMvITloh8)
+
+There is a lot of examples. WHat happens after you win? The covers, the contests? What is your goal really?
+
+---
+
+
+
