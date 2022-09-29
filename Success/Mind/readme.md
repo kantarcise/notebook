@@ -606,3 +606,11 @@ Delayed Gratification.
 Consistency makes competence. Repetition leads to mastery.
 
 ---
+
+## Andrew Huberman
+
+[The Optimal Morning Routine - Andrew Huberman](https://www.youtube.com/watch?v=gR_f-iwUGY4)
+
+ Wait 90 minutes before drinking any caffeine. 
+
+---
