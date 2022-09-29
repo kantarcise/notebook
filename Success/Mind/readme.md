@@ -614,3 +614,16 @@ Consistency makes competence. Repetition leads to mastery.
  Wait 90 minutes before drinking any caffeine. 
 
 ---
+
+## Alex Lyon 
+
+[Communication Professor's Reaction to Jordan Peterson Lecture & Delivery Skills](https://www.youtube.com/watch?v=GCHhwQUeEYU)
+
+- Illustrative Gestures.
+- Deliberate Movement
+- Solid Eye Contact
+- Not looking back to the slides
+- Pausing after key ideas!
+
+---
+
