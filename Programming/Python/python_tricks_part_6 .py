@@ -44,3 +44,6 @@ print(my_Car)
 # "A red car!"
 my_car
 # __repr__ method
+
+# This experiment confirms that inspecting an object in a Python interpreter 
+# session simply prints the result of the object’s __repr__.
