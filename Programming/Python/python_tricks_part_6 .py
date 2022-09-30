@@ -67,8 +67,19 @@ repr(today)
 # guarantee a useful string conversion result in almost all cases, with a
 # minimum of implementation work.
 
-# Here is a quality repr example:
+# Here is a complete class with a quality repr example:
 
-def __repr__(self):
-    return (f'{self.__class__.__name__}('
-            f'{self.color!r}, {self.mileage!r})')
+
+class Car:
+    def __init__(self, color, mileage):
+        self.color = color
+        self.mileage = mileage
+
+    def __repr__(self):
+        return (f'{self.__class__.__name__}('
+                f'{self.color!r}, {self.mileage!r})')
+
+    def __str__(self):
+        return f'a {self.color} car'
+
+# Little new info. The print statement and str() call __str__. 
