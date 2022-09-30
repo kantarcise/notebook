@@ -4,6 +4,10 @@ This video might be the most influential content in my life, so far.
 
 09/06/2022
 
+Still, the best. Whenever you feel lonely, just share Steve's energy. 
+
+30/09/2022
+
 # Celebrating Steve - Apple 
 
 [Youtube](https://www.youtube.com/watch?v=CeSAjK2CBEA)
