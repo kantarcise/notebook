@@ -78,5 +78,10 @@ There is a lot of examples. WHat happens after you win? The covers, the contests
 
 ---
 
+## Greg Plitt
 
+[Greg Plitt - Gut Check](https://youtu.be/VliGtrc8hKo?t=961)
 
+Everytime you feel chronic pain, in tear, strain, muscle cramp. Know you are getting closer. And it's within your grasp.
+
+---
