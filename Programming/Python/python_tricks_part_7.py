@@ -6,3 +6,27 @@
 # result, your functions and modules will become more maintainable.
 
 # You can also use custom error types to provide additional debugging information.
+
+def validate(name):
+    if len(name) < 10:
+        raise ValueError
+
+# When a name fails to validate, it'll look like this ins the debug stack.
+
+validate('joe')
+# Traceback (most recent call last):
+#   File "<input>", line 1, in <module>
+#     validate('joe')
+#   File "<input>", line 3, in validate
+#     raise ValueError
+# ValueError
+
+# This is not really helpful.
+
+
+
+
+
+
+
+# Defining your own exception types will state your code’s intent more clearly and make it easier to debug.
