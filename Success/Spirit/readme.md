@@ -18,7 +18,9 @@ Starts at [10:04](https://youtu.be/R96ENHTIWd8?t=604)
 
 ## Jared Warren
 
-An average human looks without seeing, listens without hearing, touches without feeling, eats without tasting, moves without physical awareness, inhales without awareness of odour or fragrance, and talks without thinking
+An average human looks without seeing, listens without hearing, touches without feeling, eats without tasting, moves without physical awareness, inhales without awareness of odour or fragrance, and talks without thinking. 
+
+Leonardo da Vinci
 
 [ Why Mindfulness Matters | Mindfulness for Humans ](https://www.youtube.com/watch?v=kUq89lajolc)
 
