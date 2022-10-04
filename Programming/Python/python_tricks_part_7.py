@@ -71,3 +71,14 @@ class NameTooCuteError(BaseValidationError):
 # Derive your custom exceptions from Python’s built-in Exception class or from more specific exception classes like ValueError or KeyError.
 
 # You can use inheritance to define logically grouped exception hierarchies.
+
+#
+# Cloning Objects for Fun and Profit
+# 
+
+# Assignment statements in Python do not create copies of objects, they
+# only bind names to an object. For immutable objects, that usually doesn’t make a difference.
+
+# But for working with mutable objects or collections of mutable objects,
+# you might be looking for a way to create “real copies” or “clones” of these objects.
+
