@@ -82,3 +82,17 @@ class NameTooCuteError(BaseValidationError):
 # But for working with mutable objects or collections of mutable objects,
 # you might be looking for a way to create “real copies” or “clones” of these objects.
 
+# Essentially, you’ll sometimes want copies that you can modify without
+# automatically modifying the original at the same time. 
+
+# This part will focus on how to copy or "clone" objects in Pyhton.
+
+# The built-in mutable collections can ve copied with their factory functions, on an existing collection
+
+# PS: Mutable collections - lists, dicts, sets.
+
+new_list = list(original_list)
+new_dict = dict(original_dict)
+new_set = set(original_set)
+
+
