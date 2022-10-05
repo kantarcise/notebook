@@ -95,4 +95,7 @@ new_list = list(original_list)
 new_dict = dict(original_dict)
 new_set = set(original_set)
 
+# However, this method won’t work for custom objects and, on top of
+# that, it only creates shallow copies. For compound objects like lists,
+# dicts, and sets, there’s an important difference between shallow and deep copying:
 
