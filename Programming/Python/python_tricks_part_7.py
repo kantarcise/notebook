@@ -99,3 +99,56 @@ new_set = set(original_set)
 # that, it only creates shallow copies. For compound objects like lists,
 # dicts, and sets, there’s an important difference between shallow and deep copying:
 
+# Shallow copies point to the same child objects so change in them, effects them both.
+
+# Here is an example.
+
+class Rectangle:
+    def __init__(self, topleft, bottomright):
+        self.topleft = topleft
+           self.bottomright = bottomright
+    
+    def __repr__(self):
+        return (f'Rectangle({self.topleft!r}, '
+                f'{self.bottomright!r})')
+
+
+import copy
+    
+rect = Rectangle(Point(0, 1), Point(5, 6))
+# A shallow copy:
+srect = copy.copy(rect)
+
+rect
+# Rectangle(Point(0, 1), Point(5, 6))
+srect
+# Rectangle(Point(0, 1), Point(5, 6))
+rect is srect
+# False
+
+# When we modify one of the child objects in original, this modification will be reflected in
+# shallow copy as well—that’s because both share the same child objects. 
+# The copy is only a shallow, one level deep copy:
+
+rect.topleft.x = 999
+rect
+# Rectangle(Point(999, 1), Point(5, 6))
+srect
+# Rectangle(Point(999, 1), Point(5, 6))
+
+# 
+# A deep Copy
+#
+
+drect = copy.deepcopy(srect)
+drect.topleft.x = 222
+drect
+# Rectangle(Point(222, 1), Point(5, 6))
+rect
+# Rectangle(Point(999, 1), Point(5, 6))
+srect
+# Rectangle(Point(999, 1), Point(5, 6))
+
+# Voila! This time the deep copy (drect) is fully independent of the
+# original (rect ) and the shallow copy (srect).
+    
