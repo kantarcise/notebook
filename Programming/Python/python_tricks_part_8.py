@@ -28,3 +28,17 @@
 # design is pretty common in more complex systems. To enforce
 # that a derived class implements a number of methods from the base 
 # class, something like this Python idiom is typically used:
+
+class Base:
+    def foo(self):
+        raise NotImplementedError()
+    def bar(self):
+        raise NotImplementedError()
+
+class Concrete(Base):
+    def foo(self):
+        return 'foo() called'
+
+    # Oh no, we forgot to override bar()...
+    # def bar(self):
+    # return "bar() called"
