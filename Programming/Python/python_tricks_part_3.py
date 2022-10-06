@@ -184,7 +184,6 @@ greet.__name__
 greet.__doc__
 # 'Return a friendly greeting.'
 
-# As a best practice, I’d recommend that you use functools.wraps in
-# all of the decorators you write yourself. It doesn’t take much time and
-# it will save you (and others) debugging headaches down the road.
+# As a best practice, I’d recommend that you use functools.wraps in  all of the decorators you write yourself. 
 
+# It doesn’t take much time and it will save you (and others) debugging headaches down the road.
