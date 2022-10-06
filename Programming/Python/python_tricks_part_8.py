@@ -42,3 +42,58 @@ class Concrete(Base):
     # Oh no, we forgot to override bar()...
     # def bar(self):
     # return "bar() called"
+
+# So, what do we get from this first attempt at solving the problem?
+# Calling methods on an instance of Base correctly raises NotImplementedError exceptions:
+
+b = Base()
+b.foo()
+
+# NotImplementedError
+# Furthermore, instantiating and using Concrete works as expected.
+# And, if we call an unimplemented method like bar() on it, this also raises an exception:
+
+c = Concrete()
+c.foo()
+# 'foo() called'
+c.bar()
+# NotImplementedError
+
+# This is something but not perfect.
+# Problems still:
+
+# • We can instantiate Base just fine without getting an error.
+# • provide incomplete subclasses—instantiating Concrete will not raise an error
+# until we call the missing method bar().
+
+# ABC module to the rescue.
+
+from abc import ABCMeta, abstractmethod
+
+class Base(metaclass=ABCMeta):
+    @abstractmethod
+    def foo(self):
+        pass
+    
+    @abstractmethod
+    def bar(self):
+        pass
+
+class Concrete(Base):
+    def foo(self):
+        pass
+    # We forget to declare bar() again...
+
+# This still behaves as expected and creates the correct class hierarchy.
+
+assert issubclass(Concrete, Base)
+# This will pass.
+
+# But now!
+
+c = Concrete()
+# TypeError:
+# "Can't instantiate abstract class Concrete
+# with abstract methods bar"
+
+
