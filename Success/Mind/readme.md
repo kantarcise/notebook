@@ -627,3 +627,14 @@ Consistency makes competence. Repetition leads to mastery.
 
 ---
 
+## Jordan Peterson
+
+[Why do we have a memory?](https://youtu.be/PsPF2gaOKhc?t=808)
+
+Memory is not a description of the objective past. Memory is a tool.
+Memory is the past’s guide to the future. If you remember that something bad happened, and you can figure 
+out why, then you can try to avoid that bad thing happening again. That’s the 
+purpose of memory. It’s not “to remember the past.” It’s to 
+stop the same damn thing from happening over and over.
+
+---
