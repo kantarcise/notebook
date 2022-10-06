@@ -96,4 +96,11 @@ c = Concrete()
 # "Can't instantiate abstract class Concrete
 # with abstract methods bar"
 
+# Key Takeaways
+# • Abstract Base Classes (ABCs) ensure that derived classes implement
+# particular methods from the base class at instantiation time.
+
+# • Using ABCs can help avoid bugs and make class hierarchies easier to maintain.
+
+
 
