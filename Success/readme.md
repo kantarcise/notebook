@@ -12,6 +12,8 @@ Still, the best. Whenever you feel lonely, just share Steve's energy.
 
 *So, you have an aim. Let's say your aim is the highest possible aim. Then that sets up the world around you."*
 
+07/10/2022
+
 ...
 
 # Celebrating Steve - Apple 
