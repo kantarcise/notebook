@@ -638,3 +638,15 @@ purpose of memory. It’s not “to remember the past.” It’s to
 stop the same damn thing from happening over and over.
 
 ---
+
+## Greg Plitt
+
+[the Freeman Show - Greg Plitt Episode 7 season 1](https://www.youtube.com/watch?v=DuBFHs53iYg)
+
+The gym is a methapor of life. 
+
+Discipline, work ethic, commitment.
+
+The greatest part is the hidden muscle, your mind. You will see that you can go from point A to point B, and transform yourself. Than you can translate that. You start to believe in yourself. 
+
+---
