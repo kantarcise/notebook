@@ -8,8 +8,13 @@ Still, the best. Whenever you feel lonely, just share Steve's energy.
 
 30/09/2022
 
-# Celebrating Steve - Apple 
+*"You are an aiming creature. You look to at a point and you move towards it. It's built right into you.*
 
+*So, you have an aim. Let's say your aim is the highest possible aim. Then that sets up the world around you."*
+
+...
+
+# Celebrating Steve - Apple 
 
 <p align="center"> <a href="https://www.youtube.com/watch?v=CeSAjK2CBEA">
   <img src="steve.png">
