@@ -68,3 +68,19 @@ my_car.color
 my_car.mileage
 # 3812.4
 
+my_car[0]
+# 'red'
+
+# What is this ??
+
+tuple(my_car)
+# ('red', 3812.4) 
+
+# Tuple unpacking and the *-operator for function argument unpacking also work as expected:
+
+color, mileage = my_car
+print(color, mileage)
+# red 3812.4
+print(*my_car)
+# red 3812.4
+
