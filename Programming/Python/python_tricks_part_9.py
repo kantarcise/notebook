@@ -84,3 +84,12 @@ print(color, mileage)
 print(*my_car)
 # red 3812.4
 
+# Like tuples, namedtuples are immutable. 
+
+my_car.color = "blue"
+# AttributeError: "can't set attribute"
+
+# SUMMARY
+
+# A good way to view them is to think that namedtuples are a memory-
+# efficient shortcut to defining an immutable class in Python manually.
