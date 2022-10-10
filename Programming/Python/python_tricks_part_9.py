@@ -40,5 +40,31 @@ tuples_are_immutable[2] = 23
 # It’s hard to ensure that two tuples have the same
 # number of fields and the same properties stored on them.
 
+# Namedtuples to the Rescue
 
+# Namedtuples were added to the standard library in Python 2.6. To use them, you need to
+# import the collections module. 
+
+# Here is a Car example, a Car data type with two fields: color and mileage.
+
+from collections import namedtuple
+
+Car = namedtuple('Car' , 'color mileage')
+
+# Namedtuple’s factory function calls split() on the field names string 
+# to parse it into a list of field names. So this is really just a shorthand for the following two steps:
+
+'color mileage'.split()
+# ['color', 'mileage']
+Car = namedtuple('Car', ['color', 'mileage'])
+
+# Whatever you decide, you can now create new “car” objects with the
+# Car factory function. It behaves as if you had defined a Car class manually and given
+# it a constructor accepting a “color” and a “mileage” value:
+
+my_car = Car('red', 3812.4)
+my_car.color
+# 'red'
+my_car.mileage
+# 3812.4
 
