@@ -144,5 +144,3 @@ bool_second = False
 # memoryview() 	Returns a memory view object
 # staticmethod() 	Returns a static method for a function
 # __import__() 	Invoked by the import statement
-
-# Will continue tomorrow
