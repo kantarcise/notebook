@@ -72,7 +72,6 @@ my_car[0]
 # 'red'
 
 # What is this ??
-
 tuple(my_car)
 # ('red', 3812.4) 
 
