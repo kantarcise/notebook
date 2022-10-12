@@ -121,10 +121,3 @@ BuggyCountedObject.num_instances
 # It correctly calculates the new value for the counter (going from 0 to 1),
 # but then stores the result in an instance variable—which means other
 # instances of the class never even see the updated counter value.
-
-
-
-
-
-
-
