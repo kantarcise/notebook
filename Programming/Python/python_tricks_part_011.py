@@ -47,4 +47,3 @@ class MyClass:
 # Static methods are restricted in what data they can access—they’re
 # primarily a way to namespace your methods.
 
-
