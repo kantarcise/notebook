@@ -47,3 +47,89 @@ class MyClass:
 # Static methods are restricted in what data they can access—they’re
 # primarily a way to namespace your methods.
 
+obj = MyClass()
+obj.method()
+# ('instance method called', <MyClass instance at 0x11a2>)
+
+# When the method is called, Python replaces the self argument with
+# the instance object, obj . We could ignore the syntactic sugar provided
+# by the obj.method() dot-call syntax and pass the instance object manually to get the same result:
+    
+MyClass.method(obj)
+# ('instance method called', <MyClass instance at 0x11a2>)
+
+# By the way, instance methods can also access the class itself through
+# the self.__class__ attribute. This makes instance methods powerful in terms of
+# access restrictions—they can freely modify state on the object instance and on the class itself.
+
+obj.classmethod()
+# ('class method called', <class MyClass at 0x11a2>)
+
+
+obj.staticmethod()
+# 'static method called'
+
+# Did you see how we called staticmethod() on the object and were
+# able to do so successfully? Some developers are surprised when they
+# learn that it’s possible to call a static method on an object instance.
+
+# Here is a real example now:
+
+class Pizza:
+    def __init__(self, ingredients):
+        self.ingredients = ingredients
+
+    def__repr__(self):
+        return f'Pizza({self.ingredients!r})'
+
+Pizza(['cheese', 'tomatoes'])
+# Pizza(['cheese', 'tomatoes'])
+
+# Delicious Pizza Factories With @classmethod
+
+Pizza(['mozzarella', 'tomatoes'])
+Pizza(['mozzarella', 'tomatoes', 'ham', 'mushrooms'])
+Pizza(['mozzarella'] * 4)
+
+# Let's make a better interface for the pizza objects to our users.
+
+class Pizza:
+    
+    def __init__(self, ingredients):
+        self.ingredients = ingredients
+    
+    def__repr__(self):
+        return f'Pizza({self.ingredients!r})'
+    
+    @classmethod
+    def margherita(cls):
+        return cls(['mozzarella', 'tomatoes'])
+    
+    @classmethod
+    def prosciutto(cls):
+        return cls(['mozzarella', 'tomatoes', 'ham'])
+
+# Note how I’m using the cls argument in the margherita and
+# prosciutto factory methods instead of calling the Pizza constructor directly.
+
+# This is a trick you can use to follow the Don’t Repeat Yourself (DRY)8
+# principle. If we decide to rename this class at some point, we won’t
+# have to remember to update the constructor name in all of the factory functions.
+
+# Now, what can we do with these factory methods? Let’s try them out:
+
+Pizza.margherita()
+# Pizza(['mozzarella', 'tomatoes'])
+Pizza.prosciutto()
+# Pizza(['mozzarella', 'tomatoes', 'ham'])
+
+# As you can see, we can use the factory functions to create new Pizza
+# objects that are configured just the way we want them. They all use the
+# same __init__ constructor internally and simply provide a shortcut for remembering
+# all of the various ingredients.
+
+# Python only allows one __init__ method per class. Using class methods
+# makes it possible to add as many alternative constructors as necessary.
+# This can make the interface for your classes self-documenting
+# (to a certain degree) and simplify their usage.
+
