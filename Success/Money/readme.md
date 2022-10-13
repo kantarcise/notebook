@@ -69,3 +69,14 @@ And the thing is, then you have it. Right? Then you have something. Then you can
 You can iterate and fix it.
 
 That bad first draft that's the most valuable thing. And so that's what you need, you need a bad first draft of yourself.
+
+---
+
+## Andrew Tate
+
+[How to make money](https://www.youtube.com/watch?v=ad6bijkjixE)
+
+1 : time for money (job/service)
+2 : information for money
+3 : selling thins (product/service)
+4 : using people to make money or money to make money
