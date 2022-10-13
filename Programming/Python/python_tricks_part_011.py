@@ -93,7 +93,7 @@ Pizza(['mozzarella'] * 4)
 
 # Let's make a better interface for the pizza objects to our users.
 
-class Pizza:
+class BetterPizza:
     
     def __init__(self, ingredients):
         self.ingredients = ingredients
@@ -118,9 +118,9 @@ class Pizza:
 
 # Now, what can we do with these factory methods? Let’s try them out:
 
-Pizza.margherita()
+BetterPizza.margherita()
 # Pizza(['mozzarella', 'tomatoes'])
-Pizza.prosciutto()
+BetterPizza.prosciutto()
 # Pizza(['mozzarella', 'tomatoes', 'ham'])
 
 # As you can see, we can use the factory functions to create new Pizza
@@ -133,3 +133,49 @@ Pizza.prosciutto()
 # This can make the interface for your classes self-documenting
 # (to a certain degree) and simplify their usage.
 
+# When to use static methods:
+
+import math
+
+class PizzaWithStaticMethod:
+    def __init__(self, radius, ingredients):
+        self.radius = radius
+        self.ingredients = ingredients
+       
+    def __repr__(self):
+        return (f'Pizza({self.radius!r}, '
+                f'{self.ingredients!r})')
+
+    defarea(self):
+        return self.circle_area(self.radius)
+
+    @staticmethod
+    def circle_area(r):
+        return r ** 2 * math.pi
+
+p = Pizza(4, ['mozzarella', 'tomatoes'])
+p
+# Pizza(4, {self.ingredients})
+p.area()
+# 50.26548245743669
+Pizza.circle_area(4)
+# 50.26548245743669
+
+# In the above example, it’s clear that circle_area() can’t modify the
+# class or the class instance in any way. (Sure, you could always work
+# around that with a global variable, but that’s not the point here.)
+
+# Now, why is that useful?
+
+# Flagging a method as a static method is not just a hint that a method
+# won’t modify class or instance state. As you’ve seen, this restriction is also enforced by the Python runtime.
+
+# Techniques like that allow you to communicate clearly about parts
+# of your class architecture so that new development work is naturally
+# guided to happen within these boundaries. Of course, it would be
+# easy enough to defy these restrictions. But in practice, they often help
+# avoid accidental modifications that go against the original design.
+
+
+
+    
