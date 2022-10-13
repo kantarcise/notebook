@@ -176,6 +176,7 @@ Pizza.circle_area(4)
 # easy enough to defy these restrictions. But in practice, they often help
 # avoid accidental modifications that go against the original design.
 
+# SUMMARY
 
 # Put differently, using static methods and class methods are ways to
 # communicate developer intent while enforcing that intent enough to
