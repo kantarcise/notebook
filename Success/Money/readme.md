@@ -77,6 +77,9 @@ That bad first draft that's the most valuable thing. And so that's what you need
 [How to make money](https://www.youtube.com/watch?v=ad6bijkjixE)
 
 1 : time for money (job/service)
+
 2 : information for money
+
 3 : selling thins (product/service)
+
 4 : using people to make money or money to make money
