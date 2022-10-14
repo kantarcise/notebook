@@ -125,8 +125,7 @@ BetterPizza.prosciutto()
 
 # As you can see, we can use the factory functions to create new Pizza
 # objects that are configured just the way we want them. They all use the
-# same __init__ constructor internally and simply provide a shortcut for remembering
-# all of the various ingredients.
+# same __init__ constructor internally and simply provide a shortcut for remembering all of the various ingredients.
 
 # Python only allows one __init__ method per class. Using class methods
 # makes it possible to add as many alternative constructors as necessary.
