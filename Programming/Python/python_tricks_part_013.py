@@ -50,3 +50,81 @@ arr
 # ---------------------------------------------------------------
 
 # tuple – Immutable Containers
+
+# Just like lists, tuples are also a part of the Python core language. 
+# Unlike lists, however, Python’s tuple objects are immutable. This means
+# elements can’t be added or removed dynamically—all elements in a tuple must be defined at creation time.
+
+# Just like lists, tuples can hold elements of arbitrary data types. Having
+# this flexibility is powerful, but again, it also means that data is less
+# tightly packed than it would be in a typed array.
+
+arr = 'one', 'two', 'three'
+
+arr[0]
+# 'one'
+
+# Tuples have a nice repr:
+arr
+# ('one', 'two', 'three')
+
+# Tuples are immutable:
+arr[1] = 'hello'
+# TypeError:
+# "'tuple' object does not support item assignment"
+
+del arr[1]
+# TypeError:
+# "'tuple' object doesn't support item deletion"
+
+# Tuples can hold arbitrary data types:
+# (Adding elements creates a copy of the tuple)
+arr + (23,)
+# ('one', 'two', 'three', 23)
+
+# ----------------------------------------------------------------
+
+# array.array – Basic Typed Arrays
+# IMPORTANT FOR OPTIMIZATION
+
+# Python’s array module provides space-efficient storage of basic C-
+# style data types like bytes, 32-bit integers, floating point numbers, and so on.
+
+# Arrays created with the array.array class are mutable and behave
+# similarly to lists, except for one important difference—they are “typed
+# arrays” constrained to a single data type.
+
+import array
+
+arr = array.array('f', (1.0, 1.5, 2.0, 2.5))
+
+arr[1]
+1.5
+
+# Arrays have a nice repr:
+arr
+# array('f', [1.0, 1.5, 2.0, 2.5])
+
+# Arrays are mutable:
+arr[1] = 23.0
+arr
+# array('f', [1.0, 23.0, 2.0, 2.5])
+
+del arr[1]
+arr
+# array('f', [1.0, 2.0, 2.5])
+
+arr.append(42.0)
+arr
+# array('f', [1.0, 2.0, 2.5, 42.0])
+
+# Arrays are "typed":
+arr[1] = 'hello'
+# TypeError: "must be real number, not str"
+
+
+# ----------------------------------------------------------------
+
+# str – Immutable Arrays of Unicode Characters
+
+
