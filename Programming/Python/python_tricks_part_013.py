@@ -166,3 +166,41 @@ type('abc')
 type('abc'[0])
 # "<class 'str'>"
 
+# ---------------------------------------------------------------
+
+# bytes – Immutable Arrays of Single Bytes
+
+# Bytes objects are immutable sequences of single bytes (integers in the
+# range of 0 <= x <= 255). Conceptually, they’re similar to str objects,
+# and you can also think of them as immutable arrays of bytes.
+
+# Like strings, bytes have their own literal syntax for creating objects
+# and they’re space-efficient. Bytes objects are immutable, but unlike
+# strings, there’s a dedicated “mutable byte array” data type called
+# bytearray that they can be unpacked into. You’ll hear more about that in the next section.
+
+arr = bytes((0, 1, 2, 3))
+arr[1]
+# 1
+
+# Bytes literals have their own syntax:
+arr
+# b'x00x01x02x03'
+arr = b'x00x01x02x03'
+
+# Only valid "bytes" are allowed:
+bytes((0, 300))
+# ValueError: "bytes must be in range(0, 256)"
+
+# Bytes are immutable:
+arr[1] = 23
+# TypeError:
+# "'bytes' object does not support item assignment"
+
+del arr[1]
+# TypeError:
+# "'bytes' object doesn't support item deletion"
+
+# ---------------------------------------------------------------
+
+# bytearray – Mutable Arrays of Single Bytes
