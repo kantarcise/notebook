@@ -127,4 +127,42 @@ arr[1] = 'hello'
 
 # str – Immutable Arrays of Unicode Characters
 
+# Python 3.x uses str objects to store textual data as immutable sequences
+# of Unicode characters.11 Practically speaking, that means a str is an
+# immutable array of characters. Oddly enough, it’s also a recursive data structure, 
+# each character in a string is a str object of length 1 itself.
+
+# String objects are space-efficient because they’re tightly packed and
+# they specialize in a single data type. If you’re storing Unicode text, you
+# should use them. Because strings are immutable in Python, modifying
+# a string requires creating a modified copy. The closest equivalent to a
+# “mutable string” is storing individual characters inside a list.
+
+arr = 'abcd'
+arr[1]
+# 'b'
+arr
+# 'abcd'
+
+# Strings are immutable:
+arr[1] = 'e'
+# TypeError:
+# "'str' object does not support item assignment"
+
+del arr[1]
+# TypeError:
+# "'str' object doesn't support item deletion"
+
+# Strings can be unpacked into a list to
+# get a mutable representation:
+list('abcd')
+# ['a', 'b', 'c', 'd']
+''.join(list('abcd'))
+# 'abcd'
+
+# Strings are recursive data structures:
+type('abc')
+# "<class 'str'>"
+type('abc'[0])
+# "<class 'str'>"
 
