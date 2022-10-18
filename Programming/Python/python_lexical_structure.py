@@ -3,6 +3,7 @@
 # its stipulations is that the maximum line length in Python code should be 79 characters.
 
 # Implicit Line Continuation
+
 # This is the more straightforward technique for line continuation, and the one that is preferred according to PEP 8.
 
 a = [
@@ -29,7 +30,7 @@ x = 1 + 2 \
     + 5 + 6
 
 x
-#21
+# 21
 
 # Comment your code. Just do it.
 
