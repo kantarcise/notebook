@@ -3,7 +3,6 @@
 # and displaying result data back to the user. 
 # In this tutorial, you’ll learn about Python input and output.
 
-
 # The input() function pauses program execution to allow the user to type in a line of input
 # from the keyboard. Once the user presses the Enter key, all characters typed are read and returned as a string:
 
@@ -30,8 +29,8 @@ print("Name:", first_name, last_name)
 # Printing With Advanced Features
 
 # print() takes a few additional arguments 
-# that provide modest control over the format of
-# the output. Each of these is a special type of argument called a keyword argument. 
+# that provide modest control over the format of the output. 
+# Each of these is a special type of argument called a keyword argument. 
 
 print("foo", 42, "bar", sep="/")
 # foo/42/bar
@@ -43,7 +42,8 @@ print("foo", 42, "bar", sep="...")
 print("foo", end="/")
 # foo/
 
-# The f-string syntax is one of the modern ways of string formatting. The fastest too.
+# The f-string syntax is one of the modern ways of string formatting. 
+# The fastest too.
 # All you need to do is add the letter f or F at the beginning of your string.
 
 name = input("What is your name? ")
