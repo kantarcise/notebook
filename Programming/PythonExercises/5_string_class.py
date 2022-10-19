@@ -4,7 +4,7 @@
 
 # Also please include simple test function to test the class methods.
 
-class Stringer:
+class Stringer(object):
     def __init__(self):
         self.string = ""
 
