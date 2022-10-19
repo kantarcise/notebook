@@ -5,7 +5,6 @@
 # Also please include simple test function to test the class methods.
 
 import unittest
-
 from 5_string_class import Stringer 
 
 class TestStringer(unittest.TestCase):
