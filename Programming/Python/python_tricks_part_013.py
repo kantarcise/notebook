@@ -204,3 +204,88 @@ del arr[1]
 # ---------------------------------------------------------------
 
 # bytearray – Mutable Arrays of Single Bytes
+
+# The bytearray type is a mutable sequence of integers in the range
+# 0 <= x <= 255.13 They’re closely related to bytes objects with the
+# main difference being that bytearrays can be modified freely—you can
+# overwrite elements, remove existing elements, or add new ones. The
+# bytearray object will grow and shrink accordingly.
+
+# Bytearrays can be converted back into immutable bytes objects but
+# this involves copying the stored data in full—a slow operation taking O(n) time.
+
+arr = bytearray((0, 1, 2, 3))
+arr[1]
+# 1
+
+# The bytearray repr:
+arr
+# bytearray(b'x00x01x02x03')
+
+# Bytearrays are mutable:
+arr[1] = 23
+arr
+# bytearray(b'x00x17x02x03')
+
+arr[1]
+# 23
+
+# Bytearrays can grow and shrink in size:
+del arr[1]
+arr
+# bytearray(b'x00x02x03')
+
+arr.append(42)
+arr
+# bytearray(b'x00x02x03*')
+
+# Bytearrays can only hold "bytes"
+# (integers in the range 0 <= x <= 255)
+arr[1] = 'hello'
+# TypeError: "an integer is required"
+
+arr[1] = 300
+# ValueError: "byte must be in range(0, 256)"
+
+# Bytearrays can be converted back into bytes objects:
+# (This will copy the data)
+bytes(arr)
+# b'x00x02x03*'
+
+-----
+
+# Takeaways:
+
+# There are a number of built-in data structures you can choose from
+# when it comes to implementing arrays in Python. In this chapter we’ve
+# focused on core language features and data structures included in the standard library only.
+
+# If you’re willing to go beyond the Python standard library, third-party
+# packages like NumPy14 offer a wide range of fast array implementations
+# for scientific computing and data science.
+
+# By restricting ourselves to the array data structures included with
+# Python, here’s what our choices come down to:
+
+# You need to store arbitrary objects, potentially with mixed data types? 
+
+# Use a list or a tuple, depending on whether you want an immutable data structure or not.
+
+# You have numeric (integer or floating point) data and tight packing and performance is important? 
+
+# Try out array.array and see if it does everything you need. Also, consider going beyond the
+# standard library and try out packages like NumPy or Pandas.
+
+# You have textual data represented as Unicode characters?
+
+# Use Python’s built-in str. If you need a “mutable string,” use a list of characters.
+
+# You want to store a contiguous block of bytes? Use the immutable bytes type, or bytearray if you need a mutable data structure.
+
+# In most cases, I like to start out with a simple list. I’ll only specialize
+# later on if performance or storage space becomes an issue. Most of
+# the time, using a general-purpose array data structure like list gives
+# you the fastest development speed and the most programming convenience.
+
+# I found that this is usually much more important in the beginning
+# than trying to squeeze out every last drop of performance right from the start.
