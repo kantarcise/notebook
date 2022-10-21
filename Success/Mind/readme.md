@@ -740,3 +740,14 @@ greater health prosperity and happiness
 Excellence across all Realms of humanity.
 
 ---
+
+## Al Bartlett
+
+[ Al Bartlett - Greatest Shortcoming of Human Race ](https://www.youtube.com/watch?v=SixwVyx_bp4)
+
+The greatest shortcoming of the human race is our inability to understand the exponential function
+
+---
+
+
+---
