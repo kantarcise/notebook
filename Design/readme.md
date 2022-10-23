@@ -75,3 +75,17 @@
 
 
 ---
+
+
+---
+
+<p align="center">
+  <img src="img/570s.png">
+</p>
+
+<div align="center">
+  <a href="https://github.com/kantarcise/notebook/blob/master/Design/570s.pdf">Fast & Light. All you need in a car.</a>  
+</div>
+
+
+---
