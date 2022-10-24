@@ -261,7 +261,7 @@ bytes(arr)
 # focused on core language features and data structures included in the standard library only.
 
 # If you’re willing to go beyond the Python standard library, third-party
-# packages like NumPy14 offer a wide range of fast array implementations
+# packages like NumPy offer a wide range of fast array implementations
 # for scientific computing and data science.
 
 # By restricting ourselves to the array data structures included with
