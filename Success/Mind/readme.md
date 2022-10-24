@@ -749,5 +749,15 @@ The greatest shortcoming of the human race is our inability to understand the ex
 
 ---
 
+## Andrew Tate
+
+[Real talk](https://www.youtube.com/watch?v=kT3MqR_gx9E)
+
+1) Identify Opportunity
+
+2) Your ideas about how to be wealthy is outdated. So update it.
+
+3) You need to have a plan.
+
 
 ---
