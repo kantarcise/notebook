@@ -761,3 +761,11 @@ The greatest shortcoming of the human race is our inability to understand the ex
 
 
 ---
+
+## Jordan Peterson
+
+[THE 13 TRUTHS - JORDAN PETERSON - INCREDIBLE SPEECH](https://youtu.be/VYJp813tGH4?t=1129)
+
+If you **actually** want something, you can have it.
+
+---
