@@ -127,3 +127,65 @@ car2.windshield = 'broken'
 car1
 # <Car object at 0x1081e69e8>
 
+# ------------------------------------------------------
+
+#  collections.namedtuple – Convenient Data Objects
+
+# The namedtuple class available in Python 2.6+ provides an extension
+# of the built-in tuple data type.20 Similar to defining a custom class,
+# using namedtuple allows you to define reusable “blueprints” for your
+# records that ensure the correct field names are used.
+
+# Namedtuples are immutable, just like regular tuples. This means you
+# cannot add new fields or modify existing fields after the namedtuple
+# instance was created.
+
+# Besides that, namedtuples are, well… named tuples. Each object stored
+# in them can be accessed through a unique identifier. This frees you
+# from having to remember integer indexes, or resort to
+# workarounds like defining integer constants as mnemonics for your indexes.
+
+# Namedtuple objects are implemented as regular Python classes internally.
+# When it comes to memory usage, they are also “better” than
+# regular classes and just as memory efficient as regular tuples:
+
+from collections import namedtuple
+from sys import getsizeof
+
+p1 = namedtuple('Point', 'x y z')(1, 2, 3)
+p2 = (1, 2, 3)
+getsizeof(p1)
+# 72
+getsizeof(p2)
+# 72
+
+# Namedtuples can be an easy way to clean up your code and make it
+# more readable by enforcing a better structure for your data.
+# I find that going from ad-hoc data types, like dictionaries with a fixed
+# format, to namedtuples helps me express the intent of my code more
+# clearly. Often when I apply this refactoring, I magically come up with
+# a better solution for the problem I’m facing.
+
+# Using namedtuples over regular (unstructured) tuples and dicts can
+# also make my coworkers’ lives easier: Namedtuples make the data
+# that’s being passed around “self-documenting”, at least to a degree.
+
+from collections import namedtuple
+Car = namedtuple('Car' , 'color mileage automatic')
+car1 = Car('red', 3812.4, True)
+
+# Instances have a nice repr:
+car1
+# Car(color='red', mileage=3812.4, automatic=True)
+# Accessing fields:
+car1.mileage
+# 3812.4
+
+# Fields are immtuable:
+
+car1.mileage = 12
+# AttributeError: "can't set attribute"
+
+car1.windshield = 'broken'
+# AttributeError:
+# "'Car' object has no attribute 'windshield'"
