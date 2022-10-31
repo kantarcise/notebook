@@ -769,3 +769,11 @@ The greatest shortcoming of the human race is our inability to understand the ex
 If you **actually** want something, you can have it.
 
 ---
+
+## Andrew Tate
+
+[ Live Exclusive: Andrew Tate Discussion with Mohammed Hijab ](https://www.youtube.com/watch?v=diqgTxR99JE)
+
+[Who raises a child ?](https://youtu.be/diqgTxR99JE?t=3229)
+
+---
