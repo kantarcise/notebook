@@ -11,6 +11,15 @@ def apply_discount(product,discount):
     assert 0 <= price <= product["price"]
     return price
 
+shoes = {'name': 'Fancy Shoes', 'price': 14900}
+
+print(apply_discount(shoes, 0.25))
+
+# Will throw assertion error.
+# print(apply_discount(shoes, 2.0))
+
+# --------------------------------------------
+
 # Single Leading Underscore: “_var”
 
 # “Hey, this isn’t really meant to be a part of the
