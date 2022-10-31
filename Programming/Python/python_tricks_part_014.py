@@ -189,3 +189,48 @@ car1.mileage = 12
 car1.windshield = 'broken'
 # AttributeError:
 # "'Car' object has no attribute 'windshield'"
+
+# ------------------------------------------------------
+
+# typing.NamedTuple – Improved Namedtuples
+
+# This class added in Python 3.6 is the younger sibling of the
+# namedtuple class in the collections module.21 It is very similar
+# to namedtuple, the main difference being an updated syntax for
+# defining new record types and added support for type hints.
+
+# Please note that type annotations are not enforced without a separate
+# type-checking tool like mypy. But even without tool support, they
+# can provide useful hints for other programmers (or be terribly confusing if the type hints become out-of-date.)
+
+from typing import NamedTuple
+
+class Car(NamedTuple):
+    color: str
+    mileage: float
+    automatic: bool
+
+car1 = Car('red', 3812.4, True)
+
+# Instances have a nice repr:
+car1
+# Car(color='red', mileage=3812.4, automatic=True)
+
+# Accessing fields:
+car1.mileage
+# 3812.4
+
+# Fields are immutable:
+car1.mileage = 12
+# AttributeError: "can't set attribute"
+car1.windshield = 'broken'
+# AttributeError:
+# "'Car' object has no attribute 'windshield'"
+
+# Type annotations are not enforced without
+# a separate type checking tool like mypy:
+Car('red', 'NOT_A_FLOAT', 99)
+# Car(color='red', mileage='NOT_A_FLOAT', automatic=99)
+
+
+# ------------------------------------------------------
