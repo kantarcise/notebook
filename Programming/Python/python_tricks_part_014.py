@@ -266,3 +266,43 @@ data
 # Data blobs can be unpacked again:
 MyStruct.unpack(data)
 # (23, False, 42.0)
+
+
+# ------------------------------------------------------
+
+# MOST IMPORTANT PART
+
+# 
+# Key Takeaways
+# 
+
+# Now, which type should you use for data objects in Python? As you’ve
+# seen, there’s quite a number of different options for implementing
+# records or data objects. Generally your decision will depend on your use case:
+
+# You only have a few (2-3) fields:
+# Using a plain tuple object may be okay if the field order is easy to remember or field names are super-
+# fluous. For example, think of an (x, y, z) point in 3D space.
+
+# You need immutable fields: 
+# In this case, plain tuples,
+# collections.namedtuple, and typing.NamedTuple would all
+# make good options for implementing this type of data object.
+
+# You need to lock down field names to avoid typos:
+# collections.namedtuple and typing.NamedTuple are your friends here.
+
+# You want to keep things simple: 
+# A plain dictionary object might
+# be a good choice due to the convenient syntax that closely resembles JSON.
+
+# You need full control over your data structure: 
+# It’s time to write a custom class with @property setters and getters.
+
+# You need to add behavior (methods) to the object: 
+# You should write a custom class, either from scratch or by extending collections.namedtuple or typing.NamedTuple.
+
+# You need to pack data tightly to serialize it to disk or to send it over the network: 
+# Time to read up on struct.Struct because
+
+
