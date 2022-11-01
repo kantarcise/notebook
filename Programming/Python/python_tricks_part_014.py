@@ -234,3 +234,35 @@ Car('red', 'NOT_A_FLOAT', 99)
 
 
 # ------------------------------------------------------
+
+# struct.Struct – Serialized C Structs
+
+# The struct.Struct class23 converts between Python values and C
+# structs serialized into Python bytes objects. For example, it can be
+# used to handle binary data stored in files or coming in from network connections.
+
+# Structs are defined using a format strings-like mini language that allows
+# you to define the arrangement of various C data types like char,
+# int, and long, as well as their unsigned variants.
+
+# Serialized structs are seldom used to represent data objects meant to
+# be handled purely inside Python code. They’re intended primarily as a
+# data exchange format, rather than as a way of holding data in memory
+# that’s only used by Python code.
+
+# In some cases, packing primitive data into structs may use less memory
+# than keeping it in other data types. However, in most cases that
+# would be quite an advanced (and probably unnecessary) optimization.
+
+from struct import Struct
+
+MyStruct = Struct('i?f')
+data = MyStruct.pack(23, False, 42.0)
+
+# All you get is a blob of data:
+data
+# b'x17x00x00x00x00x00x00x00x00x00(B'
+
+# Data blobs can be unpacked again:
+MyStruct.unpack(data)
+# (23, False, 42.0)
