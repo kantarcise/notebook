@@ -53,3 +53,67 @@ vowels
 
 len(vowels)
 # 6
+
+# ------------------------------------------------------------------
+
+# frozenset – Immutable Sets
+
+# The frozenset class implements an immutable version of set that
+# cannot be changed after it has been constructed. Frozensets are
+# static and only allow query operations on their elements (no inserts
+# or deletions.) Because frozensets are static and hashable, they can be
+# used as dictionary keys or as elements of another set, something that
+# isn’t possible with regular (mutable) set objects.
+
+vowels = frozenset({'a', 'e', 'i', 'o', 'u'})
+vowels.add('p')
+# AttributeError:
+# "'frozenset' object has no attribute 'add'"
+
+# Frozensets are hashable and can be used as dictionary keys:
+d = { frozenset({1, 2, 3}): 'hello' }
+d[frozenset({1, 2, 3})]
+# 'hello'
+
+# ------------------------------------------------------------------
+
+# collections.Counter – Multisets
+
+# The collections.Counter class in the Python standard library implements
+# a multiset (or bag) type that allows elements in the set to
+# have more than one occurrence.
+
+# This is useful if you need to keep track of not only if an element is part
+# of a set, but also how many times it is included in the set:
+
+from collections import Counter
+inventory = Counter()
+
+loot = {'sword': 1, 'bread': 3}
+inventory.update(loot)
+inventory
+# Counter({'bread': 3, 'sword': 1})
+
+more_loot = {'sword': 1, 'apple': 1}
+inventory.update(more_loot)
+inventory
+# Counter({'bread': 3, 'sword': 2, 'apple': 1})
+
+# Here’s a caveat for the Counter class: You’ll want to be careful when
+# counting the number of elements in a Counter object. Calling len()
+# returns the number of unique elements in the multiset, whereas the
+# total number of elements can be retrieved using the sum function:
+
+# Unique elements
+len(inventory)
+# 3
+
+# Total no. of elements
+sum(inventory.values())
+# 6
+
+# Key Takeaways
+# • Sets are another useful and commonly used data structure included with Python and its standard library.
+# • Use the built-in set type when looking for a mutable set.
+# • frozenset objects are hashable and can be used as dictionary or set keys.
+# • collections.Counter implements multiset or “bag” data structures.
