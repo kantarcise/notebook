@@ -113,3 +113,87 @@ s.pop()
 
 s.pop()
 # IndexError: "pop from an empty deque"
+
+# ----------------------------------------------------------------------
+
+# queue.LifoQueue – Locking Semantics for Parallel Computing
+
+# This stack implementation in the Python standard library is synchronized
+# and provides locking semantics to support multiple concurrent
+# producers and consumers.
+
+# Besides LifoQueue, the queue module contains several other classes
+# that implement multi-producer/multi-consumer queues that are useful
+# for parallel computing.
+
+# Depending on your use case, the locking semantics might be helpful,
+# or they might just incur unneeded overhead. In this case you’d be
+# better off with using a list or a deque as a general-purpose stack.
+
+from queue import LifoQueue
+
+s = LifoQueue()
+s.put('eat')
+s.put('sleep')
+s.put('code')
+
+s
+# <queue.LifoQueue object at 0x108298dd8>
+
+s.get()
+# 'code'
+
+s.get()
+# 'sleep'
+
+s.get()
+# 'eat'
+
+s.get_nowait()
+# queue.Empty
+
+s.get()
+# Blocks / waits forever...
+
+
+# ----------------------------------------------------------------------
+
+# Comparing Stack Implementations in Python
+
+# As you’ve seen, Python ships with several implementations for a stack
+# data structure. All of them have slightly different characteristics, as
+# well as performance and usage trade-offs.
+
+# If you’re not looking for parallel processing support (or don’t want to
+# handle locking and unlocking manually), your choice comes down to
+# the built-in list type or collections.deque. The difference lies in
+# the data structure used behind the scenes and overall ease of use:
+
+# • list is backed by a dynamic array which makes it great for fast
+# random access, but requires occasional resizing when elements
+# are added or removed. The list over-allocates its backing storage
+# so that not every push or pop requires resizing, and you get
+# an amortized O(1) time complexity for these operations. But
+# you do need to be careful to only insert and remove items “from
+# the right side” using append() and pop(). Otherwise, perfor-mance slows down to O(n).
+
+# • collections.deque is backed by a doubly-linked list which optimizes
+# appends and deletes at both ends and provides consistent O(1)
+# performance for these operations. Not only is its performance
+# more stable, the deque class is also easier to use because
+# you don’t have to worry about adding or removing items from “the wrong end.”
+
+# In summary, I believe that collections.deque is an excellent choice
+# for implementing a stack (LIFO queue) in Python.
+
+# Key Takeaways
+# • Python ships with several stack implementations that have
+# slightly different performance and usage characteristics.
+# • collections.deque provides a safe and fast general-purpose
+# stack implementation.
+# • The built-in list type can be used as a stack, but be careful
+# to only append and remove items with append() and pop() in
+# order to avoid slow performance.
+
+
+
