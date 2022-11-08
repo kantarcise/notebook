@@ -39,15 +39,33 @@ q.pop(0)
 # collections.deque – Fast & Robust Queues
 
 # The deque class implements a double-ended queue that supports
-adding and removing elements from either end in O(1) time (non-
-amortized). Because deques support adding and removing elements
-from either end equally well, they can serve both as queues and as
-stacks.35
-Python’s deque objects are implemented as doubly-linked lists.36 This
-gives them excellent and consistent performance for inserting and
-deleting elements, but poor O(n) performance for randomly accessing
-elements in the middle of the stack.
-As a result, collections.deque is a great default choice if you’re look-
-ing for a queue data structure in Python’s standard library.
+# adding and removing elements from either end in O(1) time (non amortized).
+# Because deques support adding and removing elements
+# from either end equally well, they can serve both as queues and a stacks.
 
+# Python’s deque objects are implemented as doubly-linked lists.36 This
+# gives them excellent and consistent performance for inserting and
+# deleting elements, but poor O(n) performance for randomly accessing
+# elements in the middle of the stack.
 
+# As a result, collections.deque is a great default choice if you’re looking
+# for a queue data structure in Python’s standard library.
+
+from collections import deque
+q = deque()
+q.append('eat')
+q.append('sleep')
+
+q.append('code')
+q
+# deque(['eat', 'sleep', 'code'])
+
+q.popleft()
+# 'eat'
+
+q.popleft()
+# 'sleep'
+q.popleft()
+# 'code'
+q.popleft()
+# IndexError: "pop from an empty deque"
