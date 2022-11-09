@@ -36,6 +36,8 @@ q
 q.pop(0)
 'eat'
 
+# --------------------------------------------------------------
+
 # collections.deque – Fast & Robust Queues
 
 # The deque class implements a double-ended queue that supports
@@ -69,3 +71,45 @@ q.popleft()
 # 'code'
 q.popleft()
 # IndexError: "pop from an empty deque"
+
+# --------------------------------------------------------------------
+
+# queue.Queue – Locking Semantics for Parallel Computing
+
+# This queue implementation in the Python standard library is synchronized
+# and provides locking semantics to support multiple concurrent producers and consumers.
+
+# The queue module contains several other classes implementing multi-
+# producer/multi-consumer queues that are useful for parallel computing.
+
+# Depending on your use case, the locking semantics might be helpful or
+# just incur unneeded overhead. In this case, you’d be better off using
+# collections.deque as a general-purpose queue.
+
+from queue import Queue
+
+q = Queue()
+q.put('eat')
+q.put('sleep')
+q.put('code')
+
+q
+# <queue.Queue object at 0x1070f5b38>
+
+q.get()
+# 'eat'
+
+q.get()
+# 'sleep'
+
+q.get()
+# 'code'
+
+q.get_nowait()
+# queue.Empty
+
+q.get()
+# Blocks / waits forever...
+
+# --------------------------------------------------------------------
+
