@@ -113,3 +113,48 @@ q.get()
 
 # --------------------------------------------------------------------
 
+# multiprocessing.Queue – Shared Job Queues
+
+# This is a shared job queue implementation that allows queued items
+# to be processed in parallel by multiple concurrent workers.38 Process-
+# based parallelization is popular in CPython due to the global inter-
+# preter lock (GIL) that prevents some forms of parallel execution on a
+# single interpreter process.
+
+# As a specialized queue implementation meant for sharing data
+# between processes, multiprocessing.Queue makes it easy to distribute
+# work across multiple processes in order to work around
+# the GIL limitations. This type of queue can store and transfer any
+# pickle-able object across process boundaries.
+
+from multiprocessing import Queue
+q = Queue()
+q.put('eat')
+q.put('sleep')
+
+q.put('code')
+
+q
+# <multiprocessing.queues.Queue object at 0x1081c12b0>
+q.get()
+# 'eat'
+q.get()
+# 'sleep'
+q.get()
+# 'code'
+
+q.get()
+# Blocks / waits forever...
+
+# --------------------------------------------------------------------
+
+# Key Takeaways
+# • Python includes several queue implementations as part of the
+# core language and its standard library.
+# • list objects can be used as queues, but this is generally not
+# recommended due to slow performance.
+# • If you’re not looking for parallel processing support, the implementation
+#  offered by collections.deque is an excellent default choice
+# for implementing a FIFO queue data structure in Python.
+# It provides the performance characteristics you’d expect
+# from a good queue implementation and can also be used as a stack (LIFO Queue).
