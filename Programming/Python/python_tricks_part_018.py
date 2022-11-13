@@ -1,7 +1,7 @@
 # Priority Queues
 
 # A priority queue is a container data structure that manages a set of
-# records with totally-ordered39 keys (for example, a numeric weight
+# records with totally-ordered keys (for example, a numeric weight
 # value) to provide quick access to the record with the smallest or largest key in the set.
 
 # You can think of a priority queue as a modified queue: instead of 
