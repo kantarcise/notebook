@@ -777,3 +777,11 @@ If you **actually** want something, you can have it.
 [Who raises a child ?](https://youtu.be/diqgTxR99JE?t=3229)
 
 ---
+
+## Alex Hormozi 
+
+[ Unlock High Income Skills Without a Degree ](https://www.youtube.com/watch?v=yAVI0PS-hzU)
+
+The nice thing about actions is that they are agnostic to your level of deservingness and skill.
+
+---
