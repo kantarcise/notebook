@@ -83,3 +83,11 @@ That bad first draft that's the most valuable thing. And so that's what you need
 3 : selling thins (product/service)
 
 4 : using people to make money or money to make money
+
+---
+
+## Alex Hormozi
+
+[REPROGRAM your mind](https://www.youtube.com/watch?v=9ySuYdJ0H4s)
+
+---
