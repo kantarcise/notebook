@@ -90,4 +90,20 @@ That bad first draft that's the most valuable thing. And so that's what you need
 
 [REPROGRAM your mind](https://www.youtube.com/watch?v=9ySuYdJ0H4s)
 
+“Start today,” Alex says. “Read books. Do the stuff that’s in the books. Take advice from rich people on how to be rich. Pick a spouse who makes you feel
+awesome about working. Fail once, try again. Think the world is unfair and act accordingly. Never blame your circumstances; thank your circumstances for
+making you who you are.”
+
+“Instead of complaining, do something,” Alex continues. “Expect no one to save you except for yourself. Value your opinion over those of other people. Seek
+out discomfort. Tolerate nothing but excellence. Make promises, keep promises. Wait for the worst conditions, wait for imperfect conditions and act anyways
+on what you want. Avoid working on the stuff that doesn’t matter. Work on the things that matter most. Ignore the rest.”
+
+“Say you’re going to do something and then do it. Do what no one else is doing. Do your best and make it above what it takes to be successful. Talk less,
+do more. Start something new today and keep at it until you are good. Do it so long that it would be unreasonable for you to be bad. Don’t believe what
+other people think about you more than you believe what you think about yourself. Be irreplaceable. Find something that works and don’t stop doing it.”
+
+“Keep doing it until you are bored out of your mind because you are so good at doing that thing that works. Hire smart people. Assume that you are always
+wrong and be willing to learn. Make money and spend less than you make. And that is the 28 rules of poverty [from Charlie Munger] flipped on its head. And
+you can take that information and make your own conclusions about where that’ll take you.
+
 ---
