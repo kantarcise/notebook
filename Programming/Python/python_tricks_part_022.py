@@ -52,5 +52,36 @@ for item in repeater:
 # Hello
 # ...
 
+# Next up, we’ll tease this example apart to understand how the
+# __iter__ and __next__ methods work together to make a Python
+# object iterable.
 
+# These two, does the same thing:
+
+
+# 1
+
+repeater = Repeater('Hello')
+
+for item in repeater:
+    print(item)
+    
+# 2
+
+repeater = Repeater('Hello')
+iterator = repeater.__iter__()
+
+while True:
+    item = iterator.__next__()
+    print(item)
+
+# • It first prepared the repeater object for iteration by calling its
+# __iter__ method. This returned the actual iterator object.
+# • After that, the loop repeatedly called the iterator object’s
+# __next__ method to retrieve values from it.
+
+# Whether you’re dealing with a list of elements, a dictionary, an infinite
+# sequence like the one provided by our Repeater class, or another sequence
+# type—all of that is just an implementation detail. Every single
+# one of these objects can be traversed in the same way with the power of iterators.
 
