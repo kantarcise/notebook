@@ -85,3 +85,27 @@ while True:
 # type—all of that is just an implementation detail. Every single
 # one of these objects can be traversed in the same way with the power of iterators.
 
+# In a Python Interpreter, you can actually do:
+
+repeater = Repeater('Hello')
+iterator = iter(repeater)
+next(iterator)
+# 'Hello'
+next(iterator)
+# 'Hello'
+next(iterator)
+# 'Hello'
+...
+
+# "Quick note on facades"
+
+# By the way, I took the opportunity here to replace the calls to __iter__
+# and __next__ with calls to Python’s built-in functions, iter() and next().
+
+# Internally, these built-ins invoke the same dunder methods, but they
+# make this code a little prettier and easier to read by providing a clean
+# “facade” to the iterator protocol.
+
+# Python offers these facades for other functionality as well. For
+# example, len(x) is a shortcut for calling x.__len__. Similarly,
+# calling iter(x) invokes x.__iter__ and calling next(x) invokes x.__next__.
