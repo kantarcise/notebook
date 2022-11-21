@@ -1,16 +1,4 @@
-// I’ve always had a love-hate relationship when it comes to learning new languages. On the one hand, languages are so
-// fundamental to what we do, that even small changes can have measurable impact. That aha moment when something
-// clicks can have a lasting effect on how you program and can redefine your expectations of other languages. On the
-// downside, language design is fairly incremental. Learning new keywords, type system, coding style as well as new
-// libraries, communities and paradigms is a lot of work that seems hard to justify. Compared to everything else we have
-// to learn, new languages often feel like a poor investment of our time.
-
-// That said, we have to move forward. We have to be willing to take incremental steps because, again, languages are the
-// foundation of what we do. Though the changes are often incremental, they tend to have a wide scope and they impact
-// productivity, readability, performance, testability, dependency management, error handling, documentation, profiling,
-// communities, standard libraries, and so on. Is there a positive way to say death by a thousand cuts?
-
-// That leaves us with an important question: why Go? For me, there are two compelling reasons. The first is that it’s
+// Why Go? For me, there are two compelling reasons. The first is that it’s
 // a relatively simple language with a relatively simple standard library. In a lot of ways, the incremental nature of Go is
 // to simplify some of the complexity we’ve seen being added to languages over the last couple of decades. The other
 // reason is that for many developers, it will complement your existing arsenal.
@@ -43,7 +31,27 @@
 
 // In short, create a go folder with a src subfolder wherever you expect to put your projects.
 
-// Will continue about the setup. Here is a teaser in the meantime.
+// For OSX / Linux
+
+// Download the tar.gz for your platform. For OSX, you’ll most likely be interested in go#.#.#.darwin-amd64-osx10
+//  .8.tar.gz, where #.#.# is the latest version of Go.
+
+// Extract the file to /usr/local via 
+// $ tar -C /usr/local -xzf go#.#.#.darwin-amd64-osx10.8.tar.gz.
+// Set up two environment variables:
+//      1. GOPATH points to your workspace, for me, that’s $HOME/code/go.
+//      2. We need to append Go’s binary to our PATH.
+
+// You can set these up from a shell:
+
+// $ echo 'export GOPATH=$HOME/code/go' >> $HOME/.profile
+// $ echo 'export PATH=$PATH:/usr/local/go/bin' >> $HOME/.profile
+
+// You’ll want to activate these variables. You can close and reopen your shell, or you can run source $HOME/.profile.
+// Type go version and you’ll hopefully get an output that looks like go version go1.3.3 darwin/amd64.
+
+// On linux, this can help:
+// https://www.digitalocean.com/community/tutorials/how-to-install-go-on-ubuntu-18-04
 
 package main
 
