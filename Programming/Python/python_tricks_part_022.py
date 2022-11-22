@@ -109,3 +109,39 @@ next(iterator)
 # Python offers these facades for other functionality as well. For
 # example, len(x) is a shortcut for calling x.__len__. Similarly,
 # calling iter(x) invokes x.__iter__ and calling next(x) invokes x.__next__.
+
+# 
+
+# Remember why we needed the RepeaterIterator class again? We
+# needed it to host the __next__ method for fetching new values from
+# the iterator. But it doesn’t really matter where __next__ is defined.
+
+# In the iterator protocol, all that matters is that __iter__ returns any
+#  object with a __next__ method on it.
+
+# So here’s an idea: RepeaterIterator returns the same value over and
+# over, and it doesn’t have to keep track of any internal state. What if we
+# added the __next__ method directly to the Repeater class instead?
+
+class Repeater:
+    def __init__(self, value):
+        self.value = value
+    def__iter__(self):
+        return self
+    def__next__(self):
+        return self.value
+
+# We just went from two separate classes and 10 lines of code to just one
+# class and 7 lines of code. Our simplified implementation still supports
+# the iterator protocol just fine:
+
+repeater = Repeater('Hello')
+for item in repeater:
+    print(item)
+
+# Hello
+# Hello
+# Hello
+# ...
+
+
