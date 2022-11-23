@@ -785,3 +785,13 @@ If you **actually** want something, you can have it.
 The nice thing about actions is that they are agnostic to your level of deservingness and skill.
 
 ---
+
+## Gary Vee
+
+[Gary Vaynerchuk | Love The Process, Not the Success | 2019 (censored)](https://www.youtube.com/watch?v=Jolm0Ek_-W8)
+
+You just love it so much.
+
+There is no failure. Just the process of playing the game, is the success itself.
+
+---
