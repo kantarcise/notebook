@@ -144,4 +144,58 @@ for item in repeater:
 # Hello
 # ...
 
+# Well, it's pretty clear that we don't want to iterate forever.
+# So let's write a bounded repeater.
 
+# How does python approach this?
+
+my_list = [1, 2, 3]
+iterator = iter(my_list)
+
+next(iterator)
+# 1
+
+next(iterator)
+# 2
+
+next(iterator)
+# 3
+
+next(iterator)
+# StopIteration
+next(iterator)
+# StopIteration
+...
+
+# Python iterators normally can’t be “reset”—once they’re exhausted
+# they’re supposed to raise StopIteration every time next() is called
+# on them. To iterate anew you’ll need to request a fresh iterator object
+# with the iter() function.
+
+# So now that we understand the approach, let's write the BoundedRepeater:
+
+class BoundedRepeater:
+    def __init__(self, value, max_repeats):
+        self.value = value
+        self.max_repeats = max_repeats
+        self.count = 0
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        if self.count >= self.max_repeats:
+            raise StopIteration
+        self.count += 1
+        return self.value
+
+# This gives us the desired result. Iteration stops after the number of
+# repetitions defined in the max_repeats parameter:
+
+repeater = BoundedRepeater('Hello', 3)
+for item in repeater:
+    print(item)
+
+# Hello
+# Hello
+# Hello
