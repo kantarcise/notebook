@@ -199,3 +199,38 @@ for item in repeater:
 # Hello
 # Hello
 # Hello
+
+# How to make this class Python 2 compitable?
+
+class InfiniteRepeater(object):
+    def __init__(self, value):
+        self.value = value
+    
+    def __iter__(self):
+        return self
+    
+    def __next__(self):
+        return self.value
+
+    # Python 2 compatibility:
+    def next(self):
+        return self.__next__()
+
+# First, I added a next method that simply calls the original __next__
+# and forwards its return value. This essentially creates an alias for the
+# existing __next__ implementation so that Python 2 finds it. That way
+# we can support both versions of Python while still keeping all of the
+# actual implementation details in one place.
+
+# And second, I modified the class definition to inherit from object in
+# order to ensure we’re creating a new-style class on Python 2. This
+# has nothing to do with iterators specifically, but it’s a good practice nonetheless.
+
+# Key Takeaways
+# • Iterators provide a sequence interface to Python objects that’s
+# memory efficient and considered Pythonic. Behold the beauty
+# of the for-in loop!
+# • To support iteration an object needs to implement the iterator
+# protocol by providing the __iter__ and __next__ dunder methods.
+# • Class-based iterators are only one way to write iterable objects
+# in Python. Also consider generators and generator expressions.
