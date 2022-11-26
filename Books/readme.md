@@ -3,8 +3,40 @@
   <img src="https://github.com/kantarcise/notebook/blob/master/Books/covers/highoutputmanagement.jpg" title="12 Rules For Life"/>
 </p>
 
+(Airbnb's Brian Chesky - "You only need to read one book on management.")
+
 Still Reading.
 
+## 0) Introduction: 
+
+- Companies today basically have 2 choices. Adapt or Die.
+
+- As a micro CEO, you can improve your own and your grop's performance and productivity, whether or not the rest of the company follows suit.
+
+- All employess produce in some sense, some make chips while others make software or make advertising copy.
+
+- The output of a manager is the output of the organizational units under his or her supervision or influence.
+
+- One of the fundementals tenet's of Intel's managerial philosophy is the one-on-one meeting between the supervisor and the subordinate. It's main purpose are mutual educatşon and exchange of information.
+
+- No matter where you work, you are not an employee - you are in a business with one employee; yourself.
+
+- So if you want to work and continue to work, you must continually dedicate yourself to retaining your individual competetive advantage.
+
+- Every day you must enhance your value, hone in your competitive advantage, learn, adapt, get out of the way, move from job to job, even industry to industry if you must retrench if you need to do so in order to do it again.
+
+Here is a 3 question approach:
+
+- Are you adding real value or merely passing information along? Are you continually looking for ways to make things truly better in your department?
+
+- Are you a node connected to a network of plugged-in people or are you floating by yourself?
+
+- Are you trying new ideas and new technologies? I don't mean reading about them, I mean personally trying them.
+
+
+## 1) Chapter 1: The Breakfast Factory.
+
+To be continued.
 
 
 ---------------------------------------------------------------------------------------------------------
