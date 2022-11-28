@@ -795,3 +795,11 @@ You just love it so much.
 There is no failure. Just the process of playing the game, is the success itself.
 
 ---
+
+## Alex Hormozi
+
+[Controlling what is Meaningful ](https://www.youtube.com/watch?v=j536U19iTwk)
+
+This is how humans are: We question all our beliefs, except for the ones that we really believe in, and those we never think to question.
+
+---
