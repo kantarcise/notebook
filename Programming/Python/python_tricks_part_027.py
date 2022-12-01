@@ -1,85 +1,97 @@
-# Comprehending Comprehensions
+# Sorting Dictionaries for Fun and Profit
 
-# You should use list comprehensions, they are awesome.
+# Python dictionaries don’t have an inherent order.
 
-even_squares = [x * x for x in range(10)
-               if x % 2 == 0]
+# Let's try to sort them.
+xs = {'a': 4, 'c': 2, 'b': 3, 'd': 1}
 
-# Generally
-values = [expression for item in collection if condition]
+# To get a sorted list of the key/value pairs in this dictionary, you could
+# use the dictionary’s items() method and then sort the resulting sequence in a second pass:
 
-# Python not only supports list comprehensions but
-# also has similar syntactic sugar for sets and dictionaries.
+sorted(xs.items())
+# [('a', 4), ('b', 3), ('c', 2), ('d', 1)]
 
-{ x * x for x in range(-9, 10) }
-# set([64, 1, 36, 0, 49, 9, 16, 81, 25, 4])
+# The key/value tuples are ordered using Python’s standard lexico graphical ordering for comparing sequences.
 
-{ x: x * x for x in range(5) }
-# {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
+# To compare two tuples, Python compares the items stored at index
+# zero first. If they differ, this defines the outcome of the comparison.
+# If they’re equal, the next two items at index one are compared, and so on.
+
+# Now, because we took these tuples from a dictionary, all of the former
+# dictionary keys at index zero in each tuple are unique. Therefore,
+# there are no ties to break here.
+
+# In some cases a lexicographical ordering might be exactly what you want.
+# In other cases you might want to sort a dictionary by value instead.
+
+# Luckily, there’s a way you can get complete control over how items
+# are ordered. You can control the ordering by passing a key func to
+# sorted() that will change how dictionary items are compared.
+
+# Key function !! 
+
+# A key func is simply a normal Python function to be called on each
+# element prior to making comparisons. The key func gets a dictionary
+# item as its input and returns the desired “key” for the sort order comparisons.
+
+# Unfortunately, the word “key” is used in two contexts simultaneously
+# here—the key func doesn’t deal with dictionary keys, it merely maps
+# each input item to an arbitrary comparison key.
+
+# Let’s say you wanted to get a sorted representation of a dictionary
+# based on its values. To get this result you could use the following key
+# func which returns the value of each key/value pair by looking up the
+# second element in the tuple:
+
+sorted(xs.items(), key=lambda x: x[1])
+# [('d', 1), ('c', 2), ('b', 3), ('a', 4)]
+
+# See how the resulting list of key/value pairs is now sorted by the values
+# stored in the original dictionary? It’s worth spending some time
+# wrapping your head around how key funcs work. It’s a powerful concept
+# that you can apply in all kinds of Python contexts.
+
+# In fact, the concept is so common that Python’s standard library includes
+# the operator module. This module implements some of the most frequently used
+# key funcs as plug-and-play building blocks, like operator.itemgetter and operator.attrgetter.
+
+# Here’s an example of how you might replace the lambda-based index
+# lookup in the first example with operator.itemgetter:
+
+import operator
+sorted(xs.items(), key=operator.itemgetter(1))
+# [('d', 1), ('c', 2), ('b', 3), ('a', 4)]
+
+# Using the operator module might communicate your code’s intent
+# more clearly in some cases. On the other hand, using a simple lambda
+# expression might be just as readable and more explicit. In this particular case,
+# I actually prefer the lambda expression.
+
+# Another benefit of using lambdas as a custom key func is that you get
+# to control the sort order in much finer detail. For example, you could
+# sort a dictionary based on the absolute numeric value of each value stored in it:
+
+sorted(xs.items(), key=lambda x: abs(x[1]))
+
+# If you need to reverse the sort order so that larger values go first, you
+# can use the reverse=True keyword argument when calling sorted():
+
+sorted(xs.items(),
+      key=lambda x: x[1],
+      reverse=True)
+
+# [('a', 4), ('b', 3), ('c', 2), ('d', 1)]
+
+# Like I said earlier, it’s totally worth spending some time getting a good
+# grip on how key funcs work in Python. They provide you with a ton of
+# flexibility and can often save you from writing code to transform one
+# data structure into another.
 
 # Key Takeaways
-# • Comprehensions are a key feature in Python. Understanding
-# and applying them will make your code much more Pythonic.
-# • Comprehensions are just fancy syntactic sugar for a simple for-
-# loop pattern. Once you understand the pattern, you’ll develop
-# an intuitive understanding for comprehensions.
-# • There are more than just list comprehensions.
+# • When creating sorted “views” of dictionaries and other collections,
+# you can influence the sort order with a key func.
 
-# List Slicing Tricks and the Sushi Operator
-
-lst = [1, 2, 3, 4, 5]
-lst
-# [1, 2, 3, 4, 5]
-
-lst[start:end:step]
-lst[1:3:1]
-# [2, 3]
-
-# If you leave out the step size, it defaults to one:
-lst[1:3]
-# [2, 3]
-
-# If you ask for a [::-1] slice, you’ll get a copy of the original list, but in the reverse order:
-numbers[::-1]
-# [5, 4, 3, 2, 1]
-
-# Here’s another list-slicing trick: You can use the :-operator to clear
-# all elements from a list without destroying the list object itself.
-# This is extremely helpful when you need to clear out a list in your program
-# that has other references pointing to it. In this case, you often
-# can’t just empty the list by replacing it with a new list object, since
-# that wouldn’t update the other references. But here’s the sushi operator coming to your rescue:
-
-lst = [1, 2, 3, 4, 5]
-del lst[:]
-lst
-[]
-
-original_lst = lst
-lst[:] = [7, 8, 9]
-lst
-# [7, 8, 9]
-original_lst
-# [7, 8, 9]
-original_lst is lst
-# True
-
-# Yet another use case for the sushi operator is creating (shallow) copies of existing lists:
-copied_lst = lst[:]
-copied_lst
-# [7, 8, 9]
-copied_lst is lst
-# False
-
-# Creating a shallow copy means that only the structure of the elements
-# is copied, not the elements themselves. Both copies of the list share
-# the same instances of the individual elements.
-
-
-# Key Takeaways
-# • The : “sushi operator” is not only useful for selecting sublists
-# of elements within a list. It can also be used to clear, reverse,
-# and copy lists.
-# • But be careful—this functionality borders on the arcane for
-# many Python developers. Using it might make your code less
-# maintainable for everyone else on your team.
+# • Key funcs are an important concept in Python. The most frequently
+# used ones were even added to the operator module in the standard library.
+# • Functions are first-class citizens in Python. This is a powerful
+# feature you’ll find used everywhere in the language.
