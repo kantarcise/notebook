@@ -128,7 +128,7 @@ dispatch_dict('unknown', 2, 8)
 # times you’ll be better off with a plain if-statement.
 
 # Key Takeaways
-# ••Python doesn’t have a switch/case statement. But in some cases
+# ••Python doesn’t have a switch/case statement. (Before 3.10 - Match Case) But in some cases
 # you can avoid long if-chains with a dictionary-based dispatc table.
 # Once again Python’s first-class functions prove to be a powerful
 # tool. But with great power comes great responsibility.
