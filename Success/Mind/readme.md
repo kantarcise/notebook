@@ -803,3 +803,11 @@ There is no failure. Just the process of playing the game, is the success itself
 This is how humans are: We question all our beliefs, except for the ones that we really believe in, and those we never think to question.
 
 ---
+
+## Steve Jobs
+
+[The REAL GENIUS of Steve Jobs (THIS Made Him EXCEPTIONAL!)](https://www.youtube.com/watch?v=rQKis2Cfpeo)
+
+You know who are the best managers are? They are great individual contributors, who never ever wanna be a manager. But decide they have to be a manager because no one else is going to be able to do as good a job as them.
+
+---
