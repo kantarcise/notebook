@@ -25,3 +25,12 @@ Leonardo da Vinci
 [ Why Mindfulness Matters | Mindfulness for Humans ](https://www.youtube.com/watch?v=kUq89lajolc)
 
 ---
+
+## Alex Hormozi
+
+We just chose to believe that we can grow that much.
+
+[ Why I don't go home for the holidays ](https://youtu.be/sGHbp0Vr1dQ?t=827)
+
+
+---
