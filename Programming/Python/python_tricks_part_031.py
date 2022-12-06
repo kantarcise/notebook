@@ -377,143 +377,146 @@ $ which pip3
 # Peeking Behind the Bytecode Curtain
 
 # When the CPython interpreter executes your program, it first translates
-# it into a sequence of bytecode instructions. Bytecode is an in-
-termediate language for the Python virtual machine that’s used as a
-performance optimization.
-Instead of directly executing the human-readable source code, com-
-pact numeric codes, constants, and references are used that represent
-the result of compiler parsing and semantic analysis.
-This saves time and memory for repeated executions of programs or
-parts of programs. For example, the bytecode resulting from this com-
-pilation step is cached on disk in .pyc and .pyo files so that executing
-the same Python file is faster the second time around.
-All of this is completely transparent to the programmer. You don’t
-have to be aware that this intermediate translation step happens, or
-how the Python virtual machine deals with the bytecode. In fact, the
-bytecode format is deemed an implementation detail and not guaran-
-teed to remain stable or compatible between Python versions.
-And yet, I find it very enlightening to see how the sausage is made and
-to peek behind the abstractions provided by the CPython interpreter.
-Understanding at least some of the inner workings can help you write
-more performant code (when that’s important). And it’s also a lot of
-fun.
-Let’s take this simple greet() function as a lab sample we can play
-with and use to understand Python’s bytecode:
+# it into a sequence of bytecode instructions. Bytecode is an intermediate
+# language for the Python virtual machine that’s used as a
+# performance optimization.
+
+# Instead of directly executing the human-readable source code, compact
+# numeric codes, constants, and references are used that represent
+# the result of compiler parsing and semantic analysis.
+
+# This saves time and memory for repeated executions of programs or
+# parts of programs. For example, the bytecode resulting from this compilation
+# step is cached on disk in .pyc and .pyo files so that executing
+# the same Python file is faster the second time around.
+
+# All of this is completely transparent to the programmer. You don’t
+# have to be aware that this intermediate translation step happens, or
+# how the Python virtual machine deals with the bytecode. In fact, the
+# bytecode format is deemed an implementation detail and not guaranteed
+# to remain stable or compatible between Python versions.
+
+# And yet, I find it very enlightening to see how the sausage is made and
+# to peek behind the abstractions provided by the CPython interpreter.
+# Understanding at least some of the inner workings can help you write
+# more performant code (when that’s important). And it’s also a lot of fun.
+
+# Let’s take this simple greet() function as a lab sample we can play
+# with and use to understand Python’s bytecode:
+
 def greet(name):
-return 'Hello, ' + name + '!'
->>> greet('Guido')
-'Hello, Guido!'
+    return 'Hello, ' + name + '!'
 
-Remember how I said that CPython first translates our source code
-into an intermediate language before it “runs” it? Well, if that’s true,
-we should be able to see the results of this compilation step. And we
-can.
-Each function has a __code__ attribute (in Python 3) that we can use
-to get at the virtual machine instructions, constants, and variables
-used by our greet function:
->>> greet.__code__.co_code
-b'dx01|x00x17x00dx02x17x00Sx00'
->>> greet.__code__.co_consts
-(None, 'Hello, ', '!')
->>> greet.__code__.co_varnames
-('name',)
-You can see co_consts contains parts of the greeting string our func-
-tion assembles. Constants and code are kept separate to save memory
-space. Constants are, well, constant—meaning they can never be mod-
-ified and are used interchangeably in multiple places.
-So instead of repeating the actual constant values in the co_code in-
-struction stream, Python stores constants separately in a lookup ta-
-ble. The instruction stream can then refer to a constant with an in-
-dex into the lookup table. The same is true for variables stored in the
-co_varnames field.
-I hope this general concept is starting to become more clear. But
-looking at the co_code instruction stream still makes me feel a little
-queasy. This intermediate language is clearly meant to be easy to work
-with for the Python virtual machine, not humans. After all, that’s what
-the text-based source code is for.
-The developers working on CPython realized that too. So they gave
-us another tool called a disassembler to make inspecting the bytecode
-easier.
+greet('Guido')
+# 'Hello, Guido!'
 
-Python’s bytecode disassembler lives in the dis module that’s part of
-the standard library. So we can just import it and call dis.dis() on
-our greet function to get a slightly easier-to-read representation of
-its bytecode:
->>> import dis
->>> dis.dis(greet)
-2
- 0 LOAD_CONST
-2 LOAD_FAST
-4 BINARY_ADD
-6 LOAD_CONST
-8 BINARY_ADD
-10 RETURN_VALUE
-1 ('Hello, ')
-0 (name)
-2 ('!')
-The main thing disassembling did was split up the instruction stream
-and give each opcode in it a human-readable name like LOAD_CONST.
-You can also see how constant and variable references are now inter-
-leaved with the bytecode and printed in full to spare us the mental
-gymnastics of a co_const or co_varnames table lookup. Neat!
-Looking at the human-readable opcodes, we can begin to understand
-how CPython represents and executes the 'Hello, ' + name + '!'
-expression in the original greet() function.
-It first retrieves the constant at index 1 ('Hello, ') and puts it on the
-stack. It then loads the contents of the name variable and also puts
-them on the stack.
-The stack is the data structure used as internal working storage for the
-virtual machine. There are different classes of virtual machines and
-one of them is called a stack machine. CPython’s virtual machine is an
-implementation of such a stack machine. If the whole thing is named
-after the stack, you can imagine what a central role this data structure
-plays.
-By the way—I’m only touching the surface here. If you’re interested in
+# Remember how I said that CPython first translates our source code
+# into an intermediate language before it “runs” it? Well, if that’s true,
+# we should be able to see the results of this compilation step. And we can.
 
-this topic you’ll find a book recommendation at the end of this chapter.
-Reading up on virtual machine theory is enlightening (and a ton of
-fun).
-What’s interesting about a stack as an abstract data structure is that,
-at the bare minimum, it only supports two operations: push and pop.
-Push adds a value to the top of the stack and pop removes and returns
-the topmost value. Unlike an array, there’s no way to access elements
-“below” the top level.
-I find it fascinating that such a simple data structure has so many uses.
-But I’m getting carried away again...
-Let’s assume the stack starts out empty. After the first two opcodes
-have been executed, this is what the contents of the VM stack look
+# Each function has a __code__ attribute (in Python 3) that we can use
+# to get at the virtual machine instructions, constants, and variables
+# used by our greet function:
+
+greet.__code__.co_code
+# b'dx01|x00x17x00dx02x17x00Sx00'
+greet.__code__.co_consts
+# (None, 'Hello, ', '!')
+greet.__code__.co_varnames
+# ('name',)
+
+# You can see co_consts contains parts of the greeting string our function
+# assembles. Constants and code are kept separate to save memory
+# space. Constants are, well, constant—meaning they can never be modified
+# and are used interchangeably in multiple places.
+
+# So instead of repeating the actual constant values in the co_code instruction
+# stream, Python stores constants separately in a lookup table. The
+# instruction stream can then refer to a constant with an index into the
+# lookup table. The same is true for variables stored in the co_varnames field.
+# I hope this general concept is starting to become more clear. But
+# looking at the co_code instruction stream still makes me feel a little
+# queasy. This intermediate language is clearly meant to be easy to work
+# with for the Python virtual machine, not humans. After all, that’s what
+# the text-based source code is for.
+
+# The developers working on CPython realized that too. So they gave
+# us another tool called a disassembler to make inspecting the bytecode easier.
+
+# Python’s bytecode disassembler lives in the dis module that’s part of
+# the standard library. So we can just import it and call dis.dis() on
+# our greet function to get a slightly easier-to-read representation of its bytecode:
+
+import dis
+dis.dis(greet)
+# 2
+#  0 LOAD_CONST
+# 2 LOAD_FAST
+# 4 BINARY_ADD
+# 6 LOAD_CONST
+# 8 BINARY_ADD
+# 10 RETURN_VALUE
+# 1 ('Hello, ')
+# 0 (name)
+# 2 ('!')
+
+# The main thing disassembling did was split up the instruction stream
+# and give each opcode in it a human-readable name like LOAD_CONST.
+
+# You can also see how constant and variable references are now interleaved
+# with the bytecode and printed in full to spare us the mental
+# gymnastics of a co_const or co_varnames table lookup. Neat!
+
+# Looking at the human-readable opcodes, we can begin to understand
+# how CPython represents and executes the 'Hello, ' + name + '!'
+# expression in the original greet() function.
+
+# It first retrieves the constant at index 1 ('Hello, ') and puts it on the
+# stack. It then loads the contents of the name variable and also puts them on the stack.
+
+# The stack is the data structure used as internal working storage for the
+# virtual machine. There are different classes of virtual machines and
+# one of them is called a stack machine. CPython’s virtual machine is an
+# implementation of such a stack machine. If the whole thing is named
+# after the stack, you can imagine what a central role this data structure plays.
+
+# What’s interesting about a stack as an abstract data structure is that,
+# at the bare minimum, it only supports two operations: push and pop.
+# Push adds a value to the top of the stack and pop removes and returns
+# the topmost value. Unlike an array, there’s no way to access elements
+# “below” the top level.
+
+# Let’s assume the stack starts out empty. After the first two opcodes
+# have been executed, this is what the contents of the VM stack look
 like (0 is the topmost element):
 0: 'Guido' (contents of "name")
 1: 'Hello, '
-The BINARY_ADD instruction pops the two string values off the stack,
-concatenates them, and then pushes the result on the stack again:
+
+# The BINARY_ADD instruction pops the two string values off the stack,
+# concatenates them, and then pushes the result on the stack again:
+
 0: 'Hello, Guido'
-Then there’s another LOAD_CONST to get the exclamation mark string
-on the stack:
+# Then there’s another LOAD_CONST to get the exclamation mark string on the stack:
 0: '!'
 1: 'Hello, Guido'
-The next BINARY_ADD opcode again combines the two to generate the
-final greeting string:
+# The next BINARY_ADD opcode again combines the two to generate the final greeting string:
 
   0: 'Hello, Guido!'
-The last bytecode instruction is RETURN_VALUE which tells the virtual
-machine that what’s currently on top of the stack is the return value
-for this function so it can be passed on to the caller.
-And voila, we just traced back how our greet() function gets executed
-internally by the CPython virtual machine. Isn’t that cool?
-There’s much more to say about virtual machines, and this isn’t the
-book for it. But if this got you interested, I highly recommend that
-you do some more reading on this fascinating subject.
-It can be a lot of fun to define your own bytecode languages and to
-build little virtual machine experiments for them. A book on this topic
-that I’d recommend is Compiler Design: Virtual Machines by Wilhelm
-and Seidl.
-Key Takeaways
-•••CPython executes programs by first translating them into an in-
-termediate bytecode and then running the bytecode on a stack-
-based virtual machine.
-You can use the built-in dis module to peek behind the scenes
-and inspect the bytecode.
-Study up on virtual machines—it’s worth it.
 
+# The last bytecode instruction is RETURN_VALUE which tells the virtual
+# machine that what’s currently on top of the stack is the return value
+# for this function so it can be passed on to the caller.
+# And voila, we just traced back how our greet() function gets executed
+# internally by the CPython virtual machine. Isn’t that cool?
 
+# It can be a lot of fun to define your own bytecode languages and to
+# build little virtual machine experiments for them. A book on this topic
+# that I’d recommend is Compiler Design: Virtual Machines by Wilhelm and Seidl.
+
+# Key Takeaways
+# CPython executes programs by first translating them into an intermediate
+# bytecode and then running the bytecode on a stack based virtual machine.
+# You can use the built-in dis module to peek behind the scenes
+# and inspect the bytecode.
+
+# Study up on virtual machines—it’s worth it.
