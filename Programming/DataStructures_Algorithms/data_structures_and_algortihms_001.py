@@ -102,3 +102,83 @@ int(-2.4)
 # float(2) returns the floating-point value 2.0. If the parameter to the constructor is
 # a string, as with float( 3.14 ), it attempts to parse that string as a floating-point
 # value, raising a ValueError as an exception.
+
+# 
+# Sequence Types: The list, tuple, and str Classes
+# 
+
+# The list, tuple, and str classes are sequence types in Python, representing a 
+# collection of values in which the order is significant. The list class is the most general,
+# representing a sequence of arbitrary objects (akin to an “array” in other languages).
+
+# The tuple class is an immutable version of the list class, benefiting from a streamlined
+# internal representation. The str class is specially designed for representing
+# an immutable sequence of text characters. We note that Python does not have a
+# separate class for characters; they are just strings with length one.
+
+# The list Class
+# A list instance stores a sequence of objects. A list is a referential structure, as it
+# technically stores a sequence of references to its elements. Elements of
+# a list may be arbitrary objects (including the None object). Lists are
+# array-based sequences and are zero-indexed, thus a list of length n has elements
+# indexed from 0 to n − 1 inclusive. Lists are perhaps the most used container type in
+# Python and they will be extremely central to our study of data structures and algorithms.
+# They have many valuable behaviors, including the ability to dynamically
+# expand and contract their capacities as needed. In this chapter, we will discuss only
+# the most basic properties of lists. We revisit the inner working of all of Python’s
+# sequence types as the focus of Chapter 5.
+
+# Python uses the characters [ ] as delimiters for a list literal, with [ ] itself being
+# an empty list. As another example, [ red , green , blue ] is a list containing
+# three string instances. The contents of a list literal need not be expressed as literals;
+# if identifiers a and b have been established, then syntax [a, b] is legitimate.
+
+# The list( ) constructor produces an empty list by default. However, the constructor
+# will accept any parameter that is of an iterable type. We will discuss iteration
+# further in Section 1.8, but examples of iterable types include all of the standard 
+# container types (e.g., strings, list, tuples, sets, dictionaries). For example, the syntax
+# list( hello ) produces a list of individual characters, [ h , e , l , l , o ].
+
+# Because an existing list is itself iterable, the syntax backup = list(data) can be
+# used to construct a new list instance referencing the same contents as the original.
+
+prime = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31]
+
+# The tuple Class
+
+# The tuple class provides an immutable version of a sequence, and therefore its
+# instances have an internal representation that may be more streamlined than that of
+# a list. While Python uses the [ ] characters to delimit a list, parentheses delimit a
+# tuple, with ( ) being an empty tuple. There is one important subtlety. To express
+# a tuple of length one as a literal, a comma must be placed after the element, but
+# within the parentheses. For example, (17,) is a one-element tuple. The reason for
+# this requirement is that, without the trailing comma, the expression (17) is viewed
+# as a simple parenthesized numeric expression.
+
+# The str Class
+
+# Python’s str class is specifically designed to efficiently represent an immutable
+# sequence of characters, based upon the Unicode international character set. Strings
+# have a more compact internal representation than the referential lists and tuples, as
+# portrayed in Figure 1.5.
+
+# String literals can be enclosed in single quotes, as in hello , or double
+# quotes, as in "hello". This choice is convenient, especially when using another
+# of the quotation characters as an actual character in the sequence, as in
+# "Don t worry". Alternatively, the quote delimiter can be designated using a
+# backslash as a so-called escape character, as in Don\ t worry . Because the
+# backslash has this purpose, the backslash must itself be escaped to occur as a natural
+# character of the string literal, as in C:\\Python\\ , for a string that would be
+# displayed as C:\Python\. Other commonly escaped characters are \n for newline
+# and \t for tab. Unicode characters can be included, such as 20\u20AC for the string 20 .
+
+# Python also supports using the delimiter or """ to begin and end a string
+# literal. The advantage of such triple-quoted strings is that newline characters can
+# be embedded naturally (rather than escaped as \n). This can greatly improve the
+# readability of long, multiline strings in source code. For example, at the beginning
+# of Code Fragment 1.1, rather than use separate print statements for each line of
+# introductory output, we can use a single print statement, as follows:
+
+print(”””Welcome to the GPA calculator.
+      Please enter all your letter grades, one per line.
+      Enter a blank line to designate the end.”””)
