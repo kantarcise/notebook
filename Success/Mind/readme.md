@@ -811,3 +811,11 @@ This is how humans are: We question all our beliefs, except for the ones that we
 You know who are the best managers are? They are great individual contributors, who never ever wanna be a manager. But decide they have to be a manager because no one else is going to be able to do as good a job as them.
 
 ---
+
+## Alex Hormozi
+
+[Do You Have What It Takes To GET RICH In 3 Years? (Copy These Millionaire Habits) | Alex Hormozi](https://youtu.be/JRPChBZ0Rjo?t=2078)
+
+Dude. I need you to get 100 No's. Just get 100 No's for me.
+
+---
