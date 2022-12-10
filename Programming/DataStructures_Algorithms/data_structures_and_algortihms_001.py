@@ -38,6 +38,39 @@
 # frozenset immutable form of set class                   +
 # dict      associative mapping (aka dictionary)
 
+
+#
+# WHY THE F*** IMMUTABALITY IS IMPORTANT ANYWAY ???
+#
+
+# Basically it comes down to the fact that immutability increases predictability, performance (indirectly) and allows for mutation tracking.
+
+# Predictability
+
+# Mutation hides change, which create (unexpected) side effects, which can cause
+# nasty bugs. When you enforce immutability you can keep your application
+# architecture and mental model simple, which makes it easier to reason about your application.
+
+# Performance
+
+# Even though adding values to an immutable Object means that a new instance needs
+# to be created where existing values need to be copied and new values need to be
+# added to the new Object which cost memory, immutable Objects can make use of structural 
+# sharing to reduce memory overhead.
+
+# All updates return new values, but internally structures are shared to drastically
+# reduce memory usage (and GC thrashing). This means that if you append to a vector
+# with 1000 elements, it does not actually create a new vector 
+# 1001-elements long. Most likely, internally only a few small objects are allocated.
+
+# Mutation Tracking
+
+# Besides reduced memory usage, immutability allows you to optimize your application 
+# by making use of reference- and value equality. This makes it really easy to see if
+# anything has changed. 
+
+# NOW THE DATA BABY
+
 # The bool class
 
 # Numbers evaluate to False if zero, and True if nonzero.
