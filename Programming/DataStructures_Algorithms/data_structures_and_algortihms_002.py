@@ -136,4 +136,15 @@ k * s                                 # shorthand for s + s + s + ... (k times)
 val in s                              # containment check
 val not in s                          # non-containment check
 
-# To Be Continued
+# Python relies on zero-indexing of sequences, thus a sequence of length n has elements
+# indexed from 0 to n − 1 inclusive. Python also supports the use of negative
+# indices, which denote a distance from the end of the sequence; index −1 denotes
+# the last element, index −2 the second to last, and so on. Python uses a slicing
+# notation to describe subsequences of a sequence. Slices are described as half-open
+# intervals, with a start index that is included, and a stop index that is excluded. For
+# example, the syntax data[3:8] denotes a subsequence including the five indices:
+# 3, 4, 5, 6, 7. An optional “step” value, possibly negative, can be indicated as a third
+# parameter of the slice. If a start index or stop index is omitted in the slicing notation,
+# it is presumed to designate the respective extreme of the original sequence.
+
+# To Be Continued - page 15
