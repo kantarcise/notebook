@@ -147,4 +147,29 @@ val not in s                          # non-containment check
 # parameter of the slice. If a start index or stop index is omitted in the slicing notation,
 # it is presumed to designate the respective extreme of the original sequence.
 
+# Because lists are mutable, the syntax s[j] = val can be used to replace an element
+# at a given index. Lists also support a syntax, del s[j], that removes the designated
+# element from the list. Slice notation can also be used to replace or delete  sublist.
+
+# The notation val in s can be used for any of the sequences to see if there is an
+# element equivalent to val in the sequence. For strings, this syntax can be used to
+# check for a single character or for a larger substring, as with amp in example .
+
+# All sequences define comparison operations based on lexicographic order, performing
+# an element by element comparison until the first difference is found. For
+# example, [5, 6, 9] < [5, 7] because of the entries at index 1. Therefore, the following
+# operations are supported by sequence types:
+
+s == t                  #  equivalent (element by element)
+s != t                  # not equivalent
+s < t                   # lexicographically less than
+s <= t                  # lexicographically less than or equal to
+s > t                   # lexicographically greater than
+s >= t                  # lexicographically greater than or equal to
+
+# lexicographical order is alphabetical order. The other type is numerical ordering. Consider the following values,
+# 1, 10, 2
+# Those values are in lexicographical order. 10 comes after 2 in numerical order, but 10 comes before 2 in "alphabetical" order.
+
+
 # To Be Continued - page 15
