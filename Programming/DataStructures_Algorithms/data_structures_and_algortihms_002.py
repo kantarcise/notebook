@@ -171,5 +171,62 @@ s >= t                  # lexicographically greater than or equal to
 # 1, 10, 2
 # Those values are in lexicographical order. 10 comes after 2 in numerical order, but 10 comes before 2 in "alphabetical" order.
 
+# Operators for Sets and Dictionaries
 
-# To Be Continued - page 15
+# Sets and frozensets support the following operators:
+
+key in s              # containment check
+key not in            # s non-containment check
+s1 == s2              # s1 is equivalent to s2
+s1 != s2              # s1 is not equivalent to s2
+s1 <= s2              # s1 is subset of s2
+s1 < s2               # s1 is proper subset of s2
+s1 >= s2              # s1 is superset of s2
+s1 > s2               # s1 is proper superset of s2
+s1 | s2               # the union of s1 and s2
+s1 & s2               # the intersection of s1 and s2
+s1 − s2               # the set of elements in s1 but not s2
+s1 ˆ s2               # the set of elements in precisely one of s1 or s2
+
+# Note well that sets do not guarantee a particular order of their elements, so the
+# comparison operators, such as <, are not lexicographic; rather, they are based on
+# the mathematical notion of a subset. As a result, the comparison operators define
+# a partial order, but not a total order, as disjoint sets are neither “less than,” “equal
+# to,” or “greater than” each other. 
+
+# Dictionaries, like sets, do not maintain a well-defined order on their elements.
+# Furthermore, the concept of a subset is not typically meaningful for dictionaries, so
+# the dict class does not support operators such as <. Dictionaries support the notion
+# of equivalence, with d1 == d2 if the two dictionaries contain the same set of key-
+# value pairs. The most widely used behavior of dictionaries is accessing a value
+# associated with a particular key k with the indexing syntax, d[k]. The supported
+# operators are as follows:
+
+d[key]                                    # value associated with given key
+d[key] = value                            # set (or reset) the value associated with given key
+del d[key]                                # remove key and its associated value from dictionary
+key in d                                  # containment check
+key not in d                              # non-containment check
+d1 == d2                                  # d1 is equivalent to d2
+d1 != d2                                  # d1 is not equivalent to d2
+
+Extended Assignment Operators
+
+# Python supports an extended assignment operator for most binary operators, for
+# example, allowing a syntax such as count += 5. By default, this is a shorthand for
+# the more verbose count = count + 5. For an immutable type, such as a number or
+# a string, one should not presume that this syntax changes the value of the existing
+# object, but instead that it will reassign the identifier to a newly constructed value.
+# (See discussion of Figure 1.3.) However, it is possible for a type to redefine such
+# semantics to mutate the object, as the list class does for the += operator.
+
+alpha = [1, 2, 3]
+beta = alpha # an alias for alpha
+beta += [4, 5] # extends the original list with two more elements
+beta = beta + [6, 7] # reassigns beta to a new list [1, 2, 3, 4, 5, 6, 7]
+print(alpha) # will be [1, 2, 3, 4, 5]
+
+# This example demonstrates the subtle difference between the list semantics for the
+# syntax beta += foo versus beta = beta + foo.
+
+# To Be Continued - page 17
