@@ -229,4 +229,45 @@ print(alpha) # will be [1, 2, 3, 4, 5]
 # This example demonstrates the subtle difference between the list semantics for the
 # syntax beta += foo versus beta = beta + foo.
 
-# To Be Continued - page 17
+# Compound Expressions and Operator Precedence
+
+# Programming languages must have clear rules for the order in which compound
+# expressions, such as 5 + 2 * 3, are evaluated. The formal order of precedence
+# for operators in Python is given in Table 1.3. Operators in a category with higher
+# precedence will be evaluated before those with lower precedence, unless the expression
+# is otherwise parenthesized. Therefore, we see that Python gives precedence to
+# multiplication over addition, and therefore evaluates the expression 5 + 2 3 as
+# 5 + (2 * 3), with value 11, but the parenthesized expression (5 + 2) * 3 evaluates
+# to value 21. Operators within a category are typically evaluated from left to
+# right, thus 5 − 2 + 3 has value 6. Exceptions to this rule include that unary operators
+# and exponentiation are evaluated from right to left.
+# Python allows a chained assignment, such as x = y = 0, to assign multiple
+# identifiers to the rightmost value. Python also allows the chaining of comparison
+# operators. For example, the expression 1 <= x + y <= 10 is evaluated as the
+# compound (1 <= x + y) and (x + y <= 10), but without computing the intermediate
+# value x + y twice.
+
+# Operator Precedence               Type Symbols
+# 1 member access                   expr.member
+# 2 function/method calls           expr(...)             
+#   container subscripts/slices     expr[...]
+# 3 exponentiation                  **
+# 4 unary operators                 +expr, −expr,  ̃expr
+# 5 multiplication, division        *, /, //, %
+# 6 addition, subtraction           +, −
+# 7 bitwise shifting                <<, >>
+# 8 bitwise-and                     &
+# 9 bitwise-xor                     ˆ
+# 10 bitwise-or                     |
+# 11 comparisons                    is, is not, ==, !=, <, <=, >, >=
+#    containment                    in, not in
+# 12 logical-not                      not expr
+# 13 logical-and                      and
+# 14 logical-or                       or
+# 15 conditional                      val1 if cond else val2
+# 16 assignments                      =, +=, −=, =, etc.
+
+# This is operator precedence in Python, with categories ordered from highest
+# precedence to lowest precedence. When stated, we use expr to denote a literal,
+# identifier, or result of a previously evaluated expression. All operators without
+# explicit mention of expr are binary operators, with syntax expr1 operator expr2.
