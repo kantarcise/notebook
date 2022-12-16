@@ -819,3 +819,13 @@ You know who are the best managers are? They are great individual contributors, 
 Dude. I need you to get 100 No's. Just get 100 No's for me.
 
 ---
+
+## Jordan Peterson
+
+[ I'm More Afraid of Hell Than Death ](https://youtu.be/qG6kzH8Td58?t=260)
+
+If you gaze into the abyss long enough, you'll see the light not the darkness.
+
+Are you sure about that?
+
+I'm betting my life on it.
