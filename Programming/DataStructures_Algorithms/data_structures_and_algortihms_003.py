@@ -100,3 +100,73 @@ while j < len(data) and data[j] != X :
 # worth noting that this code behaves correctly, even in the special case when the list
 # is empty, as the condition j < len(data) will initially fail and the body of the loop
 # will never be executed.
+
+# For Loops
+
+# Python’s for-loop syntax is a more convenient alternative to a while loop when
+# iterating through a series of elements. The for-loop syntax can be used on any
+# type of iterable structure, such as a list, tuple str, set, dict, or file (we will discuss
+# iterators more formally in Section 1.8). Its general syntax appears as follows.
+
+for element in iterable:
+    # do stuff
+ 
+# As an instructive example of such a loop, we consider the task of computing
+# the sum of a list of numbers. (Admittedly, Python has a built-in function, sum, for
+# this purpose.) We perform the calculation with a for loop as follows, assuming that
+# data identifies the list:
+
+total = 0
+for val in data:
+    total += val # note use of the loop variable, val
+
+# The loop body executes once for each element of the data sequence, with the 
+# identifier, val, from the for-loop syntax assigned at the beginning of each pass to a
+# respective element. It is worth noting that val is treated as a standard identifier. If
+# the element of the original data happens to be mutable, the val identifier can be
+# used to invoke its methods. But a reassignment of identifier val to a new value has
+# no affect on the original data, nor on the next iteration of the loop.
+
+# As a second classic example, we consider the task of finding the maximum
+# value in a list of elements (again, admitting that Python’s built-in max function
+# already provides this support). If we can assume that the list, data, has at least one
+# element, we could implement this task as follows:
+
+biggest = data[0] # as we assume nonempty list
+for val in data:
+    if val > biggest:
+    biggest = val
+
+# Although we could accomplish both of the above tasks with a while loop, the
+# for-loop syntax had an advantage of simplicity, as there is no need to manage an
+# explicit index into the list nor to author a Boolean loop condition. Furthermore, we
+# can use a for loop in cases for which a while loop does not apply, such as when
+# iterating through a collection, such as a set, that does not support any direct form
+# of indexing.
+
+# Index-Based For Loops
+
+# The simplicity of a standard for loop over the elements of a list is wonderful; 
+# however, one limitation of that form is that we do not know where an element resides
+# within the sequence. In some applications, we need knowledge of the index of an
+# element within the sequence. For example, suppose that we want to know where
+# the maximum element in a list resides.
+
+# Rather than directly looping over the elements of the list in that case, we prefer
+# to loop over all possible indices of the list. For this purpose, Python provides
+# a built-in class named range that generates integer sequences.
+# In simplest form, the syntax range(n) generates the
+# series of n values from 0 to n − 1. Conveniently, these are precisely the series of
+# valid indices into a sequence of length n. Therefore, a standard Python idiom for
+# looping through the series of indices of a data sequence uses a syntax,
+
+for j in range(len(data)):
+
+# In this case, identifier j is not an element of the data—it is an integer. But the
+# expression data[j] can be used to retrieve the respective element. For example, we
+# can find the index of the maximum element of a list a
+
+big index = 0
+for j in range(len(data)):
+    if data[j] > data[big index]:
+        big index = j
