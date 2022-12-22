@@ -170,3 +170,52 @@ big index = 0
 for j in range(len(data)):
     if data[j] > data[big index]:
         big index = j
+
+# Index-Based For Loops
+
+# The simplicity of a standard for loop over the elements of a list is wonderful; 
+# however, one limitation of that form is that we do not know where an element resides
+# within the sequence. In some applications, we need knowledge of the index of an
+# element within the sequence. For example, suppose that we want to know where
+# the maximum element in a list resides.
+
+# Rather than directly looping over the elements of the list in that case, we prefer
+# to loop over all possible indices of the list. For this purpose, Python provides
+# a built-in class named range that generates integer sequences. (We will discuss
+# generators in Section 1.8.) In simplest form, the syntax range(n) generates the
+# series of n values from 0 to n − 1. Conveniently, these are precisely the series of
+# valid indices into a sequence of length n. Therefore, a standard Python idiom for
+# looping through the series of indices of a data sequence uses a syntax,
+
+for j in range(len(data)):
+
+# In this case, identifier j is not an element of the data—it is an integer. But the
+# expression data[j] can be used to retrieve the respective element. For example, we
+# can find the index of the maximum element of a list as follows:
+
+big index = 0
+for j in range(len(data)):
+    if data[j] > data[big index]:
+    big index = j
+
+#
+# Break and Continue Statements
+#
+
+# Python supports a break statement that immediately terminate a while or for loop
+# when executed within its body. More formally, if applied within nested control
+# structures, it causes the termination of the most immediately enclosing loop. As
+# a typical example, here is code that determines whether a target value occurs in a
+# data set:
+
+found = False
+for item in data:
+    if item == target:
+    found = True
+    break
+
+# Python also supports a continue statement that causes the current iteration of a
+# loop body to stop, but with subsequent passes of the loop proceeding as expected.
+# We recommend that the break and continue statements be used sparingly. Yet,
+# there are situations in which these commands can be effectively used to avoid 
+# introducing overly complex logical conditions. 
