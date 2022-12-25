@@ -829,3 +829,14 @@ If you gaze into the abyss long enough, you'll see the light not the darkness.
 Are you sure about that?
 
 I'm betting my life on it.
+
+---
+
+## Alex Hormozi
+
+[$100M CEO: "Why therapists failed me..." [language warning]
+](https://www.youtube.com/watch?t=223&v=o7R_K6LwKNk&feature=youtu.be)
+
+Have a Joker card.
+
+---
