@@ -840,3 +840,11 @@ I'm betting my life on it.
 Have a Joker card.
 
 ---
+
+## Jordan Peterson
+
+[ The Logos at Ephesus ](https://youtu.be/9ByjCwumwBM?t=1585)
+
+You have to see the world through a system of value.
+
+---
