@@ -845,6 +845,10 @@ Have a Joker card.
 
 [ The Logos at Ephesus ](https://youtu.be/9ByjCwumwBM?t=1585)
 
-You have to see the world through a system of value.
+You have to see the world through a system of value. 
+
+Why?
+
+Because you cannot see everything at once.
 
 ---
