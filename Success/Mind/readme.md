@@ -8,7 +8,7 @@ These ideas from Jordan deserves some **thinking**:
 
 ## Kobe Bryant
 
-[After being eliminated in the 2003 playoffs: ‘I’ll push myself to exhaustion.’ 🐍- Kobe Bryant](https://www.youtube.com/watch?v=Be2VxMgiKJE)
+[After being eliminated in the 2003 playoffs: ‘I’ll push myself to exhaustion.’ 🐍- Kobe Bryant](https://www.youtube.com/watch?v=PPBkbib2eh0)
 
 
 **Interviewer:** How disappointed are you?
