@@ -852,3 +852,11 @@ Why?
 Because you cannot see everything at once.
 
 ---
+
+## Alex Hormozi
+
+[ POOR & WEAK? WATCH THIS! ](https://youtu.be/sSEm3qJUh9s?t=774)
+
+Consistency always beats intensity.
+
+100 rule is 100 a day, not a year.
