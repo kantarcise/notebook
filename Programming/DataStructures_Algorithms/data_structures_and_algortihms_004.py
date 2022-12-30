@@ -114,3 +114,69 @@ target = A
 def scale(data, factor):
     for j in range(len(data)):
         data[j] = factor
+        
+# Default Paramater Values 
+
+# Python provides means for functions to support more than one possible calling
+# signature. Such a function is said to be polymorphic (which is Greek for “many
+# forms”). Most notably, functions can declare one or more default values for parameters,
+# thereby allowing the caller to invoke a function with varying numbers of
+# actual parameters. As an artificial example, if a function is declared with signature
+
+def foo(a, b=15, c=27):
+
+# There are three parameters, the last two of which offer default values. A caller is
+# welcome to send three actual parameters, as in foo(4, 12, 8), in which case the default
+# values are not used. If, on the other hand, the caller only sends one parameter,
+# foo(4), the function will execute with parameters values a=4, b=15, c=27. If a
+# caller sends two parameters, they are assumed to be the first two, with the third being
+# the default. Thus, foo(8, 20) executes with a=8, b=20, c=27. However, it is
+# illegal to define a function with a signature such as bar(a, b=15, c) with b having
+# a default value, yet not the subsequent c; if a default parameter value is present for
+# one parameter, it must be present for all further parameters.
+
+# As a more motivating example for the use of a default parameter, we revisit
+# the task of computing a student’s GPA (see Code Fragment 1.1). Rather than assume
+# direct input and output with the console, we prefer to design a function that
+# computes and returns a GPA. Our original implementation uses a fixed mapping
+# from each letter grade (such as a B−) to a corresponding point value (such as
+# 2.67). While that point system is somewhat common, it may not agree with the
+# system used by all schools. (For example, some may assign an A+ grade a value
+# higher than 4.0.) Therefore, we design a compute gpa function, given in Code
+# Fragment 1.2, which allows the caller to specify a custom mapping from grades to
+# values, while offering the standard point system as a default.
+
+def compute gpa(grades, points={ A+ :4.0, A :4.0, A- :3.67, B+ :3.33,
+                                 B :3.0, B- :2.67, C+ :2.33, C :2.0,
+                                 C :1.67, D+ :1.33, D :1.0, F :0.0}):
+    num courses = 0
+    total points = 0
+    for g in grades:
+        if g in points: # a recognizable grade
+            num courses += 1
+            total points += points[g]   
+    return total points / num courses
+
+# As an additional example of an interesting polymorphic function, we consider
+# Python’s support for range. (Technically, this is a constructor for the range class,
+# but for the sake of this discussion, we can treat it as a pure function.) Three calling
+# syntaxes are supported. The one-parameter form, range(n), generates a sequence of
+# integers from 0 up to but not including n. A two-parameter form, range(start,stop)
+# generates integers from start up to, but not including, stop. A three-parameter
+# form, range(start, stop, step), generates a similar range as range(start, stop), but
+# with increments of size step rather than 1.
+
+# This combination of forms seems to violate the rules for default parameters.
+# In particular, when a single parameter is sent, as in range(n), it serves as the stop
+# value (which is the second parameter); the value of start is effectively 0 in that
+# case. However, this effect can be achieved with some sleight of hand, as follows:
+
+def range(start, stop=None, step=1):
+    if stop is None:
+        stop = start
+    start = 0
+    ...
+
+# From a technical perspective, when range(n) is invoked, the actual parameter n will
+# be assigned to formal parameter start. Within the body, if only one parameter is
+# received, the start and stop values are reassigned to provide the desired semantics.
