@@ -872,3 +872,14 @@ When things are going bad and you are visualizing good things.
 And that was what I was able to do. 
 
 ---
+
+## Kobe Bryant
+
+[Kobe Bryant's Greatest Speech](https://youtu.be/dTRBnHtHehQ?t=123)
+
+I wasn't going to catch these kids in a week, i wasn't going to catch them in a year.
+
+So, that's when I sat down and said, "Okay, this is going to take some thought."
+
+"What do I want to work on first?"
+
