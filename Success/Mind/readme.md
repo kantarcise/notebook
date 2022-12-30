@@ -860,3 +860,15 @@ Because you cannot see everything at once.
 Consistency always beats intensity.
 
 100 rule is 100 a day, not a year.
+
+---
+
+## Conor McGregor
+
+[Hard Times Build Character](https://www.youtube.com/shorts/WCLePJbShbs)
+
+When things are going bad and you are visualizing good things.
+
+And that was what I was able to do. 
+
+---
