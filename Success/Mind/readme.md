@@ -883,3 +883,12 @@ So, that's when I sat down and said, "Okay, this is going to take some thought."
 
 "What do I want to work on first?"
 
+--
+
+[struthless](https://youtu.be/SxA69uUGEUI?t=331)
+
+The %70 rule to deal with perfectionisim.
+
+Because it lowers the barrier of entry. It helps you finish. It reinforces the truth that you are not a perfectionist.
+
+--
