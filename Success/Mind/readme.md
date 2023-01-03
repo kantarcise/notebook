@@ -883,7 +883,7 @@ So, that's when I sat down and said, "Okay, this is going to take some thought."
 
 "What do I want to work on first?"
 
---
+---
 
 [struthless](https://youtu.be/SxA69uUGEUI?t=331)
 
@@ -891,4 +891,18 @@ The %70 rule to deal with perfectionisim.
 
 Because it lowers the barrier of entry. It helps you finish. It reinforces the truth that you are not a perfectionist.
 
---
+---
+
+[Gary Vee](https://youtu.be/f2evmc44fUQ?t=440)
+
+You need to put out content about your learnings on the field.
+
+As posts on LinkedIn. You'll be stunned how much opportunity that will make.
+
+Stories of a Salesman. Post that on LinkedIn. Another story, another story, another insight, another observation.
+
+You'll be shocked what that can lead to.
+
+Gotta go on the Offense when this happens.
+
+---
