@@ -907,7 +907,7 @@ Gotta go on the Offense when this happens.
 
 ---
 
-[Gary](https://www.youtube.com/watch?v=ji_N6orURuw)
+[Gary](https://youtu.be/ji_N6orURuw?t=4671)
 
 What do you want your tombstone to read about you?
 
