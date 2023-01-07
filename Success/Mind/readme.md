@@ -906,3 +906,11 @@ You'll be shocked what that can lead to.
 Gotta go on the Offense when this happens.
 
 ---
+
+[Gary](https://www.youtube.com/watch?v=ji_N6orURuw)
+
+What do you want your tombstone to read about you?
+
+"He gave more than he took."
+
+---
