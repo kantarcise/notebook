@@ -107,3 +107,12 @@ wrong and be willing to learn. Make money and spend less than you make. And that
 you can take that information and make your own conclusions about where that’ll take you.
 
 ---
+
+## Leila Hormozi
+
+[Top 10 Answers to Interview Questions](https://www.youtube.com/watch?v=grorhKeNklw)
+
+Only Video You'll ever need for preparing for an interview.
+
+---
+
