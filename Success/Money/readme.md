@@ -116,3 +116,13 @@ Only Video You'll ever need for preparing for an interview.
 
 ---
 
+## Alex Hormozi
+
+[ Alex Hormozi | PSYCHOLOGICAL HACK The RICH USE To GET RICH ](https://youtu.be/o01mXS1ezgE?t=262)
+
+Spend less than you make, take the money that you are now saving and invest in your earning capacity and get around those people who 
+you want to emulate who are all on the same path as you.
+
+---
+
+
