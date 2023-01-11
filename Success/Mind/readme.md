@@ -914,3 +914,9 @@ What do you want your tombstone to read about you?
 "He gave more than he took."
 
 ---
+
+[Markham Heid](https://medium.com/@mheidj/what-exposure-therapy-reveals-about-the-mind-body-connection-947c4eabf2d7)
+
+Exposure therapy operates on a similar principle. “You can talk with a patient for years about how spiders are harmless, but if that person’s brain associates spiders with terror, all that talk probably won’t make much difference,”
+
+---
