@@ -920,3 +920,9 @@ What do you want your tombstone to read about you?
 Exposure therapy operates on a similar principle. “You can talk with a patient for years about how spiders are harmless, but if that person’s brain associates spiders with terror, all that talk probably won’t make much difference,”
 
 ---
+
+[Gary Vee](https://www.youtube.com/watch?v=UxNEXvHGq94&t=534s)
+
+"Be a good f**** human being and try to put others into positions to succeed, watch miraculously how that works for you." 😊
+
+---
