@@ -926,3 +926,9 @@ Exposure therapy operates on a similar principle. “You can talk with a patient
 "Be a good f**** human being and try to put others into positions to succeed, watch miraculously how that works for you." 😊
 
 ---
+
+[Shark Mindset](https://www.youtube.com/watch?v=Q2FdfT3Qn_U&ab_channel=Motiversity)
+
+Coach, what Do I need to do to play in the NBA?
+
+---
