@@ -125,4 +125,8 @@ you want to emulate who are all on the same path as you.
 
 ---
 
+## Cold Email Wizard
 
+[Friday night angry rant](https://twitter.com/blackhatwizardd/status/1614083942470098955)
+
+---
