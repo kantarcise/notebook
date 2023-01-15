@@ -932,3 +932,10 @@ Exposure therapy operates on a similar principle. “You can talk with a patient
 Coach, what Do I need to do to play in the NBA?
 
 ---
+
+[Alex Hormozi - Just Keep Moving, It does not matter](https://youtu.be/j536U19iTwk?t=71)
+
+Why do you have to think that way? Why do you have to process that emotion? Just see the big picture already.
+
+---
+
