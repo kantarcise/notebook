@@ -130,3 +130,9 @@ you want to emulate who are all on the same path as you.
 [Friday night angry rant](https://twitter.com/blackhatwizardd/status/1614083942470098955)
 
 ---
+
+[Alex Hormozi: 3 Skills IN Business](https://www.youtube.com/watch?v=LyoBczWQD0I)
+
+Sell, Build, Lead.
+
+---
