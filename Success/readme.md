@@ -14,6 +14,10 @@ Still, the best. Whenever you feel lonely, just share Steve's energy.
 
 07/10/2022
 
+It's in responsibility that most people find the meaning that sustains them through life. It's not in happiness.
+
+16/01/2023
+
 ...
 
 # Celebrating Steve - Apple 
