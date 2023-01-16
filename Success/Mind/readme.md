@@ -939,3 +939,14 @@ Why do you have to think that way? Why do you have to process that emotion? Just
 
 ---
 
+[Jordan Peterson](https://youtu.be/4jKPtR7heMs?t=415)
+
+Deceit, resentment or arrogance.
+
+I already know what I need to know. - Arrogance.
+
+I don't have to pay attention to that. - Deceit.
+
+Well, things can go to hell. - Resentment.
+
+---
