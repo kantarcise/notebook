@@ -9,6 +9,7 @@ for element in iterable:
 # variable, i, identifies an iterator object, then each call to the built-in function,
 # next(i), produces a subsequent element from the underlying series, with a
 # StopIteration exception raised to indicate that there are no further elements.
+
 # • An iterable is an object, obj, that produces an iterator via the syntax iter(obj).
 # By these definitions, an instance of a list is an iterable, but not itself an iterator.
 # With data = [1, 2, 4, 8], it is not legal to call next(data). However, an iterator
@@ -22,8 +23,8 @@ for element in iterable:
 # iterators typically maintain their state with indirect reference back to the original
 # collection of elements. For example, calling iter(data) on a list instance produces
 # an instance of the list iterator class. That iterator does not store its own copy of the
-# list of elements. Instead, it maintains a current index into the original list, represent-
-# ing the next element to be reported. Therefore, if the contents of the original list
+# list of elements. Instead, it maintains a current index into the original list, representing
+# the next element to be reported. Therefore, if the contents of the original list
 # are modified after the iterator is constructed, but before the iteration is complete,
 # the iterator will be reporting the updated contents of the list.
 
@@ -31,8 +32,8 @@ for element in iterable:
 # of values, that is, without constructing a data structure to store all of its values
 # at once. For example, the call range(1000000) does not return a list of numbers; it
 # returns a range object that is iterable. This object generates the million values one
-# at a time, and only as needed. Such a lazy evaluation technique has great advan-
-# tage. In the case of range, it allows a loop of the form, for j in range(1000000):,
+# at a time, and only as needed. Such a lazy evaluation technique has great advantage.
+# In the case of range, it allows a loop of the form, for j in range(1000000):,
 # to execute without setting aside memory for storing one million values. Also, if
 # such a loop were to be interrupted in some fashion, no time will have been spent
 # computing unused values of the range
