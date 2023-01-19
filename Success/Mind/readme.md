@@ -950,3 +950,15 @@ I don't have to pay attention to that. - Deceit.
 Well, things can go to hell. - Resentment.
 
 ---
+
+[Leila Hormozi](https://www.youtube.com/watch?v=2LXiygfzFpg)
+
+- Nobody will work for you that has better values than you.
+
+- How do you build a culture? Quarterly mettings. You are re-iterating your mission and vision every time with the team. 
+
+- In a CEO, look for: Sincere cander, unimpeachable character and competitive greatness.
+
+- Vision meeting. Mission meeting. -> What we did and what we did not do and relate them with our mission & vision.
+
+---
