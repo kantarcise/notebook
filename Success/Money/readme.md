@@ -136,3 +136,21 @@ you want to emulate who are all on the same path as you.
 Sell, Build, Lead.
 
 ---
+
+## Alex Hormozi
+
+[Mindset](https://www.youtube.com/watch?v=R7JOslrt51o)
+
+Opener Question: What problem are we solving?
+
+- Do not listen poorer than you on advice about money. Listen to billioners. 
+
+- Volatility vs Risk
+
+- If you want to decrease your volatality, you should be decreasing your expenses.
+
+- Wealth is not a number, it is a ratio. 
+
+- Never get into credit card debt.
+
+---
