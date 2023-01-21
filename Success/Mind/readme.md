@@ -962,3 +962,11 @@ Well, things can go to hell. - Resentment.
 - Vision meeting. Mission meeting. -> What we did and what we did not do and relate them with our mission & vision.
 
 ---
+
+## Alex Hormozi
+
+[ Hard work won't make you rich. ](https://www.youtube.com/watch?v=PTgGfV8Tf00&ab_channel=AlexHormozi)
+
+Volume of Activity * Leverage of Activity = Output
+
+---
