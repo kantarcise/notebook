@@ -154,3 +154,11 @@ Opener Question: What problem are we solving?
 - Never get into credit card debt.
 
 ---
+
+## Drake
+
+[Wu-Tang Forever](https://youtu.be/UpDBIPOuNRk?t=99)
+
+It's not about who did it first it's about who did it right.
+
+---
