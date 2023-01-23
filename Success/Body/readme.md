@@ -85,3 +85,13 @@ There is a lot of examples. WHat happens after you win? The covers, the contests
 Everytime you feel chronic pain, in tear, strain, muscle cramp. Know you are getting closer. And it's within your grasp.
 
 ---
+
+## Jeff Nippard
+
+[ How To Get Lean & STAY Lean Forever (Using Science) ](https://www.youtube.com/watch?v=roHQ3F7d9YQ&ab_channel=JeffNippard)
+
+Self Monitor. Yeah. That is the solution.
+
+It's funny that you are looking for a cheat code.
+
+---
