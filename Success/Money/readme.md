@@ -162,3 +162,11 @@ Opener Question: What problem are we solving?
 It's not about who did it first it's about who did it right.
 
 ---
+
+## Alex Hormozi
+
+[Reprogram](https://youtu.be/9ySuYdJ0H4s?t=1067)
+
+If you are assuming you are always right, you are kinda GG.
+
+---
