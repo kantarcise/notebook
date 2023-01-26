@@ -970,3 +970,11 @@ Well, things can go to hell. - Resentment.
 Volume of Activity * Leverage of Activity = Output
 
 ---
+
+## Jordan Peterson
+
+[How to take a question apart](https://www.youtube.com/watch?v=xi3LYVblQtg)
+
+The hard part is the most rewarding one.
+
+---
