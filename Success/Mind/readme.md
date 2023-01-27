@@ -978,3 +978,11 @@ Volume of Activity * Leverage of Activity = Output
 The hard part is the most rewarding one.
 
 ---
+
+##  Dry Creek Wrangler School
+
+[ I Study Like I Eat Chinese Food ](https://www.youtube.com/watch?v=LOVncxntFLw)
+
+If you judge whole Chinese food based on one meal you had, you are sabotaging yourself.
+
+---
