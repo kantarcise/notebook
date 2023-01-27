@@ -89,3 +89,18 @@
 
 
 ---
+
+
+---
+
+<p align="center">
+  <img src="img/hhi.png">
+</p>
+
+<div align="center">
+  <a href="https://github.com/kantarcise/notebook/blob/master/Design/HHI_ShipbuildingBrochure_220511.pdf">Making Big Stuff.</a>  
+</div>
+
+
+---
+
