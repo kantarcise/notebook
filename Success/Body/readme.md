@@ -95,3 +95,11 @@ Self Monitor. Yeah. That is the solution.
 It's funny that you are looking for a cheat code.
 
 ---
+
+## Greg Plitt
+
+[ GREG PLITT "It Begins Now"](https://www.youtube.com/watch?v=Rtv84F3kzIs)
+
+Eveything you want in life, you can have. But not one second before, you stop making excuses for not having what you want. 
+
+---
