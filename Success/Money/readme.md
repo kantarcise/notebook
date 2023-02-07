@@ -170,3 +170,11 @@ It's not about who did it first it's about who did it right.
 If you are assuming you are always right, you are kinda GG.
 
 ---
+
+## Levi Vamos
+
+[Alex Hormozi Captions ](https://www.youtube.com/watch?v=CFjFRIn38Ms)
+
+The big unlock.
+
+---
