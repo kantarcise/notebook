@@ -986,3 +986,11 @@ The hard part is the most rewarding one.
 If you judge whole Chinese food based on one meal you had, you are sabotaging yourself.
 
 ---
+
+## Jordan's Fear
+
+[I'm More Afraid of Hell Than Death](https://www.youtube.com/watch?v=qG6kzH8Td58)
+
+Not looking into the abyss. Becoming a coward.
+
+---
