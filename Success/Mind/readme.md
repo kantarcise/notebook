@@ -994,3 +994,17 @@ If you judge whole Chinese food based on one meal you had, you are sabotaging yo
 Not looking into the abyss. Becoming a coward.
 
 ---
+
+## Jordan - 4 Habits
+
+[4 HABITS That will make YOU POWERFUL](https://www.youtube.com/watch?v=hO52C1QMusI)
+
+0:05 - Stop drinking alcohol
+2:00 - Read and write everyday
+4:05 - Exercise
+5:25 - Develop a routine
+
+If you are an effective writer and speaker and comminucator you have all the authority and compatence there is.
+The best thing you can do is read and write everyday, couple of hours everyday.
+
+---
