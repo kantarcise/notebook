@@ -105,3 +105,42 @@ repr(a)                             # a.__repr__()
 reversed(a)                         # a.__reversed__()
 str(a)                              # a.__str__()
 
+# Implied Methods
+# As a general rule, if a particular special method is not implemented in a user-defined
+# class, the standard syntax that relies upon that method will raise an exception. For
+# example, evaluating the expression, a + b, for instances of a user-defined class
+# without add or radd will raise an error.
+
+
+# For example, the bool method, which supports the syntax if foo:, has default semantics so that every object other than
+# None is evaluated as True. However, for container types, the len method is
+# typically defined to return the size of the container.
+
+# Quick tip, identity vs equivalent
+# if ids if the two objects are the same they are identical (a is b)
+# if the values of two objects referring are the same they are equivalent (a == b)
+
+num = 1
+num_two = num
+num == num_two
+# True
+
+list_one = [1, 2, 3]
+list_two = [1, 2, 3]
+list_one == list_two
+# True
+
+num is num_two
+# True
+list_one is list_two
+# False
+
+# We should caution that some natural implications are not automatically 
+# provided by Python. For example, the eq method supports syntax a == b, but
+# providing that method does not affect the evaluation of syntax a != b. (The __ne__ 
+# method should be provided, typically returning not (a == b) as a result.) Similarly,
+# providing a lt method supports syntax a < b, and indirectly b > a, but
+# providing both lt and eq does not imply semantics for a <= b.
+
+# Example Multi Dimensional Vector Class
+
