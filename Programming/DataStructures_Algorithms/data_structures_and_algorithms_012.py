@@ -144,3 +144,73 @@ list_one is list_two
 
 # Example Multi Dimensional Vector Class
 
+# We are expected to do
+
+v = Vector(5)             # construct five-dimensional <0, 0, 0, 0, 0>
+v[1] = 23                 # <0, 23, 0, 0, 0> (based on use of setitem )
+v[−1] = 45                # <0, 23, 0, 0, 45> (also via setitem )
+print(v[4])               # print 45 (via getitem )
+u = v + v                 # <0, 46, 0, 0, 90> (via add )
+print(u)                  # print <0, 46, 0, 0, 90>
+total = 0
+for entry in v:          # implicit iteration via len and getitem
+    total += entry
+
+# We implement many of the behaviors by trivially invoking a similar behavior
+# on the underlying list of coordinates. However, our implementation of add
+# is customized. Assuming the two operands are vectors with the same length, this
+# method creates a new vector and sets the coordinates of the new vector to be equal
+# to the respective sum of the operands’ elements.
+
+# automatically supports the syntax u = v + [5, 3, 10, −2, 1], resulting in a new
+# vector that is the element-by-element “sum” of the first vector and the list instance.
+# This is a result of Python’s polymorphism. Literally, “polymorphism”
+# means “many forms.” Although it is tempting to think of the other parameter of our
+# __add__ method as another Vector instance, we never declared it as such.
+
+# Within the body, the only behaviors we rely on for parameter other is that it sup-
+# ports len(other) and access to other[j]. Therefore, our code executes when the
+# right-hand operand is a list of numbers (with matching length).
+
+class Vector:
+    """Represent a vector in a multidimensional space."""
+
+    def __init__(self, d):
+        """Create d dimensional vector of zeros"""
+        self._coords = [0] * d
+  
+    def __len__(self):
+       """Returns the dimension if the vector"""
+       return len(self._coords)
+
+    def __getitem__(self, j):
+        """Returns the jth coordinate of the vector"""
+        return self._coords[j]
+    
+    def __setitem__(self, j, val):
+        """Set the jth coordinate of the vector to given value"""
+        self._coords[j] = val
+    
+    def __add__(self, other):
+        """Returns sum of the two vectors"""
+        if len(self) != len(other):
+            raise ValueError("Dimensions must agree")
+        result = Vector(len(self))
+        
+        for j in range(len(self) - 1):
+            result[j] = self[j] + other[j]
+        
+        return result
+
+    def __eq__(self, other):
+        """Returns true if the vectors has the same coordinates"""
+        return self._coords == other._coords
+
+    def __ne__(self,other):
+        """Returns True if Vectors differ from each other"""
+        return not self == other                # Relying on existing eq definition
+
+    def __str__(self) -> str:
+        """Produce string representation of the vector"""
+        return '<' + str(self._coords[1:-1]) + '>'          # adapt list representation
+
