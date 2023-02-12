@@ -1008,3 +1008,11 @@ If you are an effective writer and speaker and comminucator you have all the aut
 The best thing you can do is read and write everyday, couple of hours everyday.
 
 ---
+
+## Gary Vee
+
+[Why Everything Is Scary Until You Do It | DailyVee 593](https://youtu.be/fB5lqkTFtns?t=259)
+
+Nobody was thrilled that they played it safe.
+
+---
