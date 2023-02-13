@@ -1016,3 +1016,25 @@ The best thing you can do is read and write everyday, couple of hours everyday.
 Nobody was thrilled that they played it safe.
 
 ---
+
+## Tim Ferris
+
+[The art of asking the right questions](https://www.youtube.com/watch?v=tYnGiWlwcj4)
+
+Questions help us organize our thinking in about what we don't know.
+
+Here is my summary.
+
+Admit your own ignorance and simply detect what you don't understand.
+
+Why are questions are important? 
+
+It is your tool to mine the gold inside other peoples mind, it's your pickaxe.
+
+Three specs:
+
+Generative Questions.
+Low Runtime Questions.
+Simplifing Questions.
+
+---
