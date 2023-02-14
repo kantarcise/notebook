@@ -1038,3 +1038,12 @@ Low Runtime Questions.
 Simplifing Questions.
 
 ---
+
+## Alex Hormozi
+
+[Mindset](https://twitter.com/AlexHormozi/status/1557527348987117568)
+
+During my hardest days, I repeated the same phrase to myself:
+I cannot lose if I do not quit.
+
+---
