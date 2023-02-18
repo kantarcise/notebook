@@ -103,3 +103,7 @@ It's funny that you are looking for a cheat code.
 Eveything you want in life, you can have. But not one second before, you stop making excuses for not having what you want. 
 
 ---
+
+Researchers found [progressive overload](https://www.healthline.com/health/progressive-overload#benefits) — gradually increasing the weight and number of repetitions of exercises — to be effective for increasing bicep strength and muscle growth in both men and women.
+
+---
