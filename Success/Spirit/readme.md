@@ -34,3 +34,11 @@ We just chose to believe that we can grow that much.
 
 
 ---
+
+## Jordan Peterson
+
+How to ruin your son, or anyone in that matter.
+
+[It's a series of games](https://youtu.be/9Xc7DN-noAc?t=2568)
+
+---
