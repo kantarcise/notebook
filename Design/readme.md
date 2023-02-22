@@ -104,3 +104,17 @@
 
 ---
 
+
+---
+
+<p align="center">
+  <img src="img/samsungspacemonitor.JPG">
+</p>
+
+<div align="center">
+  <a href="https://github.com/kantarcise/notebook/blob/master/Design/brochure-monitor-pc-Samsung-S27R750-S32R750.pdf">How does a product sell itself?.</a>  
+</div>
+
+
+---
+
