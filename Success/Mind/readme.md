@@ -1047,3 +1047,11 @@ During my hardest days, I repeated the same phrase to myself:
 I cannot lose if I do not quit.
 
 ---
+
+## Jack Butcher
+
+[You Cannot Think Your Way Across The Bridge](https://www.youtube.com/watch?v=PQ66naINOK4)
+
+You need "action" to go from Understanding to Belief.
+
+---
