@@ -1055,3 +1055,11 @@ I cannot lose if I do not quit.
 You need "action" to go from Understanding to Belief.
 
 ---
+
+##
+
+[Thomas Zoega Ramsoy](https://youtu.be/P8b0KLGbS_0?t=1052)
+
+If you turn off the colors of your phone, its much less appealing to you. You are going to be distracted much less.
+
+---
