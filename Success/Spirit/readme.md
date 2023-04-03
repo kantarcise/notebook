@@ -42,3 +42,12 @@ How to ruin your son, or anyone in that matter.
 [It's a series of games](https://youtu.be/9Xc7DN-noAc?t=2568)
 
 ---
+
+## Gary Vee
+
+Just the right thing. Patience.
+
+[Give More Than You Get](https://www.youtube.com/watch?v=8E5ZxGFrGDA)
+
+
+---
