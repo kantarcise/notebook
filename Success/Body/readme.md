@@ -107,3 +107,10 @@ Eveything you want in life, you can have. But not one second before, you stop ma
 Researchers found [progressive overload](https://www.healthline.com/health/progressive-overload#benefits) — gradually increasing the weight and number of repetitions of exercises — to be effective for increasing bicep strength and muscle growth in both men and women.
 
 ---
+
+## Greg Plitt
+
+[No regrets, no wonders of What If?](https://www.youtube.com/watch?v=sFtgjAUe7P4)
+
+---
+
