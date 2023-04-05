@@ -1063,3 +1063,11 @@ You need "action" to go from Understanding to Belief.
 If you turn off the colors of your phone, its much less appealing to you. You are going to be distracted much less.
 
 ---
+
+## 
+
+[Jordan Peterson](https://www.youtube.com/watch?v=YxwLMXG-lz8)
+
+Optimize the challange. A playful adventure for life.
+
+---
