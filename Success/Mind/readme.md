@@ -1071,3 +1071,13 @@ If you turn off the colors of your phone, its much less appealing to you. You ar
 Optimize the challange. A playful adventure for life.
 
 ---
+
+## 
+
+[James Clear](https://www.youtube.com/shorts/gizAvoVEdMM)
+
+2 minute rule.
+
+To master the art of showing up.
+
+---
