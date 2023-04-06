@@ -178,3 +178,35 @@ If you are assuming you are always right, you are kinda GG.
 The big unlock.
 
 ---
+
+## Earl Nightangle
+
+[Here is how you become rich.](https://www.nightingale.com/articles/success-a-worthy-destination/)
+
+I like to compare human beings with ships, as Carlyle used to do. It’s estimated that about 95 percent can be compared to ships without rudders, subject to
+every shift of wind and tide. They’re helplessly adrift, and while they fondly hope that they will one day drift into some rich and bustling port, for
+every narrow harbor entrance, there are 1,000 miles of rocky coastline. The chances of their drifting into port are 1,000 to 1 against them. Our state
+lottery is a tax on such people. So are the slot machines in Las Vegas and Atlantic City. Someone wins from time to time to be sure, but the odds are still
+there … stacked steeply against them.
+
+But the 5 percent who have taken the time and exercised the discipline to climb into the driver’s seat of their lives, who’ve decided upon a challenging
+goal to reach and have fully committed themselves to reaching it, sail straight and far across the deep oceans of life, reaching one port after another and
+accomplishing more in just a few years than the rest accomplish in a lifetime.
+
+If you should visit a ship in port and ask the captain for his next port of call, he’ll tell you in a single sentence. Even though the captain cannot see
+his port, his destination for fully 99% of the voyage, he knows it’s there. And then, barring an unforeseen and highly unlikely catastrophe, he’ll reach
+it. If someone asks you for your next port of call, your goal, could you tell him? Is your goal clean and concise in your mind? Do you have it written
+down? It’s a good idea. We need reminding, reinforcement. If you can get a picture of your goal and stick it to your bathroom mirror, it’s an excellent
+idea to do so. Thousands of successful people carry their goals written on a card in their wallets or purses.
+
+When you ask people what they’re working for, chances are they’ll answer in vague generalities. They might say, “Oh, good health or happiness or lots of
+money.” That’s not good enough. Good health should be a universal goal. We all want that, and do our best to achieve and maintain it. Happiness is a
+byproduct of something else. And lots of money is much too vague. It might work, but I think it’s better to choose a particular sum of money. The better,
+the clearer our goal is defined, the more real it becomes to us, and before long, the more attainable.
+
+Happiness comes from the direction in which we’re moving. Children are happier on Christmas morning before opening their presents than they are Christmas
+afternoon. No matter how wonderful their presents may be, it’s after Christmas. They’ll enjoy their gifts, to be sure, but we often find them querulous and
+irritable Christmas afternoon. We’re happier on our way out to dinner than we are on the way home. We’re happier going on vacation than we are coming home
+from it. And we’re happier moving toward our goals than even after they’ve been accomplished, believe it or not.
+
+---
