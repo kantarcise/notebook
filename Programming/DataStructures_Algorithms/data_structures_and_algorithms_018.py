@@ -53,3 +53,27 @@ def find_max(data):
 # “O(g(n)) = f(n).” It is best to say,
 
 # “ f(n) is O(g(n)).”
+
+#  The big-Oh notation allows us to ignore constant factors and lower-order terms and
+# focus on the main components of a function that affect its growth.
+
+# Example 3.8: 5n^4 + 3n^3 + 2n^2 + 4n + 1 is O(n^4) .
+
+# Justification: Note that 5n^4 + 3n^3 + 2n^2 + 4n + 1 ≤ (5 + 3 + 2 + 4 + 1)n^4 = cn^4 ,
+# for c = 15, when n ≥ n0 = 1.
+
+# Thus, the highest-degree term in a polynomial is the term that determines the
+# asymptotic growth rate of that polynomial.
+
+# In general, we should use the big-Oh notation to characterize a function as closely
+# as possible. While it is true that the function f (n) = 4n^3 + 3n^2 is O(n^5) or even
+# O(n^4), it is more accurate to say that f (n) is O(n^3). 
+
+# Consider, by way of analogy, a scenario where a hungry traveler driving along a long country road happens upon
+# a local farmer walking home from a market. If the traveler asks the farmer how
+# much longer he must drive before he can find some food, it may be truthful for the
+# farmer to say, “certainly no longer than 12 hours,” but it is much more accurate
+# (and helpful) for him to say, “you can find a market just a few minutes drive up this
+# road.” Thus, even with the big-Oh notation, we should strive as much as possible
+# to tell the whole truth.
+
