@@ -1081,3 +1081,9 @@ Optimize the challange. A playful adventure for life.
 To master the art of showing up.
 
 ---
+
+[Earl Nightingale](https://youtu.be/ZZ44ECG4-cU?t=149)
+
+If what I want is more than I now have, how can I increase my service in order to earn it?
+
+Whom do we serve. People. So let's take a moment to try to understand them. The better we understand them, better we can serve them.
