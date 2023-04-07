@@ -1087,3 +1087,23 @@ To master the art of showing up.
 If what I want is more than I now have, how can I increase my service in order to earn it?
 
 Whom do we serve. People. So let's take a moment to try to understand them. The better we understand them, better we can serve them.
+
+---
+
+[Gary Vee](https://www.youtube.com/watch?v=-Ly67VhCIrM)
+
+You're More In Control Than You Realize 
+ 
+Accountability.
+
+You can blame. You can be jelaous. You can envy. In total, you can throw a pity party. 
+
+Or you can get to work.
+
+A truth does not have to ruin you.
+
+You can distract yourself. Or you can be brave. Embrace the chaos.
+
+The reason Im sharing this Ive never seen it work. You cannot go to meaning magically while you are dwelling.
+
+--- 
