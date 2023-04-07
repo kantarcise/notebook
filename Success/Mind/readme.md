@@ -1107,3 +1107,13 @@ You can distract yourself. Or you can be brave. Embrace the chaos.
 The reason Im sharing this Ive never seen it work. You cannot go to meaning magically while you are dwelling.
 
 --- 
+
+[ Jordan Peterson - Face the Demons of your Imagination and Grow Up ](https://youtu.be/SoK3Flt2PM0?t=173)
+
+If you want to get better, you have to find out what you are avoiding and what you are afraid of. 
+
+And maybe what you are disgusted by even.
+
+You have to expose yourself to that voluntarily, and you have to let that change you.
+
+---
