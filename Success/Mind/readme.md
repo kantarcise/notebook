@@ -1117,3 +1117,11 @@ And maybe what you are disgusted by even.
 You have to expose yourself to that voluntarily, and you have to let that change you.
 
 ---
+
+[Be Remembered - Greg Plitt](https://www.youtube.com/watch?v=Cz3q1R0oHmE)
+
+Failure is a part of recipe for success.
+
+Making your dreams a reality. Rep by rep.
+
+---
