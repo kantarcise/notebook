@@ -1125,3 +1125,13 @@ Failure is a part of recipe for success.
 Making your dreams a reality. Rep by rep.
 
 ---
+
+[Death - Greg Plitt](https://www.youtube.com/watch?v=P1-IFXm5ZG8)
+
+Just [let it out.](https://youtu.be/P1-IFXm5ZG8?t=382)
+
+You know what, i'm really scared. But I'm going to give it a shot.
+
+Than you go for it. You take a step, the next step is even bigger. And bigger and bigger. Next thing you know, you are on top of a mountain.
+
+---
