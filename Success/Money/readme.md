@@ -210,3 +210,13 @@ irritable Christmas afternoon. We’re happier on our way out to dinner than we 
 from it. And we’re happier moving toward our goals than even after they’ve been accomplished, believe it or not.
 
 ---
+
+## Gary Vee
+
+[If You’re Afraid To Make Videos](https://www.youtube.com/watch?v=YhjWkBqojRE)
+
+This game is completely based on you being comfortable in the way you make and talking about what you know.
+
+A process to make.
+
+---
