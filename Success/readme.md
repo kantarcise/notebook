@@ -18,6 +18,12 @@ It's in responsibility that most people find the meaning that sustains them thro
 
 16/01/2023
 
+If you don't have a sustaining meaning in your life, you'll be miserable. Just like you'd be hungry if there was no food.
+We already learned that meaning comes from responsibility. 
+So, good to go. Onwards to the biggest adventure. =)
+
+12/04/2023
+
 ...
 
 # Celebrating Steve - Apple 
