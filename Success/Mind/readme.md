@@ -1135,3 +1135,13 @@ You know what, i'm really scared. But I'm going to give it a shot.
 Than you go for it. You take a step, the next step is even bigger. And bigger and bigger. Next thing you know, you are on top of a mountain.
 
 ---
+
+[Responsibility](https://www.youtube.com/watch?v=1biDxaT0ED4)
+
+Deck is stacked against everyone. Life is very difficult and we all die. 
+
+All of us have it very hard at sometimes in our lives. 
+
+Well, what's the alternative? You take responsibilty for that and try to struggle uphill because the alternative makes everything worse.
+
+---
