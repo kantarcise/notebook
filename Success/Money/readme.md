@@ -220,3 +220,11 @@ This game is completely based on you being comfortable in the way you make and t
 A process to make.
 
 ---
+
+## Alex Hormozi
+
+Focusing is not about saying yes to the thing you gotta focus on. It is about saying no to 100 other good ideas.
+
+If you are not focused, you are just trying to do a lot of things at once or you are easily distracted.
+
+---
