@@ -51,3 +51,11 @@ Just the right thing. Patience.
 
 
 ---
+
+## Luca Ferrari 
+
+[How to evaluate someone?](https://youtu.be/xCZ5_YbuSSM?t=367)
+
+We don't really think about you today. We try to picture what you can be, how great you can be in few years time.
+
+---
