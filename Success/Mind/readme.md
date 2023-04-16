@@ -1145,3 +1145,11 @@ All of us have it very hard at sometimes in our lives.
 Well, what's the alternative? You take responsibilty for that and try to struggle uphill because the alternative makes everything worse.
 
 ---
+
+[Jim Rohn](https://www.youtube.com/shorts/kO1A8l6dC4o)
+
+“Stand guard at the door of your mind.” 
+
+Whatever information you're feeding your mind on a daily basis, whatever you focus upon consistently, you're going to experience as real.
+
+---
