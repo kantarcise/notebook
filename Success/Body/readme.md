@@ -114,3 +114,10 @@ Researchers found [progressive overload](https://www.healthline.com/health/progr
 
 ---
 
+## Arnold Schwarzenegger
+
+[The Confidence](https://youtu.be/QcM9CZMMDkU?t=2261)
+
+Little victories add up and that's what gives you confidence.
+
+---
