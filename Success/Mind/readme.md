@@ -1153,3 +1153,17 @@ Well, what's the alternative? You take responsibilty for that and try to struggl
 Whatever information you're feeding your mind on a daily basis, whatever you focus upon consistently, you're going to experience as real.
 
 ---
+
+[Growth Without Goals - Patrick O'Shaughnessy ](https://www.joincolossus.com/blog/posts/growth-without-goals?ref=candosts-space&utm_source=substack&utm_medium=email)
+
+**Man lives by time. Inventing the future has been his favorite game of escape.**
+**We think that changes in ourselves can come about in time, that order in ourselves can be**
+**built up little by little, added to day by day. But time doesn’t bring order or peace, so we**
+**must stop thinking in terms of gradualness. This means that there is no**
+**tomorrow for us to be peaceful in. We have to be orderly on the instant.**
+
+This was a passage from Jiddu Krishnamurti - Freedom From the Known.
+
+Great habits and practices make a great and successful life. Cultivate those and the rest will take care of itself.
+
+---
