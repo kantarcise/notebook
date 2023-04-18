@@ -1,4 +1,10 @@
-# Documentation
+# Documentation - [Why is writing Important ?](http://www.paulgraham.com/read.html)
+
+*"You can't think well without writing well, and you can't write well without reading well.*
+*And I mean that last "well" in both senses.*
+*You have to be good at reading, and read good things."*
+
+Paul Graham..
 
 Write it down, so you don't lose it in the sea :)
 
