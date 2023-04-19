@@ -62,7 +62,7 @@ We don't really think about you today. We try to picture what you can be, how gr
 
 ## Jordan Peterson 
 
-[How to navigate life?](https://youtu.be/xCZ5_YbuSSM?t=367)
+[How to navigate life?](https://youtu.be/GBv0XLINAfs?t=2)
 
 There are two things you need to know for navigating life.
 
