@@ -70,4 +70,6 @@ Where are you? Precisely. What's good about you and what's bad about you?
 
 The next is, where are you going?
 
+Extra:  If you dare to do the most difficult thing you can conceptualize, your life will work out better than if you do anything else.
+
 ---
