@@ -59,3 +59,15 @@ Just the right thing. Patience.
 We don't really think about you today. We try to picture what you can be, how great you can be in few years time.
 
 ---
+
+## Jordan Peterson 
+
+[How to navigate life?](https://youtu.be/xCZ5_YbuSSM?t=367)
+
+There are two things you need to know for navigating life.
+
+Where are you? Precisely. What's good about you and what's bad about you?
+
+The next is, where are you going?
+
+---
