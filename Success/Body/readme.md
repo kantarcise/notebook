@@ -121,3 +121,13 @@ Researchers found [progressive overload](https://www.healthline.com/health/progr
 Little victories add up and that's what gives you confidence.
 
 ---
+
+# Greg Plitt
+
+[Quotevation 2](https://www.youtube.com/watch?v=75EiXxInst0)
+
+You are what you repeatedly do everyday. So whatever you are doing, is what you become.
+
+If excellence is something you are striving for, it`s not a accident. it's a habit.
+
+---
