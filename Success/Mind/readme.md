@@ -1167,3 +1167,14 @@ This was a passage from Jiddu Krishnamurti - Freedom From the Known.
 Great habits and practices make a great and successful life. Cultivate those and the rest will take care of itself.
 
 ---
+
+# James Clear
+
+[The Fight is the Reward](https://jamesclear.com/fight-reward)
+
+It is the struggle to do significant work that is the real reward. 
+The chance to compete for something you care about. The opportunity to work hard. The time and
+space to make something of value. To struggle for something
+meaningful, that is success—regardless of the result.
+
+---
