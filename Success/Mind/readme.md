@@ -1178,3 +1178,11 @@ space to make something of value. To struggle for something
 meaningful, that is success—regardless of the result.
 
 ---
+
+# David Goggins
+
+[Gaining control of your mind](https://www.youtube.com/watch?v=tjKZiLDKOEs)
+
+In the moment of pain, you just have to think clearly. And tell your mind that you are the one running it.
+
+---
