@@ -1186,3 +1186,13 @@ meaningful, that is success—regardless of the result.
 In the moment of pain, you just have to think clearly. And tell your mind that you are the one running it.
 
 ---
+
+# Earl Nightingale
+
+[20 Minutes Of The Best Advice You'll Ever Hear - Earl Nightingale](https://www.youtube.com/watch?v=pjk_0PiTD0I)
+
+If we are not getting what we'd like, maybe it's because our expectations are too low.
+
+Higher expectations keep us trying, they keep us pressing upon overselves, they keep us from giving up.
+
+---
