@@ -1196,3 +1196,11 @@ If we are not getting what we'd like, maybe it's because our expectations are to
 Higher expectations keep us trying, they keep us pressing upon overselves, they keep us from giving up.
 
 ---
+
+# Jordan Peterson
+
+[If you aren't willing to be a fool you can't be a master](https://youtu.be/H5KvIgvwbwQ?t=108)
+
+Circumambulation - Start incorrectly, imperfectly and like a fool. Have the will to be the fool.
+
+---
