@@ -73,3 +73,11 @@ The next is, where are you going?
 Extra:  If you dare to do the most difficult thing you can conceptualize, your life will work out better than if you do anything else.
 
 ---
+
+## Jordan Peterson
+
+[Jordan Peterson on taking responsibility for your life | 7.30](https://www.youtube.com/watch?v=1biDxaT0ED4)
+
+The opportunity is that, I don't think that people have talked to young people about responsibility while being on their side.
+
+---
