@@ -1204,3 +1204,9 @@ Higher expectations keep us trying, they keep us pressing upon overselves, they 
 Circumambulation - Start incorrectly, imperfectly and like a fool. Have the will to be the fool.
 
 ---
+
+# Jordan Peterson
+
+[We necessarily exist in a hierachy of values.](https://www.youtube.com/shorts/gNzDNrIlyuc)
+
+---
