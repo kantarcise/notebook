@@ -1210,3 +1210,11 @@ Circumambulation - Start incorrectly, imperfectly and like a fool. Have the will
 [We necessarily exist in a hierachy of values.](https://www.youtube.com/shorts/gNzDNrIlyuc)
 
 ---
+
+# Alex Hormozi
+
+[19 Harsh Truths About Human Nature](https://www.youtube.com/watch?v=JuNOFW-oVn8)
+
+Man, everybody struggling to win.. Most of the pain that people experience is purely in their own minds.
+
+---
