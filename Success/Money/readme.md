@@ -228,3 +228,23 @@ Focusing is not about saying yes to the thing you gotta focus on. It is about sa
 If you are not focused, you are just trying to do a lot of things at once or you are easily distracted.
 
 ---
+
+## Alex Hormozi - Closer Framework
+
+- **Clarify why the prospect is there.**  - You need to identify what they need help with. No understanding = no sell.
+
+- **Label the problem.** - What are they struggling with? What's not working? Then confirm you're on the same page. Without identifying the enemy, you cannot win the war.
+
+- **Overview the prospect's pain.** - Ask what they've done in the past. Diagnose why it didn't work. Do this until you've gone through all their 
+failures. This automatically positions you as the logical solution. 
+
+- **Sell vacation to your prospect.** - Identify the top 3 things that will help. Explain why each is important to their success. Confirm they understand 
+why each variable is essential. This helps them understand how you're going to actually get results.
+
+- **Explain away the prospect's concerns.** - Overcome the three main objections. Blaming circumstances (Time, Money, Fit) Blaming others (Spouse, 
+Partner, Kids, Employees) Blaming self (Avoiding the decision, extrapolating past to present)
+
+- **Reinforce the prospect's decision.** Once they've paid, you need to prevent buyer's remorse. Give them a huge hit of dopamine to reaffirm their 
+purchase.Ex: Personal videos, Handwritten cards, Swag Boxes, Personalized Onboarding, Timely communication within expectations, etc. When you reward 
+people for buying, they respond by sticking around.
+
