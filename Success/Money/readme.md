@@ -248,3 +248,13 @@ Partner, Kids, Employees) Blaming self (Avoiding the decision, extrapolating pas
 purchase.Ex: Personal videos, Handwritten cards, Swag Boxes, Personalized Onboarding, Timely communication within expectations, etc. When you reward 
 people for buying, they respond by sticking around.
 
+
+---
+
+## Earl Nightingale 
+
+[How to Master the Basic Fundamentals](https://www.youtube.com/watch?v=3ipUgBVFNtU)
+
+Our rewards will always be in exact proportion to our service.
+
+---
