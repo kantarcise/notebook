@@ -29,3 +29,15 @@
 <div align="center">
   <a href="https://github.com/kantarcise/notebook/blob/master/Computer%20Vision/ferentinos2018.pdf">Deep learning for plants?</a> 
 </div>
+
+
+
+---
+
+<p align="center">
+  <img src="img/highresdifference.png">
+</p>
+
+<div align="center">
+  <a href="https://github.com/kantarcise/notebook/blob/master/Computer%20Vision/Resolution-robustLargeMaskInpaintingwithFourierConvolutions.pdf"> How was inpainting improved with the help of FFC's?</a> 
+</div>
