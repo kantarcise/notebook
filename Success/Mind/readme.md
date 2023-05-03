@@ -1218,3 +1218,17 @@ Circumambulation - Start incorrectly, imperfectly and like a fool. Have the will
 Man, everybody struggling to win.. Most of the pain that people experience is purely in their own minds.
 
 ---
+
+# Kanye West
+
+[Full Interview on Jimmy Kimmel Live](https://youtu.be/PXq-X_WyxJU?t=1147)
+
+People don't stand up and protect their dreams.
+
+...
+
+Steve Jobs, Walt Disney, Howard Hughes, David Stern, Michelangelo.
+
+These are my heroes.
+
+---
