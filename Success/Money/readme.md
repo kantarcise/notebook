@@ -258,3 +258,44 @@ people for buying, they respond by sticking around.
 Our rewards will always be in exact proportion to our service.
 
 ---
+
+## Alex Hormozi 
+
+[ ALEX HORMOZI: 3 Traits](https://www.youtube.com/watch?v=Kbn4KA3SGls)
+
+what makes a really good entrepreneur slash leader?
+
+I think that they have to have the power to **influence.** They have to be able to move other people. They have to have **tremendous Drive**
+whether that's a combination of towards or away so they have a big mission that they really want to achieve or they have some very big fear that they're running away from.
+Either way I think the fuel works uh just from a pure entrepreneurship Perspective.
+
+Third piece is **impulse control** is that they have to be able to say no to things on a regular basis for an extended period of time and I think they have to be able to boil
+down the success of their business into inputs and outputs like if you do not know the inputs that are going to get the output that you want then what are you doing?
+
+So I think for for most entrepreneurs like if they have those things if they have the ability to lead other people slash sell just influence they have some big motivator they can
+control themselves long enough to keep on going during that period of time and they're doing the right things because they know the inputs and outputs to be successful to make their the thing
+That they want becomes a very difficult person to be but I think that fundamentally is a skill that people have to have if they're going to be successful entrepreneurship 
+
+in order to learn a skill you want to have as much exposure as you can to repeat the action and then you want quick feedback loops so that you can learn what you did wrong
+so the perfect scenario would be Mentor mentee repeated exposure fix this try again fix this try again and in sales if you can survive that long then you are good enough
+
+That you will have gotten enough feedback like for most people if they can weather the first three months of sales then they'll usually be fine and so for the people who are coming up
+I always tell them like go Shadow the  best guy and do twice the volume he's doing because you're not as good as him so like do twice the volume that they're doing work all of the hours and you will
+get better faster because you're doing you have to suck for X period of time and so if you can condense how how long that takes you in terms of calendar days not hours you can get there faster but I think 
+that it's important because when you have to learn how to get rejected and still keep going and I think that's a very valuable skill and then two there's lots of like little things that you learn in just 
+interpersonal communication that allow you that you can use with teammates later you can use in marketing because a lot of the best marketers started as salespeople and marketing is just sales one to many 
+at least as as I understand it and so having that kind of repetition just develops a deep understanding of human psychology I think um and I think it's important for if you want to get people to give you 
+money for the thing that you have um having that as a base skill comes in handy 
+
+it's funny because a lot of us want traits right we want to be patient we want to be humble we want to be you know long-suffering whatever words you want to use but in order to if I would say hey how would 
+you create if you had to create a human what would you put them through to make them tough it probably wouldn't be a really chill life would you put them through to make them patient well you probably 
+wouldn't givethem things immediately and so it's like  we want these trades but each of the traits has a price tag attached to it it's just like do you want to pay the  price tag to get the thing and so I
+
+***if people reframed the the period of life that they're going through as the price that they're paying out of their wallet but the wallet is their time it's the seconds of life that they're trading 
+for it then I think more people be willing to make the trade***
+
+Because at least when I look at myself like when I'm 80 something years old and I'm looking back on my life I want to add these traits but in order to have those trades I 
+know I have to go through these things and I think for me that's given me a lot ofcomfort in hard times
+
+
+---
