@@ -1232,3 +1232,11 @@ Steve Jobs, Walt Disney, Howard Hughes, David Stern, Michelangelo.
 These are my heroes.
 
 ---
+
+# Tom Bilyeu
+
+There is no better feeling than seeing starting to see the results of your hard work.
+
+[Copy These Millionaire Habits](https://youtu.be/JRPChBZ0Rjo?t=4256)
+
+---
