@@ -114,7 +114,7 @@ class Range:
 
 class CreditCard:
     """A consumer credit card"""
-    def __init__(self, customer, bank, acnt, limit)"
+    def __init__(self, customer, bank, acnt, limit):
         """Initalize a new credit card
         
         Initial balance is zero
