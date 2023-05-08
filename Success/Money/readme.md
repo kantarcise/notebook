@@ -299,3 +299,11 @@ know I have to go through these things and I think for me that's given me a lot 
 
 
 ---
+
+## Alex Hormozi
+
+[Everyone has the same hours in a day](https://www.youtube.com/shorts/5Nai6ZWuvSU)
+
+Understand what leverege is.
+
+---
