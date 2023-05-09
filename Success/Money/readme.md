@@ -1,3 +1,11 @@
+---
+
+## Cold Email Wizard
+
+Friday night angry rant. (Search in google) Listen, to the guy, about stoping being poor.
+
+---
+
 ## Brian Chesky
 
 [Blitzscaling 18: Brian Chesky on Launching Airbnb and the Challenges of Scale](https://www.youtube.com/watch?v=W608u6sBFpo)
@@ -123,11 +131,7 @@ Only Video You'll ever need for preparing for an interview.
 Spend less than you make, take the money that you are now saving and invest in your earning capacity and get around those people who 
 you want to emulate who are all on the same path as you.
 
----
 
-## Cold Email Wizard
-
-[Friday night angry rant] https://twitter.com/ blackhatwizardd/status/1614083942470098955
 
 ---
 
