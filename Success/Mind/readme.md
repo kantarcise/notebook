@@ -1240,3 +1240,12 @@ There is no better feeling than seeing starting to see the results of your hard 
 [Copy These Millionaire Habits](https://youtu.be/JRPChBZ0Rjo?t=4256)
 
 ---
+
+# Kanye West
+
+Go listen to all my music, it's the code of who you are.
+If you are a Kanye West fan, you are not a fan of me, you are a fan of yourself.
+
+["Many called him crazy,nobody called him a liar"](https://www.youtube.com/watch?v=SYtkPnRK294)
+
+---
