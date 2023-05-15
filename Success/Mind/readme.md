@@ -1249,3 +1249,12 @@ If you are a Kanye West fan, you are not a fan of me, you are a fan of yourself.
 ["Many called him crazy,nobody called him a liar"](https://www.youtube.com/watch?v=SYtkPnRK294)
 
 ---
+
+
+# Eren Bali
+
+First principles thinking.
+
+["Udemy and Carbon Health"](https://youtu.be/u1hSnYlEjn4?t=2240)
+
+---
