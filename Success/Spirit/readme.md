@@ -81,3 +81,12 @@ Extra:  If you dare to do the most difficult thing you can conceptualize, your l
 The opportunity is that, I don't think that people have talked to young people about responsibility while being on their side.
 
 ---
+
+## Joe Rogan
+
+[ Inspirational & Valuable Life Advice - Joe Rogan and Dan Carlin ](https://www.youtube.com/watch?v=oOIjwhYUbHM)
+
+Think about this. Just [pretend there is a documentary crew recording your success story.](https://youtu.be/oOIjwhYUbHM?t=687)
+
+---
+
