@@ -311,3 +311,13 @@ know I have to go through these things and I think for me that's given me a lot 
 Understand what leverege is.
 
 ---
+
+## Gary Vee
+
+[ Underpriced Opportunity For 2023 | DailyVee 637 ](https://youtu.be/ZJm1FZ2RMfU?t=200)
+
+Make a framework. Consumer cohorts.
+
+Now get to work.
+
+---
