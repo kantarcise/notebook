@@ -4,6 +4,10 @@
 
 Friday night angry rant. (Search in google) Listen, to the guy, about stoping being poor.
 
+[How to Stop Overcomplicating Business & Staying Stuck (How to Get Clients, Close Deals, and Scale)](https://youtu.be/ZX4AODxZpDA?t=2221)
+
+Maximum safistication on the offer at the start.
+
 ---
 
 ## Brian Chesky
