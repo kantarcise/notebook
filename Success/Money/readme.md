@@ -325,3 +325,22 @@ Make a framework. Consumer cohorts.
 Now get to work.
 
 ---
+
+## JK Molina
+
+People don't go to social media to buy medicine. They go to social media to numb pain.
+
+They know they could buy the medicine whenever. They know it can make the pain go away. But they'd rather numb it because the pain of inaction (scrolling) is smaller than the pain of action (buying).
+
+That's the bad news.
+
+The good news is that the deeper you bury the pain the more it hurts when you crack. 
+
+And everyone cracks.
+They'll go from pain-numbing mode to medicine-buying mode in an instant. Some have higher pain thresholds than others, but everyone gets there.
+
+At that point the pain will be so high that they won't even want to think. They'll just buy the first medicine that pops in their mind.
+
+Being the first medicine that pops in their mind - that's positioning.
+
+---
