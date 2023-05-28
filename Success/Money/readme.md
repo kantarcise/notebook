@@ -6,6 +6,10 @@ Friday night angry rant. (Search in google) Listen, to the guy, about stoping be
 
 [How to Stop Overcomplicating Business & Staying Stuck (How to Get Clients, Close Deals, and Scale)](https://youtu.be/ZX4AODxZpDA?t=2221)
 
+Literally rewatching this to understand the language and wisdom.
+
+[YOu dont need to overthink it. Because you need to do something in order to understand it. Risk reversal exponentially increases the quality of your offer.](https://youtu.be/ZX4AODxZpDA?t=246)
+
 Maximum safistication on the offer at the start.
 
 ---
