@@ -1,5 +1,13 @@
 ---
 
+## Mastermind
+
+[ Offer Anchoring, Market Sophistication, Sales, Growing Your Business (Client Ascension Mastermind) ](https://www.youtube.com/watch?v=UlYO01s62JA)
+
+Why are [testimonials](https://youtu.be/UlYO01s62JA?t=707) are important?
+
+---
+
 ## Cold Email Wizard
 
 Friday night angry rant. (Search in google) Listen, to the guy, about stoping being poor.
