@@ -1258,3 +1258,11 @@ First principles thinking.
 ["Udemy and Carbon Health"](https://youtu.be/u1hSnYlEjn4?t=2240)
 
 ---
+
+People like consistency so much that they cannot change. But you might just be consistent at wrong things.
+
+One important question you can ask is: "Let's play it out."
+
+How is this going to end for you?
+
+---
