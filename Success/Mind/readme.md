@@ -1265,4 +1265,8 @@ One important question you can ask is: "Let's play it out."
 
 How is this going to end for you?
 
+Here is how Robert [explains it.](https://youtu.be/9EGC8-cCxZY?t=46)
+
+People want to take steps that are consistent with what they have said and done.
+
 ---
