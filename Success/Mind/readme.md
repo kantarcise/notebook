@@ -146,7 +146,7 @@ And you build up their confidence and their confidence one step at a time and wh
 **You don't make people less anxious by doing that you make them braver it's not the same thing you don't make the world and its horrors smaller you make the person and their their their capacity to deal with horror larger you encourage them, you strengthen them**
 
 
-[Why YOU MUST Voluntarily Face Suffering in Life : Jordan Peterson Motivation](https://www.youtube.com/watch?v=15_bwZQiKu8)
+[Why YOU MUST Voluntarily Face Suffering in Life : Jordan Peterson Motivation](https://youtu.be/15_bwZQiKu8?t=35)
 
 
 ---
