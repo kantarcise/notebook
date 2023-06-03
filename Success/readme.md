@@ -24,6 +24,12 @@ So, good to go. Onwards to the biggest adventure. =)
 
 12/04/2023
 
+"The cost of success is years of feeling like an idiot for things you should’ve known by now."
+
+For the first time, a simple sentence had a deep effect on me.
+
+03/06/2023
+
 ...
 
 # Celebrating Steve - Apple 
