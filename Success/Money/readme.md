@@ -356,3 +356,11 @@ At that point the pain will be so high that they won't even want to think. They'
 Being the first medicine that pops in their mind - that's positioning.
 
 ---
+
+## Matt Walsh
+
+This guy started [5 years ago.](https://www.youtube.com/watch?v=Mo2KcYzfH8c) He just never stopped. 
+
+Lesson in there.
+
+---
