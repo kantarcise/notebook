@@ -90,3 +90,12 @@ Think about this. Just [pretend there is a documentary crew recording your succe
 
 ---
 
+## Jordan Peterson
+
+What does putting your room in order help you with?
+You'll learn how to distinguish between chaos and order.
+
+[ Jordan Peterson - What To Do If I Don't Have Any Goals? | 3:03](https://www.youtube.com/watch?v=EBgugeKaJa8)
+
+---
+
