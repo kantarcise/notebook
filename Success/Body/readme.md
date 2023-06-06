@@ -131,3 +131,13 @@ You are what you repeatedly do everyday. So whatever you are doing, is what you 
 If excellence is something you are striving for, it`s not a accident. it's a habit.
 
 ---
+
+# Greg Plitt
+
+[PLITTSPIRATION](https://www.youtube.com/watch?v=2qWVvRhN6KM)
+
+Only for once believe, the person that you always knew you could be.
+
+Just become it.
+
+---
