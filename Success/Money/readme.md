@@ -12,6 +12,12 @@ Why are [testimonials](https://youtu.be/UlYO01s62JA?t=707) are important?
 
 [ Take the Shot or Lose the Chance | Why You Should Just Go For It w/ Alex Hormozi | 5:36 ](https://www.youtube.com/watch?v=xwimKNyNbLo)
 
+[ Alex Hormozi's Advice on Branding in 2023 ](https://www.youtube.com/watch?v=LGq0uVspNms)
+
+How to make stuff known. Marketing in the end.
+
+Recap is really powerful. Also why do you need A players.
+
 Power follows blame and hate. I learned this lesson long ago but people need it. 
 
 ---
