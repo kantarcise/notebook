@@ -8,6 +8,14 @@ Why are [testimonials](https://youtu.be/UlYO01s62JA?t=707) are important?
 
 ---
 
+## Alex Hormozi
+
+[ Take the Shot or Lose the Chance | Why You Should Just Go For It w/ Alex Hormozi | 5:36 ](https://www.youtube.com/watch?v=xwimKNyNbLo)
+
+Power follows blame and hate. I learned this lesson long ago but people need it. 
+
+---
+
 ## Cold Email Wizard
 
 Friday night angry rant. (Search in google) Listen, to the guy, about stoping being poor.
