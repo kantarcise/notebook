@@ -1,5 +1,31 @@
 ---
 
+## Gary Vee - [How does VaynerMedia Work?](https://youtu.be/w2glmssonDw?t=1753)
+
+A Brand has a brand positioning. What`s the brand stand for? What is the business objectives?
+
+40 to 50 consumer segmentation. 18-20 year old males loving e sports. 40-45 year old moms who love fashion.
+
+Platforms and Culture = PAC - Do you actually understand what platforms are doing?
+
+Which platforms are you making for. Every brand should be on all of them. 
+
+NOW YOU START MAKING. THE WORK BECOMES AFTER YOU MAKE. 
+
+You have a PCS. post creative strategist. Look at all the qualitative feedback. You got analytics team looking at the quantitative feedback. 
+Team gets smart through work.
+
+You are running the media against hold out clusters that you are actually driving incremental growth.
+
+When the creative goes viral or over-indexes its norm, it becomes the brief for more effective work. 
+
+Your cohorts are an accordion. If your creative team has not hit the mark you eliminate some cohorts (Malaysian Moms). While marketing male gamers 14 to 15 you actually realize it was actually the females.
+
+How fundamentally different that is than anything you know.
+
+
+---
+
 ## Mastermind
 
 [ Offer Anchoring, Market Sophistication, Sales, Growing Your Business (Client Ascension Mastermind) ](https://www.youtube.com/watch?v=UlYO01s62JA)
