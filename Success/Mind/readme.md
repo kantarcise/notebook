@@ -1,3 +1,11 @@
+---
+
+[Jordan](https://www.youtube.com/shorts/xKB0gCIyW7c)
+
+What you most want to find will be found where you least want to look.
+
+---
+
 These ideas from Jordan deserves some **thinking**:
 
 [The Most Eye Opening 60 Minutes Of Your Life | Jordan Peterson](https://www.youtube.com/watch?v=5xbADDvciko)
