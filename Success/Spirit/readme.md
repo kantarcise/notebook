@@ -1,3 +1,16 @@
+## Elon Musk
+
+[Tesla AI Day 2020](https://youtu.be/ODSJsviD_SU?t=11979)
+
+One of the hardest things to do, is to be useful. 
+
+How many people did you help, how much help did you provide to each person on average?
+
+Trying to actually ship a useful product that people like to large number of people is so insanely hard.
+
+----
+
+
 ## Greg Plitt
 
 Change means the death of your old self.
