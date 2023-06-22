@@ -1,5 +1,15 @@
 ---
 
+[Jordan](https://youtu.be/kkDfDtpG204?t=154)
+
+Do not make the mistake, the assumption that inaction has no price.
+
+If you are in a little hell right now and you wont do anything about it.
+
+In 10 years it will become absolute hell.
+
+---
+
 [Jordan](https://www.youtube.com/shorts/xKB0gCIyW7c)
 
 What you most want to find will be found where you least want to look.
