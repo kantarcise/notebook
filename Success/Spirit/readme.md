@@ -1,3 +1,16 @@
+## Jordan Peterson
+
+“What you aim at determines what you see” 
+
+Aim down and your life will be limited to a low quality. Be aimless and randomly wander through life with no purpose.
+
+Aim high, knowing where you are and where you want to go.
+
+That’s where you’ll find true meaning.
+
+----
+
+
 ## Elon Musk
 
 [Tesla AI Day 2020](https://youtu.be/ODSJsviD_SU?t=11979)
