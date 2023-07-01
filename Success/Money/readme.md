@@ -1,3 +1,9 @@
+## Alex
+
+A work [timer](https://youtu.be/lJF__n_34ew?list=LL&t=256).
+
+Nothing beats a timer, headphones and earmuffs.
+
 ---
 
 ## Gary Vee - [How does VaynerMedia Work?](https://youtu.be/w2glmssonDw?t=1753)
