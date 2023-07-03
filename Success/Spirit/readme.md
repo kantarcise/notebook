@@ -1,5 +1,21 @@
 ## Jordan Peterson
 
+[Slaying the Dragon Within Us](https://www.youtube.com/watch?v=REjUkEj1O_0)
+
+[There were dragons in the house.](https://youtu.be/REjUkEj1O_0?t=3110)
+
+What happens when you go after the dragon? You get a piece of it.
+
+You have absolutely everything you need. But you have to use all of it.
+
+If you run away from any of it and in particular the parts of it that frighten you which you have endless reasons to run away from,
+if you run away from any of it you dont get that piece of the dragon. If you miss even one piece there is a chink in your armor,
+there is a piece you are vulnerable.
+
+----
+
+## Jordan Peterson
+
 “What you aim at determines what you see” 
 
 Aim down and your life will be limited to a low quality. Be aimless and randomly wander through life with no purpose.
