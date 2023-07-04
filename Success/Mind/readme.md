@@ -1,3 +1,9 @@
+## Paul Graham
+
+[How to do great work](http://paulgraham.com/greatwork.html)
+
+Four steps: choose a field, learn enough to get to the frontier, notice gaps, explore promising ones. This is how practically everyone who's done great work has done it, from painters to physicists.
+
 ---
 
 [Jordan](https://youtu.be/kkDfDtpG204?t=154)
