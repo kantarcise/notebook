@@ -1,3 +1,12 @@
+## Drake
+
+[When to Say When](https://www.youtube.com/watch?v=qTNFIQyWe8M)
+
+How you plan to make it to the top by just fittin' in?
+
+---
+
+
 ## Paul Graham
 
 [How to do great work](http://paulgraham.com/greatwork.html)
