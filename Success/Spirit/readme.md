@@ -1,3 +1,13 @@
+## Alex Hormozi
+
+"There is a 16 old kid that will sleep with this book under his pillow."
+
+**"You owe it to him."**
+
+[Why do what's hard?](https://youtu.be/wKQiy_cA6OA?t=4195)
+
+---
+
 ## Jordan Peterson
 
 [Slaying the Dragon Within Us](https://www.youtube.com/watch?v=REjUkEj1O_0)
