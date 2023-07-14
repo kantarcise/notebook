@@ -1,9 +1,20 @@
 ## Object Detection is used in a different industries in production.
 
+---
 
 <p align="center">
   <img src="https://www.exposit.com/wp-content/uploads/2020/07/Traffic_analysis_Exposit.width-800.png" title="Use It!"/>
 </p>
+
+---
+
+<p align="center">
+  <img src="https://github.com/kantarcise/notebook/blob/master/Object%20Detection/img/yolov7.png" title="v8 is not here yet."/>
+</p>
+
+<div align="center">
+  <a href="https://github.com/kantarcise/notebook/blob/master/Object%20Detection/2207.02696.pdf">What was the reason behind the success of Yolov7?</a>
+</div>
 
 ---
 
