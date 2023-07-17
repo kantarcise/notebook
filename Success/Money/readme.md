@@ -1,3 +1,15 @@
+## Patrick Bet David
+
+[Open Challange](https://www.youtube.com/shorts/0YLd00W4sRQ)
+
+Read evey book on 4 star on 4 topics.
+
+For 2 years, obsess over it. 
+
+You won't need to remember the challange. 
+
+---
+
 ## Alex
 
 A work [timer](https://youtu.be/lJF__n_34ew?list=LL&t=256).
