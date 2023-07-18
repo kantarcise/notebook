@@ -1,3 +1,9 @@
+## Alex Hormozi
+
+[Investing in S&Me instead of S&P 500](https://youtu.be/Nh8Oc7ERdIU?t=1886)
+
+---
+
 ## Morpheus
 
 [There's a difference between knowing the path and walking the path.](https://www.youtube.com/watch?v=Kz40vwcTGFo)
