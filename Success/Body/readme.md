@@ -6,8 +6,6 @@ There you go.
 
 [Mighty Final Fight](https://www.youtube.com/watch?v=fccaMp8aqz8)
 
-
-
 ---
 
 ## This might be the **only** video that I ever need to keep training to be the best. 
@@ -16,6 +14,11 @@ Best version of myself.
 
 [Greg Plitt Motivation for Your Life](https://www.youtube.com/watch?v=B2zxxeKVFGs)
 
+---
+
+## Naval
+
+[It's not a zero sum game.](https://www.youtube.com/watch?v=p3HHBQ-chN4)
 
 ---
 
