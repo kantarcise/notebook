@@ -51,8 +51,35 @@ How can you save the world? By helping every individual to improve and helping t
 
 ## 1) "Stand up straight with your shoulders back."
 
+“To stand up straight with your shoulders back is to accept the responsibility of life, with eyes 
+wide open. It means deciding to voluntarily transform the chaos of potential into the realities of habitable
+order. It means adopting the burden of self-conscious vulnerability, and accepting the end of the
+unconscious paradise of childhood, where finitude and mortality are only dimly comprehended. It
+means willingly undertaking the sacrifices necessary to generate a productive and meaningful reality.”
 
+Humans have a dominance detector in our brain. How we perceive our social/economic status affects
+our well-being which reinforces our status in a positive feedback loop.
 
+• People with strong self-esteem feel/transmit a sense of security and confidence, which makes
+them more attractive and respected. This improves their productivity and well-being, which further
+reinforces their self-perception. Higher serotonin levels are associated with greater
+resilience, happiness, health, lifespan, pro-social behavior and leadership.
+
+• On the other hand, people with a low self-perception feel insecure. They’re more likely to
+be stressed, jumpy and reactive. They make poor decisions, fail to command respect/resources, which
+reinforce their loser complex.
+
+In short, our self-perception affects the vibes we transmit to create a self-reinforcing loop.
+If you feel like a loser for whatever reason, the first step is to break the negative cycle by 
+correcting your posture.
+
+• Don’t slouch. It conveys defeat and a low status, which prompts others to treat 
+you poorly and reinforce your low self-perception.
+
+• Fix your posture. Stand straight, push your shoulders back, speak up and make eye contact. 
+This signals confidence to yourself and others. You’ll feel better, others will show you more
+respect, and it starts a virtuous cycle. It’s about standing tall, facing up to reality and 
+taking responsibility to become all you can be.
 
 ## 2) "Treat yourself like you are someone you are responsible for helping."
 
