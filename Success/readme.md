@@ -30,6 +30,14 @@ For the first time, a simple sentence had a deep effect on me.
 
 03/06/2023
 
+"What if I can pull this off?"
+
+"What if I can pull off a f****** miracle?"
+
+"WHat if I can become someone that NOONE thinks I can be?"
+
+27/07/2023
+
 ...
 
 # Celebrating Steve - Apple 
