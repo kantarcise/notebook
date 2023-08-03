@@ -1,3 +1,11 @@
+## 
+
+[Identifying Compolsive Behavior](https://www.youtube.com/shorts/eZHGYDf11c8)
+
+What are the things that are a small binge that you actually can say no?
+
+---
+
 ## Alex Hormozi
 
 [Investing in S&Me instead of S&P 500](https://youtu.be/Nh8Oc7ERdIU?t=1886)
