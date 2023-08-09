@@ -1,3 +1,9 @@
+## Sezai
+
+[Every person is a map. Thinking this will help you choose today.](https://www.youtube.com/shorts/cOUQ65NdRZs)
+
+---
+
 ## 
 
 [Identifying Compolsive Behavior](https://www.youtube.com/shorts/eZHGYDf11c8)
