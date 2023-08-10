@@ -1,3 +1,11 @@
+## Gary 
+
+[34. 34. 34.](https://www.youtube.com/watch?v=7DnmCmbxGW0)
+
+We are in the first quarter.
+
+---
+
 ## Sezai
 
 [Every person is a map. Thinking this will help you choose today.](https://www.youtube.com/shorts/cOUQ65NdRZs)
