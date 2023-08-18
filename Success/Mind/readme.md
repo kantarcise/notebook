@@ -1,3 +1,9 @@
+## Be An Engineer, Not A Frameworker 
+
+[Learning never ends](https://www.youtube.com/watch?v=UowtlZB2a70)
+
+---
+
 ## Gary 
 
 [34. 34. 34.](https://www.youtube.com/watch?v=7DnmCmbxGW0)
