@@ -1,3 +1,23 @@
+## Hormozi
+
+A single payment of..
+
+[It's free.](https://youtu.be/k834E6OTGTM?t=4202)
+
+...
+
+[If you believe in these things. You are a special spirit.](https://youtu.be/k834E6OTGTM?t=4519)
+
+- Giving first.
+- Thinking long and playing the long game
+- Doing the work when others won't.
+- Keeping your promises in a world that breaks them
+- Delaying gratification
+- Skills and education being the ultimate legacy
+- In being 1 of 0
+
+---
+
 ## Jordan Peterson
 
 [What you should do with your life?](https://youtu.be/6T7pUEZfgdI?t=3791)
