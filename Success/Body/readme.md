@@ -1,4 +1,15 @@
-## So, you need some motivation? That's funny.
+# Friedrich Nietzsche
+
+Some people think this is only about your mind.
+
+No.
+
+[“He who has a why to live for can bear almost any how.”](https://www.goodreads.com/quotes/137-he-who-has-a-why-to-live-for-can-bear)
+
+---
+
+
+# So, you need some motivation? That's funny.
 
 There you go.
 
