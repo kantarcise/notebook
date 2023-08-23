@@ -1,3 +1,11 @@
+##  Paul Graham
+
+Two wonderful pieces from Paul.
+
+[How Not to Die](http://www.paulgraham.com/die.html)
+
+[How To Do Great Work](http://www.paulgraham.com/greatwork.html)
+
 ## Patrick Bet David
 
 [Open Challange](https://www.youtube.com/shorts/0YLd00W4sRQ)
