@@ -1,3 +1,9 @@
+## From Matrix 
+
+[The Lonely Chapter](https://www.youtube.com/shorts/OL4u8Jctxgk)
+
+---
+
 ## Hormozi
 
 A single payment of..
