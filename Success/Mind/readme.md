@@ -1,3 +1,13 @@
+## Observe Yourself
+
+["You have been down that Road Before"](https://youtu.be/mlztKOlqiEQ?t=54)
+
+You know exactly how it ends. 
+
+And I know that not where you want to be.
+
+---
+
 ## Be An Engineer, Not A Frameworker 
 
 [Learning never ends](https://www.youtube.com/watch?v=UowtlZB2a70)
