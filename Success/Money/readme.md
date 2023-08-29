@@ -1,3 +1,11 @@
+## What do you do to motivate people in college?
+
+[ Dr. Jordan Peterson reveals his solution to motivate Generation Z ](https://www.youtube.com/watch?v=NabrpVpAeIk)
+
+[Future Authoring](https://youtu.be/NabrpVpAeIk?t=212)
+
+---
+
 ##  Paul Graham
 
 Two wonderful pieces from Paul.
