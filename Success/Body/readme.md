@@ -1,3 +1,11 @@
+## Greg Plitt
+
+[Why is documentation at start is important?](https://youtu.be/ZJejg9hgcAA?list=LL&t=165)
+
+Because with it, you can overcome plateus.
+
+---
+
 # Friedrich Nietzsche
 
 Some people think this is only about your mind.
