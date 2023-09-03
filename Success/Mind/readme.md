@@ -1,3 +1,19 @@
+## Jordan Peterson
+
+[Dealing with anxiety](https://www.youtube.com/watch?v=YuqxNB7n1w4)
+
+If someone is anxious about something, you let them define it.
+
+Because the problem with anxiety, it is like Voldemort. You won't speak of it.
+
+If you don't speak of it, it is way bigger than it should be.
+
+As soon as you start to talk about it, you cut it down to size.
+
+Because you are braver than you know, and more capable.
+
+---
+
 ## Observe Yourself
 
 ["You have been down that Road Before"](https://youtu.be/mlztKOlqiEQ?t=54)
