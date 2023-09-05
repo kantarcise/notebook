@@ -13,3 +13,11 @@
 
 
 [Practical Data Engineering](https://hpi.de/fileadmin/user_upload/fachgebiete/rabl/Lectures/PDE_Poster/PDE_Angelika_Wieck.pdf)
+
+---
+
+[Nvidia Inception Program](https://blogs.nvidia.com/blog/2023/08/31/generative-ai-startups-africa-middle-east/)
+
+Huge opportunity here.
+
+---
