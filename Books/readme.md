@@ -116,3 +116,94 @@ taking responsibility to become all you can be.
 
 
 ---------------------------------------------------------------------------------------------------------
+
+<p align="center">
+  <img src="https://github.com/kantarcise/notebook/blob/master/Books/covers/zero_to_one.jpg" title="12 Rules For Life"/>
+</p>
+
+Technology is miraculous because it allows us to do more with less, ratcheting up our fundamental
+capabilities to a higher level. Other animals are instinctively driven to build things like dams or
+honeycombs, but we are the only ones that can invent new things and better ways of making them.
+
+This book stems from a course about startups that I taught at Stanford in 2012. 
+
+## 1 The Challenge of the Future
+
+***“What important truth do very few people agree with you on?”***
+
+My answers:
+
+    Discipline is freedom.
+    You can gamify every single responsibility you have.
+    What you most want to be found will be found where you least want to look.
+    Physical Training is one of the best dopamine source.
+    Delayed gratification is the key to success.
+    Noone needs 3 meals a day. 
+    Breakfast is a propoganda.
+
+***Vertical vs Horizontal Progress:***
+
+When we think about the future, we hope for a future of progress. That progress can take one of two
+forms. Horizontal or extensive progress means copying things that work—going from 1 to n.
+Horizontal progress is easy to imagine because we already know what it looks like. Vertical or
+intensive progress means doing new things—going from 0 to 1. Vertical progress is harder to imagine
+because it requires doing something nobody else has ever done. If you take one typewriter and build
+100, you have made horizontal progress. If you have a typewriter and build a word processor, you
+have made vertical progress.
+
+## 2 Party Like It’s 1999
+
+***Story of Paypal***
+
+By the fall of ’99, our email payment product worked well—anyone could log in to our website
+and easily transfer money. But we didn’t have enough customers, growth was slow, and expenses
+mounted. For PayPal to work, we needed to attract a critical mass of at least a million users.
+Advertising was too ineffective to justify the cost. Prospective deals with big banks kept falling
+through. So we decided to pay people to sign up.
+
+We gave new customers $10 for joining, and we gave them $10 more every time they referred a
+friend. This got us hundreds of thousands of new customers and an exponential growth rate. Of
+course, this customer acquisition strategy was unsustainable on its own—when you pay people to be
+your customers, exponential growth means an exponentially growing cost structure. Crazy costs were
+typical at that time in the Valley. But we thought our huge costs were sane: given a large user base,
+PayPal had a clear path to profitability by taking a small fee on customers’ transactions.
+
+## 3 All Happy Companies Are Different
+
+***what valuable company is nobody building?***
+
+Monopoly businesses vs perfect competition.
+
+## 4 The Ideology of Competition
+
+***What really is competition?***
+
+This is a simple truth, but we’ve all been trained to ignore it. Our educational system both drives
+and reflects our obsession with competition. Grades themselves allow precise measurement of each
+student’s competitiveness; pupils with the highest marks receive status and credentials. We teach
+every young person the same subjects in mostly the same ways, irrespective of individual talents and
+preferences. Students who don’t learn best by sitting still at a desk are made to feel somehow
+inferior, while children who excel on conventional measures like tests and assignments end up
+defining their identities in terms of this weirdly contrived academic parallel reality
+
+## 5 Last Mover Advantage
+
+## 6 You Are Not a Lottery Ticket
+
+## 7 Follow the Money
+
+## 8 Secrets
+
+## 9 Foundations
+
+## 10 The Mechanics of Mafia
+
+## 11 If You Build It, Will They Come?
+
+## 12 Man and Machine
+
+## 13 Seeing Green
+
+## 14 The Founder’s Paradox
+
+Conclusion: Stagnation or Singularity?
