@@ -188,6 +188,18 @@ defining their identities in terms of this weirdly contrived academic parallel r
 
 ## 5 Last Mover Advantage
 
+EScaping competition will give you a monopoly, but even a monopoly is only a great business if it can
+endure in the future. Compare the value of the New York Times Company with Twitter. Each employs
+a few thousand people, and each gives millions of people a way to get news. But when Twitter went
+public in 2013, it was valued at $24 billion—more than 12 times the Times’s market capitalization
+—even though the Times earned $133 million in 2012 while Twitter lost money. What explains the
+huge premium for Twitter?
+
+The answer is cash flow. This sounds bizarre at first, since the Times was profitable while Twitter
+wasn’t. But a great business is defined by its ability to generate cash flows in the future. Investors
+expect Twitter will be able to capture monopoly profits over the next decade, while newspapers’
+monopoly days are over.
+
 ## 6 You Are Not a Lottery Ticket
 
 ## 7 Follow the Money
