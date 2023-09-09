@@ -1,3 +1,9 @@
+## Alex Hormozi
+
+[Everything](https://youtu.be/Tigt75AcLLA?t=5372) is a skill.
+
+---
+
 ## Jordan Peterson
 
 [Dealing with anxiety](https://www.youtube.com/watch?v=YuqxNB7n1w4)
