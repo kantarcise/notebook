@@ -202,6 +202,41 @@ monopoly days are over.
 
 ## 6 You Are Not a Lottery Ticket
 
+If you believe your life is mainly a matter of chance, why read this book? Learning about startups is
+worthless if you’re just reading stories about people who won the lottery. Slot Machines for
+Dummies can purport to tell you which kind of rabbit’s foot to rub or how to tell which machines are
+“hot,” but it can’t tell you how to win.
+
+...
+
+A definite view, by contrast, favors firm convictions. Instead of pursuing many-sided mediocrity
+and calling it “well-roundedness,” a definite person determines the one best thing to do and then does
+it. Instead of working tirelessly to make herself indistinguishable, she strives to be great at something
+substantive—to be a monopoly of one. This is not what young people do today, because everyone
+around them has long since lost faith in a definite world.
+
+...
+
+To a definite optimist, the future will be better than the present if he plans and works to make it
+better.
+
+To an indefinite optimist, the future will be better, but he doesn’t know how
+exactly, so he won’t make any specific plans. He expects to profit from the future but sees no reason
+to design it concretely.
+
+...
+
+But they miss the even bigger social context for their own preferred explanations: a whole generation
+learned fromchildhood to overrate the power of chance and underrate the importance of planning. Gladwell at first
+appears to be making a contrarian critique of the myth of the self-made businessman, but actually his
+own account encapsulates the conventional view of a generation.
+
+...
+
+A startup is the largest endeavor over which you can have definite mastery. You can have agency
+not just over your own life, but over a small and important part of the world. It begins by rejecting the
+unjust tyranny of Chance. You are not a lottery ticket.
+
 ## 7 Follow the Money
 
 ## 8 Secrets
