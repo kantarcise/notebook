@@ -1,3 +1,9 @@
+## Best Periods in life
+
+[Learn to use the energy. Learn how to channel it.](https://www.youtube.com/shorts/Ktsn1W5WlRI)
+
+---
+
 ## What do you do to motivate people in college?
 
 [ Dr. Jordan Peterson reveals his solution to motivate Generation Z ](https://www.youtube.com/watch?v=NabrpVpAeIk)
