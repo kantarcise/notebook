@@ -1,3 +1,9 @@
+## Consistency
+
+[Common beliefs, common values.](https://www.youtube.com/watch?v=UZTyvbmW92M)
+
+---
+
 ## The Forgetting Curve
 
 [The simple reason for reviews](https://methodsof.com/blog/the-ebbinghaus-forgetting-curve/)
