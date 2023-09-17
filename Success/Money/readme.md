@@ -1,3 +1,10 @@
+## Interesting take on Legacy
+
+[Legacy is a wanting to live forever fallacy.](https://youtu.be/sCkRau3HUEU?list=LL&t=41)
+
+You need to be intellectually curious - Show up - Be Charmingly Relentless - you have to build Emotional endurance.  
+---
+
 ## Best Periods in life
 
 [Learn to use the energy. Learn how to channel it.](https://www.youtube.com/shorts/Ktsn1W5WlRI)
