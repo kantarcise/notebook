@@ -71,6 +71,17 @@ To unzip something zipped, use * on it just like tuple unpacking
     namz, roll_noz, marksz = zip(*mapped)
 
 
+Here is something interesting
+
+a,b,c,d,*e, f  = range(10)
+
+# a = 0
+# b = 1
+# c = 2
+# d = 3
+# e = [4,5,6,7,8]
+# f = 9
+
 """
 
 class Solution:
