@@ -1,3 +1,15 @@
+## Your room is you
+
+[Now this is wild.](https://www.youtube.com/shorts/g3-TtiHbUD0)
+
+You are in your room, the room is you.
+
+That isn't how people think. 
+
+But. That's okay. It does not matter how they think. That's how it is. 
+
+---
+
 ## Alex Hormozi
 
 [Everything](https://youtu.be/Tigt75AcLLA?t=5372) is a skill.
