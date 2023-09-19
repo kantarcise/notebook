@@ -139,4 +139,11 @@ you will get the product of all elements.
   - Takeaway: enumerate is still one of the best ways to traverse a sequence.
   -
   - YOu can and you should use dictinaries whenever you want to store and access a value/key combination.
+ 
+- 012.3Sum:
+  
+  - Takeaway:  Two pointer approach is simple. you define them and you set up conditions on their changes.
   - 
+  - Updating a sequence on the fly is NOT HELPFUL so far. No Removes no copying lists  please.
+  -
+  - Solid effort on compartmentalizing. Defining the object which you are thinking to return is a good and simple idea.
