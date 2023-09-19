@@ -1,3 +1,9 @@
+## People think this is for entertainment.
+
+[You grow to the proportion of the weight you decide to take on voluntarily](https://www.youtube.com/shorts/Eohafc4-V0Q)
+
+---
+
 ## Consistency
 
 [Common beliefs, common values.](https://www.youtube.com/watch?v=UZTyvbmW92M)
