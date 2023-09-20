@@ -1,3 +1,17 @@
+## Jordan Peterson
+
+Things worse than death = Malevolance and Evil.
+
+Let's say you love someone. You'd tell them, I would love to help you get what you want. 
+
+If you just let me know what it is.
+
+You can do the same thing with yourself.
+
+[Seeing the world through a story](https://www.youtube.com/watch?v=6fwrTb3dm5Y)
+
+---
+
 ## Greg Plitt
 
 [Why is documentation at start is important?](https://youtu.be/ZJejg9hgcAA?list=LL&t=165)
