@@ -147,3 +147,13 @@ you will get the product of all elements.
   - Updating a sequence on the fly is NOT HELPFUL so far. No Removes no copying lists  please.
   -
   - Solid effort on compartmentalizing. Defining the object which you are thinking to return is a good and simple idea.
+
+- 013.containerwithmostwater:
+
+  - Takeaway:
+  - 
+  - Brute Force can help you find a pattern in which you can expand on.
+  - 
+  - Two pointers keep being the same, define them first and on condition
+ increase/ decrease them.
+     
