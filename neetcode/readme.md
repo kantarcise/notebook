@@ -156,4 +156,16 @@ you will get the product of all elements.
   - 
   - Two pointers keep being the same, define them first and on condition
  increase/ decrease them.
-     
+
+- 014.trapping_rain_water:
+
+  - Takeaway:
+  - 
+  - two pointers are still doing wonders.
+  -
+  - trying to find a pattern for each step is the key for approaching these problems.
+  -
+  - you need to be calm. you will be calm when you solve your 250th question.
+  -
+  - just a numbers game
+
