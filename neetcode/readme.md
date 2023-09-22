@@ -169,3 +169,15 @@ you will get the product of all elements.
   -
   - just a numbers game
 
+- 015.valid_paranthesis:
+
+  - Takeaway:
+  - 
+  - matching symbols is just asking for a hash map to be used
+  - 
+  - we are using a stack for storing all of the opening brackets.
+  - 
+  - For each closing bracket we are looking for the last element 
+  - in stack to be matched by the closing symbol
+  - 
+  - if everything went smooth, stack should be empty in the end.
