@@ -1,3 +1,21 @@
+## Tom Platz
+
+Everyone has the ability to accomplish unique feats, everyone. 
+
+You choose this. 
+
+Become someone great in one other life.
+
+Forget about failing to many. Who cares? 
+
+Doesn’t matter when you start or finish, just start, no deviations, no excuses.
+
+[I cannot leave the gym knowing I had more.](https://www.youtube.com/shorts/vdEnk1itLSY)
+
+[People thought I was dying.](https://www.youtube.com/shorts/gMMmOgwa-u8)
+
+---
+
 ## People think this is for entertainment.
 
 [You grow to the proportion of the weight you decide to take on voluntarily](https://www.youtube.com/shorts/Eohafc4-V0Q)
