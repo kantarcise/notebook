@@ -181,3 +181,16 @@ you will get the product of all elements.
   - in stack to be matched by the closing symbol
   - 
   - if everything went smooth, stack should be empty in the end.
+
+- 016.min_stack:
+
+  - Takeaway:
+  - 
+  - The key takeaway from this code is that by maintaining an auxiliary data structure
+  - specifically designed to handle the minimum value, you can achieve O(1) time
+  - complexity for the getMin() operation while still supporting standard stack operations.
+  - 
+  - The choice between array-based and linked-list-based approaches depends on
+  - your preference and specific use case.
+  - 
+  - lists has append, push, pop methods. As usual.
