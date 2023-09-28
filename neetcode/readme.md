@@ -83,17 +83,16 @@ you will get the product of all elements.
 
   - To unzip something zipped, use * on it just like tuple unpacking  namz, roll_noz, marksz = zip(*mapped)
   
-  - Here is something interesting
-
-  - a,b,c,d,*e, f  = range(10)
-
-  - # a = 0
-  - # b = 1
-  - # c = 2
-  - # d = 3
-  - # e = [4,5,6,7,8]
-  - # f = 9
- 
+  - Here is something interesting:
+  - ```
+    a,b,c,d,*e, f  = range(10)
+    a = 0
+    b = 1
+    c = 2
+    d = 3
+    e = [4,5,6,7,8]
+    f = 9
+    ```
   - also don't forget, you have map(), filter() and lambda x : x**2 ready to go.
  
 - 008.encodeDecode:
@@ -210,7 +209,7 @@ you will get the product of all elements.
   -
   - you can use the same stack for both operations and operands.
   - 
-  - for c in tokens: if + - / * else stack.append(int(c))
+  - ```for c in tokens: if + - / * else stack.append(int(c))```
   -
   - It is possible to use dictionaries aswell.
 
@@ -259,7 +258,7 @@ you will get the product of all elements.
   -
   - we can use zip() to combine multiple lists as pairs = [positions, speed]
   -
-  - pair = [[p, s] for p, s in zip(position, speed)]
+  - ```pair = [[p, s] for p, s in zip(position, speed)]```
   -
   - We can use a stack to compare car duos
   -
