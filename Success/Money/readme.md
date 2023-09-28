@@ -1,8 +1,17 @@
+## Mastering Communication Starts With
+
+[Listening](https://www.youtube.com/shorts/H8AgEnOkWDY)
+
+If you can take other peoples perspectives, than you are able how to learn to speak to them, in a language that they will understand and receive. 
+
+---
+
 ## Interesting take on Legacy
 
 [Legacy is a wanting to live forever fallacy.](https://youtu.be/sCkRau3HUEU?list=LL&t=41)
 
 You need to be intellectually curious - Show up - Be Charmingly Relentless - you have to build Emotional endurance.  
+
 ---
 
 ## Best Periods in life
