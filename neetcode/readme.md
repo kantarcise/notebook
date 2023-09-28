@@ -113,6 +113,8 @@ you will get the product of all elements.
   - you can override a value in an iteration with
   -
   -   current = max(current, new)
+
+## Two Pointers
  
 - 010.isPalindrome:
 
@@ -169,6 +171,8 @@ you will get the product of all elements.
   -
   - just a numbers game
 
+## Stack
+
 - 015.valid_paranthesis:
 
   - Takeaway:
@@ -194,3 +198,70 @@ you will get the product of all elements.
   - your preference and specific use case.
   - 
   - lists has append, push, pop methods. As usual.
+ 
+
+- 017.evaluate_reverse_polish_notation:
+
+  - Takeaway:
+  -
+  - Use a stack
+  -
+  - compartmentalize the code.
+  -
+  - you can use the same stack for both operations and operands.
+  - 
+  - for c in tokens: if + - / * else stack.append(int(c))
+  -
+  - It is possible to use dictionaries aswell.
+
+- 018.generate_parantheses:
+
+  - Takeaway:
+  - 
+  - Well-formed parentheses combinations have an equal number of
+  - opening '(' and closing ')' parentheses.
+  -
+  - You need to ensure that at any point while generating combinations, the
+  - number of closing ')' parentheses does not exceed the number of
+  - opening '(' parentheses.
+  -
+  - The code demonstrates a backtracking approach, which is a common technique
+  - for generating combinations recursively.
+  -
+  - The generateParenthesis method uses a backtracking algorithm and a stack
+  - (stack) to keep track of the current combination. It recursively generates
+  - combinations, adding '(' when possible and ')' when it meets the criteria.
+  - 
+  - The idea is to add ')' only after valid '('
+  - We use two integer variables left & right to see how many '(' & ')' are in the current string
+  - If left < n then we can add '(' to the current string
+  - If right < left then we can add ')' to the current string
+
+
+- 019.daily_temperatures:
+
+  - Takeaway:
+  -
+  - To hold the previous values while traversing a list, a list or a stack can be useful.
+  -
+  - Initialize the result list, as it is simply the same size as the given sequence.
+  -
+  - while control flow is wonderful with more than one booleans. Try to
+  - perfect the iteration with multiple conditions
+
+
+- 020.car_fleet:
+
+  - Takeaway:
+  -
+  - Car that is closest to the target is the bottleneck, becuase of this
+  - reason, we traverse the sequence in reverse.
+  -
+  - we can use zip() to combine multiple lists as pairs = [positions, speed]
+  -
+  - pair = [[p, s] for p, s in zip(position, speed)]
+  -
+  - We can use a stack to compare car duos
+  -
+  - Basically using the time that a car going to be at target with its
+  - speed and whether or not the car behind it will catch up with it
