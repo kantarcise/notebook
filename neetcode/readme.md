@@ -264,3 +264,37 @@ you will get the product of all elements.
   -
   - Basically using the time that a car going to be at target with its
   - speed and whether or not the car behind it will catch up with it
+ 
+ - 021.largest_rectangle_in_histogram:
+
+ - Takeaway:
+ -
+ - What is the limiter case? If there is a smaller rectangle limiting the
+ - rectangle to extend beyond.
+ -
+ - Handling Decreasing Heights: When the current height is smaller than the height
+ - at the top of the stack (i.e., stack[-1][1] > h), it means the current height
+ - terminates a sequence of increasing heights. In this case, the code calculates
+ - the area of rectangles formed by the heights in the sequence and updates th
+ - maximum area found so far.
+ -
+ - the while loop:
+ -
+ - The while loop continues executing as long as there are elements in the stack
+ - (i.e., while stack), which implies that it will run until the stack is empty.
+ -
+ - Stack Top Comparison: The condition inside the while loop, stack[-1][1] > h,
+ - checks whether the height of the current bar (h) is smaller than the height
+ - of the bar at the top of the stack. In other words, it checks if the current
+ - bar represents the end of a sequence of increasing heights.
+ -
+ - Popping Elements: When the condition is met (i.e., the current bar's height
+ - is smaller), the loop executes, and it repeatedly pops elements from the
+ - stack until the condition is no longer met. This is done with the line
+ - index, height = stack.pop().
+ -
+ - Updating Maximum Area: For each popped element, it calculates the area of the
+ - rectangle formed by that height and the width of the sequence of increasing
+ - heights that ended at the current position (i - index). The maximum area
+ - (max_area) is updated whenever a larger area is found.
+ 
