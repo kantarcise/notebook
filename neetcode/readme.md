@@ -137,13 +137,13 @@ you will get the product of all elements.
  
 - 011.twoSumSortedSequence:
 
-  - Takeaway: enumerate is still one of the best ways to traverse a sequence.
+  - enumerate is still one of the best ways to traverse a sequence.
   -
   - YOu can and you should use dictinaries whenever you want to store and access a value/key combination.
  
 - 012.3Sum:
   
-  - Takeaway:  Two pointer approach is simple. you define them and you set up conditions on their changes.
+  - Two pointer approach is simple. you define them and you set up conditions on their changes.
   - 
   - Updating a sequence on the fly is NOT HELPFUL so far. No Removes no copying lists  please.
   -
@@ -151,8 +151,6 @@ you will get the product of all elements.
 
 - 013.containerwithmostwater:
 
-  - Takeaway:
-  - 
   - Brute Force can help you find a pattern in which you can expand on.
   - 
   - Two pointers keep being the same, define them first and on condition
@@ -160,8 +158,6 @@ you will get the product of all elements.
 
 - 014.trapping_rain_water:
 
-  - Takeaway:
-  - 
   - two pointers are still doing wonders.
   -
   - trying to find a pattern for each step is the key for approaching these problems.
@@ -174,8 +170,6 @@ you will get the product of all elements.
 
 - 015.valid_paranthesis:
 
-  - Takeaway:
-  - 
   - matching symbols is just asking for a hash map to be used
   - 
   - we are using a stack for storing all of the opening brackets.
@@ -187,8 +181,6 @@ you will get the product of all elements.
 
 - 016.min_stack:
 
-  - Takeaway:
-  - 
   - The key takeaway from this code is that by maintaining an auxiliary data structure
   - specifically designed to handle the minimum value, you can achieve O(1) time
   - complexity for the getMin() operation while still supporting standard stack operations.
@@ -201,8 +193,6 @@ you will get the product of all elements.
 
 - 017.evaluate_reverse_polish_notation:
 
-  - Takeaway:
-  -
   - Use a stack
   -
   - compartmentalize the code.
@@ -215,8 +205,6 @@ you will get the product of all elements.
 
 - 018.generate_parantheses:
 
-  - Takeaway:
-  - 
   - Well-formed parentheses combinations have an equal number of
   - opening '(' and closing ')' parentheses.
   -
@@ -239,8 +227,6 @@ you will get the product of all elements.
 
 - 019.daily_temperatures:
 
-  - Takeaway:
-  -
   - To hold the previous values while traversing a list, a list or a stack can be useful.
   -
   - Initialize the result list, as it is simply the same size as the given sequence.
@@ -251,8 +237,6 @@ you will get the product of all elements.
 
 - 020.car_fleet:
 
-  - Takeaway:
-  -
   - Car that is closest to the target is the bottleneck, becuase of this
   - reason, we traverse the sequence in reverse.
   -
@@ -265,36 +249,89 @@ you will get the product of all elements.
   - Basically using the time that a car going to be at target with its
   - speed and whether or not the car behind it will catch up with it
  
- - 021.largest_rectangle_in_histogram:
+- 021.largest_rectangle_in_histogram:
 
- - Takeaway:
- -
- - What is the limiter case? If there is a smaller rectangle limiting the
- - rectangle to extend beyond.
- -
- - Handling Decreasing Heights: When the current height is smaller than the height
- - at the top of the stack (i.e., stack[-1][1] > h), it means the current height
- - terminates a sequence of increasing heights. In this case, the code calculates
- - the area of rectangles formed by the heights in the sequence and updates th
- - maximum area found so far.
- -
- - the while loop:
- -
- - The while loop continues executing as long as there are elements in the stack
- - (i.e., while stack), which implies that it will run until the stack is empty.
- -
- - Stack Top Comparison: The condition inside the while loop, stack[-1][1] > h,
- - checks whether the height of the current bar (h) is smaller than the height
- - of the bar at the top of the stack. In other words, it checks if the current
- - bar represents the end of a sequence of increasing heights.
- -
- - Popping Elements: When the condition is met (i.e., the current bar's height
- - is smaller), the loop executes, and it repeatedly pops elements from the
- - stack until the condition is no longer met. This is done with the line
- - index, height = stack.pop().
- -
- - Updating Maximum Area: For each popped element, it calculates the area of the
- - rectangle formed by that height and the width of the sequence of increasing
- - heights that ended at the current position (i - index). The maximum area
- - (max_area) is updated whenever a larger area is found.
+  - What is the limiter case? If there is a smaller rectangle limiting the
+  - rectangle to extend beyond.
+  -
+  - Handling Decreasing Heights: When the current height is smaller than the height
+  - at the top of the stack (i.e., stack[-1][1] > h), it means the current height
+  - terminates a sequence of increasing heights. In this case, the code calculates
+  - the area of rectangles formed by the heights in the sequence and updates th
+  - maximum area found so far.
+  -
+  - the while loop:
+  -
+  - The while loop continues executing as long as there are elements in the stack
+  - (i.e., while stack), which implies that it will run until the stack is empty.
+  -
+  - Stack Top Comparison: The condition inside the while loop, stack[-1][1] > h,
+  - checks whether the height of the current bar (h) is smaller than the height
+  - of the bar at the top of the stack. In other words, it checks if the current
+  - bar represents the end of a sequence of increasing heights.
+  -
+  - Popping Elements: When the condition is met (i.e., the current bar's height
+  - is smaller), the loop executes, and it repeatedly pops elements from the
+  - stack until the condition is no longer met. This is done with the line
+  - index, height = stack.pop().
+  -
+  - Updating Maximum Area: For each popped element, it calculates the area of the
+  - rectangle formed by that height and the width of the sequence of increasing
+  - heights that ended at the current position (i - index). The maximum area
+  - (max_area) is updated whenever a larger area is found.
+
+## Binary Search
+ 
+- 022.binary_search:
+
+  - Binary search, whether implemented iteratively or recursively, has a
+  - time complexity of O(log n) because it continuously reduces the search
+  - range by half with each comparison. This logarithmic time complexity
+  - is significantly faster than linear time complexity (O(n)), especially
+  - for large lists.
+  -
+  - In basic search, you can traverse the sequence but that would be O(n).
+  - We use 2 pointers and check if target is equal to kinda middle of the
+  - sequence so that we eliminate more than one value each loop. 
+
+- 023.search_a_2d_matrix:
+
+  - ```
+    l, r = 0, len(seq) - 1
+    mid = l + ((r-l)//2)
+  - 
+  - We dont have to iterate over all elements, not even every row.
+  -
+  - we can do double binary search to decide which row we are interested in
+  - and search for the target
+  -
+  - This should be obvious also
+  -
+  - ```ROWS, COLS = len(matrix), len(matrix[0])```
+
+
+- 024.koko_eating_bananas:
+
+  - math.ceil for finding the ceiling of a number.
+  -
+  - understanding the question will give you a range for possible k values
+  -
+  - after that, we can apply binary search to that sequence!
+  - this is cool:
+  -
+  - ``` mid = l + ((r - l) // 2)```
+
+ 
+- 025.find_minimum_rotated_sorted_array:
+
+  - If you see a O(log n ) in the question, instantly think of binary search.
+  -
+  - Because we know the sequence is sorted, rotated but sorted, we can use this to our advantage.
+  -
+  - If the mid we calculate is bigger than left pointer, then we are in the sorted part of left
+  - so go to the right
+  -
+  - If the mid we calculate is smaller than right pointer, than we are in the sorted part of right
+  - so go to the left for even smaller numbers.
+
  
