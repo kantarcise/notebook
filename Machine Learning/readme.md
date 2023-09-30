@@ -39,3 +39,7 @@
 </div>
 
 ---
+
+## Talks
+
+[Pushing the limits of Python ML infra at Netflix - Ville Tuulos, Ravi Kiran Chirravuri, Savin Goyal](https://www.youtube.com/watch?v=8jTo3bVni3E)
