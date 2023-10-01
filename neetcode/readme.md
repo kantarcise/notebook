@@ -334,4 +334,12 @@ you will get the product of all elements.
   - If the mid we calculate is smaller than right pointer, than we are in the sorted part of right
   - so go to the left for even smaller numbers.
 
- 
+
+- 026.search_in_rotated_sorted_array:
+
+  - Any time you are looking for a log time complexity, you should look for binary search.
+  -
+  - For this question, it's like we have 2 sorted sequences combined.
+  -
+  - Look  at the picture before writing the code. Give 2 discrete
+  - examples for different edge cases.
