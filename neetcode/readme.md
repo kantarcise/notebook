@@ -343,3 +343,29 @@ you will get the product of all elements.
   -
   - Look  at the picture before writing the code. Give 2 discrete
   - examples for different edge cases.
+
+
+- 027.time_based_key_value_store:
+
+  - You can use a default dict, but use a dict to make it simpler and more global.
+  -
+  - in setter, we simply check if the key we have is already inside the dictionary
+  -
+  - in getter, we use get method for default value, and use binary search to
+  - find the value we are looking for (or the smaller closest to it in terms of timestamps) 
+
+
+- 028.median_of_two_sorted_arrays:
+
+  - We see the log(n) we think binary search.
+  -
+  - Extending and slicing a list is instantly o(N)
+  -
+  - We dont have to sort or extend the lists. we can just us the fact that
+  - both sequences are sorted.
+  -
+  - The key condition for finding the median is that, for partitions:
+  -
+  - left x should be smaller or equal to right x
+  - left y should be smaller or equal to right x
+
