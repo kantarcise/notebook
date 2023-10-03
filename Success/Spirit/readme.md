@@ -1,3 +1,9 @@
+## Jordan
+
+[Solzhenitsyn Had Every Reason To Be a Victim](https://www.youtube.com/watch?v=g4J63BEOwz4)
+
+---
+
 ## Tom Platz
 
 Everyone has the ability to accomplish unique feats, everyone. 
