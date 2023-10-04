@@ -369,3 +369,21 @@ you will get the product of all elements.
   - left x should be smaller or equal to right x
   - left y should be smaller or equal to right x
 
+
+- 029.best_time_to_buy_and_sell_stock:
+
+  - We are using a sliding window, with to pointers.
+  -
+  - Only moving right pointer is enough to traverse through
+  -
+  - check profit for each transaction, and update max
+  -
+  - if we find a new low, update left pointer.
+
+- 030.longest_substring_without_repeating_characters:
+
+  - Sets are great for duplicate questions
+  -
+  - For a sliding window, you still need to have two pointers
+  -
+  - With thinking about the worst case, you can set up conditions around it.
