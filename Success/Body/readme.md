@@ -1,3 +1,9 @@
+## Friedrich Nietzsche
+
+“Sometimes people don't want to hear the truth because they don't want their illusions destroyed.”
+
+---
+
 ## Jordan Peterson
 
 Things worse than death = Malevolance and Evil.
