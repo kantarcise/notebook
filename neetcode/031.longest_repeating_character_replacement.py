@@ -31,7 +31,20 @@ s consists of only uppercase English letters.
 0 <= k <= s.length
 
 Takeaway:
-TODO
+
+For a string,  we need to remember that there are 26 letters in 
+the English language
+
+we want to maximize the number of characters in the substring 
+to get to the max number of characters, we would want to replace 
+the characters that occurs the least. (less frequent)
+
+We need to setup a sliding window that changes its size based on the
+number of characters we can replace (k) and the equation we know.
+
+for every substring, we can calculate the characters to be replaced by:
+```windowLen - count[mostFrequent]  <= k```
+where count is a dictionary (hash map) with occurences of characters
 
 """
 
@@ -64,7 +77,7 @@ class Solution:
         # AAAABAB
         # for example B here
 
-        # foir every substring, we can calculate the characters to be replaced by:
+        # for every substring, we can calculate the characters to be replaced by:
         # windowLen - count[mostFrequent]  <= k
         # where count is a dictionary (hash map) with occurences of characters
 
