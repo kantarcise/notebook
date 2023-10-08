@@ -387,3 +387,31 @@ you will get the product of all elements.
   - For a sliding window, you still need to have two pointers
   -
   - With thinking about the worst case, you can set up conditions around it.
+
+- 031.longest_repeating_character_replacement:
+
+  - For a string,  we need to remember that there are 26 letters in
+  - the English language
+  -
+  - we want to maximize the number of characters in the substring
+  - to get to the max number of characters, we would want to replace
+  - the characters that occurs the least. (less frequent)
+  -
+  - We need to setup a sliding window that changes its size based on the
+  - number of characters we can replace (k) and the equation we know.
+  -
+  - for every substring, we can calculate the characters to be replaced by:
+  - ```windowLen - count[mostFrequent]  <= k```
+  - where count is a dictionary (hash map) with occurences of characters
+  - 
+ 
+- 032.permutation_in_string:
+
+  - do not forget about edge cases.
+  -
+  - string character frequency is a GREAT usecase for Hashmaps
+  -
+  - comparing a sliding window for the target string can be an approach
+  -
+  - [1, 2, 3] != [3, 2, 1] - so use dictionaries
+  -
