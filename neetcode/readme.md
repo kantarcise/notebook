@@ -414,4 +414,49 @@ you will get the product of all elements.
   - comparing a sliding window for the target string can be an approach
   -
   - [1, 2, 3] != [3, 2, 1] - so use dictionaries
-  -
+
+  
+- 033.minimum_window_substring:
+
+  - Using a hashmap is CLASSIC at this point, for frequency counters in strings
+  - 
+  - Here are some tips for using the sliding window algorithm to solve problems:
+  - 
+  - 1. Identify the condition that the substring must satisfy. 
+  - This is the most important step, as it will determine how 
+  - the algorithm is implemented.
+
+  - 2. Initialize the sliding window. The sliding window can be 
+  - initialized to be any size, but it is generally a good idea 
+  - to start with a small window and then increase the size of the
+  -  window as needed.
+
+  - 3. Check whether the sliding window satisfies the condition.
+  - This is the core of the sliding window algorithm. If the sliding
+  - window satisfies the condition, then the algorithm has found a
+  - substring that satisfies the condition.
+
+  - 4. Update the sliding window. The sliding window can be updated by 
+  - either incrementing the left pointer or the right pointer.
+  -  Incrementing the left pointer will remove the leftmost character 
+  -  from the window, while incrementing the right pointer will add 
+  -  the next character to the window.
+
+  - Repeat the process until the end of the string is reached. The 
+  - algorithm should continue to iterate over the string until it reaches
+  -  the end of the string. If the algorithm has not found a substring
+  - that satisfies the condition by the time it reaches the end of
+  - the string, then the algorithm should return an empty string.
+
+- 034.sliding_window_maximum:
+
+  - Pretty easy to solve in Exponential time
+  -  
+  - To solve it in linear time, we use deques
+  - 
+  - Both pointers can start from 0, right should be smaller than lenght of sequence.
+  - 
+  - For every window, append elements to the deque but pop 
+  - all elements  if they are not bigger than current element
+  - 
+  - When you find the current max in the window, now you can update the left pointer
