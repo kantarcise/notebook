@@ -31,7 +31,6 @@ m == s.length
 n == t.length
 1 <= m, n <= 105
 s and t consist of uppercase and lowercase English letters.
- 
 
 Follow up: Could you find an algorithm that runs in O(m + n) time?
 
@@ -41,21 +40,21 @@ Using a hashmap is CLASSIC at this point, for frequency counters in strings
 
 Here are some tips for using the sliding window algorithm to solve problems:
 
-Identify the condition that the substring must satisfy. 
+1. Identify the condition that the substring must satisfy. 
 This is the most important step, as it will determine how 
 the algorithm is implemented.
 
-Initialize the sliding window. The sliding window can be 
+2. Initialize the sliding window. The sliding window can be 
 initialized to be any size, but it is generally a good idea 
 to start with a small window and then increase the size of the
  window as needed.
 
-Check whether the sliding window satisfies the condition.
- This is the core of the sliding window algorithm. If the sliding
-  window satisfies the condition, then the algorithm has found a
-   substring that satisfies the condition.
+3. Check whether the sliding window satisfies the condition.
+This is the core of the sliding window algorithm. If the sliding
+window satisfies the condition, then the algorithm has found a
+substring that satisfies the condition.
 
-Update the sliding window. The sliding window can be updated by 
+4. Update the sliding window. The sliding window can be updated by 
 either incrementing the left pointer or the right pointer.
  Incrementing the left pointer will remove the leftmost character 
  from the window, while incrementing the right pointer will add 
@@ -64,8 +63,8 @@ either incrementing the left pointer or the right pointer.
 Repeat the process until the end of the string is reached. The 
 algorithm should continue to iterate over the string until it reaches
  the end of the string. If the algorithm has not found a substring
-  that satisfies the condition by the time it reaches the end of
-   the string, then the algorithm should return an empty string.
+that satisfies the condition by the time it reaches the end of
+the string, then the algorithm should return an empty string.
 
 """
 
@@ -106,6 +105,7 @@ class Solution:
 
         count_t, window = {}, {}
 
+        # make every letter in t the keys of the target dictionary
         for char in t:
             count_t[char] = 1 + count_t.get(char, 0) 
 
@@ -113,24 +113,28 @@ class Solution:
         # we need at least length of the target string
         have, need = 0 , len(count_t) 
 
-        result, res_length = [-1, -1], float("infinity")
+        # at start the window could be just -1 to -1 with infinite length
+        # we are trying to find the shortest substring with indexes stored in result_indexes
+        result_indexes, result_length = [-1, -1], float("infinity")
 
-        
         # setup sliding window
         l = 0
         for r in range(len(s)):
 
+            # add the new character to window
             c = s[r]
             window[c] = 1 + window.get(c, 0)
 
+            # this character is useful!
             if c in count_t and window[c] == count_t[c]:
                 have +=1
             
+            # if we got a possible result, increment left pointer on condition 
             while have == need:
-                # update the result, found a shorter string
-                if (r - l + 1) < res_length:
-                    result = [l, r]
-                    res_length = (r - l + 1)
+                # update the result_indexes, found a shorter string
+                if (r - l + 1) < result_length:
+                    result_indexes = [l, r]
+                    result_length = (r - l + 1)
                 
                 # pop from the left of our window
                 window[s[l]] -= 1
@@ -138,8 +142,8 @@ class Solution:
                     have -= 1
                 l += 1
         
-        l, r = result
-        return s[l:r+1] if res_length != float("infinity") else ""
+        l, r = result_indexes
+        return s[l:r+1] if result_length != float("infinity") else ""
 
 
 if __name__ == "__main__":
