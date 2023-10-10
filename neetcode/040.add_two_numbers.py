@@ -37,6 +37,10 @@ My approch would work, but its not why the question is asked.
 
 Do not forget about trying to understand the question. Calm in the first 3 minutes.
 
+we check if the node is None for traversing the LinkedList.
+
+In addition, we have a simple condition for the sum called "CARRY"
+
 """
 
 # Definition for singly-linked list.
@@ -73,7 +77,6 @@ class Solution:
         
         dummy = ListNode()
         cur = dummy
-
         carry = 0
         
         # if the size is different for two linked lists. you just add a node with 0
@@ -85,7 +88,6 @@ class Solution:
             v2 = l2.val if l2 else 0
 
             # new digit 
-
             val = v1 + v2 + carry
 
             # after calculation
@@ -97,12 +99,12 @@ class Solution:
 
             # update pointers
             cur = cur.next
+            # if there are still nodes avaliable, go to them.
             l1 = l1.next if l1 else None
             l2 = l2.next if l2 else None
 
         # what if the last summation is 8 + 7
         # there has to be one more carry for it. 
-
         return dummy.next
 
 if __name__ == '__main__':

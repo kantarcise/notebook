@@ -1,5 +1,4 @@
 """
-
 You are given an array of integers nums, there is a
  sliding window of size k which is moving from the very left of the array
   to the very right. You can only see the k numbers in the window. 
@@ -55,6 +54,7 @@ class Solution:
     
     # my first take
     # o(n^2) time complexity, not good.
+    # time limit exceeded
     def maxSlidingWindow(self, nums, k):
         
         #  nums = [1,3,-1,-3,5,3,6,7]
@@ -101,7 +101,8 @@ class Solution:
             
             # make sure no smaller value exists in the queue
             # if there is an element in the queue and 
-            # the top value in the queue (the rightmost value in the queue) is smaller than the value we are inserting
+            # the top value in the queue (the rightmost value in the queue) is 
+            # smaller than the value we are inserting
             while queue and nums[queue[-1]] < nums[r]:
                 # just remove the smaller values
                 queue.pop()
