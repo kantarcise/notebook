@@ -460,3 +460,40 @@ you will get the product of all elements.
   - all elements  if they are not bigger than current element
   - 
   - When you find the current max in the window, now you can update the left pointer
+
+## Linked List
+
+- 035.reverse_linked_list:
+
+  - The main condition for Linked Lists is that while traversing, the
+  - node will be not None
+  -
+  - TO reverse a LL, you need to make it go from
+  -
+  - 1 -> 2 -> 3 -> 4 -> 5 to 1 <- 2 <- 3 <- 4 <- 5
+  -
+  - Simplest way it to traverse every node and change directions of pointers
+  -
+  - When you are dealiong with a pointer, make sure you finish
+  - all operations on it (prev, next)
+
+
+- 036.merge_two_sorted_lists:
+
+  - We check the Node being non Empty while traversing, again.
+  -
+  - Make a dummy node to simplify the merging logic.
+
+
+- 040.sliding_window_maximum:
+
+  - I was stuck in thinking the inequality of sizes for LL's. Turns out you can
+  - just add 0 nodes to the one that is missing.
+  -
+  - My approch would work, but its not why the question is asked.
+  -
+  - Do not forget about trying to understand the question. Calm in the first 3 minutes.
+  -
+  - we check if the node is None for traversing the LinkedList.
+  -
+  - In addition, we have a simple condition for the sum called "CARRY"
