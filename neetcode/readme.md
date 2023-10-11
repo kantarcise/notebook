@@ -484,6 +484,55 @@ you will get the product of all elements.
   -
   - Make a dummy node to simplify the merging logic.
 
+- 037.reorder_list:
+
+  - Two phases:
+  -
+  - Find second portion of the linked list, reverse it
+  - add it one by one
+  -
+  - To find the middle of the LL, use a slow and fast pointer
+  -
+  - slow pointer at first node, fast pointer at second node
+  -
+  - keep going until fast pointer reaches None or last element
+  -
+  - if it is an even list, slow pointer will be the
+  - last element of the first portion
+  -
+  - if it is an odd list slow pointer will
+  - be in the middle exactly
+  -
+  - we need pointer at the beginning of each first and second lists
+  -
+  - for the last node of the first list, node.next should be None 
+ 
+- 038.remove_nth_node_from_end_of_list:
+
+  - Like a lot of LL questions, lets use two pointers
+  -
+  - 1 2 3 4 5  n = 2  - how can we identify 4 is the second to last element ?
+  -
+  - Lets initialize left pointer at the beginning of the list
+  - and move right pointer n times (it will start at 3)
+  -
+  - this way the space between two pointers will be exactlY
+  - when right pointer reaches None, left pointer will be at 4
+  -
+  - but because we want to delete 4, we need Left pointer to be at
+  - so lets add a dummy node at the beginning
+ 
+- 039.copy_list_with_random_pointer:
+
+  - we can just copy nodes but we cannot just make a random index for
+  - future nodes that we have not made yet
+  -
+  - Because of this, make 2 passes
+  -
+  - 1) at first pass just make copies of the nodes and a hashmap
+  -
+  - 2) at second pass, pointer connections and random values, using the hashmap
+
 
 - 040.sliding_window_maximum:
 
