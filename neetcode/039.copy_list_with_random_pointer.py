@@ -7,7 +7,9 @@ Construct a deep copy of the list. The deep copy should consist of exactly
 its corresponding original node. Both the next and random pointer of the
 new nodes should point to new nodes in the copied list such that the
 pointers in the original list and copied list represent the same list
-state. None of the pointers in the new list should point to nodes in the original list.
+state. 
+
+None of the pointers in the new list should point to nodes in the original list.
 
 For example, if there are two nodes X and Y in the original list, where 
 X.random --> Y, then for the corresponding two nodes x and y in
@@ -50,7 +52,18 @@ Constraints:
 
 Takeaway:
 
+we can just copy nodes but we cannot just make a random index for 
+future nodes that we have not made yet
+
+Because of this, make 2 passes 
+
+at first pass just make copies of the nodes and a hashmap
+
+at second pass, pointer connections and random values, using the hashmap
+        
 """
+
+from copy import deepcopy
 
 # Definition for a Node.
 class Node:
@@ -60,9 +73,43 @@ class Node:
         self.random = random
 
 class Solution:
-    def copyRandomList(self, head):
-        pass
 
+    # yeah OBVIOUSLY NOT
+    def copy_random_list(self, head):
+        answer = deepcopy(head)
+        return answer
+
+    def copyRandomList(self, head):
+        # make 2 passes 
+        # at first pass just make copies of the nodes and a hashmap
+        # at second pass, pointer connections and random values, using the hashmap
+        
+        # because the next can be None
+        old_to_copy = {None: None}
+        current = head
+        # first pass, just make nodes
+        while current:
+            # make a new node
+            copy = Node(current.val)
+            # add this node to a dictionary
+            old_to_copy[current] = copy
+            # move
+            current = current.next
+
+        # second pass, make connections and random indexes
+
+        current = head
+        while current:
+            # find the copy node
+            copy = old_to_copy[current]
+            # find the next of copy node
+            copy.next = old_to_copy[current.next]
+            # find the random for that node
+            copy.random = old_to_copy[current.random]
+            # move
+            current = current.next
+
+        return old_to_copy[head]
 
 if __name__ == "__main__":
     pass
