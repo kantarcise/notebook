@@ -42,6 +42,21 @@ Follow up: Can you solve it using O(1) (i.e. constant) memory?
 
 Takeaway:
 
+We are trying to understand if the traversal of 
+the LL is an infinite loop
+
+If there is a cycle in it, it should be infinite
+
+BUt the most precise way is to check whether we 
+pass through some arbitrary node, twice
+
+lets use slow and fast pointers. 
+Floyd's Tortoise and Hare
+
+if fast pointer catches slow pointer, there has to be a cycle
+
+Just a reminder, you can use a hashset for this question
+
 """
 
 # Definition for singly-linked list.
@@ -51,9 +66,79 @@ class ListNode:
         self.next = None
 
 class Solution:
+
+    # absolutely no correlation between the solution and this
+    def has_cycle(self, head):
+        
+        pointer = head 
+        length = 0 
+
+        while pointer:
+            length += 1
+            pointer = pointer.next
+
+        if length == 1:
+            return False
+
+        return True
+
     def hasCycle(self, head):
-        pass
+        # we are trying to understand if the traversal of 
+        # the LL is an infinite loop
+        
+        # If there is a cycle in it, it should be infinite
+
+        # BUt the most precise way is to check whether we 
+        # pass through some arbitrary node, twice
+
+        # lets use slow and fast pointers. 
+        # Floyd's Tortoise and Hare
+
+        # if fast pointer catches slow pointer, there has to be a cycle
+        
+        slow, fast = head, head
+
+        # fast will reach to the end first and we are shifting
+        # fast by two so need to check fast.next too.
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+            if slow == fast:
+                return True
+
+        return False
+
+    # using a set
+    def hasCycle_(self, head):
+        
+        pointer = head
+        set_of_nodes = set()
+
+        while pointer:
+            if pointer in set_of_nodes:
+                return True
+            set_of_nodes.add(pointer)
+            pointer = pointer.next
+        
+        return False
+
 
 if __name__ == "__main__":
 
+    node1 = ListNode(3)
+    node2 = ListNode(2)
+    node3 = ListNode(0)
+    node4 = ListNode(-4)
+
+    node1.next = node2
+    node2.next = node3
+    node3.next = node4
+    node4.next = node2  # make a cycle from node4 to node2
+
     sol = Solution()
+    has_cycle = sol.hasCycle(node1)
+
+    if has_cycle:
+        print("The linked list has a cycle.")
+    else:
+        print("The linked list does not have a cycle.")
