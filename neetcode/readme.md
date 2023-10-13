@@ -546,3 +546,93 @@ you will get the product of all elements.
   - we check if the node is None for traversing the LinkedList.
   -
   - In addition, we have a simple condition for the sum called "CARRY"
+
+
+- 041.linked_list_cycle:
+
+  - We are trying to understand if the traversal of
+  - the LL is an infinite loop
+  -
+  - If there is a cycle in it, it should be infinite
+  -
+  - BUt the most precise way is to check whether we
+  - pass through some arbitrary node, twice
+  -
+  - Lets use slow and fast pointers. Floyd's Tortoise and Hare
+  -
+  - if fast pointer catches slow pointer, there has to be a cycle
+  -
+  - Just a reminder, you can use a hashset for this question
+
+
+- 042.find_the_duplicate_number:
+
+  - You can use a dict but it wont cut it, because it wont be o(1) time
+  -
+  - It is pretty incredible but this is a Linked List question
+  - [1,3,4,2,2] has length of 5 and the values has to
+  - be between 1 - 4
+  -
+  - these are not values, these are pointers
+  -
+  - i =  0  1  2  3  4
+  - n =  1  3  4  2  2
+  -
+  - If there are a node which is pointed by more than 1 node
+  - we solve the problem
+  - 
+  - after you find the first intersection of slow and fast pointers
+  - start a new slow pointer from the beginning, when
+  - it meets the old slow pointer, you found your solution
+
+
+- 043.lru_cache:
+
+  - We will have a capacity
+  -
+  - we will have a doubly linked list, also a hash map
+  - with keys and values as pointers to nodes.
+  -
+  - LRU and most recent will be pointed and updated.
+  - So we need two pointers just for those. Which will be Nodes as well.
+  -
+  - You can also use Queues, implemented with Python lists
+
+- 044.merge_k_sorted_lists:
+
+  - My initial solution was to use a simple list and
+  - get every element in it, sort it and make a new LL
+  -
+  - The problem is about Merge Sort
+  - simply merge two lists until you have merged them all.
+  - 
+  - For merging two lists, you can use a helper function
+  -
+  - ** do not forget edge cases ** 
+
+- 045.reverse_nodes_in_k_group:
+
+  -   Start with a dummy node and sets it as the
+  - previous node for the first group.
+  - This dummy node simplifies the code for handling
+  - the head of the list and avoids edge cases.
+  -
+  - You can write a simple helper function to get the kth node
+  -
+  - It then identifies the next group by accessing
+  - the node immediately following the kth node.
+  -
+  - The core part of the code is the loop that reverses
+  - the k nodes in the current group. It uses two
+  - pointers (prev and current) to reverse the direction
+  - of the next pointers for the k nodes.
+  -
+  - This effectively reverses the group.
+  -
+  - After reversing the group, it updates the pointers to link
+  - the reversed group to the previous group. It also sets
+  - group_prev to the previous group's end, which prepares
+  - it for the next iteration.
+
+
+## Trees
