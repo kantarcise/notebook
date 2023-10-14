@@ -636,3 +636,74 @@ you will get the product of all elements.
 
 
 ## Trees
+
+- 046.invert_binary_tree:
+
+  - We can approach the problem with recursion
+  -
+  - Simply make the swap and call the method on to the children Node
+  -
+  - Depth-First Search (DFS) in the context of a binary tree. DFS is
+  - a common algorithm used for traversing or searching tree and
+  - graph data structures. In this specific case, it's a pre-order
+  - DFS because it visits the current node, then recursively explores
+  - its left and right subtrees.
+
+- 047.maximum_depth_of_binary_tree:
+
+  - My natural approach was to just recursive DFS
+  -
+  - 3 ways to solve it: Recursive DFS, Iterative DFS and Breadth-First Search
+  -
+  - Recursively calculate the depth and return the maximum among them
+  -
+  - If you want no recursion, BFS is cool. You can use a queue to hol the nodes
+  - and increase depth on each level
+
+- 048.diameter_of_binary_tree:
+
+  - The diameter can pass through the node or not.
+  -
+  - For that, we need a depth calculation for the possible
+  - root passing solution
+  -
+  - We also need to calculate the diameter of the left and right
+  - subtrees, becuase it may be the case that max diameter is
+  - never passing through the root node
+
+- 049.balanced_binary_tree:
+
+  - We can do a recursive DFS on subtrees and compare the results
+  - This will be o(n) * n
+  -
+  - We can use the heights of the subtrees and return a boolean
+  - based on not expecting a node height
+  -
+  - ``` return height != -1```
+  -
+  - We can do better than starting from root node and asking
+  - the question is the subtree balanced ? again and again
+  -
+  - Just define a recursive dfs but alongside balance, return the
+  - height too
+
+- 050.same_tree:
+
+  - My approach was to traverse the tree and add all elements together
+  -
+  - We can use DFS -
+  - with time complexity o(p+q) - all elements in both trees
+  -
+  - Make a recursive call on the children of the node
+  - you are working on
+ 
+- 051.subtree_of_another_tree:
+
+  - The brute force algorithm will o(s *t)
+  -
+  - But most tree problems are easier when we think recursively.
+  -
+  - However, do not forget the edge cases.
+  -
+  - We basically just write the same_tree method and use it
+  - in our is_subtree method
