@@ -1,5 +1,130 @@
 
 <p align="center">
+  <img src="https://github.com/kantarcise/notebook/blob/master/Books/covers/steve-jobs-walter-isaacson.jpg" title="12 Rules For Life"/>
+</p>
+
+Best biography I've read, so far (14.10.2023).
+
+Here is every single underlined part from the book.
+
+- **Steve is Adopted** (page 4): “I remember running into the house, crying. And my parents said, ‘No, you have to understand.’ They were very serious and looked me straight in the eye. They said, ‘We specifically picked you out.’ Both of my parents said that and repeated it slowly for me. And they put an emphasis on every word in that sentence.” 
+
+- **You can Build Anything** (page 15): . "It made you realize you could build and understand anything. Once you built acouple ofradios, you'd see a TV in the catalogue and say, 'Ican build that as well,' even ifyou didn't. Iwas very lucky, because when I was a kid both my dad and the Heathkits made me believe I could build anything."
+  
+- **Long Fasts** (page 33): He started with two-day fasts, and eventually tried to stretch them to a week or more, breaking them carefully with large amounts of water and leafy vegetables. "After aweek you start to feel fantastic," he said. "You get a ton of vitality from not having to digest all this food. I was in great shape. I felt I could get up and walk to San Francisco anytime.
+  
+- **Refuse to accept auto truths** (page 37): "He refused to accept automatically received truths, and he wanted to examine every thing himself."
+  
+- **Making Things** (page 38): It reinforced my sense ofwhat was important—creating great things instead of making money, putting things back into the stream of history and of human consciousness as much as I could."
+  
+- **In Control** (page 50): "There is something indefinable in an entrepreneur, and I saw that in Steve," he said. "He was interested not just in engineering, but also the business aspects. I taught him that if you act like you can do something, then it will work. I told him, pretend to be completely in control and people will assume that you are.'" 
+
+- **Sold His Bus and Calculator** (page 57): Jobs knew how to appeal to Wozniak. He didn't argue that they were sure to make money, but instead that they would have a fun adventure. "Even if we lose our money, we'll have a company," said Jobs as they were driving in his Volkswagen bus. "For once in our lives, we'll have a company." This was enticing to Wozniak, even more than any prospect of getting rich. He recalled, "I was excited to think about us like that.To be two best friends starting a company. Wow. I knew right then that I'd do it. How could I not?" In order to raise the money they needed, Wozniak sold his HP 65 calculator for $500, though the buyer ended up stiffing him for half of that. For his part,Jobs sold his Volkswagen bus for $1,500.
+  
+- **Jobs Father** (page 68): Jobs's father had once taught him that a drive for perfection meant caring about the craftsmanship even of the parts unseen. Jobs applied that to the layout of the circuit board inside the Apple II.
+  
+- **Your Goal** (page 71): He emphasized that you should never start a company with the goal of getting rich. Your goal should be making something you believe in and making a company that will last."
+  
+- **Strategy** (page 72): Markkula wrote his principles in a one-page paper titled "The Apple Marketing Philosophy" that stressed three points. The first was **empathy**, an intimate connection with the feehngs ofthe customer: "We will truly understand their needs better than any other company." The second was **focus**: "In order to do a good job of those things that we decide to do,we must eliminate all of the unimportant opportunities." The third and equally important principle, awkwardly named, was **impute**. It emphasized that people form an opinion about a company or product based on the signals that it conveys. "People DO judge a book by its cover," he wrote. "We may have the best product, the highest quailty, the most useful software etc.; if we present them in a slipshod manner, they will be perceived as slipshod; if we present them in a creative, professional manner, we will impute the desired qualities."
+
+- **Simplicity** (page 73): "Simplicity is the ultimate sophistication."
+
+- **Predict Future** (page 86): Among its visionaries was the scientist Alan Kay, who had two great maxims that Jobs embraced: "The best way to predict the future is to invent it" and "People who are serious about software should make their own hardware."
+  
+- **Steal** (page 89): As he once said, "Picasso had a saying—'good artists copy, great artists steal'—and we have always been shameless about stealing great ideas."
+  
+- **About money** (page 96): I never worried about money. I grew up in amiddle-class family, so I never thought I would starve. And I learned at Atari that I could be an okay engineer, so I always knew I could get by. I was voluntarily poor when I was in college and India, and I lived a pretty simple life even when I was working. So I went from fairly poor, which was wonderful,
+because I didn't have to worry about money, to being incredibly rich, when I also didn't have to worry about money. I watched people at Apple who made a lot of money and felt they had to live differendy. Some of them bought a Rolls-Royce and various houses, each with a house manager and then someone to manage the house managers. Their wives got plastic surgery and turned into these
+bizarre people. This was not how I wanted to live. It's crazy. I made a promise to myselfthat I'm not going to let this money ruin my life.
+
+- **A players** (page 114): But even though Jobs's style could be demoralizing, it could also be oddly inspiring. It infused Apple employees with an abiding passion to create groundbreaking products and a belief that they could accomplish what seemed impossible. They had T-shirts made that read "90 hours a week and loving it!" Out of a fear of Jobs mixed with an incredibly strong urge to impress him, they exceeded their own expectations. "I've learned over the years that when you have really good people you don't have to babysit them," Jobs later explained. "By expecting them to do great things, you can get them to do great things. The original Mac team taught me that A-plus players like to work together, and they don't like it if you tolerate B work. Ask any member of that Mac team.They will tell you it was worth the pain." Most of them agree. "He would shout at a meeting, 'You asshole, you never do anything right,'" Debi Coleman recalled. "It was like an hourly occurrence. Yet I consider myself the absolute luckiest person in the world to have worked with him.
+  
+- **Media is a Circus** (page 129): Time decided they were going to make me Man of the Year, and I was twenty-seven, so I actually cared about stuff like that. I thought it was pretty cool. They sent out Mike Moritz to write a story. We're the same age, and I had been very successful, and I could tell hewas jealous and there was anedge to him. He wrote this terrible hatchet job. So the editors in NewYork get this story and say, "We can't make this guy Man of the Year." That really hurt. But it was a good lesson. It taught me to never get too excited about things like that, since the media is a circus anyway.
+
+- **Do Few Things Great** (page 143): We all have a short period of time on this earth- We probably only have the opportunity to do a few things really great and do them well. None of us has any idea how long we’re going to be here nor do I, but my feeling is I’ve got to accomplish a lot of these things while I’m young.
+  
+- **30th Birthday** (page ): The invitation read, "There's an old Hindu saying that goes, In the first 30 years of your life,you make your habits.For the last 30 years of your life, your habits makeyou.' Come help me celebrate mine."
+
+- **The Salesman** (page 300): The Microsoft announcement, along with Jobs's passionate reengagement with the company, provided a much-needed jolt for Apple. By the end of the day, its stock had skyrocketed $6.56, or 33%, to close at $26.31, twice the price ofthe day Amelio resigned. The one-day jump added $830 million to Apple's stock market capitalization. The company was back from the edge of the grave.
+  
+- **The Basics** (page 306): "What we're trying to do is not highfalutin. We're trying to get back to the basics of great products, great marketing, and great distribution. Apple has drifted away from doing the basics really well."
+  
+- **Powerpoint** (page 310): One of the first things Jobs did during the product review process was ban PowerPoints. "I hate the way people use slide presentations instead of thinking," Jobs later recalled. "People would confront a problem by creating a presentation. I wanted them to engage, to hash things out at the table, rather than show a bunch of slides. People who know what 
+they're talking about don't need PowerPoint."
+
+- **x50 engineer** (page 334): For most things in life, the range between best and average is 30% or so. The best airplane flight, the best meal, they maybe 30% better than your average one.What I saw with Woz was somebody who was **fifty times better** than the average engineer. He could have meetings in his head.The Mac team was an attempt to build a whole team like that, A players. People said they wouldn't get along, they'd hate working with each other. But I realized that A players like to work with A players, they just didn't like working with C players. At Pixar, it was a whole company of A players. When I got backto Apple, that's what I decided to try to do. You need to have a collaborative hiring process. When we hire someone, even if they're going to be in marketing, I will have them talk to the design folks and the engineers. My role model was J. Robert Oppenheimer. I read about the type of people he sought for the atom bomb project. I wasn't nearly as good as he was, but that's what I aspired to do.
+
+- **100 People Meeting** (page 349): Once a yearJobs took his most valuable employees on a retreat, which he called "The Top 100." They were picked based on a simple guide line: the people you would bring if you could take only a hundred people with you on a lifeboat to your next company. At the end of each retreat, Jobs would stand in front of a whiteboard (he loved white boards because they gave him complete control ofa situation and they engendered focus) and ask, "What are the ten things we should be doing next?" People would fight to get their suggestions on the list. Jobs would write them down, and then cross offthe ones he decreed dumb. After much jockeying, the group would come up with a list of ten.Then Jobs would slash the bottom seven and announce, **"We can only do three."**
+  
+- **100x Outspent** (page 361): I had this crazy idea thatwe could sell just as many Macs by advertising the iPod. In addition, the iPod would position Apple as evoking innovation and youth. So I moved $75 million of advertising money to the iPod, even though the category didn't justify one hundredth of that. That meant that we completely dominated the market for music players. We outspent everybody by a factor of about a hundred.
+  
+- **We Won Because** (page 375):  We made the iPod for ourselves, and when you're doing something for yourself, or your best friend or family, you're not going to cheese out. If you don't love something, you're not going to go the extra mile, work the extra weekend, challenge the status quo as much.
+
+- **End Something** (page 376): Jobs did not organize Apple into semi autonomous divisions; he closely controlled all of his teams and pushed them to work as one cohesive and flexible company, with one profit-and-loss bottom line. "We don't have 'divisions' with their own P&L," said Tim Cook. "We run one P&L for the company." In addition, like many companies, Sony worried about cannibalization. If it built amusic player and service that made it easy for people to share digital songs, that might hurt sales of its record division. One of Jobs's business rules was tonever be afraid of cannibalizing yourself. "If you don't cannibalize yourself, someone else will," he said. So even though an iPhone might cannibalize sales ofan iPod, oran iPad might cannibalize sales of a laptop, that did not deter him.
+
+- **Second Product Syndrome** (page 396): "There's a classic thing in business, which is the second-product syndrome," Jobs later said. It comes from not understanding what made your first product so successful. "I lived through that at Apple. My feeling was, if we got through our second film, we'd make it."
+
+- **Steve's Own Movie** (page 397): Jobs obsessed over every aspect of the new building, from the over all concept to the tiniest detail regarding materials and construction. "Steve had this firm beliefthat the right kind of building can do great things for a culture," said Pixar's president Ed Catmull. Jobs controlled the creation of the building as if he were a director sweating each scene of a film. "The Pixar building was Steve's own movie," Lasseter said.
+  
+- **Makers** (page 405): If I don't have wave makers, the company is not going to succeed." He presented them with some choices. They could stick with the current animation management, which he didn't think wouldwork. They could get rid of management and find someone else, but he said he didn't know who that would be. Or they could buy Pixar. "The problem is,I don't know if it's for sale, and if it is, it's going to be a huge amount of money," he said. The board authorized him to explore a deal.
+
+- **Disney Buying Pixar** (page 408): Everyone then gathered in the atrium. "Disney is buying Pixar," Jobs announced. There were a few tears, butas he explained the deal, the staffers began to realize that insome ways it was a reverse acquisition. Catmull would be the head of Disney animation, Lasseter its chief creative officer. By the end they were cheering. Iger had been standing on the side, and Jobs invited him to centerstage. As he talked about the special culture of Pixar and how badly Disney needed to nurture it and learn from it, the crowd broke into applause.
+  
+- **Remembering Death** (page 422): Remembering that I'll be dead soon is the most important tool I've ever encountered to help me make the big choices in life. Almost everything--all external expectations, all pride, all fear of embarrassment or failure--these things just fall away in the face of death, leaving only what is truly important. Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose. You are already naked. There is no reason not to follow your heart.
+
+- **Best Motivator** (page 430): Phones were just too complicated. JObs and his team became excited about the prospect of building a phone that they woul want to use: "That's the best motivator of all", Jobs later said.
+
+- **They actually did this** (page 432): They decided to proceed on two paths: P1 was the code name for the phone being developed using a IPod trackwheel and P2 was the new alternative using a multi touch screen.
+  
+- **Not Good Enough** (page 436): The problem was that the iPhone should have been all about the display, but in their current design the case competed with the display instead of getting out of the way. "Guys you have killed yourselves over this design for the last 9 months but we are going to change it" Jobs told Ive's team. "We are all going to have to work nights and weekends and if you want we can hand you some guns so you can kill us now." Instead of balking, team agreed. "It was one of my proudest moments at Apple" Jobs recalled.
+
+- **Desire** (page 438): "Steve understands desire" said Alan Kay, the XEROX Parc pioneer.
+
+- **iPad selection for Size** (page 453): The process began with Jobs and Ive figuring out the right screen size. They had twenty models made—all rounded rectangles, of course—in slightly varying sizes and aspect ratios. Ive laid them out on a tablein the designstudio, and in the afternoon they would lift the velvet cloth hiding them and play with them. "That's how we nailed what the screen size was," Ive said.
+
+- **Ads** (page 461): After mulling over the options, Jobs realized what he wanted. Not humor, nor a celebrity, nor a demo. "It's got to make a statement," he said. "It needs to be a manifesto. This is big." He had announced that the iPadwould change theworld, and he wanted a campaign that reinforced that declaration. Other companies would come out with copycat tablets in a year or so, he said, and he wanted people to remember that the iPad was the real thing. "We need ads that stand up and declare what we have done."
+
+- **Apps** (page 462): The iPad commercials were not about the device, but about what you could do with it. Indeed itssuccess came not just from the beauty of the hardware but from the applications, known as apps, that allowed you to indulge in all sorts of delightful activities.
+  
+- **Legacy** (page 469): "You're blowing it with Fox News," Jobs told him over dinner. "The axis today is not liberal and conservative, the axis is constructive-destructive, and you've cast
+your lot with the destructive people. Fox has become an incredibly destructive force in our society. You can be better, and this is going to be your legacy if you're not careful." Jobs said he thought Murdoch did not really like how far Fox had gone. 
+
+- **Culture** (page 470): "I used tobelieve that areally big company couldn't have a clear corporate culture," Jobs said. "But I now believe it can be done.Murdoch's done it. I think I've done it at Apple."
+
+- **How To Battle** (page 471): A few days after he unveiled the iPad in January 2010, Jobs held a "town hall" meeting with employees at Apple's campus. Instead of exulting about their transformative new product, however, he went into a rant against Google for producing the rival Android operating system. Jobs was furious that Google had decided to compete with Apple in
+the phone business. "We did not enter the search business," he said. "They entered the phone business. Make no mistake. They want to kill the iPhone. We won't let them." A few minutes later, after the meeting moved on to another topic,Jobs returned to his tirade to at tack Google's famous values slogan. "I want to go back to that other question first and say one more thing. This 'Don't be evil' mantra, it's bullshit."
+
+- **Strong Opinions** (page 477): Jobs not only built and then rebuilt his company around some very strong opinions about digital life, but he's willing to defend them inpublic. Vigorously. Bluntly.
+
+- **Teaching To Reed** (page 480): Jobs also decided to bring his son Reed, then a high school senior,back with him from Hawaii. "I'm going to be in meetings 24/7 for probably two days and I want you to be in every single one because you'll learn more in those two days than you would in two years at business school," he told him. "You're going to be in the room with the best people in the world making really tough decisions and get to see how the sausage is made."Jobs got a little misty-eyedwhen he recalled the experience. "I would go through that all again just for that
+opportunity to have him see me at work," he said."He got to see what his dad does."
+
+- **4 Sentences For Recovery** (page 481): At the press event that Friday, held in Apple's auditorium, Jobs followed McKenna's advice. He did not grovel or apologize, yet he was able to defuse the problem by showing that Apple understood it and would tryto make it right.Then he changed the framework ofthe discussion, saying that all cell phones had some problems. Later he told me that he had sounded a bit "too annoyed" at the event, but in fact he was able to strike a tonethat was unemotional and straightforward. He captured it in four short,declarative sentences: **"We're not perfect. Phones are not perfect. We all know that. But we want to make our users happy."**
+  
+- **Never Stop** (page 488): "I know that it's possible I will die and leave Laurene with a half-built boat," Jobs told his biographer Walter Isaacson. "But I have to keep going on it. If I don't, it's an admission that I'm about to die."
+
+- **Journey** (page 495): The Journey is the reward. That turned out to be True.
+
+- **Larry Page and Steve Jobs** (page 508): We talked a lot about focus. And choosing people. How to know who to trust, and how to build a team of lieutenants he can count on. I described the blocking and tackling he would have to do to keep the company from getting flabby or being larded with B players. The main thing I stressed was focus. Figure out what Google wants to be when it grows up. It’s now all over the map. What are the five products you want to focus on? Get rid of the rest, because they’re dragging you down. They’re turning you into Microsoft. They’re causing you to turn out products that are adequate but not great. I tried to be as helpful as I could.
+
+- **Stepping Down** (page 514): I have always said if there ever came a day when I could no longer meet my duties and expectations as Apple's CEO, I would be the first to let you know. Unfortunetely that day has come.
+
+- **All I could** (page 515): "I've had a very luck career, a very lucky life" he replied. "I have done all that I can do".
+
+- **Integrated** (page 519): "We do these things not because we are control freaks," he explained. "We do them because we want to make great products, because we care about the user and because we like to take responsibility for the entire experience rather than turn out the crap that other people make." He also believed he was doing people a service. "They're busy doing whatever they do best, and they want us to do what we do best. Their lives are crowded. They have other things to do than think about how to integrate their computers and devices."
+
+- **Was he Smart?** (page 522): Was he smart? No, not exceptionally. Instead, he was a genius. His imaginative leaps were instinctive, unexpected, and at times magical. He was, indeed, an example of what the mathematician Mark Kac called a magician genius, someone whose insights come out of the blue and require intuition more than mere mental processing power. Like a pathfinder, he could absorb information, sniff the winds, and sense what lay ahead.
+
+- **True Legacy** (page 521 - 525): "My passion has been to build an enduring company where people were motivated to make great products. Everything else was secondary. Sure, it was great to make a profit, because that was what allowed you to make great products. But the products, not the profits, were the motivation. Edwin Land of Polaroid talked about the intersection of the humanities and science. I like that intersection. There’s something magical about that place. There are a lot of people innovating, and that’s not the main distinction of my career. The reason Apple resonates with people is that there’s a deep current of humanity in our innovation. **I think great artists and great engineers are similar, in that they both have a desire to express themselves. In fact some of the best people working on the original Mac were poets and musicians on the side.** In the seventies computers became a way for people to express their creativity. Great artists like Leonardo da Vinci and Michelangelo were also great at science. Michelangelo knew a lot about how to quarry stone, not just how to be a sculptor.
+I hate it when people call themselves “entrepreneurs” when what they’re really trying to do is launch a startup and then sell or go public, so they can cash in and move on. They’re unwilling to do the work it takes to build a real company, which is the hardest work in business. That’s how you really make a contribution and add to the legacy of those who went before. You build a company that will still stand for something a generation or two from now. That’s what Walt Disney did, and Hewlett and Packard, and the people who built Intel. They created a company to last, not just to make money. That’s what I want Apple to be.
+I don’t think I run roughshod over people, but if something sucks, I tell people to their face. It’s my job to be honest. I know what I’m talking about, and I usually turn out to be right. That’s the culture I tried to create. We are brutally honest with each other, and anyone can tell me they think I am full of shit and I can tell them the same.  I figured that it was always my job to make sure that the team was excellent, and if I didn’t do it, nobody was going to do it.
+  
+- **Crazy Ones** (page 531): And while some may see them as the crazy ones, we see genius. Because the people who are crazy enough to think they can change the world, are the ones who do.
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+<p align="center">
   <img src="https://github.com/kantarcise/notebook/blob/master/Books/covers/highoutputmanagement.jpg" title="12 Rules For Life"/>
 </p>
 
