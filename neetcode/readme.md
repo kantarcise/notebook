@@ -707,3 +707,149 @@ you will get the product of all elements.
   -
   - We basically just write the same_tree method and use it
   - in our is_subtree method
+ 
+- 052.lowest_common_ancestor_of_binary_tree:
+ 
+  - Its a binary search tree so the values are really useful.
+  -
+  - If both of the values are smaller than root.vaL
+  - go to left subtree
+  -
+  - if both of the values are larger than root.val
+  - go to right subtree
+  -
+  - if one is bigger and one is smaller than root.vaL
+  - the anchestor will be the split happens in the tree
+  - the LCA is found, so to speak
+  -
+  - If we bump into the node, starting from the the root
+  - that is the LCA because nothing below will be
+  - the common ancestor
+  -
+  - time complexity is the height of the tree, o(log n)
+  - because we are only visiting single node at each level
+  -
+  - We can also approach the question recursively
+
+- 053:
+
+- 054:
+
+- 055:
+
+- 056:
+
+- 057:
+
+- 058:
+
+- 059:
+
+- 060:
+
+## Tries
+
+- 061.implement_trie_prefix_tree:
+ 
+  - We can start with making a TrieNode for the class.
+  - Each node will have child nodes, and at each word ending
+  - we will have a Flag indicating the end.
+  -
+  - Using a Trie data structure, we have efficient
+  - string search and prefix matching.
+  -
+  - The time complexity for inserting, searching, and
+  - checking prefixes in a Trie is O(L), where L is the length
+  - of the word or prefix, making it an efficient choice
+  - for string-related tasks.
+  -
+  - For different words we will be using a lot of the same nodes
+  -
+  - .
+  -  \
+  -   a
+  -     \ 
+  -      p 
+  -        \
+  -         p 
+  -        / \ 
+  -       e   l 
+  -     /      \ 
+  -    n        e
+
+- 062:
+
+- 063:
+
+## Backtracking
+
+ 
+- 064.subsets:
+
+  - The backtracking algorithm enumerates a set of partial candidates
+  - that, in principle, could be completed in various ways to give all
+  - the possible solutions to the given problem. The completion is done
+  - incrementally, by a sequence of candidate extension steps.
+  -
+  - Conceptually, the partial candidates are represented as the nodes
+  - of a tree structure, the potential search tree. Each partial
+  - candidate is the parent of the candidates that differ from it
+  - by a single extension step; the leaves of the tree are the partial
+  - candidates that cannot be extended any further.
+  -
+  - The backtracking algorithm traverses this search tree recursively, from
+  - the root down, in depth-first order. At each node c, the algorithm checks
+  - whether c can be completed to a valid solution. If it cannot,
+  - the whole sub-tree rooted at c is skipped (pruned). Otherwise, the
+  - algorithm (1) checks whether c itself is a valid solution, and if
+  - so reports it to the user; and (2) recursively enumerates all sub-trees
+  - of c. The two tests and the children of each node are defined
+  - by user-given procedures.
+  -
+  - Therefore, the actual search tree that is traversed by the
+  - algorithm is only a part of the potential tree. The total cost
+  - of the algorithm is the number of nodes of the actual tree
+  - times the cost of obtaining and processing each node. This fact
+  - should be considered when choosing the potential search tree
+  - and implementing the pruning test.
+  -
+  - When applying backtracking to a problem, you can make a decision
+  - tree to represent the sequence of choices made and the paths
+  - explored to reach a solution.
+  -
+  - Backtracking Process: As backtracking proceeds, it explores different
+  - branches, and when it reaches a dead-end (a choice that doesn't
+  - lead to a solution), it backtracks to a previous decision point
+  - and explores a different branch. This process is similar
+  - to traversing decision trees.
+  -
+  - We can make a decision tree to represent the question
+  -
+  - We have the choice of adding or not adding
+  - every element for the subset
+  -
+  - For every level of the dfs, we will decide on the condition
+  - we are moving on and will call dfs again on one level deeper.
+  -
+  - Stop when we reach the leafs for the decision tree
+
+
+- 065.combination_sum:
+
+  - The simple approach would be make a hudge decision tree.
+  -
+  - The problem with that approach is that we will not be able
+  - to identify duplicates
+  -
+  - to solve the decision tree
+  - we approach it in a unique manner
+  - at every level, when we decide that we are not adding
+  - a value to a possible solution, we wont
+  - be adding that value anymore
+  -
+  - to track which elements we can choose
+  - we will have a pointer and after each decision we
+  - will move the pointer
+  -
+  - In backtracking, we have a decision to be made in the
+  - end of dfs function 
