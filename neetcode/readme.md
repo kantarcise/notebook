@@ -731,9 +731,35 @@ you will get the product of all elements.
   -
   - We can also approach the question recursively
 
-- 053:
+- 053.binary_tree_level_order_traversal:
+  
+  - use breadth-first search. We use queues for that.
+  -
+  - Initialize the queue with the root node
+  -
+  - For each level, make a list of nodes
+  - move on to (possibly) existing child nodes
 
-- 054:
+- 054.binary_tree_right_side_view:
+
+  - Only going right won't work
+  -
+  - The nodes on the left subtree can still have some right nodes
+  - that should have been taken into account
+  -
+  - We can use Breadth First Search - Level Ordering Traversal
+  -
+  - At each level, we will be searching for the right most node
+  -
+  - Loop through all the nodes at the current level.
+  - For each node, remove it from the left end of
+  - the deque (q) using q.popleft().
+  -
+  - If the node is not None, update right_side to
+  - the current node. This is because you are traversing
+  - from left to right within the level, so the rightmost
+  - node encountered will be the last one
+  - assigned to right_side. 
 
 - 055:
 
