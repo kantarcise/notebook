@@ -25,7 +25,27 @@ The number of nodes in the tree is in the range [0, 100].
 
 Takeaway:
 
+Only going right won't work
+
+The nodes on the left subtree can still have some right nodes
+that should have been taken into account
+
+We can use Breadth First Search - Level Ordering Traversal
+
+At each level, we will be searching for the right most node
+
+Loop through all the nodes at the current level. 
+For each node, remove it from the left end of 
+the deque (q) using q.popleft().
+
+If the node is not None, update right_side to 
+the current node. This is because you are traversing 
+from left to right within the level, so the rightmost 
+node encountered will be the last one 
+assigned to right_side.
 """
+
+from collections import deque
 
 # Definition for a binary tree node.
 class TreeNode:
@@ -35,5 +55,58 @@ class TreeNode:
         self.right = right
 
 class Solution:
+
+    def right_side_view(self, root: "TreeNode") -> "list[int]":
+        # first approach
+        # starting from the node, only go to the right nodes.
+        # return a list of those node values
+
+        # THIS DOES NOT WORK
+
+        result = []
+
+        def dfs_right(node):
+            if not node:
+                return
+            result.append(node.val)
+            dfs_right(node.right)
+
+        dfs_right(root)
+
+        return result 
+
     def rightSideView(self, root: "TreeNode") -> "list[int]":
-        pass
+        
+        # lets use BFS
+        
+        result = []
+
+        q = deque()
+        q.append(root)
+
+        while q:
+            length = len(q)
+            right_side = None
+
+            for _ in range(length):
+                # Loop through all the nodes at the current level. 
+                # For each node, remove it from the left end of 
+                # the deque (q) using q.popleft().
+
+                # If the node is not None, update right_side to 
+                # the current node. This is because you are traversing 
+                # from left to right within the level, so the rightmost 
+                # node encountered will be the last one 
+                # assigned to right_side.
+                node = q.popleft()
+                if node:
+                    right_side = node
+                    # these could be None but thats fine
+                    q.append(node.left)
+                    q.append(node.right)
+
+            if right_side:
+                # right side is not None
+                result.append(right_side.val)
+        
+        return result
