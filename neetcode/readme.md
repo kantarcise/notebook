@@ -761,9 +761,30 @@ you will get the product of all elements.
   - node encountered will be the last one
   - assigned to right_side. 
 
-- 055:
+- 055.count_good_nodes_in_binary_tree:
 
-- 056:
+  - YOu dont have to pass the whole path to the lower level
+  - you just need to pass the max value
+  -
+  - We can use preorder traversal (dfs)
+  -
+  - Root is always a good node and root is equal to root
+
+- 056.validate_binary_search_tree:
+
+  - you can think "this is dfs, just check neighbors"
+  - that does not cut it.
+
+  -    3           5         4  7  8
+  -
+  - the 4 in the tree is not recogniziable just with checking neighbors
+  -
+  - as we go down the tree, we need to update boundaries
+  -
+  - as we go to left, we need to update right boundary
+  - as we go to right, we need to update left boundary
+  -
+  - so that we have a binary search tree   
 
 - 057:
 
