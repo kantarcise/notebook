@@ -38,6 +38,13 @@ Each node's value is between [-10^4, 10^4].
 
 Takeaway:
 
+YOu dont have to pass the whole path to the lower level
+you just need to pass the max value
+        
+We can use preorder traversal (dfs)
+
+Root is always a good node and root is equal to root
+
 """
 
 # Definition for a binary tree node.
@@ -48,5 +55,65 @@ class TreeNode:
         self.right = right
 
 class Solution:
+
+    def good_nodes(self, root: "TreeNode") -> int:
+        # first try with help of LLM
+
+        # we need a mechanism to hold every path
+        #  for each node in the tree
+        # so that we can compare parents to children
+        # no we don't. Thats too complex
+        # good_nodes = [root]
+        # 
+        # node_and_path = {root: [None]}
+
+        # visit every node in the tree
+        # and compare parents to children
+
+        def dfs(node, max_val):
+            if not node:
+                return 0  # No good nodes in this subtree
+
+            good_count = 0
+
+            if node.val >= max_val:
+                good_count = 1
+
+            # update the max value
+            max_val = max(max_val, node.val)
+
+            # call dfs on deeper level
+            # left subtree
+            left_count = dfs(node.left, max_val)
+            # right subtree
+            right_count = dfs(node.right, max_val)
+
+            return good_count + left_count + right_count
+
+        return dfs(root, float("-inf"))
+    
+    # neetcode
     def goodNodes(self, root: "TreeNode") -> int:
-        pass
+        
+        # preorder traversal
+        # dfs
+        # pass the greatest value to the subtree
+        # NOT all the values we have seen so far.
+        # there is no need to do that.
+        
+        # result = 1 + left + right
+
+        def dfs(node, max_value):
+            
+            if not node:
+                return 0
+
+            result = 1 if node.val >= max_value else 0
+
+            max_value = max(max_value, node.val)
+            result += dfs(node.left, max_value)
+            result += dfs(node.right, max_value)
+
+            return result
+
+        return dfs(root, root.val)
