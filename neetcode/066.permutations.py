@@ -25,6 +25,18 @@ All the integers of nums are unique.
 
 Takeaway:
 
+There is itertools for permutation and combination
+
+You can use a stack with recursion
+
+You can use backtracking, thinking with a decision tree
+
+pop an element and call permute again on the smaller sequence
+
+before returning to the beginning of the loop, 
+append back the element you popped
+This way, you'll traverse the sequence exactly how you want.
+
 """
 
 from itertools import permutations
@@ -98,6 +110,8 @@ class Solution:
             # add current permutation to result
             result.extend(perms)
             # add back the number we popped
+            # this will change the order in nums, so we
+            # traverse in exactly the way we want
             nums.append(n)
         return result
 
