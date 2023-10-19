@@ -899,4 +899,46 @@ you will get the product of all elements.
   - will move the pointer
   -
   - In backtracking, we have a decision to be made in the
-  - end of dfs function 
+  - end of dfs function
+  - 
+
+- 066.permutations:
+
+  - There is itertools for permutation and combination
+  -
+  - You can use a stack with recursion
+  -
+  - You can use backtracking, thinking with a decision tree
+  -
+  - pop an element and call permute again on the smaller sequence
+  -
+  - before returning to the beginning of the loop,
+  - append back the element you popped
+  - This way, you'll traverse the sequence exactly how you want. 
+
+- 067:
+
+- 068:
+
+- 069:
+
+- 070:
+
+- 071:
+
+- 072:
+
+## Heap / Priority Queue
+
+- 073.kth_largest_element_in_a_stream:
+
+  - if we use an array,
+  - sorting would be n log n
+  - finding where to insert would be o(n)
+  -
+  - lets use a min heap of size k
+  - we can get the min of min heap in o(1)
+  - we can add an element in log n time
+  -
+  - kth element will be the smallest element in
+  - size k min heap
