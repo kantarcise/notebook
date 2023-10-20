@@ -786,7 +786,27 @@ you will get the product of all elements.
   -
   - so that we have a binary search tree   
 
-- 057:
+- 057.kth_smallest_element_in_a_bst:
+
+  - We can make a recursive in order traversal and
+  - append all elements from smallest to kth smallest
+  - on a temporary list
+  -
+  - OR
+  -
+  - lets use a stack and solve the question iteratively
+  - this is also in order traversal
+  -
+  - make a stack
+  - add every node onto the stack until you get to
+  - where node.left is None
+  - when you get that case, that is your leftmost element.
+  - pop it from the stack, check if it has a node.right
+  - than go one level up
+  -
+  - when stack is empty, return
+  - number of elements visited
+  - once this is equal to k, return
 
 - 058:
 
