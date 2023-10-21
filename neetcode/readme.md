@@ -808,7 +808,31 @@ you will get the product of all elements.
   - number of elements visited
   - once this is equal to k, return
 
-- 058:
+- 058.construct_binary_tree_from_preorder_and_inorder_traversal:
+
+  - Reminder on traversals:
+  -
+  - preorder traversal
+  - starts from root, and its just like reading
+  -
+  - inorder traversal
+  - slide from left to right
+  -
+  - after from seperating the root from preorder traversal
+  - we will use inorder traversal tom determine
+  - which of the nodes should be in the right subtree and
+  - which should be in the left subtree
+  -
+  - in order
+  - it will give us for every node
+  - which nodes are on its left and which are on its right
+  -
+  - the left subtree is where we start from 1 in preorder until mid
+  - and left side in inorder traversal
+  - ``` root.left = self.buildTree(preorder[1 : mid+1], inorder[:mid]) ```
+  - the right subtree is where we start from mid + 1 in preorder until end
+  - and right side in inorder traversal
+  - ``` root.right = self.buildTree(preorder[mid + 1:], inorder[mid + 1:]) ```  
 
 - 059:
 
