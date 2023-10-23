@@ -986,3 +986,18 @@ you will get the product of all elements.
   -
   - kth element will be the smallest element in
   - size k min heap
+
+- 074.last_stone_weight:
+
+  - if we use a sorted approach, we have to sort
+  - the list every time
+  -
+  - use a max heap,
+  - heapify takes o(n)
+  - every time accessing max heap is o(log n) - possibly
+  - running n times
+  -
+  - to make a max heap in Python, just multiply
+  - every value with -1
+  -
+  - in the calculations, use the example in your mind.    
