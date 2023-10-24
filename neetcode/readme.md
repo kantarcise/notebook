@@ -834,7 +834,21 @@ you will get the product of all elements.
   - and right side in inorder traversal
   - ``` root.right = self.buildTree(preorder[mid + 1:], inorder[mid + 1:]) ```  
 
-- 059:
+- 059.binary_tree_maximum_path_sum:
+
+  - negative values can be included in a max path
+  - just think -1
+  -
+  - to make a path, we need to choose between 2 options.
+  - we cannot go everywhere like a euler tour
+  -
+  - we will use dfs and starting from subtrees
+  - we will return the maximum value to parent
+  - without splitting
+  -
+  - an edge case is for negative valued children
+  - we can choose not to include the children by using
+  - max(left, right, 0) 
 
 - 060:
 
@@ -868,8 +882,22 @@ you will get the product of all elements.
   -     /      \ 
   -    n        e
 
-- 062:
+- 062.design_add_and_search_words_data_structure:
 
+  - This is obviously a Trie (Prefix Tree) Question
+  -
+  - Because we are looking for all words starting
+  - with some characters "ab." or "b.."
+  -
+  - A root and 26 children in the Trie
+  -
+  - "." character is a wildcard. It can be used instead any character
+  - We should use end of the word to show that word ended
+  -
+  - The Trie solution gives us time limit exceeded
+  -
+  - SO a hashmap solution is added.
+ 
 - 063:
 
 ## Backtracking
