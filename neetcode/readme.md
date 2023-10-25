@@ -850,7 +850,27 @@ you will get the product of all elements.
   - we can choose not to include the children by using
   - max(left, right, 0) 
 
-- 060:
+- 060.serialize_and_deserialize_binary_tree:
+
+  - You can solve the problem with breadth-first search
+  - or you can solve it with depth first search
+  - using preorder traversal
+  -
+  - for the example tree
+  -    1
+  -   / \
+  -  2   3
+  -     / \
+  -    4   5
+  -
+  - "1,2,N,N,3,4,N,N,5,N,N"
+  - is the resulting string
+  - if we used N for None nodes
+  -
+  - For each subtree, check the left and right nodes,
+  - and recursively go a level up
+  -
+  - Also added the Breadth First Search Solution
 
 ## Tries
 
@@ -898,11 +918,35 @@ you will get the product of all elements.
   -
   - SO a hashmap solution is added.
  
-- 063:
+- 063.word_search_2:
+
+  - we need to make a data structure where
+  - we can see every possible word in the board
+  - can use a Trie
+  -
+  - Brute force would be,
+  - starting from each tile, run a depth first search
+  - and check if you can make the words
+  -
+  - we can check every word at the same time
+  - because our main condition is based on prefix
+  - So a Trie is great!
+  -
+  - lets make a Trie for our words
+  - in order to not check the words list every time
+  - we go down in out dfs
+  - Also we do not have to check tiles that our words
+  - does not start with.
+  -
+  - Base case for the DFS is pretty big:
+  -
+  - out of bounds
+  - already visited position
+  - maybe the character we are working
+  - on is not in out Trie 
 
 ## Backtracking
 
- 
 - 064.subsets:
 
   - The backtracking algorithm enumerates a set of partial candidates
