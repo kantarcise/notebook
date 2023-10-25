@@ -1,3 +1,15 @@
+## Monolog with your Customer
+
+[People buy from you when they feel understood, not when they understand you.](https://youtu.be/9P1DeT81p5k?t=2613)
+
+There was things I never knew.
+
+People who lost hope. Lost all meaning.
+
+"What do I do with all of this experience and find meaning again? Technology is too confusing. Kids know Tiktok and I don't. What do I do?"
+
+---
+
 ## Your room is you
 
 [Now this is wild.](https://www.youtube.com/shorts/g3-TtiHbUD0)
