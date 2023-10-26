@@ -1032,11 +1032,44 @@ you will get the product of all elements.
   - append back the element you popped
   - This way, you'll traverse the sequence exactly how you want. 
 
-- 067:
+- 067.subsets_2:
+  
+  - Use backtracking, because we can see the solution is
+  - about a decision tree
+  -
+  - Sort the list so that you can compare consecutive elements
+  -
+  - for every decision, either select or do not select element
+  - to be in the subset
+  -
+  - before going to not including part, move your pointer to
+  - escape duplicates
+  -
+  - and even before that, pop the last element you
+  - added to current subset
 
-- 068:
+- 068.combination_sum_2:
 
-- 069:
+  - for every element, we can include it or not include it
+  - time complexity will be 2^n
+  -
+  - if we just brute force it
+  - there will be duplicate solutions
+  -
+  - to get rid of duplicate solutions
+  - subtract the element from the target and
+  - make sure the left subtree is including the unique
+  - element and right subtree is not
+  -
+  - this was we will make sure that the results will be unique
+  - [10, 1, 2, 7, 6, 1]
+  - sort it
+  - [1, 1, 2, 6, 7, 10]
+  -
+  - for each subtree either add or not add the element
+  - move the pointer accordingly
+
+- 069.word_search:
 
 - 070:
 
