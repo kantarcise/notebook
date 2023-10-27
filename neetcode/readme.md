@@ -1106,3 +1106,40 @@ you will get the product of all elements.
   - every value with -1
   -
   - in the calculations, use the example in your mind.    
+
+- 075.k_closest_points_to_origin:
+
+  - this solution works but it is O(n log n)
+  - [[1,3],[-2,2]], k = 1
+  - [[-2, 2]]
+  -
+  - if we can calculate the euclidian distance for every point and
+  - sort the points list accordingly
+  -
+  - we can return a slice of it.
+  -
+  - heap solution
+  -
+  - we only want k points, we do not have to
+  - sort all of the list
+  - we can use a min heap
+  -
+  - we can calculate for [[1,3],[-2,2]]
+  - [10, 1, 3], [8, -2, 2]
+  - put them all in a min heap with heapify - which is o(n)
+  - and select k items, which would be
+  - k log n which would be better than n log n
+
+- 076.kth_largest_element_in_an_array:
+
+  - instead of sorting - o(nlogn)
+  - we can use a heap
+  -
+  - every time we pop an element from the heap
+  - it is log n
+  - so this result will be - o(n + k log n)
+  -
+  - There is a solution whick uses quick_select
+  - which is kinda like quick_sort
+
+- 077
