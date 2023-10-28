@@ -1071,6 +1071,36 @@ you will get the product of all elements.
 
 - 069.word_search:
 
+  - we have to brute force
+  - not an efficient solition here.
+  - look at every single position
+  - check every neighbor
+  -
+  - We will use dfs and recursive backtracking
+  -
+  - Even before we get to dfs,
+  - we can check if all letters in the word
+  - are actually in the board
+  -
+  - for writing the dfs
+  -
+  - do not forget about all the cases in your question
+  -
+  - end of the word
+  - out of bounds
+  - character not matching
+  - position already in path
+  -
+  - GO TO NEXT
+  - row either + or -
+  - OR
+  - column either + or -
+  -
+  - time complexity
+  -
+  - o(n * m * dfs) - dfs is (4 * len(word))
+ 
+
 - 070:
 
 - 071:
