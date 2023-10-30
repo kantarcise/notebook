@@ -1172,4 +1172,17 @@ you will get the product of all elements.
   - There is a solution whick uses quick_select
   - which is kinda like quick_sort
 
-- 077
+- 077.task_scheduler:
+ 
+  - we have a tasks list
+  - we need to make sure that there is at least
+  - n difference between same tasks
+  -
+  - we need to know the most frequent task
+  - because it will occur first in our solution
+  -
+  - we will use a max heap
+  - whichch task is most frequent - time complexity o(log n)
+  -
+  - we will also use a queue to hold the frequencies of tasks
+  - and the time they will be scheduled again 
