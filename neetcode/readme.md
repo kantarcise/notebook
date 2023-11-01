@@ -1186,3 +1186,18 @@ you will get the product of all elements.
   -
   - we will also use a queue to hold the frequencies of tasks
   - and the time they will be scheduled again 
+
+- 078.design_twitter:
+
+  - The default thinking just works. Use hashmaps that have values of lists and
+  - hashmaps that have values of sets.
+  -
+  - Better approach:
+  -
+  - Using defaultdict is nice when you are sure for the
+  - type of values of your hashmap
+  -
+  - Using a minheap in this question is especially important
+  - for getnewsfeed method. Getting the latest tweets from people that are tweeting
+  - in their own pace, min_heap helps
+
