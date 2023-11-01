@@ -1,4 +1,4 @@
-## Steve Jobs
+## Steve Jobs - Letter For Me
 
 The Letter:
 
@@ -27,13 +27,12 @@ What drove me? I think most creative people want to express appreciation for bei
 
 ---
 
-## Jordan
+## Jordan - Being a Victim
 
 [Solzhenitsyn Had Every Reason To Be a Victim](https://www.youtube.com/watch?v=g4J63BEOwz4)
 
 ---
-
-## Tom Platz
+## Tom Platz - Failing
 
 Everyone has the ability to accomplish unique feats, everyone. 
 
@@ -50,19 +49,16 @@ Doesn’t matter when you start or finish, just start, no deviations, no excuses
 [People thought I was dying.](https://www.youtube.com/shorts/gMMmOgwa-u8)
 
 ---
-
-## People think this is for entertainment.
+## People think this is for entertainment. - Pain
 
 [You grow to the proportion of the weight you decide to take on voluntarily](https://www.youtube.com/shorts/Eohafc4-V0Q)
 
 ---
-
 ## Consistency
 
 [Common beliefs, common values.](https://www.youtube.com/watch?v=UZTyvbmW92M)
 
 ---
-
 ## The Forgetting Curve
 
 [The simple reason for reviews](https://methodsof.com/blog/the-ebbinghaus-forgetting-curve/)
@@ -70,20 +66,18 @@ Doesn’t matter when you start or finish, just start, no deviations, no excuses
 The theory goes that, if you keep periodically re-learning (or refreshing your knowledge), the concept will have a better chance of sticking in your mind.
 
 ---
-
-## Peter Thiel
+## Peter Thiel - Study The Endgame
 
 [“In order to improve your game, you must study the Endgame before everything else.”](https://www.reddit.com/r/chess/comments/d8pxm2/should_a_beginner_study_endgames_or_middlegames/f1dt6kx/)
 
 ---
 
-## From Matrix 
+## From Matrix - Feeling Lonely
 
 [The Lonely Chapter](https://www.youtube.com/shorts/OL4u8Jctxgk)
 
 ---
-
-## Hormozi
+## Hormozi - World Class Sales (Service)
 
 A single payment of..
 
@@ -103,19 +97,19 @@ A single payment of..
 
 ---
 
-## Jordan Peterson
+## Jordan Peterson - General Approach
 
 [What you should do with your life?](https://youtu.be/6T7pUEZfgdI?t=3791)
 
 ---
 
-## Claudia Mirallegro
+## Claudia Mirallegro - Owe
 
 You owe it to yourself to become everything you've ever dreamed of.
 
 ---
 
-## Alex Hormozi
+## Alex Hormozi - Owe
 
 "There is a 16 old kid that will sleep with this book under his pillow."
 
@@ -125,7 +119,7 @@ You owe it to yourself to become everything you've ever dreamed of.
 
 ---
 
-## Jordan Peterson
+## Jordan Peterson - Dragons
 
 [Slaying the Dragon Within Us](https://www.youtube.com/watch?v=REjUkEj1O_0)
 
@@ -141,7 +135,7 @@ there is a piece you are vulnerable.
 
 ----
 
-## Jordan Peterson
+## Jordan Peterson - Aim
 
 “What you aim at determines what you see” 
 
@@ -154,7 +148,7 @@ That’s where you’ll find true meaning.
 ----
 
 
-## Elon Musk
+## Elon Musk - Being Useful
 
 [Tesla AI Day 2020](https://youtu.be/ODSJsviD_SU?t=11979)
 
@@ -166,8 +160,7 @@ Trying to actually ship a useful product that people like to large number of peo
 
 ----
 
-
-## Greg Plitt
+## Greg Plitt - Change
 
 Change means the death of your old self.
 
@@ -185,7 +178,7 @@ Starts at [10:04](https://youtu.be/R96ENHTIWd8?t=604)
 
 ---
 
-## Jared Warren
+## Jared Warren - Awareness
 
 An average human looks without seeing, listens without hearing, touches without feeling, eats without tasting, moves without physical awareness, inhales without awareness of odour or fragrance, and talks without thinking. 
 
@@ -195,7 +188,7 @@ Leonardo da Vinci
 
 ---
 
-## Alex Hormozi
+## Alex Hormozi - Growth
 
 We just chose to believe that we can grow that much.
 
@@ -204,7 +197,7 @@ We just chose to believe that we can grow that much.
 
 ---
 
-## Jordan Peterson
+## Jordan Peterson - Series of Games
 
 How to ruin your son, or anyone in that matter.
 
@@ -212,7 +205,7 @@ How to ruin your son, or anyone in that matter.
 
 ---
 
-## Gary Vee
+## Gary Vee - Patience
 
 Just the right thing. Patience.
 
@@ -221,7 +214,7 @@ Just the right thing. Patience.
 
 ---
 
-## Luca Ferrari 
+## Luca Ferrari  - Evaluation
 
 [How to evaluate someone?](https://youtu.be/xCZ5_YbuSSM?t=367)
 
@@ -229,7 +222,7 @@ We don't really think about you today. We try to picture what you can be, how gr
 
 ---
 
-## Jordan Peterson 
+## Jordan Peterson - Navigating Life
 
 [How to navigate life?](https://youtu.be/GBv0XLINAfs?t=2)
 
@@ -243,7 +236,7 @@ Extra:  If you dare to do the most difficult thing you can conceptualize, your l
 
 ---
 
-## Jordan Peterson
+## Jordan Peterson - Responsibility
 
 [Jordan Peterson on taking responsibility for your life | 7.30](https://www.youtube.com/watch?v=1biDxaT0ED4)
 
@@ -251,7 +244,7 @@ The opportunity is that, I don't think that people have talked to young people a
 
 ---
 
-## Joe Rogan
+## Joe Rogan - Your Success Story
 
 [ Inspirational & Valuable Life Advice - Joe Rogan and Dan Carlin ](https://www.youtube.com/watch?v=oOIjwhYUbHM)
 
@@ -259,7 +252,7 @@ Think about this. Just [pretend there is a documentary crew recording your succe
 
 ---
 
-## Jordan Peterson
+## Jordan Peterson - Chaos and Order
 
 What does putting your room in order help you with?
 You'll learn how to distinguish between chaos and order.
