@@ -1201,3 +1201,21 @@ you will get the product of all elements.
   - for getnewsfeed method. Getting the latest tweets from people that are tweeting
   - in their own pace, min_heap helps
 
+- 079.find_median_from_data_stream:
+
+  - Of course first approach woul be using a list.
+  -
+  
+  - The idea is basically to use two heaps a small and a large heap
+  - Adding and removing elements from the heap will be o(logn)
+  -
+  - Finding the max / min in constant time - o(1)
+  -
+  - small heap will be a max heap,
+  - large heap will be a min heap
+  -
+  - Size of the heaps should be approximately Equal
+  - AT MOST difference of 1.
+  -
+  - Also, every element in small heap
+  - should be smaller than the big heap
