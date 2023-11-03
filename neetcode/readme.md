@@ -1101,7 +1101,21 @@ you will get the product of all elements.
   - o(n * m * dfs) - dfs is (4 * len(word))
  
 
-- 070:
+- 070.palindrome_partitioning:
+
+  - Palindrome is just a string - racecar
+  -
+  - Partitioning
+  -
+  -      [aabb]
+  -      /   \
+  -     aa    bb
+  -
+  - root is the string
+  - nodes are different choices
+  - think just like a labyrthn.
+  -
+  - Still need work on backtracking.  
 
 - 071:
 
