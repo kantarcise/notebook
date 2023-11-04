@@ -1,3 +1,16 @@
+## Make it easy to win
+
+[Alex - Gym Example](https://www.youtube.com/shorts/lDWutvJrx4M)
+
+If I want to go to the gym, how do I make that as easy as possible?
+
+I'd pick one that is close to where I live. I'd want to be somewhere with people I like. Convenient hours.
+
+Find the friction points and remove them.
+
+---
+
+
 ## Monolog with your Customer
 
 [People buy from you when they feel understood, not when they understand you.](https://youtu.be/9P1DeT81p5k?t=2613)
