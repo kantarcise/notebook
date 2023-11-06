@@ -1117,9 +1117,32 @@ you will get the product of all elements.
   -
   - Still need work on backtracking.  
 
-- 071:
+- 071.letter_combinations_of_a_phone_number:
 
-- 072:
+  - If we are deciding on a tree, consider backtracking
+  -
+  - Backtracking is generallt recursive. The base case is the end
+  - recurring is the next step on backtracking and updated path.
+  -
+  - Mapping is clear - hashmap - dicts. 
+
+- 072.n_queens:
+
+  - Backtracking the positions of the queens, but since
+  - queens can move horizontally vertically and
+  - diagonally, we can’t put two queens together
+  - in the same row (because they move horizontally
+  - so would attack each other) and also can’t put
+  - them in same column or diagonal. So when
+  - backtracking, we place queen in a position in
+  - row and make recursive call to place the other
+  - in next row and keep track of:
+  -
+  - Column that queen was placed in
+  - Both diagonals of the queen (YES there are
+  - TWO diagonals that the queen can move in,
+  - positive slope and negative slope, so need
+  - to keep track of both)
 
 ## Heap / Priority Queue
 
@@ -1233,3 +1256,9 @@ you will get the product of all elements.
   -
   - Also, every element in small heap
   - should be smaller than the big heap
+
+## Graphs
+
+- 080.number_of_islands:
+
+  - wip 
