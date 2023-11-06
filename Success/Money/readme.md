@@ -1,3 +1,12 @@
+## Choose your season
+
+There is a time for leverage. 
+
+Sometimes it is just violance. Just [brute force.](https://www.youtube.com/shorts/9O1Yw8DcPGI)
+
+---
+
+
 ## Mastering Communication Starts With
 
 [Listening](https://www.youtube.com/shorts/H8AgEnOkWDY)
