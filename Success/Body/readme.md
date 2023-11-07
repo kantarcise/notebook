@@ -1,3 +1,13 @@
+## [Greg](https://www.youtube.com/watch?v=uVxSgm2GGmY)
+
+There comes a day man, everyone is going to have this day..
+
+There comes a day, where being average, being mediocre is just sickening to you.
+
+It is sickening.
+
+Makes you want to throw up.
+
 ## Friedrich Nietzsche
 
 “Sometimes people don't want to hear the truth because they don't want their illusions destroyed.”
