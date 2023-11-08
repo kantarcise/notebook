@@ -1,3 +1,8 @@
+## No help
+
+The usual case [at the start](https://youtu.be/kpruGe872RI?si=ixc8CzeGSDtVcfZJ)
+
+
 ## Make it easy to win
 
 [Alex - Gym Example](https://www.youtube.com/shorts/lDWutvJrx4M)
