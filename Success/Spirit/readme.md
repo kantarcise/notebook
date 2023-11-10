@@ -68,7 +68,7 @@ The theory goes that, if you keep periodically re-learning (or refreshing your k
 ---
 ## Peter Thiel - Study The Endgame
 
-[“In order to improve your game, you must study the Endgame before everything else.”](https://www.reddit.com/r/chess/comments/d8pxm2/should_a_beginner_study_endgames_or_middlegames/f1dt6kx/)
+“In order to improve your game, you must study the Endgame before everything else.”
 
 ---
 
