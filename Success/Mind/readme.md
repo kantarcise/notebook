@@ -1,3 +1,9 @@
+## I do not care how long this road is.
+
+[It is all in the mind - Greg](https://www.youtube.com/shorts/WXEd9AyOGxk)
+
+---
+
 ## No help
 
 The usual case [at the start](https://youtu.be/kpruGe872RI?si=ixc8CzeGSDtVcfZJ)
