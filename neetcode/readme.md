@@ -1261,4 +1261,148 @@ you will get the product of all elements.
 
 - 080.number_of_islands:
 
+  - wip
+  - 
+
+- 081:
+
   - wip 
+
+- 082:
+
+  - wip 
+
+- 083:
+
+  - wip 
+
+- 084:
+
+  - wip 
+
+- 085:
+
+  - wip 
+
+- 086:
+
+  - wip 
+
+- 087:
+
+  - wip 
+
+- 088:
+
+  - wip 
+
+- 089:
+
+  - wip 
+
+- 090:
+
+  - wip
+ 
+- 091:
+
+  - wip 
+ 
+- 092.word_ladder:
+
+  - wip
+ 
+  
+## 1-D Dynamic Programming
+
+
+- 093.climbing_stairs:
+
+  - you do not have to compute what you already know
+  -
+  - using dfs, you already solved some parts of the tree
+  - the left side will give you what you need!
+  - use it on the right side
+
+                    0
+                 /     \
+               1         2
+              / \       / \
+             2   3     3   4
+            / \ / \   / \
+           3  4 4  5  4   5
+          / \
+         4   5
+
+                       0
+                   /       _\_______
+                 1        |    2    | 
+            ____/_\       |   / \   | 
+           |    2 |  3    |  3   4  |
+           |   / \| / \   | / \     |
+           |  3  4| 4  5  | 4   5   |
+           | / \  |       |_________|
+           |4   5 |
+           |______|
+          
+    you can see thar these are identical.
+    also for left subtree where root is 3
+    also for left subtree where root is 4
+
+    This is called memoization or Caching.
+
+    solve the base case
+    this is bottom up solution for dp
+
+    we can make memoization with an array
+    we dont even need that.
+
+    0 1 2 3 4 5  - height
+    8 5 3 2 1 1  - steps (how many different ways you can get to top)
+
+    start from the end
+    stop when one gets to the starting point.
+ 
+- 094.min_cost_climbing_stairs:
+
+  - the idea is from leaf to root
+  - we can use the list that is given to us
+  - and two variables
+  -
+  - the calculation is a decision tree.
+      [10, 15, 20] 
+              
+                0
+              /   \
+            1       2 
+           / \     /
+          2   3   3
+         /
+        3 
+      
+      edges are costs of moving:
+      
+                 0
+             10/   \10
+             1       2 
+          15/\15    20/
+           2   3   3
+        20/
+         3 
+              
+      a lot of repeated work
+      while we are completing the left subtree, we learn a lot about
+      to go from 2  to 3 and 1 to 2
+      SO lets use that info!
+      
+      my approach
+      we make decisions at each step
+      starting from the end, a lot of recomputation
+              
+      starting from the last two steps, go backwards
+      always compare
+
+
+- 095.house_robber:
+
+  - wip   
