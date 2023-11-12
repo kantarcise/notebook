@@ -125,6 +125,30 @@ I don’t think I run roughshod over people, but if something sucks, I tell peop
 -----------------------------------------------------------------------------------------------------------------
 
 <p align="center">
+  <img src="https://github.com/kantarcise/notebook/blob/master/Books/covers/thinking_in_systems.jpg" title="Thinking In Systems"/>
+</p>
+
+On it.
+
+## 0) Notes as Preface: 
+
+- Everything around us is a complex system. How well can we understand?
+
+## 1) Part 1 - System Structure and Behavior: 
+
+## 1) Part 2 - : 
+
+...
+
+## 1) Part 3 - : 
+
+...
+
+wip
+
+-----------------------------------------------------------------------------------------------------------------
+
+<p align="center">
   <img src="https://github.com/kantarcise/notebook/blob/master/Books/covers/highoutputmanagement.jpg" title="12 Rules For Life"/>
 </p>
 
