@@ -1,3 +1,11 @@
+## The Elites
+
+No one will ever see the hard work behind the game. That's what I enjoy.
+
+That is the way of elites.
+
+---
+
 ## Choose your season
 
 There is a time for leverage. 
