@@ -1405,4 +1405,72 @@ you will get the product of all elements.
 
 - 095.house_robber:
 
-  - wip   
+  - wip
+  - 
+
+...
+
+  
+## Intervals
+
+wip
+
+
+  
+## Greedy
+
+wip
+
+  
+## Advanced Graphs
+
+wip
+
+  
+## 2-D Dynamic Programming
+
+wip
+
+
+  
+## Bit Manipulation
+
+- 136.single_number:
+
+  - IF we had no mem constraint, we could've used a hash set
+  - and added every element to it and removed if encountered again
+  - the remaining element would be the solution
+  -
+  - how can you figure this out?
+  - write the numbers in binary:
+
+     [4, ->  100 
+      1, ->  001
+      2, ->  010
+      1, ->  001
+      2  ->  010
+      ]
+
+  - how can we get rid of the numbers that
+  - are occuring twice?
+  -
+  - XOR !
+  -
+  - xor is apple
+  - if you are different, you are 1
+  - if you are same, you are 0
+  -
+  - Any number XOR'ed with 0 remains unchanged. a ^ 0  = a.
+  -
+  - how?
+  -
+  - Because every 0 would stay 0 when its XORed with 0s
+  - every 1 would be 1 when it is XORed with 0s
+  - 
+
+
+  
+## Math & Geometry
+
+wip
+
