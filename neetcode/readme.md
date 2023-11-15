@@ -1468,6 +1468,15 @@ wip
   - every 1 would be 1 when it is XORed with 0s
   - 
 
+- 137.number_of_1_bits:
+
+  - You can use built in methods.
+  -
+  - Or you can use bitwise operations
+  -
+  - Logical AND with 1 will give you number of 1s
+  -
+  - Than you can shift the number. 
 
   
 ## Math & Geometry
