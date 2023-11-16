@@ -1478,6 +1478,15 @@ wip
   -
   - Than you can shift the number. 
 
+- 138.counting_bits:
+
+  - YOu can use the built in bin function ans str count
+  -
+  - The problem literally begs for DP
+  -
+  - So, dont forget, dp is memoization.
+  -
+  - Find the pattern and move.
   
 ## Math & Geometry
 
