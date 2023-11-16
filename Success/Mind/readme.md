@@ -1,3 +1,11 @@
+## How do you lead?
+
+By fear or positive reinforcement.
+
+Here is [the difference between.](https://www.youtube.com/watch?v=rO9IIUkGbkQ)
+
+---
+
 ## I do not care how long this road is.
 
 [It is all in the mind - Greg](https://www.youtube.com/shorts/WXEd9AyOGxk)
