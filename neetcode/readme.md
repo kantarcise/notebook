@@ -1487,6 +1487,18 @@ wip
   - So, dont forget, dp is memoization.
   -
   - Find the pattern and move.
+ 
+- 139.reverse_bits:
+
+  - AND ing with 1 will give the value of the element
+  -
+  - we can shift it to get the next bits.
+  -
+  - pretty cool that you can solve it with strings too.
+  -
+  - ljust(width, character) : Return a left-justified string of length width
+  - Padding is done using the specified fill character (default is a space).
+    
   
 ## Math & Geometry
 
