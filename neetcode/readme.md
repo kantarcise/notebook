@@ -1498,7 +1498,21 @@ wip
   -
   - ljust(width, character) : Return a left-justified string of length width
   - Padding is done using the specified fill character (default is a space).
-    
+
+- 140.missing_number:
+  
+  - number ^ number = 0
+  -
+  - If you XOR a value with itself, all corresponding bits
+  - will cancel each other out, resulting in zero.
+  -
+  - number ^ 0 = number
+  -
+  - XORing any value with zero leaves the value unchanged.
+  -
+  - For this question, you can use the property where
+  - the sum of the sequence is missing_number away from the
+  - full range sum    
   
 ## Math & Geometry
 
