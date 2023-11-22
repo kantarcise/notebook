@@ -1261,8 +1261,16 @@ you will get the product of all elements.
 
 - 080.number_of_islands:
 
-  - wip
-  - 
+  - To solve this question, think like a kindergardener.
+  -
+  - How can you find a single island?
+  -
+  - You look.
+  -
+  - For each 1, you need to check neighbours, this is clearly bfs or dfs.
+  -
+  - Setting the cell to 0 in order to not visit it again is pretty cool.
+
 
 - 081:
 
