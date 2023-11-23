@@ -2,7 +2,7 @@
 
 Alvor from Riverwood.
 
-[You put time into your blades, they will serve you when you need them.](https://youtu.be/nr62-GnrrOs?t=2822)
+[You put time into your blades, they will serve you well when you need them.](https://youtu.be/nr62-GnrrOs?t=2822)
 
 ---
 
