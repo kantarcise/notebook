@@ -58,18 +58,66 @@ Constraints:
 
 Takeaway:
 
-"""
+Use a mapping to clone every old node to new ones.
+
+As you would need to clone every vertices, you need a dfs 
+or bfs approach
 
 """
+
 # Definition for a Node.
 class Node:
     def __init__(self, val = 0, neighbors = None):
         self.val = val
         self.neighbors = neighbors if neighbors is not None else []
-"""
 
 from typing import Optional
+
 class Solution:
-    def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
+    def cloneGraph_(self, node: Optional['Node']) -> Optional['Node']:
+        # this does not work.
+        
+        # result is also going to be an adjecency list
+        # result = []
+        # TypeError Node object is not iterable!
+        
+        # for index, elem in enumerate(node):
+        #     all_neighbours = elem.neighbors
+        #     result.append(Node(val = index, neighbors = list(all_neighbours)))
+        
+        # i = 1
+        # while node:
+        #     all_neighbours = node.neighbors
+        #     result.append(Node(val = i , neighbors = list(all_neighbours)))
+        
+        # return result        
         pass
 
+
+    def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
+        # we can see that we need to make some sort of traverse operation
+        # for all nodes we can visit. - DFS is cool
+        
+        # this map holds the old nodes mapped to new nodes
+        old_to_new = {}
+        
+        def dfs_cloner(node):
+            if node in old_to_new:
+                # we already made a clone of node
+                return old_to_new[node]
+            
+            # no clone is made yet, lets make it
+            
+            # we have to keep making new nodes, 
+            # this is the recursive case
+            temp = Node(node.val)
+            # the mapped new node is temp
+            old_to_new[node] = temp
+            # for all neighbors of node
+            for nei in node.neighbors:
+                # append all expected neighbors to new node with calls to dfs
+                temp.neighbors.append(dfs_cloner(nei))
+            
+            return temp
+        
+        return dfs_cloner(node) if node else None
