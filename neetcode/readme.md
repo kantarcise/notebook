@@ -1272,9 +1272,12 @@ you will get the product of all elements.
   - Setting the cell to 0 in order to not visit it again is pretty cool.
 
 
-- 081:
+- 081.clone_graph:
 
-  - wip 
+  - Use a mapping to clone every old node to new ones.
+  -
+  - As you would need to clone every vertices, you need a dfs
+  - or bfs approach
 
 - 082:
 
