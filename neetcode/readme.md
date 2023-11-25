@@ -1527,5 +1527,29 @@ wip
   
 ## Math & Geometry
 
-wip
+- 141:
+
+- 142:
+
+- 143:
+
+- 144:
+
+- 145:
+
+- 146:
+
+- 147.plus_one:
+
+  - map. List comprehension. you name it.
+  -
+  - Explicit type conversion is also known as typecasting.
+  -
+  - str(), int(), float(), list()
+
+- 148:
+
+- 149:
+
+- 150:
 
