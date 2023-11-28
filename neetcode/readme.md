@@ -1547,7 +1547,16 @@ wip
   -
   - str(), int(), float(), list()
 
-- 148:
+- 148.pow_x_n:
+
+  - If the power is negative, just return 1 / result
+  -
+  - you can solve the problem, using recursion
+  -
+  - condition is based on the power and it getting halved.
+  -
+  - If you are writing a while block, you have
+  - to exit it at some point. 
 
 - 149:
 
