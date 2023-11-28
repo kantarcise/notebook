@@ -1,3 +1,15 @@
+## Jordan Peterson
+
+Learning to say No, is a border. You gotta stand your ground.
+
+[Learn to say, no.](https://www.youtube.com/watch?v=Fd5blhNViOY)
+
+Being harmless is not a morality. 
+
+It is better to be a warrior in a garden to be a gardener in war.
+
+---
+
 ## Skyrim
 
 Alvor from Riverwood.
