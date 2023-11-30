@@ -1,3 +1,26 @@
+## Misery - Hunger
+
+Default human condition is misery, in the absence of sustaining meaning.
+
+Just like hunger is default in the absence of food.
+
+[World class anology](https://www.youtube.com/watch?v=QuqiSL3nDNg)
+
+8 things to think about:
+
+1. An intimate relationship
+2. Some family interaction 
+3. A friend or two
+4. A job or a career
+5. Engage in something creatively
+6. Take care of yourself physically and mentally
+7. Adopt some civic responsibility
+8. Protect ourselves against major sources of hedonistic and impulsive temptations.
+
+See if you can work on one of these things..
+
+---
+
 ## Jordan Peterson
 
 Learning to say No, is a border. You gotta stand your ground.
