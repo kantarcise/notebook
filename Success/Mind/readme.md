@@ -1,3 +1,22 @@
+## 12 Leverage Points of a System
+
+The twelve leverage points to intervene in a system were proposed by Donella Meadows, a scientist and system analyst who studied environmental limits to growth.
+
+12. Constants
+11. Buffer Sizes
+10. Material Flows Structure
+9. Delays
+8. Balancing Feedback Loops
+7. Positive Feedback Loops
+6. Information Flows Structure
+5. Rules
+4. Evolution
+3. Goals
+2. Context Paradigms
+1. Transcend Paradigms
+
+---
+
 ## Misery - Hunger
 
 Default human condition is misery, in the absence of sustaining meaning.
