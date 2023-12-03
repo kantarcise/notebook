@@ -1558,7 +1558,11 @@ wip
   - If you are writing a while block, you have
   - to exit it at some point. 
 
-- 149:
+- 149.multiply_strings:
+
+  - You can int(str_digit) by updating the value of a number
+  - starting from 0 and multipling with 10 each time
+  - and adding the rightmost value 
 
 - 150:
 
