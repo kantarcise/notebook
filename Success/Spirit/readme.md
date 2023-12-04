@@ -27,6 +27,24 @@ What drove me? I think most creative people want to express appreciation for bei
 
 ---
 
+## Alex Hormozi
+
+[I don't go gome for holidays?](https://www.youtube.com/watch?v=OvEfWrDOfNk)
+
+If you want to be a different person. You need to behave a different way.
+
+You want to step into the identity, so imagine how that person would act.
+
+Someone offered you candy, you are trying to become a disciplined person.
+
+Just say, I don't eat that. S/he will be like, "What is that mean, you always eat this."
+
+Say "I used to eat it. I do not anymore."
+
+You are teaching yourself and everyone else, how they should behave around you, every day.
+
+---
+
 ## Jordan - Being a Victim
 
 [Solzhenitsyn Had Every Reason To Be a Victim](https://www.youtube.com/watch?v=g4J63BEOwz4)
