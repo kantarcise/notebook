@@ -1,3 +1,11 @@
+## Only Person You Can Compare Yourself Too
+
+Comparing yourself with who you are. That is a game you can win.
+
+[Jordan Peterson Emotional Interview with Patrick Bet-David](https://youtu.be/vdHJjbHwR38?t=3451)
+
+---
+
 ## 12 Leverage Points of a System
 
 The twelve leverage points to intervene in a system were proposed by Donella Meadows, a scientist and system analyst who studied environmental limits to growth.
