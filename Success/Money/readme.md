@@ -1,3 +1,9 @@
+## It is a pipeline. This is where you look
+
+[Look at it as a pipeline.](https://youtu.be/nZKhApFCWO8?t=680)
+
+---
+
 ## The Elites
 
 No one will ever see the hard work behind the game. That's what I enjoy.
