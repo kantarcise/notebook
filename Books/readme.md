@@ -134,13 +134,96 @@ On it.
 
 - Everything around us is a complex system. How well can we understand?
 
+- There is so much talk about the system. And so little understanding.
+
+- The behavior of a system cannot be known just by knowing the elements of which the system is made.
+
 ## 1) Part 1 - System Structure and Behavior: 
 
-## 1) Part 2 - : 
+### The Basics
+
+A system is made of *elements, interconnections and purpose*.
+
+“You think because you understand 'one' you must also understand 'two', because one and one make two. But you must also understand 'and'.”
+― Mawlana Jalal-al-Din Rumi
+
+Before diving too deep on elements, start looking for interconnections. The relationships that hold the elements together.
+
+This is hard because it is easier to learn about elements than interconnections.
+
+Purpose is even harder too see. It is the most crucial also.
+
+A leader can make that land and those factories and people play a different game with new rules, or can direct the play toward a new purpose.
+
+System thinkers use graphs of a systems behavior to understand trends over time, rather than focusing attention on individual events.
+
+The human mind seems to focus more easily on stocks than on flows. On top of that, when we do focus on flows, we tend to focus on inflows more easily than on outflows.
+
+A stock takes time to change because flows take time to flow. This is the key for system understanding.
+
+System thinkers see the world as a collection of stocks along with the mechanisms for regulating the levels in the stocks by manipulating flows.
+
+If you see a behavior that persists overtime, there is a mechanism resulting that consistent behavior. That is a **feedback** loop.
+
+**Reinforcing feedback loops are self-enhancing, leading to exponential growth or runaway collapses overtime.**
+
+### Brief Visit to Systems Zoo
+
+Your mental model of the system needs to include all the important flows or you will be suprised by the systems behavior.
+
+Delays are pervasive in systems and they are strong determinants of behavior. Changing the delays can make the system much easier to manage.
+
+The lies you hear everywhere around you is a **information flow delay**. 
+
+Wake up.
+
+As with all the behavioral possibilities of complex systems, is to recognize what structures contain which latent beahaviors, and what conditions release those behaviours and where possible to arrange the structures and conditions to reduce the probability of destructive behaviours and to encourage the possibility of beneficial ones.
+
+## 2) Part 2 - Systems and Us 
+
+### Why Systems Work So Well
+
+Systems are resilient: the ability to bounce or spring back into shape, position after being pressed or streched.
+
+Some complex systems is able to learn, diversify, complexify and evolve.
+
+Economic policies may lean toward supporting established powerful enterprises rather than upstart, new ones.
+
+Many governments prefer their people not to be too self-organizing.
+
+Every single thing is arranged in a hierarchy.
+
+To be a highly functional system, hierarhchy must balance welfare, freedoms and responsibilities of the subsystems and total system. There must be enough central control to achieve coordination toward the large system goal, and enough autonomy to keep all subsystems flourising, functioning and self organizing.
+
+### Why Systems Suprise Us?
+
+Eveything we think we know about the world is a model. Our knowladge is amazing and our ignorence is even more so.
+
+Events target our emotions.
+
+In real world there are no boundries between systems. There are only boundaries of word, thought, perception ans social agreement, mental model boundries.
+
+Here is the important part:
+
+We have to invent boundaries for clarity and sanity and boundaries can produce problems when we forget we are the ones making them.
+
+**Insight** comes not only from recognizing which factor is limiting, but seeing the _growth itself_ depletes or enhances limits and therefore changes what is limiting.
+
+Here is a shortcoming:
+
+We don't let in at all news the we do not like, or information that does not fit into our mental models.
+
+Which is to say, we don't even make decisions that optimize our own individual good much less the good of the system as a whole.
+
+### System Traps and Opportunities
+
+Policy Resistence - The Fixes That Fail:
 
 ...
 
-## 1) Part 3 - : 
+## 3) Part 3 - : Making Change in Systems and in Our Philosophy
+
+### Leverage Points
 
 ...
 
