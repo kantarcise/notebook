@@ -5,42 +5,79 @@
 Two of my mentors. Priceless Content. Here are the timestamps to help you study:
 
 0:03 - What does opportunity really mean?
+
 0:50 - Three things to consider: How many potential units can I sell, what is the gross margin potential of the product, what are the competitive dynamics in the marketplace?
+
 3:30 - Should you maximize your effort by working harder or should you consider changing the opportunity you are pursuing?
+
 5:25 - What does Leverage mean?
+
 7:58 - How do I apply leverage in my business?
+
 9:48 - Labor - Capital - Software - Media
+
 10:52 - One more type of Leverage ?
+
 11:29 - Anger - Intensity - Fear as a Leverage. Incredible.
+
 11:54 - "You use the resources you have to make the life you want"
+
 12:52 - Changing the Leverage you get on yourself..
+
 15:05 - Alex's relationship with his dad, how he choose the life he wanted.
+
 17:02 - You are going to get your standard long term.
+
 17:17 - "You are best equipped and capable to help the person you used to be."
+
 17:56 - If you gave up all of your money and go back in time 10 years ago, would you do it?
+
 19:33 - The grandfather or the veteran frame of Alex
+
 20:55 - When I am 85, I am not going to care about the money I made, I will care about the people I helped.
+
 22:34 - Unbelievable type of gratefulness - " I was actually more grateful for the thing I was dreaming about that I did not have than when I actually got it"
+
 23:34 - Going from Conceptual Thinking to Everyday Urgency
+
 24:18 - Simple Scales Fancy Fails
+
 26:32 - You already do believe multiple contradictory things at the same time 
+
 28:15 - What do you do when you fail?
+
 28:55 - Just focus on the controllable.
+
 30:55 - "I have made the decision I was either going to die or succeed."
+
 31:13 - Alex's repeated message to himself: "I cannot lose If I don't quit"
+
 32:25 - Losing = Quitting
+
 32:58 - "No matter how far behind on the scoreboard I was, I have officially not lost if the clock doesn't run out."
+
 33:56 - Scarcity Stack
+
 34:58 - Increasing Demand vs Cutting Supply
+
 37:50 - Cost of Inaction Will Work in Your Favor as the Salesman
+
 38:57 - FOMO: Risk Reversal & Guarantees and Scarcity (Units) - Urgency (Time)
+
 40:13 - Additional Value Adds that Noone is Doing
+
 40:30 - All of these Ideas are timeless. You just have to find a way to apply them in your system.
+
 41:30 - Trim and Stack Hack
+
 42:25 - Solution Wording to The Problem We are Solving
+
 44:17 - "If you have a compelling offer that makes it really easy to be poor."
+
 45:51 - I want my existing customers, spawn new customers.
+
 49:13 - At the beginning you have to sell something to someone. You have to promote. After you get that point, you start to fix the product until you get even more business from referalls.
+
 50:00 - One product, one avatar, one channel.
 
 This was the first part of the video:
@@ -48,36 +85,67 @@ This was the first part of the video:
 Here is the second part of the video:
 
 52:09 - 100 Million Dollar Leads - Alex's new book?
+
 53:51 - A lead is a person you can contact.
+
 55:02 - 4 Ways to Advertise - Cold Reachout - Warm Reachout - Post Content - Paid Ads
+
 55:27 - Advertising is the process of making known.
+
 55:42 - Lead getters - The Other 4: THey are the greatest leverage in advertising.
+
 56:37 - You do the core 4 to get your customer.
+
 57:07 - Lead getters: - Customers - Affiliates - Agencies - Employees
+
 1:00:28 - People make the mistake of looking at the business like a linear transaction.
+
 1:01:49 - If you are barely making rent, it is difficult to think about brand. But it does not make it less important.
+
 1:03:20 - How to apply getting leads for a realtor business?
+
 1:06:53 - How to get more leads by twisting your current tactics?
+
 1:07:48 - Warm outreach explained in an example by Alex.
+
 1:08:40 - ACA Framework - acknowledge what they said, Complement them, Ask a new question. Set up your 10 min sales call.
+
 1:09:38 - That 10 min Sales call is the classic: CLOSER Framework.
+
 1:11:33 - If you are selling a high ticket offer, you stop after overview their pain and tell them: "Let me put together some stuff for you so I can give you a much more informed answer. But I think we really can help you."
+
 1:12:42 - Sell the vacation.
+
 1:13:26 - Train for No. Expect No. That is where you make the money.
+
 1:15:50 - Set Expectations - Meet Expectations
+
 1:19:45 - Do not Unsell People
+
 1:22:34 - How do you Frame?
+
 1:23:45 - Framing - Contextualizing
+
 1:25:40 - Punking The Game
+
 1:26:18 - Here is this thing. Enjoy it. People do not know how to contextualize that.
+
 1:27:27 - Noone is coming to save you.
+
 1:28:24 - Power follows blame.
+
 1:29:37 - First two words of getting out of poverty is my fault.
+
 1:30:43 - 100 phone calls or the 100 pounds on the bar. The work just needs doing.
+
 1:32:39 - Are you willing to do the ugly?
+
 1:34:27 - The input output equations of what you want. Figure it out.
+
 1:35:11 - Sadness comes from the perceived lack of options. That's why it feels like hopelessness. You can solve that with knowladge.
+
 1:35:34 - Anxiety is having many options in front of you, but not knowing which one to take. You solve that with a decision.
+
 1:37:22 - Your responsibility is to let people know about your stuff.
 
 Grateful for this.
