@@ -217,13 +217,113 @@ Which is to say, we don't even make decisions that optimize our own individual g
 
 ### System Traps and Opportunities
 
-Policy Resistence - The Fixes That Fail:
+#### Policy Resistence - The Fixes That Fail:
+
+Policy resistance comes from the bounded rationalities of the actors in a system, each with his or her, (or it’s in the case of an institution) on goals. Each actor monitors the state of the system, with regard to some important variable -income or prices or housing or drugs or investment - and compares that state with his or her or it’s goal.
+
+If there’s a discrepancy, each actor does something to correct the situation. Usually the greater the discrepancy between the goal and the actual situation the more empathic the action will be.
+
+#### The tragedy of commons:
+
+When there’s a commonly shared resource, every user benefits directly from its use, but shares the cost of its abuse with everyone else. Therefore, there is very weak with feedback from the condition of the resource, to the decisions of the resource users.
+
+The consequence of overuse of the resource, eroding it, until it becomes unavailable to anyone.
+
+The solution is to educate and exhort the users so they understand the consequences of abusing the resource. And also restore or strengthen the missing feedback link, either by privatizing the resource, so each user feels the direct consequences of its abuse, or by regulating the access of all users to the resource.
+
+#### Drift to low performance:
+
+Standards should be iterated by the best performances. The key is the better things I get the harder I’m going to work to make them even better. 
+
+#### Addiction:
+
+Addiction is finding a quick and dirty solution to the symptom of a problem which prevents or distracts one from the harder and the long-term task of solving the real problem. 
+
+Addictive policies are insidious because they are so easy to sell so simple to fall for. 
+
+##### How do you avoid addiction? 
+
+The problem can be avoided upfront by intervening in such a way as to strengthen the ability of the system to shoulder its own burdens 
+
+#### Shifting the Burden to the Intervenor
+
+If you are the interveno, work in such a way, as to restore or enhance the systems only aBility solve the problems, then **remove yourself**. 
+
+#### Seeking The Wrong Goal
+
+If the desired system state is good education, measuring the school by the amount of money spent per student will ensure money spent per student
+
+IF the quality of education is measured by performance on standard size, test, the system of produce performance on standartized tests.
+
+Whether either of these measures is correlated with good education at least were thinking about 
+
+This is the trap of seeking the wrong all the way out please specify indicators and goals that reflect the real welfare of the system 
 
 ...
 
 ## 3) Part 3 - : Making Change in Systems and in Our Philosophy
 
 ### Leverage Points
+
+
+12) numbers constant Sam per meters shot such as subsidized Texas standards
+
+11) buffers the sizes of stabilizing stocks relative to their flows
+
+10) Stock and flow structures, physical systems, and their nose of intersection 
+
+9) The lease length of the time relative to the rate of system changes 
+
+8) Balancing feedback loops, the strength of this feedback related to the impact they’re trying to correct 
+
+7) Reinforcing feedback loops the strength of the game of the driving loops 
+
+6) Information flows the structure of who does, and does not have access to information 
+
+5) Rules incentives, punishments constraints 
+
+4) Set an organization, the power to add to change or evolve system structure 
+
+3) GOALS the purpose or function of a system 
+
+2) Paradigms the mindset of all out of which the system its goals structure rules delays parameters arises 
+
+1) Transcending paradigms 
+
+### Living in the world of systems, chapter 7, 
+
+we don’t have to change anyone’s values. We just have to get the system to operate around real values. 
+
+Oh, starting with the behavior of the system, forces you to focus on facts, not theories it keeps you from falling too quickly into your own, believe something misconceptions, or those of others 
+
+Starting with the behavior of a system, directs one thoughts to dynamic not static analysis not only what’s wrong, but also, how did we get there? What other behavior emotes are possible if you don’t change direction where are we going to end up and looking at the strength of the system one can I ask what is working well here 
+
+Remember, always that everything you know and everything everyone knows is only a model get your model out there where it can be viewed invite others to challenge your assumptions and add their own 
+
+Decision makers can’t respond to information they don’t have can’t respond accurately to information that is in accurate and can’t respond in a timely way. The information that is late. 
+
+The media, the public relations people, the politicians and advertisers, who regulate much of the public flow of information have far more power than most people realize they filter and channel information. Often they do so for short term self interested purposes it’s no wonder that our social systems so often run amok .
+
+Are pretending that something doesn’t exist. If it’s hard to quantify leads to faulty models, no one can define or measure justice, democracy, security, freedom, truth, or love no one can you define or a measure of any value, but if no one speaks up for them, if systems are designed to produce them if you don’t speak about them and point towards their presence or absence, they will cease to exist. 
+
+I’m working with which systems on the computer in nature among people in organizations constantly reminds me of how incomplete my mental models are, how complex the real world is Hannah, how much I don’t know Eren very sing is the condition for learning it means, seeking and using and sharing information about what went wrong with what you expected or hoped it would go right 
+
+The official time horizon of industrial society doesn’t extend beyond what will happen after the next election or beyond the payback period of current investments 
+
+When you’re walking along the tricky, carving, unknown, surprising, obstacle, strong pet, you’d be a fool to keep your head down and look just need the next step in front of you you will be equally a fool, just appear far ahead and never noticed what’s immediately under your feet, do you need to be watching both of the short and long-term the whole system? 
+
+And appendix 
+
+This system is more than some of its parts the least obvious part of the system its function or purpose, is often the most crucial determinant of the systems behavior 
+
+Changing the length of a delay me, make a large change in the behavior of the system 
+
+Systems need to be managed not only for productivity or stability. They also need to be managed for resilience. 
+
+Where to draw a boundary around the system, depends on the purpose of the discussion 
+
+Everything we think we know about the world is a model or models, full for short of representing the real Ford fully 
+
 
 ...
 
