@@ -294,27 +294,41 @@ This is the trap of seeking the wrong all the way out please specify indicators 
 
 we don’t have to change anyone’s values. We just have to get the system to operate around real values. 
 
-Oh, starting with the behavior of the system, forces you to focus on facts, not theories it keeps you from falling too quickly into your own, believe something misconceptions, or those of others 
+Starting with the behavior of the system forces you to focus on facts, not theories. It keeps you from falling too quickly into your own, believe something misconceptions, or those of others. 
 
-Starting with the behavior of a system, directs one thoughts to dynamic not static analysis not only what’s wrong, but also, how did we get there? What other behavior emotes are possible if you don’t change direction where are we going to end up and looking at the strength of the system one can I ask what is working well here 
+Starting with the behavior of a system, directs one's thoughts to dynamic not static analysis - not only "what’s wrong", but also, "how did we get there?" "What other behavior modes are possible?" "if you don’t change direction where are we going to end up?" And looking at the strength of the system one can ask "what is working well here?" 
 
-Remember, always that everything you know and everything everyone knows is only a model get your model out there where it can be viewed invite others to challenge your assumptions and add their own 
+Remember, always that everything you know and everything everyone knows is only a model. Get your model out there where it can be viewed invite others to challenge your assumptions and add their own. 
 
-Decision makers can’t respond to information they don’t have can’t respond accurately to information that is in accurate and can’t respond in a timely way. The information that is late. 
+Decision makers can’t respond to information they don’t have, can’t respond accurately to information that is in accurate, and can’t respond in a timely way to information that is late. 
 
-The media, the public relations people, the politicians and advertisers, who regulate much of the public flow of information have far more power than most people realize they filter and channel information. Often they do so for short term self interested purposes it’s no wonder that our social systems so often run amok .
+The media, the public relations people, the politicians and advertisers, **who regulate much of the public flow of information have far more power** than most people realize they filter and channel information. Often they do so for short term self interested purposes it’s no wonder that our social systems so often run amok .
 
-Are pretending that something doesn’t exist. If it’s hard to quantify leads to faulty models, no one can define or measure justice, democracy, security, freedom, truth, or love no one can you define or a measure of any value, but if no one speaks up for them, if systems are designed to produce them if you don’t speak about them and point towards their presence or absence, they will cease to exist. 
+pretending that something doesn’t exist If it’s hard to quantify leads to faulty models. 
 
-I’m working with which systems on the computer in nature among people in organizations constantly reminds me of how incomplete my mental models are, how complex the real world is Hannah, how much I don’t know Eren very sing is the condition for learning it means, seeking and using and sharing information about what went wrong with what you expected or hoped it would go right 
+no one can define or measure justice, democracy, security, freedom, truth, or love. No one can define or measure any value. But if no one speaks up for them, if systems are not designed to produce them, if you don’t speak about them and point towards their presence or absence, they will cease to exist. 
 
-The official time horizon of industrial society doesn’t extend beyond what will happen after the next election or beyond the payback period of current investments 
+##### Stay Humble Stay Learner
 
-When you’re walking along the tricky, carving, unknown, surprising, obstacle, strong pet, you’d be a fool to keep your head down and look just need the next step in front of you you will be equally a fool, just appear far ahead and never noticed what’s immediately under your feet, do you need to be watching both of the short and long-term the whole system? 
+Working with systems, on the computer, in nature, among people, in organizations constantly reminds me of how incomplete my mental models are, how complex the real world is and how much I don’t know.
 
-And appendix 
+Error embracing is the condition for learning. It means, seeking and using and sharing information about what went wrong with what you expected or hoped would go right.
 
-This system is more than some of its parts the least obvious part of the system its function or purpose, is often the most crucial determinant of the systems behavior 
+##### Expand Time Horizons
+
+The official time horizon of industrial society doesn’t extend beyond what will happen after the next election or beyond the payback period of current investments. 
+
+When you’re walking along the tricky, carving, unknown, surprising, obstacle strewn path, you’d be a fool to keep your head down and look just need the next step in front of you.
+
+You would be equally a fool, just to peer far ahead and never noticed what’s immediately under your feet.
+
+You need to be watching both of the short and long-term - the whole system. 
+
+## Appendix 
+
+This system is more than some of its parts.
+
+The least obvious part of the system its function or purpose, is often the most crucial determinant of the systems behavior 
 
 Changing the length of a delay me, make a large change in the behavior of the system 
 
@@ -322,12 +336,9 @@ Systems need to be managed not only for productivity or stability. They also nee
 
 Where to draw a boundary around the system, depends on the purpose of the discussion 
 
-Everything we think we know about the world is a model or models, full for short of representing the real Ford fully 
+Everything we think we know about the world is a model.
 
-
-...
-
-wip
+Models, fall short of representing the real world fully. 
 
 -----------------------------------------------------------------------------------------------------------------
 
