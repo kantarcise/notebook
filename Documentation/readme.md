@@ -24,7 +24,7 @@ Write it down, so you don't lose it in the sea :)
 - [Software Development Processes - MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-170-software-studio-spring-2013/lecture-notes/MIT6_170S13_54-devel-proce.pdf)
 - [Sufficient Design - Industrial Logic](https://www.industriallogic.com/blog/sufficient-design/)
 ---------------------
-- [Formatting Your Documentation Content from Apple](https://developer.apple.com/documentation/xcode/formatting-your-documentation-content)
+- [Formatting Your Documentation Content from Apple](http://web.archive.org/web/20211107083924/https://developer.apple.com/documentation/xcode/formatting-your-documentation-content)
 
 ---
 
