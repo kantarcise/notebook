@@ -1537,7 +1537,20 @@ wip
 
 - 145:
 
-- 146:
+- 146.happy_number:
+
+  - Using a set for detecting visit is a CLASSIC
+  -
+  - a happy number will loop endlessly on 1
+  -
+  - a non happy number will loop endlessly on a
+  - cycle which deos not includes 1
+  -
+  - Working on digits is possible by either str -> int shenanigans
+  -
+  - OR
+  -
+  - using Modulo % and Integer division //
 
 - 147.plus_one:
 
