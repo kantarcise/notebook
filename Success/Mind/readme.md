@@ -1,3 +1,19 @@
+## How to Win (At ANYTHING)
+
+[Alex Hormozi](https://youtu.be/MNll1BaskLA?t=2724)
+
+Inversion Thinking
+
+Chunk them down into so small that anyone can follow them.
+
+Actually be intelligent, meaning you act differently in the same situation.
+
+Who do you want to become? Do what s/he does.
+
+If you did not change, you did not learn.
+
+---
+
 ## Only Person You Can Compare Yourself Too
 
 Comparing yourself with who you are. That is a game you can win.
