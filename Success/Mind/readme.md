@@ -10,7 +10,7 @@ Actually be intelligent, meaning you act differently in the same situation.
 
 Who do you want to become? Do what s/he does.
 
-If you did not change, you did not learn.
+If you did not change, you did not learn. Simple as that.
 
 ---
 
