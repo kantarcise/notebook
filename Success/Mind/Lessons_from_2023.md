@@ -30,4 +30,14 @@ Apr 16, 2023 - The Joy and Necessity of Accountability - Power follows blame. Bl
 
 Apr 23, 2023 - Keep up the momentum. The more I work the luckier I get.
 
-wip..
+Apr 30, 2023 - Think like a scientist when you are trying to form an habit. Try stuff - Measure - Write it Down.
+
+May 7, 2023 - Positive Emotion comes from Progress. Keep doing until you leave the Valley of Despair.
+
+May 14, 2023 - 21 day experiment - Love what you do. Keep up the Momentum. Get luckier as you work.
+
+May 21, 2023 - Thinking in First Principles - Detect you presumptions, cut the problem to the smallest ones, form your own solution.
+
+May 28, 2023 - Compounding is the key to everything. Speaking - Marketing - Teaching Marketing. The highest leverage.
+
+
