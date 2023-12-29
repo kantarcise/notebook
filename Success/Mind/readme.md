@@ -1,3 +1,11 @@
+## Changing People
+
+You cannot change people.
+
+But you can stack undeniable truth about how you are improving and show them that there is a different way.
+
+---
+
 ## How to Win (At ANYTHING)
 
 [Alex Hormozi](https://youtu.be/MNll1BaskLA?t=2724)
