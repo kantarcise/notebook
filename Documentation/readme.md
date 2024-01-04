@@ -19,7 +19,7 @@ Write it down, so you don't lose it in the sea :)
 - [Ready, Set, Code: How Engineering Teams Use Trello](https://blog.trello.com/engineering-teams-sample-trello-boards)
 - [Software Documentation Types and Best Practices](https://blog.prototypr.io/software-documentation-types-and-best-practices-1726ca595c7f)
 -----------------
-- [How to Write a Design Document - Berkeley](https://people.eecs.berkeley.edu/~kubitron/courses/cs162-F06/design.html)
+  - [How to Write a Design Document - Berkeley - Old link is down at the moment](https://www.google.com/search?q=UC+Berkeley+CS+162+design+document+guide&sourceid=chrome&ie=UTF-8) Old link: `https://people.eecs.berkeley.edu/~kubitron/courses/cs162-F06/design.html`
 - [How to write a good software design doc - Medium](https://medium.com/free-code-camp/how-to-write-a-good-software-design-document-66fcf019569c)
 - [Software Development Processes - MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-170-software-studio-spring-2013/lecture-notes/MIT6_170S13_54-devel-proce.pdf)
 - [Sufficient Design - Industrial Logic](https://www.industriallogic.com/blog/sufficient-design/)
