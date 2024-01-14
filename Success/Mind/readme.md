@@ -1,3 +1,9 @@
+## Where you need to go 
+
+[If what you are doing is not working it is where you have not gone you need to go.](https://youtu.be/io5IsuoLHuc?t=389)
+
+---
+
 ## Changing People
 
 You cannot change people.
