@@ -79,7 +79,7 @@ Doesn’t matter when you start or finish, just start, no deviations, no excuses
 ---
 ## The Forgetting Curve
 
-[The simple reason for reviews](https://methodsof.com/blog/the-ebbinghaus-forgetting-curve/)
+[The simple reason for reviews](https://en.wikipedia.org/wiki/Forgetting_curve)
 
 The theory goes that, if you keep periodically re-learning (or refreshing your knowledge), the concept will have a better chance of sticking in your mind.
 
