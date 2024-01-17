@@ -37,16 +37,15 @@ grid[i][j] is 0, 1, or 2.
 
 Takeaway:
 
-dfs wont work because, oranges rot at the same time
+DFS wont work because, oranges rot at the same time
 if there are more than 1 rotten oranges
 we cannot count time rightfully
         
-we should do a multi source bfs
-bfs is implemented with, usually using a queue
-if after bfs is done, 
+we should do a multi source BFS
+BFS is implemented with, usually using a queue
+if after BFS is done, 
 there are still fresh oranges
-we cannot rot the table
-
+we cannot rot the table, Return -1
 
 """
 
