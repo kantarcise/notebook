@@ -1,3 +1,16 @@
+##  How to Learn Anything You Want | Andrew Huberman 
+
+[Here is the video](https://www.youtube.com/watch?v=8oyA-ctqq3g)
+
+- Engage in 90-minute focused learning sessions (0:21)
+- Follow intense learning with deep rest or sleep (1:10)
+- Utilize non-sleep deep rest techniques like Yoga Nidra (1:14)
+- Incorporate short naps or rests to reinforce learning (3:10)
+- Take 10-second micro-rests during learning sessions to accelerate learning (3:36)
+- Practice incremental learning in small, intense focus periods (5:21)
+
+---
+
 ## World Class Lecture - Alex - Ed
 
 [Understand How They Think. Defeat Ignorance.](https://www.youtube.com/watch?v=JvEhPIRtk9M)
