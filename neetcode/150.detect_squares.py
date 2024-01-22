@@ -1,30 +1,33 @@
 """
-
 You are given a stream of points on the X-Y plane. 
+
 Design an algorithm that:
 
-    Adds new points from the stream into a data structure. 
-    Duplicate points are allowed and should be treated 
-    as different points.
-    
-    Given a query point, counts the number of ways to choose
-    three points from the data structure such that the three 
-    points and the query point form an axis-aligned square 
-    with positive area.
+Adds new points from the stream into a data structure. Duplicate points are 
+allowed and should be treated as different points.
 
-An axis-aligned square is a square whose edges are all the same length and are either parallel or perpendicular to the x-axis and y-axis.
+Given a query point, counts the number of ways to choose three points 
+from the data structure such that the three points and the query point 
+form an axis-aligned square with positive area.
+
+An axis-aligned square is a square whose edges are all the same length and 
+are either parallel or perpendicular to the x-axis and y-axis.
 
 Implement the DetectSquares class:
 
-    DetectSquares() Initializes the object with an empty data structure.
-    void add(int[] point) Adds a new point point = [x, y] to the data structure.
-    int count(int[] point) Counts the number of ways to form axis-aligned squares with point point = [x, y] as described above.
+DetectSquares() Initializes the object with an empty data structure.
 
+void add(int[] point) Adds a new point point = [x, y] to the data structure.
+
+int count(int[] point) Counts the number of ways to form axis-aligned 
+    squares with point point = [x, y] as described above.
+ 
 Example 1:
 
 Input
 ["DetectSquares", "add", "add", "add", "count", "count", "add", "count"]
 [[], [[3, 10]], [[11, 2]], [[3, 2]], [[11, 10]], [[14, 8]], [[11, 2]], [[11, 10]]]
+
 Output
 [null, null, null, null, 1, 0, null, 2]
 
@@ -35,34 +38,87 @@ detectSquares.add([11, 2]);
 detectSquares.add([3, 2]);
 detectSquares.count([11, 10]); // return 1. You can choose:
                                //   - The first, second, and third points
-detectSquares.count([14, 8]);  // return 0. The query point cannot form a square with any points in the data structure.
+detectSquares.count([14, 8]);  // return 0. The query point cannot form a 
+                               // square with any points in the data structure.
 detectSquares.add([11, 2]);    // Adding duplicate points is allowed.
 detectSquares.count([11, 10]); // return 2. You can choose:
                                //   - The first, second, and third points
                                //   - The first, third, and fourth points
-
+ 
 Constraints:
 
-    point.length == 2
-    0 <= x, y <= 1000
-    At most 3000 calls in total will be made to add and count.
-
+point.length == 2
+0 <= x, y <= 1000
+At most 3000 calls in total will be made to add and count.
 
 Takeaway:
 
+Diagnoal for rectangles and squares are cool.
+
+Frequency counters, the usual. Default dict or Counter
 
 """
-class DetectSquares:
 
+from collections import Counter, defaultdict
+
+class DetectSquares:
+    """We cab use a map to hold the frequency of numbers.
+    For count method, we can use diagonal 
+    neighbor existing in the map"""
+    
     def __init__(self):
-        pass
+        self.point_count = defaultdict(int)
+        self.pts = []
 
     def add(self, point: list[int]) -> None:
-        pass
+        self.point_count[tuple(point)] += 1
+        self.pts.append(point)
+        
+    def count(self, point: list[int]) -> int:
+        # check if diagonal point exists in map
+        res = 0
+        px, py = point
+        for x, y in self.pts:
+            if (abs(py - y) != abs(px - x)) or x == px or y == py:
+                # if not diagonal or same point
+                continue
+            # we have the diagonal
+            # to make a square both of the points have to exist
+            # x - py and px - y 
+            # if we have more than 1 - we can make even more squares
+            res += self.point_count[(x, py)] * self.point_count[(px, y)]
+        return res
+    
+    
+class DetectSquares_:
+    # does not work 
+    def __init__(self):
+        self.map = {}
+
+    def add(self, point: list[int]) -> None:
+        self.map[tuple(point)] = self.map.get(tuple(point), 0) + 1
 
     def count(self, point: list[int]) -> int:
+        if sum(self.map.values()) < 4:
+            return 0
+        
+        print(self.map)
+        # to make a square, we need some similar x's and y's
+        
+        # Traverse the hash map and if any point has the same 
+        # y-coordinate as the query point, consider this point 
+        # and the query point to form one of the horizontal 
+        # lines of the square.
+        print([elem for _, elem in self.map.keys()])
+        if point[1] in [elem for _, elem in self.map.keys()]:
+            print(point[1])
         pass
 
+
+# Your DetectSquares object will be instantiated and called as such:
+# obj = DetectSquares()
+# obj.add(point)
+# param_2 = obj.count(point)
 
 # Your DetectSquares object will be instantiated and called as such:
 # obj = DetectSquares()
