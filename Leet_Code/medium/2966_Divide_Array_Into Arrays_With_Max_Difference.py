@@ -41,7 +41,7 @@ Takeaway:
 
 list.sort() and buckets.
 
-list comprehensions and append multiple values.
+list comprehensions and append list.
 
 
 """
