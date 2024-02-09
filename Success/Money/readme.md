@@ -1,3 +1,11 @@
+## Actions | Daniel Fazio
+
+[The Meme](https://www.youtube.com/watch?v=cSzbmNnhPKI)
+
+- Only thing matters is what you do.
+- I will just film a quick video explaining what I do.
+
+
 ##  How to Learn Anything You Want | Andrew Huberman 
 
 [Here is the video](https://www.youtube.com/watch?v=8oyA-ctqq3g)
