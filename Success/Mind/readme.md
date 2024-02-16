@@ -1,3 +1,13 @@
+## You got 200 - 5 Minute Chunks
+
+[Jordan Peterson - Lex Friedman](https://youtu.be/sY8aFSY2zv4?t=9521)
+
+The things you repeat every day, is your life.
+
+This might be the best approach to relationship growth.
+
+---
+
 ## Where you need to go 
 
 [If what you are doing is not working it is where you have not gone you need to go.](https://youtu.be/io5IsuoLHuc?t=389)
