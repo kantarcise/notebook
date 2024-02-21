@@ -35,6 +35,16 @@ I do not what this it. I can't call it.
 
 ---
 
+## Jordan Peterson
+
+[Is what you receive back is proportionate to what you deliver?](https://youtu.be/sY8aFSY2zv4?t=10701)
+
+The answer might be yes. That is a terrifiying idea man.
+
+It is terrifiying and exciting.
+
+---
+
 ## Alex Hormozi
 
 [I don't go gome for holidays?](https://www.youtube.com/watch?v=OvEfWrDOfNk)
