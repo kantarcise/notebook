@@ -1,3 +1,39 @@
+## Sam Altman - What I Wish Someone Had Told Me
+
+- Optimism, obsession, self-belief, raw horsepower and personal connections are how things get started.
+
+- Cohesive teams, the right combination of calmness and urgency, and unreasonable commitment are how things get finished. Long-term orientation is in short supply; try not to worry about what people think in the short term, which will get easier over time.
+
+- It is easier for a team to do a hard thing that really matters than to do an easy thing that doesn’t really matter; audacious ideas motivate people.
+
+- Incentives are superpowers; set them carefully.
+
+- Concentrate your resources on a small number of high-conviction bets; this is easy to say but evidently hard to do. You can delete more stuff than you think.
+
+- Communicate clearly and concisely.
+
+- Fight lies and bureaucracy every time you see it and get other people to fight it too. Do not let the org chart get in the way of people working productively together.
+
+- Outcomes are what count; don’t let good process excuse bad results.
+
+- Spend more time recruiting. Take risks on high-potential people with a fast rate of improvement. Look for evidence of getting stuff done in addition to intelligence.
+
+- Superstars are even more valuable than they seem, but you have to evaluate people on their net impact on the performance of the organization.
+
+- Fast iteration can make up for a lot; it’s usually ok to be wrong if you iterate quickly. Plans should be measured in decades, execution should be measured in weeks.
+
+- Don’t fight the business equivalent of the laws of physics.
+
+- Inspiration is perishable and life goes by fast. Inaction is a particularly insidious type of risk.
+
+- Scale often has surprising emergent properties.
+
+- Compounding exponentials are magic. In particular, you really want to build a business that gets a compounding advantage with scale.
+
+- Get back up and keep going.
+
+- Working with great people is one of the best parts of life.
+
 ## You got 200 - 5 Minute Chunks
 
 [Jordan Peterson - Lex Friedman](https://youtu.be/sY8aFSY2zv4?t=9521)
