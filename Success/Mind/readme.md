@@ -1,3 +1,9 @@
+## Jordan Peterson 
+
+[“You learn through voluntary contact with that that frightens or disgusts you.”](https://youtu.be/kYYJlNbV1OM?t=1958)
+
+---
+
 ## Sam Altman - What I Wish Someone Had Told Me
 
 - Optimism, obsession, self-belief, raw horsepower and personal connections are how things get started.
