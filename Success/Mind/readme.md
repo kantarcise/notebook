@@ -1,3 +1,17 @@
+##  Jensen Huang, Founder and CEO of NVIDIA 
+
+[The Idea of just Solving Important Problems](https://youtu.be/lXLBTBBil2U?t=1302)
+
+Early Indicators of Future Market.
+
+Story of cuDNN - the SQL of storage computing - openGL of deep learning. 
+
+These researchers had no money.
+
+Is this worth work to do?
+
+---
+
 ## Jordan Peterson 
 
 [“You learn through voluntary contact with that that frightens or disgusts you.”](https://youtu.be/kYYJlNbV1OM?t=1958)
