@@ -1,3 +1,16 @@
+## How Does Jensen Run's Nvidia?
+
+Keynote by NVIDIA CEO Jensen Huang at 2024 SIEPR Economic Summit
+
+- 55 direct reports. [Link](https://youtu.be/cEg8cOx7UZk?t=2315) I give and take constant reviews. Never have alone meetings. They never hear me say something to them that is only for them to know. How do you define success? How do you measure results? How do you understand failure? What is important and what is not important. These definitions help everyone. 
+
+- Have very low expectations. [Link](https://youtu.be/cEg8cOx7UZk?t=2173)
+
+- A lot of pain and suffering, it is celebrated inside the company. Greatness is not intelligence, it is character. 
+
+
+---
+
 ##  Jensen Huang, Founder and CEO of NVIDIA 
 
 [The Idea of just Solving Important Problems](https://youtu.be/lXLBTBBil2U?t=1302)
