@@ -1,3 +1,14 @@
+## Geoffrey Hinton
+
+How does LLM's learn?
+
+- Education is just hopeless. It is hardly worth paying for.
+
+[Link](https://youtu.be/QWWgr2rN45o?t=3216)
+
+---
+
+
 ## How Does Jensen Run's Nvidia?
 
 Keynote by NVIDIA CEO Jensen Huang at 2024 SIEPR Economic Summit
