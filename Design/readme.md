@@ -2,6 +2,16 @@
 
 
 <p align="center">
+  <img src="img/heatShield.png">
+</p>
+
+<div align="center">
+  <a href="https://github.com/kantarcise/notebook/blob/master/Design/SpaceXStarshipSystem.pdf">How are we going to get to Mars?.</a>  
+</div>
+
+---
+
+<p align="center">
   <img src="https://i.stack.imgur.com/dvgZl.jpg" title="Magnificent"/>
 </p>
 
