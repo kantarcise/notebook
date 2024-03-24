@@ -48,3 +48,15 @@
   <a href="https://github.com/kantarcise/notebook/blob/master/Interior%20Design/HouseHome_08_2019_WellingtonResidence.pdf"> How does a Hotel CEO design a home for himself? </a>  
 </div>
 
+
+---
+
+
+<p align="center">
+  <img src="img/mexicoHouse.jpg">
+</p>
+
+<div align="center">
+  <a href="https://interiordesign.net/projects/explore-cliffside-abodes-in-mexico/"> How to have minimal impact on the botanic surroundings and have an incredible home? </a>  
+</div>
+
