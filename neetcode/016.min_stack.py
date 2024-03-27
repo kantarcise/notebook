@@ -1,7 +1,6 @@
 """
-
-Design a stack that supports push, pop, top, and retrieving the minimum element 
-in constant time.
+Design a stack that supports push, pop, top, and retrieving 
+the minimum element in constant time.
 
 Implement the MinStack class:
 
@@ -31,23 +30,26 @@ minStack.pop();
 minStack.top();    // return 0
 minStack.getMin(); // return -2
  
-
 Constraints:
 
--231 <= val <= 231 - 1
-Methods pop, top and getMin operations will always be called on non-empty stacks.
-At most 3 * 104 calls will be made to push, pop, top, and getMin.
+    -2^31 <= val <= 2^31 - 1
+    Methods pop, top and getMin operations will always 
+        be called on non-empty stacks.
+    At most 3 * 10^4 calls will be made to push, pop, top, and getMin.
 
 Takeaway:
 
-The key takeaway from this code is that by maintaining an auxiliary data structure
- specifically designed to handle the minimum value, you can achieve O(1) time
-  complexity for the getMin() operation while still supporting standard stack operations.
-   The choice between array-based and linked-list-based approaches depends on
-    your preference and specific use case.
-
-lists has append, push, pop methods. As usual.
-
+    - The key takeaway from this code is that by maintaining 
+    an auxiliary data structure specifically designed to 
+    handle the minimum value, you can achieve O(1) time
+    
+    - complexity for the getMin() operation while still 
+    supporting standard stack operations.
+    
+    - The choice between array-based and linked-list-based 
+    approaches depends on your preference and specific use case.
+    
+    - lists has append, push, pop methods. As usual.
 
 """
 
@@ -73,6 +75,7 @@ class MinStack:
         # if the top of the stack is the min element
         if self._data[-1] == self._min_stack[-1]:
             # that min element is no longer within the main stack
+            # so we have to pop it from min_stack as well
             self._min_stack.pop()
         self._data.pop()
         
@@ -112,6 +115,7 @@ class MinStackLL:
     def top(self) -> int:
         if self.head is not None:
             # head node is the top of the stack
+            # because as we pushed values in, we moved head.
             return self.head.value
     
     def getMin(self) -> int:
