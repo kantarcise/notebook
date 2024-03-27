@@ -86,7 +86,8 @@ a,b,c,d,*e, f  = range(10)
 
 class Solution:
     def isValidSudoku_first(self, board) -> bool:
-        
+        # This was an attempt, does NOT work
+     
         # board is made of strings.
         # none means .
 
