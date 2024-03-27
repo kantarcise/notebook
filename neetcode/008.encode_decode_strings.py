@@ -65,21 +65,30 @@ class Solution:
         result = ""
 
         for elem in strs:
+            # this is not ideal because strings are 
+            # immutable
+            # we are making a lot of objects in this loop
             result += str(len(elem)) + "#" + elem
 
         return result
 
-    def decode_stateless(self, str: str) -> list:
+    def decode_stateless(self, input_string: str) -> list:
+        # we will populate this result list
         result = []
+        # string starting index
         i = 0
-
-        while i < len(str):
+        
+        # until you are end of the string
+        while i < len(input_string):
             # this index holds width for the length of the word
             j = i
-            while str[j] != "#":
+            while input_string[j] != "#":
                 j += 1
-            length = int(str[i:j])
-            result.append(str[j+1: j+1+length])
+            
+            length = int(input_string[i:j])
+            result.append(input_string[j+1: j+1+length])
+            
+            # move index
             i = j + 1 + length
         return result
 
