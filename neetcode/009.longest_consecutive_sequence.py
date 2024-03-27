@@ -21,8 +21,8 @@ Output: 9
 
 Constraints:
 
-0 <= nums.length <= 105
--109 <= nums[i] <= 109
+0 <= nums.length <= 10^5
+-10^9 <= nums[i] <= 10^9
 
 
 Takeaway:
@@ -38,8 +38,10 @@ you can override a value in an iteration with
 """
 
 class Solution:
-    # My first try - it failed beacuse I did not cover the streaks
+    
     def longestConsecutive(self, nums) -> int:
+        # My first try - it failed because I did not cover the streaks
+         
         # in the list, we need to find all the elements
         #  that has the difference of 1 between them
         
