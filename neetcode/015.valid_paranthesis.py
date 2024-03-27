@@ -1,5 +1,6 @@
 """
-Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine 
+Given a string s containing just the characters 
+'(', ')', '{', '}', '[' and ']', determine 
 if the input string is valid.
 
 An input string is valid if:
@@ -26,25 +27,48 @@ Output: false
 
 Constraints:
 
-1 <= s.length <= 104
-s consists of parentheses only '()[]{}'.
+   1 <= s.length <= 10^4
+   s consists of parentheses only '()[]{}'.
 
 # Takeaway
 
-- matching symbols is just asking for a hash map to be used
+   - matching symbols is just asking for a hash map to be used
 
-- we are using a stack for storing all of the opening brackets.
+   - we are using a stack for storing all of the opening brackets.
 
-- For each closing bracket we are looking for the last element 
-- in stack to be matched by the closing symbol
+   - For each closing bracket we are looking for the last element 
+   - in stack to be matched by the closing symbol
 
-- if everything went smooth, stack should be empty in the end.
+   - if everything went smooth, stack should be empty in the end.
 
 """
 
 class Solution:
+    def isValid(self, s: str) -> bool:
+        # we can use a dictionary for matched characters:
+
+        match = {"(": ")",
+                 "{": "}",
+                 "[": "]"}
+        
+        # use a list for the stack
+        stack = []
+
+        for c in s:
+            if c in match:
+                stack.append(c)
+            elif c in ")]}":
+                if len(stack) == 0 or match[stack[-1]] != c:
+                    # if nothing to pop, not valid
+                    # if top of stack does not match the expected, not valid
+                    return False
+                stack.pop()
+
+        # if stack is empty in the end, all matched
+        return not bool(stack)
     
-    def is_valid(self, s: str) -> bool:
+    def is_valid_(self, s: str) -> bool:
+        # we can use a dictionary for matched characters:
         matching_symbols = { ')': '(',
                              ']': '[',
                              '}': '{'  }
@@ -89,6 +113,10 @@ if __name__ == '__main__':
     print(sol.is_valid("()[]{}"))
     print(sol.is_valid("()[]{}"))
     print(sol.is_valid("(]"))
+    print(sol.is_valid_("()"))
+    print(sol.is_valid_("()[]{}"))
+    print(sol.is_valid_("()[]{}"))
+    print(sol.is_valid_("(]"))
     print(sol.is_valid_improved("()"))
     print(sol.is_valid_improved("()[]{}"))
     print(sol.is_valid_improved("()[]{}"))
