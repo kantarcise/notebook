@@ -44,7 +44,7 @@ looking for, simply using the length.
 class Solution:
 
     # MY FIRST TRIAL
-    def encode(self, strs):
+    def encode(self, strs: list) -> str:
         """
         @param: strs: a list of strings
         @return: encodes a list of strings to a single string.
@@ -52,7 +52,7 @@ class Solution:
         return "~".join(strs)
 
 
-    def decode(self, str):
+    def decode(self, str: str) -> list:
         """
         @param: str: A string
         @return: decodes a single string to a list of strings
@@ -61,7 +61,7 @@ class Solution:
         return str.split("~")
 
 
-    def encode_stateless(self, strs):
+    def encode_stateless(self, strs: list) -> str:
         result = ""
 
         for elem in strs:
@@ -69,7 +69,7 @@ class Solution:
 
         return result
 
-    def decode_stateless(self, str):
+    def decode_stateless(self, str: str) -> list:
         result = []
         i = 0
 
