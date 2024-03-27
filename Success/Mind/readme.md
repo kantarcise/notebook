@@ -1267,7 +1267,7 @@ What do you want your tombstone to read about you?
 
 ---
 
-[Markham Heid](https://medium.com/@mheidj/what-exposure-therapy-reveals-about-the-mind-body-connection-947c4eabf2d7)
+[How is Exposure Theraphy Useful?](https://medicine.umich.edu/sites/default/files/content/downloads/Exposure-and-Desensitization.pdf)
 
 Exposure therapy operates on a similar principle. “You can talk with a patient for years about how spiders are harmless, but if that person’s brain associates spiders with terror, all that talk probably won’t make much difference,”
 
