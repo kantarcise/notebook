@@ -1,3 +1,81 @@
+## Andrej Karpathy - On Running a Company
+
+[How does Elon runs companies?](https://youtu.be/c3b-JASoPi0?t=969)
+
+Elon runs this company is an extremely unique style I don't actually think that people appreciate how unique it is.
+
+It's like even hard to describe I don't even know where to start but it's like a very unique different thing. 
+
+I like to say that he runs the biggest startups. 
+
+Number one is like so he likes very small strong highly technical teams. I would say companies by default grow and they get large, Elon was always like a force against growth.
+
+I would have to work and expend effort to hire people. And then the other thing is at big companies usually you want um it's really hard to get rid of low performers.
+
+I think Elon is very friendly to by default getting rid of low performers, so I actually had to fight for people to keep them on the team.
+
+Because he would by default want to remove people. So keep a small strong highly technical team, no middle management that is kind of like non-technical for sure.
+
+Number two is kind of like is The Vibes of how everything runs and how it feels when he sort of like walks into the office.
+
+He wants it to be a vibrant place, people are walking around, they're pacing around, they're working on exciting stuff, they're charting something, they're coding.
+
+He doesn't like stagnation. 
+
+He doesn't like large meetings, he always encourages people to like leave meetings if they're not being useful.
+
+So actually you see this or you know it's a large meeting and some if you're not contributing and you're not learning, just walk out.
+
+And this is like fully encouraged and I think this is something that you don't normally see. 
+
+So I think like Vibes is like a second big lever.
+
+I think a lot of bigger companies they like pamper employees. I think like there's much less of that.
+
+It's like the culture of it is you're there to do your best technical work. And there's the intensity and so on. 
+
+And I think maybe the last one that is very unique and very interesting and very strange is just how connected he is to the team.
+
+So usually a CEO of a company is like a remote person, five layers up who talks to their VPS, who talk to their you know reports and directors and eventually you talk to your manager.
+
+It's not how Elon runs companies. 
+
+He will come to the office he will talk to the engineers. Many of the meetings that we had were like 50 people in the room with Elon and uh he talks directly to the engineers.
+
+He doesn't want to talk just to the VPS and the directors. So normally people would talk spend like 99% of the time maybe talking to the VPS.
+
+He spends maybe 50% of the time and he just wants to talk to the engineers. 
+
+So if the team is small and strong, then engineers and the code are the source of Truth.
+
+And so they have the source of Truth. Not some manager.
+
+He wants to talk to them to understand the actual state of things and what should be done to improve it.
+
+So I would say like the degree to which he's connected with the team and not something remote is also unique. Also just like his large hammer and his willingness to exercise it within the organization.
+
+Maybe if he talks to the engineers and they bring up that you know what's blocking you okay I just I don't have enough gpus to run my thing.
+
+And he's like oh okay and if he hears that twice he's going to be like okay this is a problem.
+
+So like what is our timeline and when when you don't have satisfying answers he's like "okay I want to talk to the person in charge of the GPU cluster" and like someone dials the phone and he's just like "okay double the cluster right now."
+
+Like let's have a meeting tomorrow from now on send me daily updates until cluster is twice the size.
+
+Then they push back and they're like okay well we have this procurement set up, we have this timeline and Nvidia says that we don't have enough GPU's gpus and it will take six months or something.
+
+And then you get a rise of an eyebrow and then he's like okay I want to talk to Jensen.
+
+He just kind of like removes bottlenecks so I think the extent to which he's extremely involved and removes bottlenecks, and applies his hammer.
+
+I think is also like not appreciated.
+
+So I think there's like a lot of these kinds of aspects that are very unique I would say and very interesting.
+
+And honestly like going to a normal company outside of that is you like definitely miss aspects of that.
+
+---
+
 ## Geoffrey Hinton
 
 How does LLM's learn?
