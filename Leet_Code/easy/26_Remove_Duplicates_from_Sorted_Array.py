@@ -75,6 +75,8 @@ class Solution:
             if nums[i] in s:
                 continue
             else:
+                # encountered a unique element 
+                # starting from index 1, populate the array
                 s.add(nums[i])
                 nums[index] = nums[i]
                 index += 1
@@ -84,16 +86,26 @@ class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         # we do not even need the set
         # because the list is in non-decreasing order
-        cur = 0
+        
+        current_unique_index = 0
+        
         # keep only last element
         last = None
+        
         for n in nums:
-            if n == last: 
+            if n == last:
+                # if n is the same as the last seen element 
                 continue
+                
+            # a new element encountered
             # update last
             last = n
             # make that index, that element 
-            nums[cur] = n
+            nums[current_unique_index] = n
             # increase index for uniques
-            cur += 1
-        return cur
+            current_unique_index += 1
+        
+        return current_unique_index
+
+sol = Solution()
+print(sol.removeDuplicates(nums = [0,0,1,1,1,2,2,3,3,4]))
