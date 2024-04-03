@@ -3,24 +3,30 @@ Given an m x n grid of characters board and a string
 word, return true if word exists in the grid.
 
 The word can be constructed from letters of sequentially adjacent 
-cells, where adjacent cells are horizontally or 
-vertically neighboring. 
+cells, where adjacent cells are horizontally or vertically neighboring.
+
 The same letter cell may not be used more than once.
 
 Example 1:
 
-Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCCED"
-Output: true
+    Input: board = [["A","B","C","E"],
+                    ["S","F","C","S"],
+                    ["A","D","E","E"]], word = "ABCCED"
+    Output: true
 
 Example 2:
 
-Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "SEE"
-Output: true
+    Input: board = [["A","B","C","E"],
+                    ["S","F","C","S"],
+                    ["A","D","E","E"]], word = "SEE"
+    Output: true
 
 Example 3:
 
-Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCB"
-Output: false
+    Input: board = [["A","B","C","E"],
+                    ["S","F","C","S"],
+                    ["A","D","E","E"]], word = "ABCB"
+    Output: false
 
 Constraints:
 
@@ -32,37 +38,38 @@ Constraints:
 
 Takeaway:
 
-we have to brute force
-not an efficient solition here.
-look at every single position 
-check every neighbor
+    we have to brute force
+    not an efficient solition here.
+    look at every single position 
+    check every neighbor
 
-We will use dfs and recursive backtracking
+    We will use dfs and recursive backtracking
 
-Even before we get to dfs, 
-we can check if all letters in the word 
-are actually in the board 
+    Even before we get to dfs, 
+    we can check if all letters in the word 
+    are actually in the board 
 
-for writing the dfs 
+    for writing the dfs 
 
-do not forget about all the cases in your question
+    do not forget about all the cases in your question
 
-end of the word
-out of bounds
-character not matching
-position already in path
+    end of the word
+    out of bounds
+    character not matching
+    position already in path
 
-GO TO NEXT
-row either + or - 
-OR
-column either + or -
+    GO TO NEXT
+    row either + or - 
+    OR
+    column either + or -
 
-time complexity
+    Time complexity will be:
 
-o(n * m * dfs) - dfs is (4 * len(word))
-
-
+        O(n * m * dfs) - dfs is (4 * len(word))
 """
+
+# needed for second solution
+from collections import defaultdict, Counter
 
 class Solution:
     def exist(self, board: "list[list[str]]", word: str) -> bool:
@@ -70,16 +77,18 @@ class Solution:
         # not an efficient solition here.
         # look at every single position 
         # check every neighbor
-        # 
+
         # We will use dfs and recursive backtracking
 
         ROWS, COLS = len(board), len(board[0])
 
         # because we want unique characters
+        # this path will hold coordinates
         path = set() 
 
         # can this make a difference?
         # just slap it in there
+        # this will increase performance a lot!
         unique_chars = set(word)
         for elem in unique_chars:
             if elem not in [element for row in board for element in row]:
@@ -87,8 +96,9 @@ class Solution:
 
         # position of the board, and i - current character 
         # location in the target that we are looking for position
-        def dfs(r, c, i):
-            if i == len(word):
+        def dfs(r, c, length):
+            # base cases
+            if length == len(word):
                 # we finished, found the word
                 return True
 
@@ -97,21 +107,21 @@ class Solution:
             # or the position is already in our path
             if (r >= ROWS or c >= COLS or 
                 r < 0 or c < 0 or
-                word[i] != board[r][c] or
+                word[length] != board[r][c] or
                 (r, c) in path): 
                 return False
 
-            # we FOUND THE CHARACTER
+            # add the character to path
             path.add((r,c))
 
             # GO TO NEXT
             # r + - 
             # OR
             # c + -
-            res = (dfs(r + 1, c, i + 1) or 
-                  dfs(r - 1, c, i + 1) or
-                  dfs(r, c + 1, i + 1) or
-                  dfs(r, c - 1, i + 1))
+            res = (dfs(r + 1, c, length + 1) or 
+                  dfs(r - 1, c, length + 1) or
+                  dfs(r, c + 1, length + 1) or
+                  dfs(r, c - 1, length + 1))
 
             path.remove((r, c))
             return res
@@ -124,11 +134,9 @@ class Solution:
         return False
 
 
-# another solution from a fellow programmer
-from collections import defaultdict, Counter
-
-class SecondSolution:
-    def exist(self, board: "list[list[str]]", word: str) -> bool:
+    def exist_(self, board: "list[list[str]]", word: str) -> bool:
+        # another approach from a fellow programmer
+        
         # same approach here
         def backtrack(board, word, index, r, c):
             if index == len(word):
@@ -156,7 +164,8 @@ class SecondSolution:
                 boardDic[board[i][j]] += 1
 
         # Count number of letters in word
-        # Check if board has all the letters in the word and they are atleast same count from word
+        # Check if board has all the letters in the word and 
+        # they are atleast same count from word
         wordDic = Counter(word)
         for c in wordDic:
             if c not in boardDic or boardDic[c] < wordDic[c]:
