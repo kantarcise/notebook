@@ -30,16 +30,16 @@ Constraints:
 
 Takeaway:
 
-Binary search, whether implemented iteratively or recursively, has a 
-time complexity of O(log n) because it continuously reduces the search
-range by half with each comparison. 
+    Binary search, whether implemented iteratively or recursively, has a 
+    time complexity of O(log n) because it continuously reduces the search
+    range by half with each comparison. 
 
-This logarithmic time complexity is significantly faster than 
-linear time complexity (O(n)), especially for large lists.
+    This logarithmic time complexity is significantly faster than 
+    linear time complexity (O(n)), especially for large lists.
 
-In basic search, you can traverse the sequence but that would be O(n).
-We use 2 pointers and check if target is equal to kinda middle of the 
-sequence so that we eliminate more than one value each loop. 
+    In basic search, you can traverse the sequence but that would be O(n).
+    We use 2 pointers and check if target is equal to kinda middle of the 
+    sequence so that we eliminate more than one value each loop. 
 
 """
 
