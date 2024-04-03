@@ -58,7 +58,7 @@ class Solution:
 
         return -1 
 
-    def searchRecursive(self, nums: list[int], target: int) -> int:
+    def search_(self, nums: list[int], target: int) -> int:
         """
         We can solve this problem recursively too.
         """
@@ -87,5 +87,5 @@ if __name__ == "__main__":
     print(sol.search([-1,0,3,5,9,12], 9))
     print(sol.search([-1,0,3,5,9,12], 2))
 
-    print(sol.searchRecursive([-1,0,3,5,9,12], 9))
-    print(sol.searchRecursive([-1,0,3,5,9,12], 2))
+    print(sol.search_([-1,0,3,5,9,12], 9))
+    print(sol.search_([-1,0,3,5,9,12], 2))
