@@ -1,68 +1,66 @@
 """
+Koko loves to eat bananas. 
 
-Koko loves to eat bananas. There are n piles of bananas, the ith pile 
-has piles[i] bananas. The guards have gone and will come back in h hours.
+There are n piles of bananas, the ith pile has piles[i] bananas.
+The guards have gone and will come back in h hours.
 
-Koko can decide her bananas-per-hour eating speed of k. Each hour, she 
-chooses some pile of bananas and eats k bananas from that pile. If the pile
- has less than k bananas, she eats all of them instead and will not eat any 
- more bananas during this hour.
+Koko can decide her bananas-per-hour eating speed of k. 
 
-Koko likes to eat slowly but still wants to finish eating all the bananas
- before the guards return.
+Each hour, she chooses some pile of bananas and eats k bananas 
+from that pile. If the pile has less than k bananas, she eats all
+of them instead and will not eat any 
+more bananas during this hour.
 
-Return the minimum integer k such that she can eat all the bananas within
- h hours.
+Koko likes to eat slowly but still wants to finish eating 
+all the bananas before the guards return.
 
+Return the minimum integer k such that she can eat 
+all the bananas within h hours.
 
 Example 1:
 
-Input: piles = [3,6,7,11], h = 8
-Output: 4
-
+    Input: piles = [3,6,7,11], h = 8
+    Output: 4
 
 Example 2:
 
-Input: piles = [30,11,23,4,20], h = 5
-Output: 30
-
+    Input: piles = [30,11,23,4,20], h = 5
+    Output: 30
 
 Example 3:
 
 Input: piles = [30,11,23,4,20], h = 6
 Output: 23
  
-
 Constraints:
 
-1 <= piles.length <= 104
-piles.length <= h <= 109
-1 <= piles[i] <= 109
-
+    1 <= piles.length x<= 10^4
+    piles.length <= h <= 10^9
+    1 <= piles[i] <= 10^9
 
 Takeaways:
 
-math.ceil for finding the ceiling of a number.
+    math.ceil for finding the ceiling of a number.
 
-understanding the question will give you a range for possible k values
+    understanding the question will give you a 
+        range for possible k values
 
-after that, we can apply binary search to that sequence!
+    after that, we can apply binary search to that sequence!
 
-this is cool:
-
-``` mid = l + ((r - l) // 2)```
+    this is cool:
+        mid = l + ((r - l) // 2)
 
 """
-
 import math
 
 class Solution:
 
-    # this causes timeout
-    def min_eating_speed_brute_force(self, piles, h):
-        
+    def minEatingSpeed(self, piles: list[int], h: int) -> int:
+        # This causes timeout - does not work.
+
         # koko can only eat one pile at a time
         # so hours should be bigger than number of piles
+        
         # h >= len(piles)
 
         # brute force approach would be giving k = 1, 2, 3 ..
@@ -86,9 +84,9 @@ class Solution:
 
         return result
 
-    def min_eating_speed(self, piles, h):
-        
+    def minEatingSpeed_(self, piles: list[int], h: int) -> int:
         # we dont have to try every single value of k
+
         # apply binary search to the k range
         # [3, 6, 7, 11] - h = 8
         # k possibly = 
@@ -116,15 +114,18 @@ class Solution:
             if hours <= h:
                 # update the result for current k
                 res = min(res, k)
-                # rate was too fast, look into the smaller part of the k's
+                # rate was too fast, look into the smaller 
+                # part of the k's
                 r = k - 1
             else:
-                # rate was too small, look into the larger part of the k's
+                # rate was too small, look into the larger 
+                # part of the k's
                 l = k + 1
 
         return res
 
-    def minEatingSpeed(self, piles, h: int) -> int:
+    def minEatingSpeed__(self, piles: list[int], h: int) -> int:
+        # here is a tightly packed solution.
         l, r = 1, max(piles)
         while l < r:
             m = (l + r) // 2
@@ -138,18 +139,18 @@ class Solution:
 if __name__ == '__main__':
     sol = Solution()
 
-    print(sol.min_eating_speed_brute_force(piles = [3,6,7,11], h = 8))
-    print(sol.min_eating_speed_brute_force(piles = [30,11,23,4,20], h = 5))
-    print(sol.min_eating_speed_brute_force(piles = [30,11,23,4,20], h = 6))
-
-    print("Faster:")
-
-    print(sol.min_eating_speed(piles = [3,6,7,11], h = 8))
-    print(sol.min_eating_speed(piles = [30,11,23,4,20], h = 5))
-    print(sol.min_eating_speed(piles = [30,11,23,4,20], h = 6))
-
-    print("even Faster?")
-
     print(sol.minEatingSpeed(piles = [3,6,7,11], h = 8))
     print(sol.minEatingSpeed(piles = [30,11,23,4,20], h = 5))
     print(sol.minEatingSpeed(piles = [30,11,23,4,20], h = 6))
+
+    print("Faster:")
+
+    print(sol.minEatingSpeed_(piles = [3,6,7,11], h = 8))
+    print(sol.minEatingSpeed_(piles = [30,11,23,4,20], h = 5))
+    print(sol.minEatingSpeed_(piles = [30,11,23,4,20], h = 6))
+
+    print("even Faster?")
+
+    print(sol.minEatingSpeed__(piles = [3,6,7,11], h = 8))
+    print(sol.minEatingSpeed__(piles = [30,11,23,4,20], h = 5))
+    print(sol.minEatingSpeed__(piles = [30,11,23,4,20], h = 6))
