@@ -1,3 +1,9 @@
+## Greg 'Joz' Joswiak - Craig Federighi
+
+How does Apple decide something is R&D and [something is ready to ship ?](https://youtu.be/m-ugwoEOMvg?t=1792) 
+
+---
+
 ## Andrej Karpathy - On Running a Company
 
 [How does Elon runs companies?](https://youtu.be/c3b-JASoPi0?t=969)
