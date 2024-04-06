@@ -3,53 +3,53 @@ You are given the head of a singly linked-list.
 
 The list can be represented as:
 
-L0 → L1 → … → Ln - 1 → Ln
+    L0 → L1 → … → Ln - 1 → Ln
 
 Reorder the list to be on the following form:
 
-
-L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → …
+    L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → …
 
 You may not modify the values in the list's nodes. 
+
 Only nodes themselves may be changed.
 
 Example 1:
 
-Input: head = [1,2,3,4]
-Output: [1,4,2,3]
+    Input: head = [1,2,3,4]
+    Output: [1,4,2,3]
 
 Example 2:
 
-Input: head = [1,2,3,4,5]
-Output: [1,5,2,4,3]
+    Input: head = [1,2,3,4,5]
+    Output: [1,5,2,4,3]
 
 Constraints:
 
-The number of nodes in the list is in the range [1, 5 * 104].
-1 <= Node.val <= 1000
+    The number of nodes in the list is in the range [1, 5 * 104].
+    1 <= Node.val <= 1000
 
 Takeaway:
 
-Two phases:
+    Two phases:
 
-Find second portion of the linked list, reverse it
-add it one by one
-        
-To find the middle of the LL, use a slow and fast pointer
+    Find second portion of the linked list, reverse it
+    add it one by one
 
-slow pointer at first node, fast pointer at second node
+    To find the middle of the LL, use a slow and fast pointer
 
-keep going until fast pointer reaches None or last element
+    slow pointer at first node, fast pointer at second node
 
-if it is an even list, slow pointer will be the 
-last element of the first portion
+    keep going until fast pointer reaches None or last element
 
-if it is an odd list slow pointer will 
-be in the middle exactly
-        
-we need pointer at the beginning of each first and second lists
+    if it is an even list, slow pointer will be the 
+    last element of the first portion
 
-for the last node of the first list, node.next should be None 
+    if it is an odd list slow pointer will 
+    be in the middle exactly
+
+    we need pointer at the beginning of each first and second lists
+
+    for the last node of the first list, node.next should be None 
 
 """
 
@@ -60,10 +60,10 @@ class ListNode:
         self.next = next
 
 class Solution:
-    
-    # my first attempt   
-    # not working correctly 
-    def reorder_list(self, head) -> None:
+
+    def reorderList__(self, head) -> None:
+        # my first attempt   
+        # not working correctly 
         
         # [1,2,3,4,5] 
         # [1,5,2,4,3]
@@ -79,7 +79,7 @@ class Solution:
 
         return head
     
-    def reorder_list_(self, head):
+    def reorderList_(self, head):
         
         if not head or not head.next:
             return head
@@ -109,7 +109,6 @@ class Solution:
             second_half = next_second
 
         return head
-
 
     def reorderList(self, head) -> None:
 
@@ -174,10 +173,12 @@ class Solution:
 
 
 if __name__ == "__main__":
-    sol = Solution()
-    print(sol.reorder_list(head = [1,2,3,4]))
-    print(sol.reorder_list(head = [1,2,3,4,5]))
+    # these will not work
 
-    print(sol.reorderList(head = [1,2,3,4]))
-    print(sol.reorderList(head = [1,2,3,4,5]))
+    # sol = Solution()
+    # print(sol.reorderList_(head = [1,2,3,4]))
+    # print(sol.reorderList_(head = [1,2,3,4,5]))
 
+    # print(sol.reorderList(head = [1,2,3,4]))
+    # print(sol.reorderList(head = [1,2,3,4,5]))
+    pass
