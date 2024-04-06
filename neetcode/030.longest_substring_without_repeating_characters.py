@@ -1,50 +1,50 @@
-
 """
-
-Given a string s, find the length of the longest substring
- without repeating characters.
+Given a string s, find the length of the longest substring 
+without repeating characters.
 
 Example 1:
 
-Input: s = "abcabcbb"
-Output: 3
-Explanation: The answer is "abc", with the length of 3.
+    Input: s = "abcabcbb"
+    Output: 3
+    Explanation: The answer is "abc", with the length of 3.
 
 Example 2:
 
-Input: s = "bbbbb"
-Output: 1
-Explanation: The answer is "b", with the length of 1.
+    Input: s = "bbbbb"
+    Output: 1
+    Explanation: The answer is "b", with the length of 1.
 
 Example 3:
 
-Input: s = "pwwkew"
-Output: 3
-Explanation: The answer is "wke", with the length of 3.
+    Input: s = "pwwkew"
+    Output: 3
+    Explanation: The answer is "wke", with the length of 3.
 
-Notice that the answer must be a substring, "pwke" is a 
-subsequence and not a substring. 
+    Notice that the answer must be a substring, "pwke" is a 
+    subsequence and not a substring. 
 
 Constraints:
 
-0 <= s.length <= 5 * 104
-s consists of English letters, digits, symbols and spaces.
+    0 <= s.length <= 5 * 10^4
+    s consists of English letters, digits, symbols and spaces.
 
 
-# Takeaway:
+Takeaway:
 
-Sets are great for duplicate questions
+    Sets are great for duplicate questions
 
-For a sliding window, you still need to have two pointers
+    For a sliding window, you still need to have two pointers
 
-With thinking about the worst case, you can set up conditions around it.
+    With thinking about the worst case, you can set 
+    up conditions around it.
 
 """
 
 class Solution:
 
-    # this didnt go anywhere
-    def lengthOfLongestSubstring(self, s) -> int:
+    def lengthOfLongestSubstring__(self, s) -> int:
+        # does not work
+
         # abcabcbb
         # iterate over ever element,
         # if ther are not equal to one after them
@@ -70,7 +70,7 @@ class Solution:
         
         pass
 
-    def length_of_longest_substring(self, s) -> int:
+    def lengthOfLongestSubstring(self, s) -> int:
         # a classic sliding window question
         # we can use a set and only traverse over sequence once
         # so we will get o(n) complexity
@@ -98,7 +98,7 @@ class Solution:
 
 if __name__ == "__main__":
     sol = Solution()
-    print(sol.length_of_longest_substring("abcabcbb"))
-    print(sol.length_of_longest_substring("bbbbb"))
-    print(sol.length_of_longest_substring("pwwkew"))
+    print(sol.lengthOfLongestSubstring("abcabcbb")) # 3
+    print(sol.lengthOfLongestSubstring("bbbbb")) # 1
+    print(sol.lengthOfLongestSubstring("pwwkew")) # 3
 
