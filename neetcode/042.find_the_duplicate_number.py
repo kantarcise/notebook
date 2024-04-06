@@ -1,66 +1,68 @@
 """
-Given an array of integers nums containing n + 1 integers
- where each integer is in the range [1, n] inclusive.
+Given an array of integers nums containing n + 1 
+integers where each integer is in the range [1, n] 
+inclusive.
 
-There is only one repeated number in nums, return this
- repeated number.
+There is only one repeated number in nums, 
+return this repeated number.
 
-You must solve the problem without modifying the array
- nums and uses only constant extra space.
+You must solve the problem without modifying the 
+array nums and uses only constant extra space.
  
 
 Example 1:
 
-Input: nums = [1,3,4,2,2]
-Output: 2
+    Input: nums = [1,3,4,2,2]
+    Output: 2
 
 Example 2:
 
-Input: nums = [3,1,3,4,2]
-Output: 3
+    Input: nums = [3,1,3,4,2]
+    Output: 3
 
 Constraints:
 
-1 <= n <= 105
-nums.length == n + 1
-1 <= nums[i] <= n
-All the integers in nums appear only once except
- for precisely one integer which appears two or more times.
+    1 <= n <= 10^5
+    nums.length == n + 1
+    1 <= nums[i] <= n
+    All the integers in nums appear only once except
+     for precisely one integer which appears two or more times.
 
 Follow up:
 
-How can we prove that at least one duplicate number
- must exist in nums?
+    How can we prove that at least one duplicate 
+        number must exist in nums?
  
-Can you solve the problem in linear runtime complexity?
+    Can you solve the problem in linear runtime complexity?
 
 Takeaway:
 
-You can use a dict but it wont cut it, because it wont be o(1) time
+    You can use a dict but it wont cut it, because it wont be o(1) time
 
-It is pretty incredible but this is a Linked List question
-[1,3,4,2,2] has length of 5 and the values has to 
-be between 1 - 4
+    It is pretty incredible but this is a Linked List question
+    [1,3,4,2,2] has length of 5 and the values has to 
+    be between 1 - 4
 
-these are not values, these are pointers
-          
-# i =  0  1  2  3  4 
-# n =  1  3  4  2  2
+    these are not values, these are pointers
 
-If there are a node which is pointed by more than 1 node
-we solve the problem 
+    # i =  0  1  2  3  4 
+    # n =  1  3  4  2  2
 
-after you find the first intersection of slow and fast pointers
-start a new slow pointer from the beginning, when 
-it meets the old slow pointer, you found your solution
+    If there are a node which is pointed by more than 1 node
+    we solve the problem 
+
+    after you find the first intersection of slow and fast pointers
+    start a new slow pointer from the beginning, when 
+    it meets the old slow pointer, you found your solution
 
 """
 
 class Solution:
     
-    # using a dict is not goint to cut it
-    # because it will be using o(n) memory
-    def find_duplicate(self, nums) -> int:
+    def findDuplicate_(self, nums) -> int:
+        # using a dict is not goint to cut it
+        # because it will be using o(n) memory
+        
         # first thing I would try is to use a hashmap
         
         element_freq = {}
@@ -106,3 +108,5 @@ class Solution:
 
 if __name__ == '__main__':
     sol = Solution()    
+    print(sol.findDuplicate(nums = [1,3,4,2,2])) # 2
+    print(sol.findDuplicate(nums = [3,1,3,4,2])) # 3
