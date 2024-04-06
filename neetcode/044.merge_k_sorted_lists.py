@@ -1,58 +1,57 @@
 """
-You are given an array of k linked-lists lists, each
- linked-list is sorted in ascending order.
+You are given an array of k linked-lists lists, each 
+linked-list is sorted in ascending order.
 
-Merge all the linked-lists into one sorted
+Merge all the linked-lists into one sorted 
 linked-list and return it.
 
 Example 1:
 
-Input: lists = [[1,4,5],[1,3,4],[2,6]]
-Output: [1,1,2,3,4,4,5,6]
+    Input: lists = [[1,4,5],[1,3,4],[2,6]]
+    Output: [1,1,2,3,4,4,5,6]
 
-Explanation: The linked-lists are:
-[
-  1->4->5,
-  1->3->4,
-  2->6
-]
+    Explanation: 
+    
+        The linked-lists are:
+            [
+              1->4->5,
+              1->3->4,
+              2->6
+            ]
 
-merging them into one sorted list:
-1->1->2->3->4->4->5->6
+        merging them into one sorted list:
+        1->1->2->3->4->4->5->6
 
 Example 2:
 
-Input: lists = []
-Output: []
+    Input: lists = []
+    Output: []
 
 Example 3:
 
-Input: lists = [[]]
-Output: []
+    Input: lists = [[]]
+    Output: []
  
 Constraints:
 
-k == lists.length
-0 <= k <= 104
-0 <= lists[i].length <= 500
--104 <= lists[i][j] <= 104
-lists[i] is sorted in ascending order.
-The sum of lists[i].length will not exceed 104.
+    k == lists.length
+    0 <= k <= 104
+    0 <= lists[i].length <= 500
+    -104 <= lists[i][j] <= 104
+    lists[i] is sorted in ascending order.
+    The sum of lists[i].length will not exceed 104.
 
 Takeaway:
 
-My initial solution was to use a simple list and 
-get every element in it, sort it and make a new LL
+    My initial solution was to use a simple list and 
+    get every element in it, sort it and make a new LL
 
-The problem is about Merge Sort
-simply merge two lists until you have merged them all.
+    The problem is about Merge Sort
+    simply merge two lists until you have merged them all.
 
-** do not forget edge cases ** 
-
+    ** do not forget edge cases ** 
 
 """
-
-import heapq
 
 # Definition for singly-linked list.
 class ListNode:
@@ -61,9 +60,10 @@ class ListNode:
         self.next = next
 
 class Solution:
-    # this is MY approach
-    # just use a list and sort it to make a new list
-    def merge_k_lists(self, lists):
+
+    def mergeKLists_(self, lists):
+        # this is MY approach
+        # just use a list and sort it to make a new list
         
         result = ListNode()
         all_values = []
@@ -87,8 +87,8 @@ class Solution:
         # return from the next of the empty node
         return result.next
         
-    # this is actually about merge sort    
     def mergeKLists(self, lists):
+        # this is actually about merge sort    
         
         # instead of adding a new node for a LL and each time 
         # comparing all of the existing Nodes within
