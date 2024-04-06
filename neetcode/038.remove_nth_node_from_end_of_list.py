@@ -1,21 +1,21 @@
 """
-Given the head of a linked list, remove the nth 
-node from the end of the list and return its head.
+Given the head of a linked list, remove the nth node from 
+the end of the list and return its head.
 
 Example 1:
 
-Input: head = [1,2,3,4,5], n = 2
-Output: [1,2,3,5]
+    Input: head = [1,2,3,4,5], n = 2
+    Output: [1,2,3,5]
 
 Example 2:
 
-Input: head = [1], n = 1
-Output: []
+    Input: head = [1], n = 1
+    Output: []
 
 Example 3:
 
-Input: head = [1,2], n = 1
-Output: [1]
+    Input: head = [1,2], n = 1
+    Output: [1]
 
 Constraints:
 
@@ -24,22 +24,25 @@ Constraints:
     0 <= Node.val <= 100
     1 <= n <= sz
 
-Follow up: Could you do this in one pass?
+Follow up: 
+
+    Could you do this in one pass?
 
 Takeaway: 
 
-Like a lot of LL questions, lets use two pointers
-        
-1 2 3 4 5  n = 2  - how can we identify 4 is the second to last element ?
+    Like a lot of LL questions, lets use two pointers
 
-lets initialize left pointer at the beginning of the list
-and move right pointer n times (it will start at 3)    
-    
-this way the space between two pointers will be exactly
-when right pointer reaches None, left pointer will be at 4
-    
-but because we want to delete 4, we need Left pointer to be at
-so lets add a dummy node at the beginning
+    1 2 3 4 5  n = 2  - how can we identify 4 is the 
+        second to last element ?
+
+    lets initialize left pointer at the beginning of the list
+    and move right pointer n times (it will start at 3)    
+
+    this way the space between two pointers will be exactly
+    when right pointer reaches None, left pointer will be at 4
+
+    but because we want to delete 4, we need Left pointer to be at
+    so lets add a dummy node at the beginning.
 
 """
 
@@ -51,8 +54,9 @@ class ListNode:
 
 class Solution:
     
-    # my first try
-    def remove_nth_from_end(self, head, n):
+    def removeNthFromEnd__(self, head, n):
+        # my first try
+        # does not work
         length = 0
         dummy = head
 
@@ -80,8 +84,9 @@ class Solution:
 
         return dummy.next
 
-    # llm
     def remove_nth_from_end_(self, head, n):
+        # expert advice
+
         # Create a dummy node to handle edge cases.
         dummy = ListNode(0)
         dummy.next = head
@@ -141,7 +146,7 @@ if __name__ == "__main__":
     
     sol = Solution()
     
-    modified_ll = sol.remove_nth_from_end(ll1, 1)
+    modified_ll = sol.removeNthFromEnd(ll1, 1)
     while modified_ll:
         print(modified_ll.val, end=" -> ")
         modified_ll = modified_ll.next
