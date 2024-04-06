@@ -70,6 +70,7 @@ class Solution:
 
 if __name__ == "__main__":
     sol = Solution()
-    print(sol.mergeTwoLists(list1 = [1,2,4], list2 = [1,3,4]))
+    print(sol.mergeTwoLists(list1 = ListNode(1,ListNode(2,ListNode(4))), 
+                            list2 = ListNode(1,ListNode(3,ListNode(4)))))
     print(sol.mergeTwoLists(list1 = [], list2 = []))
-    print(sol.mergeTwoLists(list1 = [], list2 = [0]))
+    print(sol.mergeTwoLists(list1 = [], list2 = ListNode(0)))
