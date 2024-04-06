@@ -1,7 +1,9 @@
 """
-You are given an array of integers nums, there is a
- sliding window of size k which is moving from the very left of the array
-  to the very right. You can only see the k numbers in the window. 
+You are given an array of integers nums, there is 
+a sliding window of size k which is moving from the very 
+left of the array to the very right. 
+
+You can only see the k numbers in the window. 
   
 Each time the sliding window moves right by one position.
 
@@ -9,42 +11,44 @@ Return the max sliding window.
 
 Example 1:
 
-Input: nums = [1,3,-1,-3,5,3,6,7], k = 3
-Output: [3,3,5,5,6,7]
+    Input: nums = [1,3,-1,-3,5,3,6,7], k = 3
+    Output: [3,3,5,5,6,7]
 
-Explanation: 
-Window position                Max
----------------               -----
-[1  3  -1] -3  5  3  6  7       3
- 1 [3  -1  -3] 5  3  6  7       3
- 1  3 [-1  -3  5] 3  6  7       5
- 1  3  -1 [-3  5  3] 6  7       5
- 1  3  -1  -3 [5  3  6] 7       6
- 1  3  -1  -3  5 [3  6  7]      7
+    Explanation: 
+    Window position                Max
+    ---------------               -----
+    [1  3  -1] -3  5  3  6  7       3
+     1 [3  -1  -3] 5  3  6  7       3
+     1  3 [-1  -3  5] 3  6  7       5
+     1  3  -1 [-3  5  3] 6  7       5
+     1  3  -1  -3 [5  3  6] 7       6
+     1  3  -1  -3  5 [3  6  7]      7
 
 Example 2:
 
-Input: nums = [1], k = 1
-Output: [1]
+    Input: nums = [1], k = 1
+    Output: [1]
  
 Constraints:
 
-1 <= nums.length <= 105
--104 <= nums[i] <= 104
-1 <= k <= nums.length
+    1 <= nums.length <= 10^5
+    -10^4 <= nums[i] <= 10^4
+    1 <= k <= nums.length
 
 Takeaway:
 
-Pretty easy to solve in Exponential time
+    Pretty easy to solve in Exponential time
 
-To solve it in linear time, we use deques
+    To solve it in linear time, we use deques
 
-Both pointers can start from 0, right should be smaller than lenght of sequence.
+    Both pointers can start from 0, right should be smaller 
+        than lenght of sequence.
 
-For every window, append elements to the deque but pop 
-all elements  if they are not bigger than current element
+    For every window, append elements to the deque but pop 
+        all elements  if they are not bigger than current element
 
-When you find the current max in the window, now you can update the left pointer
+    When you find the current max in the window, now you can 
+        update the left pointer
 
 """
 
@@ -52,11 +56,11 @@ from collections import deque
 
 class Solution:
     
-    # my first take
-    # o(n^2) time complexity, not good.
-    # time limit exceeded
-    def maxSlidingWindow(self, nums, k):
-        
+    def maxSlidingWindow_(self, nums, k):
+        # my first take
+        # o(n^2) time complexity, not good.
+        # time limit exceeded
+
         #  nums = [1,3,-1,-3,5,3,6,7]
         #  k = 3
         # Output: [3,3,5,5,6,7]
@@ -69,7 +73,7 @@ class Solution:
         
         return result
 
-    def max_sliding_window(self, nums, k):
+    def maxSlidingWindow(self, nums, k):
         # can we make a linear time - o(n) solution
 
         # we do not need to make repeated work:
@@ -125,8 +129,8 @@ class Solution:
 
 if __name__ == "__main__":
     sol = Solution()
+    print(sol.maxSlidingWindow_(nums = [1,3,-1,-3,5,3,6,7], k = 3))
+    print(sol.maxSlidingWindow_(nums = [1], k = 1))
+
     print(sol.maxSlidingWindow(nums = [1,3,-1,-3,5,3,6,7], k = 3))
     print(sol.maxSlidingWindow(nums = [1], k = 1))
-
-    print(sol.max_sliding_window(nums = [1,3,-1,-3,5,3,6,7], k = 3))
-    print(sol.max_sliding_window(nums = [1], k = 1))
