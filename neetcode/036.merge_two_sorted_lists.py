@@ -1,26 +1,28 @@
 """
-You are given the heads of two sorted linked lists list1 and list2.
+You are given the heads of two sorted linked lists 
+list1 and list2.
 
-Merge the two lists into one sorted list. The list should be
-made by splicing together the nodes of the first two lists.
+Merge the two lists into one sorted list. 
+
+The list should be made by splicing together the nodes 
+of the first two lists.
 
 Return the head of the merged linked list.
  
 Example 1:
 
-Input: list1 = [1,2,4], list2 = [1,3,4]
-Output: [1,1,2,3,4,4]
+    Input: list1 = [1,2,4], list2 = [1,3,4]
+    Output: [1,1,2,3,4,4]
 
 Example 2:
 
-Input: list1 = [], list2 = []
-Output: []
+    Input: list1 = [], list2 = []
+    Output: []
 
 Example 3:
 
-Input: list1 = [], list2 = [0]
-Output: [0]
-
+    Input: list1 = [], list2 = [0]
+    Output: [0]
  
 Constraints:
 
@@ -28,13 +30,11 @@ Constraints:
     -100 <= Node.val <= 100
     Both list1 and list2 are sorted in non-decreasing order.
 
-
 Takeaway:
 
+    In a single traversion, compare nodes of lists.
 
 """
-
-from copy import deepcopy
 
 # Definition for singly-linked list.
 class ListNode:
@@ -44,30 +44,32 @@ class ListNode:
 
 class Solution:
 
-    def merge_two_lists(self, list1, list2):
-        # lets select one list as a baseline 
+    def mergeTwoLists(self, list1: ListNode, list2: ListNode) -> ListNode:
+        # Create a dummy node to simplify the merging logic.
+        dummy = ListNode()
+        current = dummy
 
-        # connect all elements of the other list based on the condition where:
-        # elem1 < elem2  < elem1.next
+        while list1 and list2:
+            # Compare the values of the current 
+            # nodes in list1 and list2.
+            if list1.val < list2.val:
+                current.next = list1
+                list1 = list1.next
+            else:
+                current.next = list2
+                list2 = list2.next
+            current = current.next
 
-        result_list = deepcopy(list1)
+        # Append any remaining nodes from list1 or list2, if any.
+        if list1:
+            current.next = list1
+        if list2:
+            current.next = list2
 
-        while result_list.next.next is not None:
-            if list2.next > result_list.next and list2.next < result_list.next.next:
-                temp = result_list.next.next 
-                result_list.next.next = list2.next
-
-        return result_list.next
-
-    def mergeTwoLists(self, list1, list2):
-        pass
+        return dummy.next
 
 if __name__ == "__main__":
     sol = Solution()
-    print(sol.merge_two_lists(list1 = [1,2,4], list2 = [1,3,4]))
-    print(sol.merge_two_lists(list1 = [], list2 = []))
-    print(sol.merge_two_lists(list1 = [], list2 = [0]))
-
     print(sol.mergeTwoLists(list1 = [1,2,4], list2 = [1,3,4]))
     print(sol.mergeTwoLists(list1 = [], list2 = []))
     print(sol.mergeTwoLists(list1 = [], list2 = [0]))
