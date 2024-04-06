@@ -1,58 +1,56 @@
 """
-
-Given two sorted arrays nums1 and nums2 of size m and n respectively, return 
-the median of the two sorted arrays.
+Given two sorted arrays nums1 and nums2 of size m and n 
+respectively, return the median of the two sorted arrays.
 
 The overall run time complexity should be O(log (m+n)).
 
 Example 1:
 
-Input: nums1 = [1,3], nums2 = [2]
+    Input: nums1 = [1,3], nums2 = [2]
 
-Output: 2.00000
+    Output: 2.00000
 
-Explanation: merged array = [1,2,3] and median is 2.
+    Explanation: merged array = [1,2,3] and median is 2.
 
 Example 2:
 
-Input: nums1 = [1,2], nums2 = [3,4]
+    Input: nums1 = [1,2], nums2 = [3,4]
 
-Output: 2.50000
+    Output: 2.50000
 
-Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5. 
+    Explanation: 
+        merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5. 
 
 Constraints:
 
-nums1.length == m
-nums2.length == n
-0 <= m <= 1000
-0 <= n <= 1000
-1 <= m + n <= 2000
--106 <= nums1[i], nums2[i] <= 106
+    nums1.length == m
+    nums2.length == n
+    0 <= m <= 1000
+    0 <= n <= 1000
+    1 <= m + n <= 2000
+    -10^6 <= nums1[i], nums2[i] <= 10^6
 
 Takeaway:
 
-We see the log(n) we think binary search.
+    We see the log(n) we think binary search.
 
-Extending and slicing a list is instantly o(N)
+    Extending and slicing a list is instantly o(N)
 
-we dont have to sort or extend the lists. we can just us the fact that 
-both sequences are sorted.
+    we dont have to sort or extend the lists. we can just us the fact that 
+    both sequences are sorted.
 
-The key condition for finding the median is that, for partitions:
+    The key condition for finding the median is that, for partitions:
 
-left x should be smaller or equal to right y
-left y should be smaller or equal to right x
-
+    left x should be smaller or equal to right y
+    left y should be smaller or equal to right x
 
 """
 
 class Solution:
 
-    # not true and not fast enough
-    # LOL
-    def findMedianSortedArrays(self, nums1, nums2) -> float:
-        # we cannot extend the array in  log time
+    def findMedianSortedArrays__(self, nums1, nums2) -> float:
+        # not true and not fast enough
+        # we cannot extend the array in log time
         long_seq = nums1 + nums2
 
         l , r  = 0, len(long_seq) - 1
@@ -65,8 +63,9 @@ class Solution:
             else:
                 return (long_seq[mid] + long_seq[mid+1]) / 2
 
-    # true but not fast enough
     def findMedianSortedArrays_(self, nums1, nums2) -> float:
+        # this is true but not fast enough
+
         # Merge the two sorted arrays into one sorted array
         merged = sorted(nums1 + nums2)
         n = len(merged)
@@ -81,7 +80,7 @@ class Solution:
             mid2 = mid1 - 1
             return (merged[mid1] + merged[mid2]) / 2.0
 
-    def find_median_sorted_array(self, nums1, nums2) -> float:
+    def findMedianSortedArrays(self, nums1, nums2) -> float:
         # when we merge two arrays worst case is O(n+m)
 
         # how to calculate the median?
@@ -114,7 +113,6 @@ class Solution:
         # For covering edge cases, if a single sequence is empty, we can think of it 
         # having a (-)infinity and a (+)infinity for comparison 
 
-
         A, B = nums1, nums2
 
         total_elements = len(nums1) + len(nums2)
@@ -140,11 +138,11 @@ class Solution:
             # any of i and j can be out of bounds, we need to cover edge cases
             # for exmaple when i < 0
 
-            a_left = A[i] if i >= 0 else float("-infinity")
-            a_right = A[i + 1] if (i+1) < len(A) else float("infinity")
+            a_left = A[i] if i >= 0 else float("-inf")
+            a_right = A[i + 1] if (i+1) < len(A) else float("inf")
 
-            b_left = B[j] if j >= 0 else float("-infinity")
-            b_right = B[j + 1] if (j+1) < len(B) else float("infinity")
+            b_left = B[j] if j >= 0 else float("-inf")
+            b_right = B[j + 1] if (j+1) < len(B) else float("inf")
 
             # correct partition:
             if a_left <= b_right and b_left <= a_right:
@@ -164,8 +162,8 @@ class Solution:
 
 if __name__ == '__main__':
     sol = Solution()
-    print(sol.findMedianSortedArrays(nums1 = [1,3], nums2 = [2]))
-    print(sol.findMedianSortedArrays([1,2], nums2 = [3,4]))
+    print(sol.findMedianSortedArrays__(nums1 = [1,3], nums2 = [2]))
+    print(sol.findMedianSortedArrays__([1,2], nums2 = [3,4]))
 
     print("should be true but really slow")
     print(sol.findMedianSortedArrays_(nums1 = [1,3], nums2 = [2]))
@@ -173,5 +171,5 @@ if __name__ == '__main__':
 
     print("This is the result we want.")
 
-    print(sol.find_median_sorted_array(nums1 = [1,3], nums2 = [2]))
-    print(sol.find_median_sorted_array([1,2], nums2 = [3,4]))
+    print(sol.findMedianSortedArrays(nums1 = [1,3], nums2 = [2]))
+    print(sol.findMedianSortedArrays([1,2], nums2 = [3,4]))
