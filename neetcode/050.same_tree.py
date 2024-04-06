@@ -1,39 +1,40 @@
 """
-Given the roots of two binary trees p and q, write a function
-to check if they are the same or not.
+Given the roots of two binary trees p and q, 
+write a function to check if they are the same or not.
 
-Two binary trees are considered the same if they are
- structurally identical, and the nodes have the same value.
+Two binary trees are considered the same if they are 
+structurally identical, and the nodes have the same value.
 
 Example 1:
 
-Input: p = [1,2,3], q = [1,2,3]
-Output: true
+    Input: p = [1,2,3], q = [1,2,3]
+    Output: true
 
 Example 2:
 
-Input: p = [1,2], q = [1,null,2]
-Output: false
+    Input: p = [1,2], q = [1,null,2]
+    Output: false
 
 Example 3:
 
-Input: p = [1,2,1], q = [1,1,2]
-Output: false
+    Input: p = [1,2,1], q = [1,1,2]
+    Output: false
  
 Constraints:
 
-The number of nodes in both trees is in the range [0, 100].
--104 <= Node.val <= 104
+    The number of nodes in both trees is in the range [0, 100].
+    -10^4 <= Node.val <= 10^4
 
 Takeaway:
 
-My approach was to traverse the tree and add all elements together
+    My approach was to traverse the tree and add 
+        all elements together
 
-We can use DFS - 
-with time complexity o(p+q) - all elements in both trees
+    We can use DFS - 
+    with time complexity o(p+q) - all elements in both trees
 
-Make a recursive call on the children of the node 
-you are working on
+    Make a recursive call on the children of the node 
+    you are working on
 
 """
 
@@ -46,7 +47,7 @@ class TreeNode:
 
 class Solution:
     
-    def is_same_tree(self, p, q ) -> bool:
+    def isSameTree_(self, p, q ) -> bool:
         # first try
         # the preorder traversal of same trees should be the same
         def preorder_traversal(root):
@@ -73,4 +74,3 @@ class Solution:
         # now the recursive step
         return (self.isSameTree(p.left, q.left) and
                     self.isSameTree(p.right, q.right))
-        
