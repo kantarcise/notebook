@@ -16,7 +16,7 @@
 
 ---
 
-[Nvidia Inception Program](https://blogs.nvidia.com/blog/2023/08/31/generative-ai-startups-africa-middle-east/)
+[Nvidia Inception Program](https://blogs.nvidia.com/blog/generative-ai-startups-africa-middle-east/)
 
 Huge opportunity here.
 
