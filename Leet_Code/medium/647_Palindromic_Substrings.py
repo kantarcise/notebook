@@ -92,7 +92,7 @@ class Solution:
         n = len(s)
         # make a memoization list of lists
         dp = [[False] * n for _ in range(n)]
-        print(dp)
+        # print(dp)
         ans = 0
         for i in range(n - 1, -1, -1):
             for j in range(i, n):
@@ -104,5 +104,5 @@ class Solution:
                         
                 if dp[i][j]:
                     ans += 1
-        print(dp)        
+        # print(dp)        
         return ans
