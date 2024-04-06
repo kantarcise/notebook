@@ -3,38 +3,38 @@ Given a binary tree, determine if it is height-balanced.
 
 Example 1:
 
-Input: root = [3,9,20,null,null,15,7]
-Output: true
+    Input: root = [3,9,20,null,null,15,7]
+    Output: true
 
 Example 2:
 
-Input: root = [1,2,2,3,3,null,null,4,4]
-Output: false
+    Input: root = [1,2,2,3,3,null,null,4,4]
+    Output: false
 
 Example 3:
 
-Input: root = []
-Output: true
+    Input: root = []
+    Output: true
  
 Constraints:
 
-The number of nodes in the tree is in the range [0, 5000].
--104 <= Node.val <= 104
+    The number of nodes in the tree is in the range [0, 5000].
+    -10^4 <= Node.val <= 10^4
 
 Takeaway:
 
-We can do a recursive DFS on subtrees and compare the results
-This will be o(n) * n
+    We can do a recursive DFS on subtrees and compare the results
+    This will be o(n) * n
 
-We can use the heights of the subtrees and return a boolean 
-based on not expecting a node height
+    We can use the heights of the subtrees and return a boolean 
+    based on not expecting a node height
 
-``` return height != -1```
+    ``` return height != -1```
 
-We can do better than starting from root node and asking the question
-is the subtree balanced ? again and again
+    We can do better than starting from root node and asking the question
+    is the subtree balanced ? again and again
 
-Just define a recursive dfs but alongside balance, return the height too
+    Just define a recursive dfs but alongside balance, return the height too
 
 """
 
@@ -44,20 +44,23 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
+
 class Solution:
     
-    def is_balanced(self, root) -> bool:
+    def isBalanced__(self, root) -> bool:
         # first try
         # the height difference between subtrees 
         # have to be at most 1
         
         def return_max_depth(root):
+            # HOW ?
             pass
         
-        return True if return_max_depth(root.left) - return_max_depth(root.right) > 1 else False
+        return True if (return_max_depth(root.left) 
+                        - return_max_depth(root.right) > 1) else False
     
-    def is_balanced(self, root) -> bool:
-        # llm approach, same idea as mine
+    def isBalanced_(self, root) -> bool:
+        # Expert approach, same idea as mine
         # Helper function to calculate the height of a tree.
         def get_height(node):
             if not node:
@@ -65,8 +68,12 @@ class Solution:
             left_height = get_height(node.left)
             right_height = get_height(node.right)
             # Check if the subtree is balanced, and if not, return -1.
-            if left_height == -1 or right_height == -1 or abs(left_height - right_height) > 1:
+            if (left_height == -1 or 
+                right_height == -1 or 
+                abs(left_height - right_height) > 1):
+
                 return -1
+            
             # Return the height of the subtree.
             return 1 + max(left_height, right_height)
 
@@ -75,7 +82,6 @@ class Solution:
 
         # If the height is -1, the tree is unbalanced; otherwise, it's balanced.
         return height != -1
-
 
     def isBalanced(self, root) -> bool:
         
