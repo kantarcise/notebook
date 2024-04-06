@@ -1,45 +1,45 @@
 """
+Given two strings s1 and s2, return true if s2 contains 
+a permutation of s1, or false otherwise.
 
-Given two strings s1 and s2, return true if s2 contains a permutation
- of s1, or false otherwise.
-
-In other words, return true if one of s1's permutations is the substring of s2.
-
+In other words, return true if one of s1's permutations 
+is the substring of s2.
 
 Example 1:
 
-Input: s1 = "ab", s2 = "eidbaooo"
-Output: true
+    Input: s1 = "ab", s2 = "eidbaooo"
+    Output: true
 
-Explanation: s2 contains one permutation of s1 ("ba").
+    Explanation: s2 contains one permutation of s1 ("ba").
 
 Example 2:
 
-Input: s1 = "ab", s2 = "eidboaoo"
-Output: false
+    Input: s1 = "ab", s2 = "eidboaoo"
+    Output: false
  
 Constraints:
 
-1 <= s1.length, s2.length <= 104
-s1 and s2 consist of lowercase English letters.
+    1 <= s1.length, s2.length <= 10^4
+    s1 and s2 consist of lowercase English letters.
 
 Takeaway: 
 
-# do not forget about edge cases.
+    Do not forget about edge cases.
 
-# string character frequency is a GREAT usecase for Hashmaps
+    String character frequency is a GREAT usecase for Hashmaps
 
-comparing a sliding window for the target string can be an approach
+    comparing a sliding window for the target string can be an approach
 
-[1, 2, 3] != [3, 2, 1] - so use dictionaries
+    [1, 2, 3] != [3, 2, 1] - so use dictionaries
 
 """
 
 class Solution:
     
-    # my approach
-    # low memory usage but slow code.
-    def checkInclusion(self, s1, s2) -> bool:
+    def checkInclusion_(self, s1, s2) -> bool:
+        # my approach
+        # low memory usage but slow code.
+
         # eidbaooo  - ab
         # we are looking for a window which has the same size as s1
         l, r = 0 , len(s1)
@@ -61,10 +61,11 @@ class Solution:
             
         return False
 
-    # using big hashmaps for all language,
-    # checking the count of hashes
-    def check_inclusion_faster(self, s1, s2) -> bool:
-        
+
+    def checkInclusion(self, s1, s2) -> bool:
+        # using big hashmaps for all language,
+        # checking the count of hashes
+
         # check if the length of s1 is greater than the length of s2. If it is, 
         # then you can immediately return False because s2 
         # cannot contain a permutation of s1.
@@ -110,14 +111,12 @@ class Solution:
         return matches == 26
 
 
-
-
 if __name__ == "__main__":
     sol = Solution()
+    print(sol.checkInclusion_(s1 = "ab", s2 = "eidbaooo"))
+    print(sol.checkInclusion_( s1 = "ab", s2 = "eidboaoo"))
+    print(sol.checkInclusion_( s1 = "hello", s2 = "ooolleoooleh"))
+
     print(sol.checkInclusion(s1 = "ab", s2 = "eidbaooo"))
     print(sol.checkInclusion( s1 = "ab", s2 = "eidboaoo"))
     print(sol.checkInclusion( s1 = "hello", s2 = "ooolleoooleh"))
-
-    print(sol.check_inclusion_faster(s1 = "ab", s2 = "eidbaooo"))
-    print(sol.check_inclusion_faster( s1 = "ab", s2 = "eidboaoo"))
-    print(sol.check_inclusion_faster( s1 = "hello", s2 = "ooolleoooleh"))
