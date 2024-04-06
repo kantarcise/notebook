@@ -27,7 +27,7 @@ extend and append. Can we do this O(1) memory ?
 """
 
 class Solution:
-    def sortArrayByParity(self, nums: List[int]) -> List[int]:
+    def sortArrayByParity_(self, nums: List[int]) -> List[int]:
         result_even = []
         result_odd = []
         for elem in nums:
@@ -39,3 +39,19 @@ class Solution:
         result_even.extend(result_odd)
         
         return result_even
+        
+    def sortArrayByParity(self, nums: List[int]) -> List[int]:
+        # input -  [3,1,2,4]
+        # output - [2,4,3,1]
+        
+        # let's not make new list
+        
+        left = 0
+        for right in range(len(nums)):
+            # if not even, do not do anything
+            if nums[right] % 2 == 0:
+                # if even, switch and increment left
+                nums[right], nums[left] = nums[left], nums[right]
+                left += 1
+            
+        return nums
