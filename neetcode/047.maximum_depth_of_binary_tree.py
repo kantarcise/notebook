@@ -6,29 +6,29 @@ the longest path from the root node down to the farthest leaf node.
 
 Example 1:
 
-Input: root = [3,9,20,null,null,15,7]
-Output: 3
+    Input: root = [3,9,20,null,null,15,7]
+    Output: 3
 
 Example 2:
 
-Input: root = [1,null,2]
-Output: 2
+    Input: root = [1,null,2]
+    Output: 2
 
 Constraints:
 
-The number of nodes in the tree is in the range [0, 104].
--100 <= Node.val <= 100
+    The number of nodes in the tree is in the range [0, 104].
+    -100 <= Node.val <= 100
 
 Takeaway:
 
-My natural approach was to just recursive DFS 
+    My natural approach was to just recursive DFS 
 
-3 ways to solve it: Recursive DFS, Iterative DFS and Breadth-First Search
+    3 ways to solve it: Recursive DFS, Iterative DFS and Breadth-First Search
 
-Recursively calculate the depth and return the maximum among them
+    Recursively calculate the depth and return the maximum among them
 
-If you want no recursion, BFS is cool. You can use a queue to hol the nodes 
-and increase depth on each level
+    If you want no recursion, BFS is cool. You can use a queue to hol the nodes 
+    and increase depth on each level
 
 """
 
@@ -42,32 +42,33 @@ class TreeNode:
         self.right = right
 class Solution:
     
-    # first try
-    def max_depth(self, root):
+    def maxDepth_(self, root):
+        # first try
         
         if root is None:
             return 0
         # we have at least 1 node
         # try left 
-        d1 = self.max_depth(root.left)
+        d1 = self.maxDepth_(root.left)
         # try right
-        d2 = self.max_depth(root.right)
+        d2 = self.maxDepth_(root.right)
         # 1 because we of the root
         return max(d1, d2) + 1
 
-    # neetcode approach 
-    # recursive DFS      
+    
     def maxDepth(self, root) -> int:
+        # neetcode approach 
+        # recursive DFS  
         if not root:
             return 0
 
         return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
-    
-    # without recursion
-    # BFS
-    # We learned that making BFS involves a Queue
-    def maxDepthIterativeBFS(self, root) -> int:
 
+    def maxDepthIterativeBFS(self, root) -> int:
+    
+        # without recursion
+        # BFS
+        # We learned that making BFS involves a Queue
         if not root:
             return 0
 
