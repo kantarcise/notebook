@@ -1,78 +1,87 @@
 """
-Given two strings s and t of lengths m and n respectively, return the
- minimum window substring of s such that every character in t (including
-  duplicates) is included in the window. If there is no such substring,
-return the empty string "".
+Given two strings s and t of lengths m and n respectively, return the 
+minimum window substring of s such that every character in t (including 
+duplicates) is included in the window. 
+
+If there is no such substring, return the empty string "".
 
 The testcases will be generated such that the answer is unique.
 
 Example 1:
 
-Input: s = "ADOBECODEBANC", t = "ABC"
-Output: "BANC"
-Explanation: The minimum window substring "BANC" includes 'A', 'B', and 'C' from string t.
+    Input: s = "ADOBECODEBANC", t = "ABC"
+    Output: "BANC"
+    Explanation: 
+    
+        The minimum window substring "BANC" includes 
+            'A', 'B', and 'C' from string t.
 
 Example 2:
 
-Input: s = "a", t = "a"
-Output: "a"
-Explanation: The entire string s is the minimum window.
+    Input: s = "a", t = "a"
+    Output: "a"
+    Explanation: The entire string s is the minimum window.
 
 Example 3:
 
-Input: s = "a", t = "aa"
-Output: ""
-Explanation: Both 'a's from t must be included in the window.
-Since the largest window of s only has one 'a', return empty string.
+    Input: s = "a", t = "aa"
+    Output: ""
+    Explanation: Both 'a's from t must be included in the window.
+    Since the largest window of s only has one 'a', return empty string.
  
 Constraints:
 
-m == s.length
-n == t.length
-1 <= m, n <= 105
-s and t consist of uppercase and lowercase English letters.
+    m == s.length
+    n == t.length
+    1 <= m, n <= 105
+    s and t consist of uppercase and lowercase English letters.
 
-Follow up: Could you find an algorithm that runs in O(m + n) time?
+Follow up: 
+    
+    Could you find an algorithm that runs in O(m + n) time?
 
 Takeaway:
 
-Using a hashmap is CLASSIC at this point, for frequency counters in strings
+    Using a hashmap is CLASSIC at this point, for freq counters in strings
 
-Here are some tips for using the sliding window algorithm to solve problems:
+    Here are some tips for using the sliding window 
+        algorithm to solve problems:
 
-1. Identify the condition that the substring must satisfy. 
-This is the most important step, as it will determine how 
-the algorithm is implemented.
+    1. Identify the condition that the substring must satisfy. 
+    This is the most important step, as it will determine how 
+    the algorithm is implemented.
 
-2. Initialize the sliding window. The sliding window can be 
-initialized to be any size, but it is generally a good idea 
-to start with a small window and then increase the size of the
- window as needed.
+    2. Initialize the sliding window. The sliding window can be 
+    initialized to be any size, but it is generally a good idea 
+    to start with a small window and then increase the size of the
+     window as needed.
 
-3. Check whether the sliding window satisfies the condition.
-This is the core of the sliding window algorithm. If the sliding
-window satisfies the condition, then the algorithm has found a
-substring that satisfies the condition.
+    3. Check whether the sliding window satisfies the condition.
+    This is the core of the sliding window algorithm. If the sliding
+    window satisfies the condition, then the algorithm has found a
+    substring that satisfies the condition.
 
-4. Update the sliding window. The sliding window can be updated by 
-either incrementing the left pointer or the right pointer.
- Incrementing the left pointer will remove the leftmost character 
- from the window, while incrementing the right pointer will add 
- the next character to the window.
+    4. Update the sliding window. The sliding window can be updated by 
+    either incrementing the left pointer or the right pointer.
+     Incrementing the left pointer will remove the leftmost character 
+     from the window, while incrementing the right pointer will add 
+     the next character to the window.
 
-Repeat the process until the end of the string is reached. The 
-algorithm should continue to iterate over the string until it reaches
- the end of the string. If the algorithm has not found a substring
-that satisfies the condition by the time it reaches the end of
-the string, then the algorithm should return an empty string.
+    Repeat the process until the end of the string is reached. The 
+    algorithm should continue to iterate over the string until it reaches
+     the end of the string. If the algorithm has not found a substring
+    that satisfies the condition by the time it reaches the end of
+    the string, then the algorithm should return an empty string.
 
 """
 
 class Solution:
-    
-    # first attempt
-    # I could not make it work. I found some strings but not the best strings.
-    def minWindow(self, s: str, t: str) -> str:
+
+    def minWindow_(self, s: str, t: str) -> str:
+        # first attempt
+        # I could not make it work. I found some strings 
+        # but not the best strings.
+        
         if len(s) < len(t): return ""
 
         target_set = set(t)
@@ -88,7 +97,6 @@ class Solution:
             # increase right pointer where there is no chance
 
         return min(possible_results, key = lambda a: a[1])[0]
-
 
     def min_window(self, s: str, t: str) -> str:
         
@@ -114,7 +122,8 @@ class Solution:
         have, need = 0 , len(count_t) 
 
         # at start the window could be just -1 to -1 with infinite length
-        # we are trying to find the shortest substring with indexes stored in result_indexes
+        # we are trying to find the shortest substring 
+        # with indexes stored in result_indexes
         result_indexes, result_length = [-1, -1], float("infinity")
 
         # setup sliding window
