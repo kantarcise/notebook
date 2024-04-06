@@ -4,38 +4,37 @@ tree, and return its root.
 
 Example 1:
 
-
-Input: root = [4,2,7,1,3,6,9]
-Output: [4,7,2,9,6,3,1]
+    Input: root = [4,2,7,1,3,6,9]
+    Output: [4,7,2,9,6,3,1]
 
 Example 2:
 
-Input: root = [2,1,3]
-Output: [2,3,1]
+    Input: root = [2,1,3]
+    Output: [2,3,1]
 
 Example 3:
 
-Input: root = []
-Output: []
+    Input: root = []
+    Output: []
  
 Constraints:
 
-The number of nodes in the tree is 
-in the range [0, 100].
+    The number of nodes in the tree is in the range [0, 100].
 
--100 <= Node.val <= 100
+    -100 <= Node.val <= 100
 
 Takeaway:
 
-We can approach the problem with recursion
+    We can approach the problem with recursion
 
-Simply make the swap and call the method on to the children Node
+    Simply make the swap and call the method on to the children Node
 
-Depth-First Search (DFS) in the context of a binary tree. DFS is
- a common algorithm used for traversing or searching tree and 
-graph data structures. In this specific case, it's a pre-order
-DFS because it visits the current node, then recursively explores
-its left and right subtrees.
+    Depth-First Search (DFS) in the context of a binary tree:
+     
+    DFS is a common algorithm used for traversing or searching tree and 
+    graph data structures. In this specific case, it's a pre-order
+    DFS because it visits the current node, then recursively explores
+    its left and right subtrees.
 
 """
 
@@ -48,9 +47,11 @@ class TreeNode:
 
 class Solution:
     
-    # my first try
-    # the approach was somewhat correct
-    def invert_tree(self, root):
+    def invertTree_(self, root):
+        # my first try
+        # the approach was somewhat correct
+        # does not work though
+        
         # how do we invert a tree?
         # it it has a child, we should be switching it's children.
         # if it's a leaf, dont do anything
