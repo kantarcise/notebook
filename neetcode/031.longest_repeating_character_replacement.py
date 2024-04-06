@@ -1,57 +1,64 @@
 """
+You are given a string s and an integer k. 
 
-You are given a string s and an integer k. You can choose any character of the
- string and change it to any other uppercase English character. You can perform
-  this operation at most k times.
+You can choose any character of the string and change it to 
+any other uppercase English character. 
 
-Return the length of the longest substring containing the same letter you can get
- after performing the above operations.
+You can perform this operation at most k times.
+
+Return the length of the longest substring containing the same 
+letter you can get after performing the above operations.
  
 
 Example 1:
 
-Input: s = "ABAB", k = 2
-Output: 4
+    Input: s = "ABAB", k = 2
+    Output: 4
 
-Explanation: Replace the two 'A's with two 'B's or vice versa.
+    Explanation: Replace the two 'A's with two 'B's or vice versa.
 
 Example 2:
 
-Input: s = "AABABBA", k = 1
-Output: 4
+    Input: s = "AABABBA", k = 1
+    Output: 4
 
-Explanation: Replace the one 'A' in the middle with 'B' and form "AABBBBA".
-The substring "BBBB" has the longest repeating letters, which is 4.
-There may exists other ways to achive this answer too.
+    Explanation: 
+        
+        Replace the one 'A' in the middle with 'B' and form "AABBBBA".
+    
+        The substring "BBBB" has the longest repeating letters, which is 4.
+    
+        There may exists other ways to achive this answer too.
  
 Constraints:
 
-1 <= s.length <= 105
-s consists of only uppercase English letters.
-0 <= k <= s.length
+    1 <= s.length <= 10^5
+    s consists of only uppercase English letters.
+    0 <= k <= s.length
 
 Takeaway:
 
-For a string,  we need to remember that there are 26 letters in 
-the English language
+    For a string,  we need to remember that there are 26 letters in 
+    the English language
 
-we want to maximize the number of characters in the substring 
-to get to the max number of characters, we would want to replace 
-the characters that occurs the least. (less frequent)
+    we want to maximize the number of characters in the substring 
+    to get to the max number of characters, we would want to replace 
+    the characters that occurs the least. (less frequent)
 
-We need to setup a sliding window that changes its size based on the
-number of characters we can replace (k) and the equation we know.
+    We need to setup a sliding window that changes its size based on the
+    number of characters we can replace (k) and the equation we know.
 
-for every substring, we can calculate the characters to be replaced by:
-```windowLen - count[mostFrequent]  <= k```
-where count is a dictionary (hash map) with occurences of characters
+    for every substring, we can calculate the characters to be replaced by:
+    ```windowLen - count[mostFrequent]  <= k```
+    where count is a dictionary (hash map) with occurences of characters
 
 """
 
 class Solution:
     
-    def characterReplacement(self, s, k ) -> int:
-        
+    def characterReplacement__(self, s, k ) -> int:
+        # does not work
+
         # seq = "sezai" , k = 2
         # becuase we can change k characters in the string.
         # we need longest substrings with same characters 
@@ -68,7 +75,7 @@ class Solution:
         
         pass
 
-    def character_replacement(self, s, k ) -> int:
+    def characterReplacement_(self, s, k ) -> int:
         # there are 26 uppercase characters in English language
         # we want to maximize the number of characters in the substring
         # to get to the max number of characters, we would want to replace 
@@ -101,7 +108,7 @@ class Solution:
         return res
 
 
-    def character_replacement_faster(self, s, k ) -> int:
+    def characterReplacement(self, s, k ) -> int:
         # we dont have to update the max frequency
         # check neet code for explanation
 
@@ -124,8 +131,8 @@ class Solution:
 
 if __name__ == "__main__":
     sol = Solution()
-    print(sol.character_replacement(s = "AABABBA", k = 1))
-    print(sol.character_replacement("ABAB", k = 2))
+    print(sol.characterReplacement_(s = "AABABBA", k = 1))
+    print(sol.characterReplacement_("ABAB", k = 2))
 
-    print(sol.character_replacement_faster(s = "AABABBA", k = 1))
-    print(sol.character_replacement_faster("ABAB", k = 2))
+    print(sol.characterReplacement(s = "AABABBA", k = 1))
+    print(sol.characterReplacement("ABAB", k = 2))
