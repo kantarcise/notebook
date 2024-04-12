@@ -1,3 +1,9 @@
+## Alex
+
+["We do not work hard so that ......, we work hard. PERIOD."](https://youtu.be/ahslH-8qoFY?t=286)
+
+---
+
 ## Greg 'Joz' Joswiak - Craig Federighi
 
 How does Apple decide something is R&D and [something is ready to ship ?](https://youtu.be/m-ugwoEOMvg?t=1792) 
