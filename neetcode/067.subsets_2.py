@@ -1,47 +1,46 @@
 """
-Given an integer array nums that may contain 
-duplicates, return all possible subsets
-(the power set).
+Given an integer array nums that may contain duplicates, return 
+all possible subsets (the power set).
 
-The solution set must not contain duplicate 
-subsets. Return the solution in any order.
+The solution set must not contain duplicate subsets. 
+
+Return the solution in any order.
 
 Example 1:
 
-Input: nums = [1,2,2]
-Output: [[],[1],[1,2],[1,2,2],[2],[2,2]]
+    Input: nums = [1,2,2]
+    
+    Output: [[],[1],[1,2],[1,2,2],[2],[2,2]]
 
 Example 2:
 
-Input: nums = [0]
-Output: [[],[0]]
+    Input: nums = [0]
+    
+    Output: [[],[0]]
 
 Constraints:
 
     1 <= nums.length <= 10
+    
     -10 <= nums[i] <= 10
 
 Takeaway:
 
-Use backtracking, because we can see the solution is 
-about a decision tree
+    Use backtracking, because we can see the solution is 
+    about a decision tree
 
-Sort the list so that you can compare consecutive elements
+    Sort the list so that you can compare consecutive elements
 
-for every decision, either select or do not select element 
-to be in the subset
+    for every decision, either select or do not select element 
+    to be in the subset
 
+    before going to not including part, move your pointer to
+    escape duplicates
 
-
-before going to not including part, move your pointer to
-escape duplicates
-
-and even before that, pop the last element you 
-added to current subset
-
+    and even before that, pop the last element you 
+    added to current subset
 
 """
-from array import array
 
 class Solution:
     def subsetsWithDup(self, nums: "list[int]") -> "list[list[int]]":
