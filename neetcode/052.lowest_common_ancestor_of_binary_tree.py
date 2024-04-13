@@ -12,12 +12,14 @@ Example 1:
 
     Input: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 8
     Output: 6
+    
     Explanation: The LCA of nodes 2 and 8 is 6.
 
 Example 2:
 
     Input: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 4
     Output: 2
+    
     Explanation: The LCA of nodes 2 and 4 is 2, since a node is always
     can be a descendant of itself according to the LCA definition.
 
@@ -29,9 +31,13 @@ Example 3:
 Constraints:
 
     The number of nodes in the tree is in the range [2, 10^5].
+    
     -10^9 <= Node.val <= 10^9
+    
     All Node.val are unique.
+    
     p != q
+    
     p and q will exist in the BST.
 
 Takeaway:
