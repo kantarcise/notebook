@@ -12,25 +12,25 @@ Every close bracket has a corresponding open bracket of the same type.
 
 Example 1:
 
-Input: s = "()"
-Output: true
+    Input: s = "()"
+    Output: true
 
 Example 2:
 
-Input: s = "()[]{}"
-Output: true
+    Input: s = "()[]{}"
+    Output: true
 
 Example 3:
 
-Input: s = "(]"
-Output: false
+    Input: s = "(]"
+    Output: false
 
 Constraints:
 
-   1 <= s.length <= 10^4
-   s consists of parentheses only '()[]{}'.
+    1 <= s.length <= 10^4
+    s consists of parentheses only '()[]{}'.
 
-# Takeaway
+Takeaway:
 
    - matching symbols is just asking for a hash map to be used
 
@@ -40,7 +40,6 @@ Constraints:
    - in stack to be matched by the closing symbol
 
    - if everything went smooth, stack should be empty in the end.
-
 """
 
 class Solution:
@@ -64,28 +63,13 @@ class Solution:
                     return False
                 stack.pop()
 
+
         # if stack is empty in the end, all matched
         return not bool(stack)
-    
-    def is_valid_(self, s: str) -> bool:
-        # we can use a dictionary for matched characters:
-        matching_symbols = { ')': '(',
-                             ']': '[',
-                             '}': '{'  }
-            
-        _stack = []
-        
-        for symbol in s:
-            if symbol in "([{":
-                _stack.append(symbol)
-            elif symbol in ")]}":
-                if len(_stack) == 0 or _stack[-1] != matching_symbols[symbol]:
-                    return False
-                _stack.pop()
-                
-        return len(_stack) ==  0
 
-    def is_valid_improved(self, s: str) -> bool:
+    def isValid_(self, s: str) -> bool:
+        # a better solution ? 
+
         matching_symbols = { ')': '(',
                              ']': '[',
                              '}': '{'  }
@@ -99,25 +83,19 @@ class Solution:
             if symbol in opening_brackets:
                 _stack.append(symbol)
             elif symbol in closing_brackets:
-                # we can use the boolean for a sequence
+                # we can use the boolean for a sequence emptiness 
                 # last element should be closed asap.
                 if not _stack or _stack[-1] != matching_symbols[symbol]:
                     return False
                 _stack.pop()
                 
         return len(_stack) ==  0
-    
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     sol = Solution()
-    print(sol.is_valid("()"))
-    print(sol.is_valid("()[]{}"))
-    print(sol.is_valid("()[]{}"))
-    print(sol.is_valid("(]"))
-    print(sol.is_valid_("()"))
-    print(sol.is_valid_("()[]{}"))
-    print(sol.is_valid_("()[]{}"))
-    print(sol.is_valid_("(]"))
-    print(sol.is_valid_improved("()"))
-    print(sol.is_valid_improved("()[]{}"))
-    print(sol.is_valid_improved("()[]{}"))
-    print(sol.is_valid_improved("(]"))
+    print(sol.isValid(s = "()"))
+    print(sol.isValid(s = "()[]{}"))
+    print(sol.isValid(s = "(]"))
+    print(sol.isValid_(s = "()"))
+    print(sol.isValid_(s = "()[]{}"))
+    print(sol.isValid_(s = "(]"))
