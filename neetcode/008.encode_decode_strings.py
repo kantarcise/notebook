@@ -1,49 +1,50 @@
 """
-Description
+Design an algorithm to encode a list of strings to a string.
 
-Design an algorithm to encode a list of strings to a string. 
 The encoded string is then sent over the network and is 
 decoded back to the original list of strings.
 
-Please implement encode and decode
+Implement encode and decode.
 
-Example1
+Example 1:
 
-Input: ["lint","code","love","you"]
-Output: ["lint","code","love","you"]
+    Input: ["lint","code","love","you"]
+    Output: ["lint","code","love","you"]
 
-Explanation:
+    Explanation:
 
-One possible encode method is: "lint:;code:;love:;you"
+        One possible encode method is: "lint:;code:;love:;you"
 
 
-Example2
+Example 2:
 
-Input: ["we", "say", ":", "yes"]
-Output: ["we", "say", ":", "yes"]
+    Input: ["we", "say", ":", "yes"]
+    Output: ["we", "say", ":", "yes"]
 
-Explanation:
-One possible encode method is: "we:;say:;:::;yes"
+    Explanation:
+        
+        One possible encode method is: "we:;say:;:::;yes"
 
 
 Takeaway:
 
-THe description is not really complete.
+    THe description is not really complete.
 
-We are trying to encode decode stateless. So we somehow need to 
-clarify the word lenghts while we are trasporting them.
+    We are trying to encode decode stateless. So we somehow need to 
+        clarify the word lenghts while we are trasporting them.
 
-for that we can use the lenght of the words and sent them prior
-to the encoded words.
+    for that we can use the lenght of the words and sent them prior
+        to the encoded words.
 
-When we are decoding, we will know how many indexes we need to be 
-looking for, simply using the length.
+    When we are decoding, we will know how many indexes we need to be 
+        looking for, simply using the length.
 
 """
 
 class Solution:
 
-    # MY FIRST TRIAL
+    # MY FIRST TRY
+    
     def encode(self, strs: list) -> str:
         """
         @param: strs: a list of strings
