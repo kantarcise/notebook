@@ -44,7 +44,7 @@ class ListNode:
 class Solution:
 
     def reverseList_(self, head):
-
+        # ?
         previous = None
         current = head
 
@@ -77,8 +77,10 @@ class Solution:
         
         return prev
 
-    # You can also write it in a recursive way.
-    def reverseListRecursive(self, head: ListNode) -> ListNode:
+    def reverseList__(self, head: ListNode) -> ListNode:
+        # You can also write it in a recursive way.
+
+
         # Base case for recursion: If the current head or the next node is None, 
         # it means we have reached the end of the list or the list is empty.
         if not head or not head.next:
@@ -88,7 +90,7 @@ class Solution:
 
         # Recursively call the function with the next node in the list.
         # This will reverse the sublist starting from the next node.
-        new_head = self.reverseListRecursive(head.next)
+        new_head = self.reverseList__(head.next)
 
         # Now, we need to reverse the pointers for the current node and the next node.
         # Make the next node's "next" pointer point back to the current node.
