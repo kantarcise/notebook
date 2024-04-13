@@ -4,35 +4,44 @@ the longest strictly increasing subsequence.
 
 Example 1:
 
-Input: nums = [10,9,2,5,3,7,101,18]
-Output: 4
-Explanation: The longest increasing subsequence is [2,3,7,101], therefore the length is 4.
+    Input: nums = [10,9,2,5,3,7,101,18]
+    
+    Output: 4
+    
+    Explanation: 
+        
+        The longest increasing subsequence is [2,3,7,101], therefore 
+            the length is 4.
 
 Example 2:
 
-Input: nums = [0,1,0,3,2,3]
-Output: 4
+    Input: nums = [0,1,0,3,2,3]
+    
+    Output: 4
 
 Example 3:
 
-Input: nums = [7,7,7,7,7,7,7]
-Output: 1
+    Input: nums = [7,7,7,7,7,7,7]
+    
+    Output: 1
 
 Constraints:
 
-1 <= nums.length <= 2500
--104 <= nums[i] <= 104
+    1 <= nums.length <= 2500
+    
+    -10^4 <= nums[i] <= 10^4
 
 Takeaway:
 
-Think about the decision tree as:
-can we add the each elemen to the streak or not?
+    Think about the decision tree as:
+    can we add the each elemen to the streak or not?
 
-Starting  from backwards, you can calculate the result
-depending on the value of adjacents.
-
+    Starting  from backwards, you can calculate the result
+    depending on the value of adjacents.
 """
+
 class Solution:
+
     def lengthOfLIS_(self, nums: list[int]) -> int:
         # brute force
         # did not work
@@ -54,7 +63,6 @@ class Solution:
         
         return final
     
-    
     def lengthOfLIS(self, nums: list[int]) -> int:
         # from a homie
         if not nums:
@@ -75,9 +83,8 @@ class Solution:
         # The maximum value in the dp array represents the length of the overall LIS
         return max(dp)
     
-        
     def lengthOfLIS(self, nums: list[int]) -> int:
-        # neet
+        # this works
         # we start from last value and work to start
         # o(n^2)
 
