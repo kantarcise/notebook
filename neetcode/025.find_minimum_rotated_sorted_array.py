@@ -67,7 +67,7 @@ Takeaway:
 """
 
 class Solution:
-    def findMin(self, nums: list[int]) -> int:
+    def findMin__(self, nums: list[int]) -> int:
         # this is o(n)
         # LOL
         return min(nums)
@@ -121,7 +121,7 @@ class Solution:
         # without ever disqualifying a possible minimum
         return nums[left]
 
-    def findMin__(self, nums: list[int]) -> int:
+    def findMin(self, nums: list[int]) -> int:
         # can be any value at start.
         res = nums[0]
 
