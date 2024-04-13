@@ -1,7 +1,8 @@
 """
 Given two strings text1 and text2, return the length of 
-their longest common subsequence. If there is no common 
-subsequence, return 0.
+their longest common subsequence. 
+
+If there is no common subsequence, return 0.
 
 A subsequence of a string is a new string generated from 
 the original string with some characters (can be none) 
@@ -15,45 +16,55 @@ common to both strings.
 
 Example 1:
 
-Input: text1 = "abcde", text2 = "ace" 
-Output: 3  
-
-Explanation: The longest common subsequence is "ace" and its length is 3.
+    Input: text1 = "abcde", text2 = "ace" 
+    
+    Output: 3  
+    
+    Explanation: 
+        The longest common subsequence is "ace" and its length is 3.
 
 Example 2:
 
-Input: text1 = "abc", text2 = "abc"
-Output: 3
+    Input: text1 = "abc", text2 = "abc"
+    
+    Output: 3
 
-Explanation: The longest common subsequence is "abc" and its length is 3.
+    Explanation: 
+        The longest common subsequence is "abc" and its length is 3.
 
 Example 3:
 
-Input: text1 = "abc", text2 = "def"
-Output: 0
+    Input: text1 = "abc", text2 = "def"
+    
+    Output: 0
 
-Explanation: There is no such common subsequence, so the result is 0.
+    Explanation: 
+        There is no such common subsequence, so the result is 0.
  
 Constraints:
 
     1 <= text1.length, text2.length <= 1000
+    
     text1 and text2 consist of only lowercase English characters.
 
 Takeaway:
 
-If you can simply visualize the question, that can help immensely.
+    If you can simply visualize the question, that can help immensely.
 
-Think about what we are looking for. 
+    Think about what we are looking for. 
 
-We are looking for an number as output. 
+    We are looking for an number as output. 
 
-We will use 2D DP to find the solution. Bottom up DP.
+    We will use 2D DP to find the solution. Bottom up DP.
 
-Which will be filled with numbers.
+    Which will be filled with numbers.
 
 """
 class Solution:
+
     def longestCommonSubsequence_(self, text1: str, text2: str) -> int:
+        # works
+        
         # Get the lengths of both input strings
         len_text1, len_text2 = len(text1), len(text2)
       
@@ -93,9 +104,9 @@ class Solution:
         return dp_matrix[len_text1][len_text2]
     
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:
-        # neet
+        # works, and fast
         
-        # really popular question
+        # this is a really popular question
         
         # the key!
         
