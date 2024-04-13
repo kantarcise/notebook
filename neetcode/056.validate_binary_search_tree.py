@@ -1,51 +1,53 @@
 """
-Given the root of a binary tree, determine if 
-it is a valid binary search tree (BST).
+Given the root of a binary tree, determine if it is a 
+valid binary search tree (BST).
 
 A valid BST is defined as follows:
 
-The left subtree of a node contains only nodes 
-with keys less than the node's key.
+    The left subtree of a node contains only nodes 
+    with keys less than the node's key.
 
-The right subtree of a node contains only 
-nodes with keys greater than the node's key.
+    The right subtree of a node contains only 
+    nodes with keys greater than the node's key.
 
-Both the left and right subtrees must 
-also be binary search trees.
+    Both the left and right subtrees must 
+    also be binary search trees.
  
 Example 1:
 
-Input: root = [2,1,3]
-Output: true
+    Input: root = [2,1,3]
+    Output: true
 
 Example 2:
 
-Input: root = [5,1,4,null,null,3,6]
-Output: false
-Explanation: The root node's value is 5 but its right child's value is 4.
+    Input: root = [5,1,4,null,null,3,6]
+    Output: false
+    
+    Explanation: The root node's value is 5 but its right child's value is 4.
  
 Constraints:
 
-The number of nodes in the tree is in the range [1, 104].
--231 <= Node.val <= 231 - 1
+    The number of nodes in the tree is in the range [1, 104].
+
+    -2^31 <= Node.val <= 2^31 - 1
 
 Takeaway: 
 
-you can think "this is dfs, just check neighbors"
-that does not cut it.
+    you can think "this is dfs, just check neighbors"
+    that does not cut it.
 
-       5
-   3       7
-          4  8
+           5
+       3       7
+              4  8
 
-the 4 in the tree is not recogniziable just with checking neighbors  
+    the 4 in the tree is not recogniziable just with checking neighbors  
 
-as we go down the tree, we need to update boundaries
+    as we go down the tree, we need to update boundaries
 
-as we go to left, we need to update right boundary
-as we go to right, we need to update left boundary
+    as we go to left, we need to update right boundary
+    as we go to right, we need to update left boundary
 
-so that we have a binary search tree      
+    so that we have a binary search tree      
         
 """
 
@@ -58,19 +60,19 @@ class TreeNode:
 
 class Solution:
     
-    
-    def isValidBST(self, root: "TreeNode") -> bool:
-        # first try
-        #  there are a few issues in your implementation:
+    def isValidBST__(self, root: "TreeNode") -> bool:
+        # first try, does not work
+        
+        # There are a few issues with this implementation:
 
         # You should return False as soon as you encounter 
         # a violation of the BST property, rather than returning 
         # result * 0. Multiplying by zero doesn't give the desired 
         # effect for error-checking.
-        # 
+
         # The result variable isn't correctly propagated 
         # through the recursive calls.
-        # 
+
         # You're not considering the entire subtree 
         # when checking if it's a valid BST.
 
@@ -98,9 +100,8 @@ class Solution:
 
         return dfs(root, 1)
 
-    # llm
-    def isValidBST(self, root: "TreeNode") -> bool:
-        
+    def isValidBST_(self, root: "TreeNode") -> bool:
+        # llm
         
         def is_valid_bst(node, min_val = float("-inf") , max_val =  float("inf")):
             if not node:
