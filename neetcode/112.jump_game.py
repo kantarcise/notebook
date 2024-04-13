@@ -1,44 +1,36 @@
 """
-You are given a 0-indexed array of integers nums of length n.
+You are given an integer array nums. 
 
-You are initially positioned at nums[0].
+You are initially positioned at the array's first index, and each 
+element in the array represents your maximum jump length at that position.
 
-Each element nums[i] represents the maximum length of a forward 
-jump from index i. 
-
-In other words, if you are at nums[i], you can jump to any nums[i + j] where:
-
-    0 <= j <= nums[i] and i + j < n
-
-Return the minimum number of jumps to reach nums[n - 1]. 
-
-The test cases are generated such that you can reach nums[n - 1].
+Return true if you can reach the last index, or false otherwise.
 
 Example 1:
 
     Input: nums = [2,3,1,1,4]
-    
-    Output: 2
+
+    Output: true
 
     Explanation: 
-        
-        The minimum number of jumps to reach the 
-        last index is 2. Jump 1 step from index 0 to 1, then 
-        3 steps to the last index.
+    
+        Jump 1 step from index 0 to 1, then 3 steps to the last index.
 
 Example 2:
 
-    Input: nums = [2,3,0,1,4]
+    Input: nums = [3,2,1,0,4]
     
-    Output: 2
+    Output: false
+    
+    Explanation: 
+        You will always arrive at index 3 no matter what. 
+        Its maximum jump length is 0, which makes it impossible to 
+        reach the last index.
  
 Constraints:
 
     1 <= nums.length <= 10^4
-
-    0 <= nums[i] <= 1000
-
-    It's guaranteed that you can reach nums[n - 1].
+    0 <= nums[i] <= 10^5
 
 Takeaway:
 
@@ -55,7 +47,6 @@ class Solution:
         """Think of the last element as a goal"""
         # If you can get to the the element before the 
         # last element, goalpost just moves to the left
-        
         
         # 2, 3, 1, 1, 4
         # Original goal is 4
