@@ -29,6 +29,7 @@ Example 1:
            position = [10,8,0,5,3], 
            speed = [2,4,1,1,3]
     Output: 3
+    
     Explanation:
 
         The cars starting at 10 (speed 2) and 8 (speed 4) become 
