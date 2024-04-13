@@ -1,81 +1,91 @@
 """
 You are climbing a staircase. It takes n steps to reach the top.
 
-Each time you can either climb 1 or 2 steps. In how many 
-distinct ways can you climb to the top?
+Each time you can either climb 1 or 2 steps. 
+
+In how many distinct ways can you climb to the top?
 
 Example 1:
 
-Input: n = 2
-Output: 2
-Explanation: There are two ways to climb to the top.
-1. 1 step + 1 step
-2. 2 steps
+    Input: n = 2
+
+    Output: 2
+
+    Explanation: 
+        
+        There are two ways to climb to the top.
+        1. 1 step + 1 step
+        2. 2 steps
+    
 Example 2:
 
-Input: n = 3
-Output: 3
-Explanation: There are three ways to climb to the top.
-1. 1 step + 1 step + 1 step
-2. 1 step + 2 steps
-3. 2 steps + 1 step
+    Input: n = 3
+    
+    Output: 3
+    
+    Explanation: 
+        
+        There are three ways to climb to the top.
+        1. 1 step + 1 step + 1 step
+        2. 1 step + 2 steps
+        3. 2 steps + 1 step
  
 Constraints:
 
-1 <= n <= 45
+    1 <= n <= 45
 
 Takeaway:
 
-you do not have to compute what you already know
-        
-using dfs, you already solved some parts of the tree
-the left side will give you what you need!
-use it on the right side
+    you do not have to compute what you already know
 
-              0
-           /     \
-         1         2
-        / \       / \
-       2   3     3   4
-      / \ / \   / \
-     3  4 4  5  4   5
-    / \
-   4   5
+    using dfs, you already solved some parts of the tree
+    the left side will give you what you need!
+    use it on the right side
 
-               0
-           /       _\_______
-         1        |    2    | 
-    ____/_\       |   / \   | 
-   |    2 |  3    |  3   4  |
-   |   / \| / \   | / \     |
-   |  3  4| 4  5  | 4   5   |
-   | / \  |       |_________|
-   |4   5 |
-   |______|
-        
-you can see thar these are identical.
-also for left subtree where root is 3
-also for left subtree where root is 4
+                  0
+               /     \
+             1         2
+            / \       / \
+           2   3     3   4
+          / \ / \   / \
+         3  4 4  5  4   5
+        / \
+       4   5
 
-This is called memoization
-or Caching.
+                   0
+               /       _\_______
+             1        |    2    | 
+        ____/_\       |   / \   | 
+       |    2 |  3    |  3   4  |
+       |   / \| / \   | / \     |
+       |  3  4| 4  5  | 4   5   |
+       | / \  |       |_________|
+       |4   5 |
+       |______|
 
-solve the base case
-this is bottom up solution for dp
+    you can see thar these are identical.
+    also for left subtree where root is 3
+    also for left subtree where root is 4
 
-we can make memoization with an array
-we dont even need that.
+    This is called memoization
+    or Caching.
 
-0 1 2 3 4 5  - height
-8 5 3 2 1 1  - steps (how many different ways you can get to top)
+    solve the base case
+    this is bottom up solution for dp
 
-start from the end
-stop when one gets to the starting point.
+    we can make memoization with an array
+    we dont even need that.
+
+    0 1 2 3 4 5  - height
+    8 5 3 2 1 1  - steps (how many different ways you can get to top)
+
+    start from the end
+    stop when one gets to the starting point.
 
 """
 
 class Solution:
-    def climbStairs(self, n: int) -> int:
+    def climbStairs_(self, n: int) -> int:
         # llm approach
         # n steps to the top
         # at each step we are choosing whethjer to take 1 or 2 steps
@@ -118,9 +128,8 @@ class Solution:
         
         # The result is the number of ways to reach the top step
         return dp[n]
-    
 
-    def climb_stairs(self, n : int):
+    def climbStairs(self, n : int):
         # you do not have to compute what you already know
         
         # using dfs, you already solved some parts of the tree
