@@ -109,8 +109,8 @@ class Solution:
 
         return False
 
-    # using a set
     def hasCycle_(self, head):
+        # using a set
         
         pointer = head
         set_of_nodes = set()
