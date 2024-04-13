@@ -5,28 +5,35 @@ check whether these edges make up a valid tree.
 
 Example 1:
 
-Input: n = 5, edges = [[0, 1], [0, 2], [0, 3], [1, 4]]
-Output: True
+    Input: n = 5, edges = [[0, 1], [0, 2], [0, 3], [1, 4]]
+    
+    Output: True
 
 Example 2:
 
-Input: n = 5, edges = [[0, 1], [1, 2], [2, 3], [1, 3], [1, 4]]
+    Input: n = 5, edges = [[0, 1], [1, 2], [2, 3], [1, 3], [1, 4]]
 
-Output: False
+    Output: False
 
 Note:
 
-You can assume that no duplicate edges will appear in edges. Since 
-all edges are undirected, [0, 1] is the same as [1, 0] and 
-thus will not appear together in edges.
+    You can assume that no duplicate edges will appear in edges. 
+    
+    Since all edges are undirected, [0, 1] is the same as [1, 0] and 
+        thus will not appear together in edges.
 
 Constraints:
 
-1 <= n <= 100
-0 <= edges.length <= n * (n - 1) / 2
+    1 <= n <= 100
+    0 <= edges.length <= n * (n - 1) / 2
 
 Takeaway:
 
+    We do not have loops in trees.
+    
+    A tree needs to be connected.
+
+    DFS will help us out.
 """
 
 class Solution:
