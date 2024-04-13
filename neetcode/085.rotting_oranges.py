@@ -1,9 +1,9 @@
 """
 You are given an m x n grid where each cell can have one of three values:
 
-0 representing an empty cell,
-1 representing a fresh orange, or
-2 representing a rotten orange.
+    0 representing an empty cell,
+    1 representing a fresh orange, or
+    2 representing a rotten orange.
 
 Every minute, any fresh orange that is 4-directionally adjacent 
 to a rotten orange becomes rotten.
@@ -13,46 +13,56 @@ has a fresh orange. If this is impossible, return -1.
 
 Example 1:
 
-Input: grid = [[2,1,1],[1,1,0],[0,1,1]]
-Output: 4
+    Input: grid = [[2,1,1],[1,1,0],[0,1,1]]
+    
+    Output: 4
+
 Example 2:
 
-Input: grid = [[2,1,1],[0,1,1],[1,0,1]]
-Output: -1
-Explanation: The orange in the bottom left corner (row 2, column 0) 
-is never rotten, because rotting only happens 4-directionally.
+    Input: grid = [[2,1,1],[0,1,1],[1,0,1]]
+    
+    Output: -1
+    
+    Explanation: 
+    
+        The orange in the bottom left corner (row 2, column 0) 
+            is never rotten, because rotting only happens 4-directionally.
 
 Example 3:
 
-Input: grid = [[0,2]]
-Output: 0
-Explanation: Since there are already no fresh oranges at minute 0, the answer is just 0.
+    Input: grid = [[0,2]]
+    
+    Output: 0
+    
+    Explanation: 
+    
+        Since there are already no fresh oranges at minute 0, the answer is just 0.
  
 Constraints:
 
-m == grid.length
-n == grid[i].length
-1 <= m, n <= 10
-grid[i][j] is 0, 1, or 2.
+    m == grid.length
+    n == grid[i].length
+    1 <= m, n <= 10
+    grid[i][j] is 0, 1, or 2.
 
 Takeaway:
 
-DFS wont work because, oranges rot at the same time
-if there are more than 1 rotten oranges
-we cannot count time rightfully
-        
-we should do a multi source BFS
-BFS is implemented with, usually using a queue
-if after BFS is done, 
-there are still fresh oranges
-we cannot rot the table, Return -1
+    DFS wont work because, oranges rot at the same time
+    if there are more than 1 rotten oranges
+    we cannot count time rightfully
 
+    we should do a multi source BFS
+    BFS is implemented with, usually using a queue
+    if after BFS is done, 
+    there are still fresh oranges
+    we cannot rot the table, Return -1
 """
 
 from collections import deque
 
 class Solution:
-    def orangesRotting_(self, grid: list[list[int]]) -> int:
+    def orangesRotting__(self, grid: list[list[int]]) -> int:
+        # just try
         # kinda like a fool
         # a fool is the precursor to savior
         
@@ -80,8 +90,12 @@ class Solution:
         dfs(0, 0)
         return counter
                 
-    def orangesRotting__(self, grid: list[list[int]]) -> int:
+    def orangesRotting_(self, grid: list[list[int]]) -> int:
+        # this works
 
+        # Time Complexity: O(m * n)
+        # Space Complexity: O(m * n)
+        
         fresh, rotten = set(), deque()
 
         # iterate through the grid to get all 
@@ -119,8 +133,6 @@ class Solution:
         # if fresh is not empty, then there is an orange we were not able to reach 4-directionally    
         return -1 if fresh else minutes
 
-        # Time Compelxity: O(m * n)
-        # Space Complexity: O(m * n)
         
     def orangesRotting(self, grid: list[list[int]]) -> int:
         # dfs wont work because, oranges rot at the same time
