@@ -1,40 +1,43 @@
 """
-Given an integer array nums, return true if you can partition 
-the array into two subsets such that the sum of the elements 
+Given an integer array nums, return true if you can partition the 
+array into two subsets such that the sum of the elements 
 in both subsets is equal or false otherwise.
 
 Example 1:
 
-Input: nums = [1,5,11,5]
-Output: true
+    Input: nums = [1,5,11,5]
 
-Explanation: The array can be partitioned as [1, 5, 5] and [11].
+    Output: true
+
+    Explanation: The array can be partitioned as [1, 5, 5] and [11].
 
 Example 2:
 
-Input: nums = [1,2,3,5]
-Output: false
+    Input: nums = [1,2,3,5]
+    
+    Output: false
 
-Explanation: The array cannot be partitioned into equal sum subsets.
+    Explanation: The array cannot be partitioned into equal sum subsets.
 
 Constraints:
 
-1 <= nums.length <= 200
-1 <= nums[i] <= 100
+    1 <= nums.length <= 200
+    
+    1 <= nums[i] <= 100
 
 Takeaway:
 
-THe tabulation solution, starting from the end
+    THe tabulation solution, starting from the end
 
-We either add the element or we dont.
+    We either add the element or we dont.
 
-We can use a set() for DP, but we need to keep 
-the set fresh.
-
+    We can use a set() for DP, but we need to keep the set fresh.
 """
+
 class Solution:
-    def canPartition(self, nums: list[int]) -> bool:
-        # neet
+
+    def canPartition_(self, nums: list[int]) -> bool:
+        # works, slow
         # we are basically trying to find half of 
         # the sum with some elements
         if sum(nums) % 2:
@@ -62,7 +65,7 @@ class Solution:
 
 
     def canPartition_(self, nums: list[int]) -> bool:
-        # neet - optimized
+        # optimized
         # we are basically trying to find half of 
         # the sum with some elements
         if sum(nums) % 2:
