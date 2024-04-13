@@ -6,47 +6,49 @@ A region is captured by flipping all 'O's into 'X's in that surrounded region.
 
 Example 1:
 
-Input: board = [["X","X","X","X"],
-                ["X","O","O","X"],
-                ["X","X","O","X"],
-                ["X","O","X","X"]]
+    Input: board = [["X","X","X","X"],
+                    ["X","O","O","X"],
+                    ["X","X","O","X"],
+                    ["X","O","X","X"]]
 
-        Output: [["X","X","X","X"],
-                 ["X","X","X","X"],
-                 ["X","X","X","X"],
-                 ["X","O","X","X"]]
+    Output: [["X","X","X","X"],
+             ["X","X","X","X"],
+             ["X","X","X","X"],
+             ["X","O","X","X"]]
 
-Explanation: Notice that an 'O' should not be flipped if:
-- It is on the border, or
-- It is adjacent to an 'O' that should not be flipped.
-The bottom 'O' is on the border, so it is not flipped.
-The other three 'O' form a surrounded region, so they are flipped.
+    Explanation: 
+        Notice that an 'O' should not be flipped if:
+            - It is on the border, or
+            - It is adjacent to an 'O' that should not be flipped.
+        The bottom 'O' is on the border, so it is not flipped.
+        The other three 'O' form a surrounded region, so they are flipped.
 
 Example 2:
 
-Input: board = [["X"]]
-Output: [["X"]]
+    Input: board = [["X"]]
+    
+    Output: [["X"]]
 
 Constraints:
 
-m == board.length
-n == board[i].length
-1 <= m, n <= 200
-board[i][j] is 'X' or 'O'.
+    m == board.length
+    n == board[i].length
+    1 <= m, n <= 200
+    board[i][j] is 'X' or 'O'.
 
 Takeaway:
 
-reverse thinking ?
-        
-we will run thourgh the border and change O's into T's
-so when we run dfs from start, we will change every O into X
-        
-1. (DFS) CAPTURE UNSURRONDED REGIONS - MARK T'S
-2. CHANGE O'S INTO X'S
-3. MAKE T'S INTO O'S AGAIN
+    reverse thinking ?
 
+    we will run thourgh the border and change O's into T's
+    so when we run dfs from start, we will change every O into X
+
+    1. (DFS) CAPTURE UNSURRONDED REGIONS - MARK T'S
+    2. CHANGE O'S INTO X'S
+    3. MAKE T'S INTO O'S AGAIN
 """
 class Solution:
+    
     def solve(self, board: list[list[str]]) -> None:
         """
         Do not return anything, modify board in-place instead.
