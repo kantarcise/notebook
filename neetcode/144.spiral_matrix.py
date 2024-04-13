@@ -58,6 +58,7 @@ class Solution:
         
     def spiralOrder_(self, matrix: list[list[int]]) -> list[int]:  
         # unreal, how ??
+        
         res = []
         while matrix:
             res.extend(matrix.pop(0))
