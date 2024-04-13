@@ -1,8 +1,10 @@
 """
-You are given an m x n binary matrix grid. An island is a 
-group of 1's (representing land) connected 4-directionally 
-(horizontal or vertical.) You may assume all four edges of the 
-grid are surrounded by water.
+You are given an m x n binary matrix grid. 
+
+An island is a group of 1's (representing land) connected 4-directionally 
+(horizontal or vertical.) 
+
+You may assume all four edges of the grid are surrounded by water.
 
 The area of an island is the number of cells with a value 1 
 in the island.
@@ -12,48 +14,52 @@ island, return 0.
 
 Example 1:
 
-Input: grid = [[0,0,1,0,0,0,0,1,0,0,0,0,0],
-                [0,0,0,0,0,0,0,1,1,1,0,0,0],
-                [0,1,1,0,1,0,0,0,0,0,0,0,0],
-                [0,1,0,0,1,1,0,0,1,0,1,0,0],
-                [0,1,0,0,1,1,0,0,1,1,1,0,0],
-                [0,0,0,0,0,0,0,0,0,0,1,0,0],
-                [0,0,0,0,0,0,0,1,1,1,0,0,0],
-                [0,0,0,0,0,0,0,1,1,0,0,0,0]]
-Output: 6
+    Input: grid = [[0,0,1,0,0,0,0,1,0,0,0,0,0],
+                    [0,0,0,0,0,0,0,1,1,1,0,0,0],
+                    [0,1,1,0,1,0,0,0,0,0,0,0,0],
+                    [0,1,0,0,1,1,0,0,1,0,1,0,0],
+                    [0,1,0,0,1,1,0,0,1,1,1,0,0],
+                    [0,0,0,0,0,0,0,0,0,0,1,0,0],
+                    [0,0,0,0,0,0,0,1,1,1,0,0,0],
+                    [0,0,0,0,0,0,0,1,1,0,0,0,0]]
+    Output: 6
 
-Explanation: The answer is not 11, because the island must 
-be connected 4-directionally.
+    Explanation: 
+    
+        The answer is not 11, because the island must be connected 4-directionally.
 
 Example 2:
 
-Input: grid = [[0,0,0,0,0,0,0,0]]
-Output: 0
+    Input: grid = [[0,0,0,0,0,0,0,0]]
+    
+    Output: 0
  
 
 Constraints:
 
-m == grid.length
-n == grid[i].length
-1 <= m, n <= 50
-grid[i][j] is either 0 or 1.
-
+    m == grid.length
+    
+    n == grid[i].length
+    
+    1 <= m, n <= 50
+    
+    grid[i][j] is either 0 or 1.
 
 Takeaway:
 
-DFS is wonderful. 
+    DFS is wonderful. 
 
-There is a condition on calling dfs
+    There is a condition on calling dfs
 
-AND
+    AND
 
-We do not have to call dfs on every tile.
-
+    We do not have to call dfs on every tile.
 """
 
 class Solution:
     def maxAreaOfIsland_(self, grid: list[list[int]]) -> int:
         # out of bounds is water
+        # works
         
         rows = len(grid)
         cols = len(grid[0])
@@ -86,7 +92,6 @@ class Solution:
     
     
     def maxAreaOfIsland(self, grid: list[list[int]]) -> int:
-        # neet
         # uses a visited set for the dfs
         # this way, we will not run dfs on the same island twice or more
         
