@@ -1,63 +1,65 @@
 """
-Given two strings s and t, return the number of 
-distinct subsequences of s which equals t.
+Given two strings s and t, return the number of distinct 
+subsequences of s which equals t.
 
-The test cases are generated so that the 
-answer fits on a 32-bit signed integer.
+The test cases are generated so that the  answer fits on 
+a 32-bit signed integer.
 
 Example 1:
 
-Input: s = "rabbbit", t = "rabbit"
+    Input: s = "rabbbit", t = "rabbit"
 
-Output: 3
+    Output: 3
 
-Explanation:
+    Explanation:
 
-As shown below, there are 3 ways you 
-can generate "rabbit" from s.
-    
-    rabbbit
-    rabbbit
-    rabbbit
+        As shown below, there are 3 ways you 
+        can generate "rabbit" from s.
+
+            rabbbit
+            rabbbit
+            rabbbit
 
 Example 2:
 
-Input: s = "babgbag", t = "bag"
-Output: 5
-
-Explanation:
-
-As shown below, there are 5 ways 
-you can generate "bag" from s.
+    Input: s = "babgbag", t = "bag"
     
-    babgbag
-    babgbag
-    babgbag
-    babgbag
-    babgbag
+    Output: 5
+
+    Explanation:
+
+        As shown below, there are 5 ways 
+        you can generate "bag" from s.
+    
+            babgbag
+            babgbag
+            babgbag
+            babgbag
+            babgbag
  
 
 Constraints:
 
     1 <= s.length, t.length <= 1000
+    
     s and t consist of English letters.
 
 Takeaway:
 
-Simple DFS/ with caching
+    Simple DFS/ with caching
 
-the questions shrink as we solve them.
+    the questions shrink as we solve them.
 
-think about what are the ways/paths we move forward as we 
-move in indexes of s and t
+    think about what are the ways/paths we move forward as we 
+    move in indexes of s and t
 
-the dragons get smaller as they are recognized.
-
+    the dragons get smaller as they are recognized.
 """
 
 class Solution:
     def numDistinct_(self, s: str, t: str) -> int:
-        
+        # JUST THOUGHT process no solutions
+
         # use a decision tree
         # should I add the character or not?
 
@@ -80,7 +82,7 @@ class Solution:
         pass
 
     def numDistinct(self, s: str, t: str) -> int:
-        # neet
+        # works
         
         # if first character match, we are looking for a different problem.
         
