@@ -62,6 +62,8 @@ class Solution:
     def findDuplicate_(self, nums) -> int:
         # using a dict is not goint to cut it
         # because it will be using o(n) memory
+
+        # DOES NOT MEET REQuirements
         
         # first thing I would try is to use a hashmap
         
