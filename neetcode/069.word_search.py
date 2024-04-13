@@ -72,6 +72,7 @@ Takeaway:
 from collections import defaultdict, Counter
 
 class Solution:
+    
     def exist(self, board: "list[list[str]]", word: str) -> bool:
         # we have to brute force
         # not an efficient solition here.
