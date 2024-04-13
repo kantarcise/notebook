@@ -1,51 +1,48 @@
 """
 Given an array of meeting time interval objects consisting 
 of start and end times 
-[[start_1,end_1],[start_2,end_2],...] (start_i < end_i), find 
-the minimum number of days required to schedule all 
+
+    [[start_1,end_1],[start_2,end_2],...] (start_i < end_i), 
+    
+find the minimum number of days required to schedule all 
 meetings without any conflicts.
 
 Example 1:
 
-Input: intervals = [(0,40),(5,10),(15,20)]
+    Input: intervals = [(0,40),(5,10),(15,20)]
 
-Output: 2
+    Output: 2
 
-Explanation:
-day1: (0,40)
-day2: (5,10),(15,20)
+    Explanation:
+        
+        day1: (0,40)
+        day2: (5,10),(15,20)
 
 Example 2:
 
-Input: intervals = [(4,9)]
+    Input: intervals = [(4,9)]
 
-Output: 1
+    Output: 1
 
-Note: (0,8),(8,10) is not considered a conflict at 8
+    Note: (0,8),(8,10) is not considered a conflict at 8
 
 Constraints:
 
-0 <= intervals.length <= 100
-0 <= intervals[i].start < intervals[i].end <= 1000
+    0 <= intervals.length <= 100
+    
+    0 <= intervals[i].start < intervals[i].end <= 1000
 
 Takeaway:
 
-Visualize the solution
+    Visualize the solution
 
-How many daysdo you need to seperate all meetings.
+    How many daysdo you need to seperate all meetings.
 
-You can keep track of the days needed in a single traversion
+    You can keep track of the days needed in a single traversion
 
 """
-"""
-Definition of Interval:
 class Interval(object):
-    def __init__(self, start, end):
-        self.start = start
-        self.end = end
-"""
-
-class Interval(object):
+    # Definition of Interval
     def __init__(self, start, end):
         self.start = start
         self.end = end
