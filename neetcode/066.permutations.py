@@ -1,48 +1,54 @@
-"""Given an array nums of distinct integers, return all 
-the possible permutations. You can return the answer 
-in any order.
+"""
+Given an array nums of distinct integers, return all the 
+possible permutations. 
+
+You can return the answer in any order.
 
 Example 1:
 
-Input: nums = [1,2,3]
-Output: [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
+    Input: nums = [1,2,3]
+    
+    Output: [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
 
 Example 2:
 
-Input: nums = [0,1]
-Output: [[0,1],[1,0]]
+    Input: nums = [0,1]
+    
+    Output: [[0,1],[1,0]]
 
-xample 3:
+Example 3:
 
-Input: nums = [1]
-Output: [[1]] 
+    Input: nums = [1]
+    
+    Output: [[1]] 
 
 Constraints:
 
-1 <= nums.length <= 6
--10 <= nums[i] <= 10
-All the integers of nums are unique.
+    1 <= nums.length <= 6
+    -10 <= nums[i] <= 10
+    All the integers of nums are unique.
 
 Takeaway:
 
-There is itertools for permutation and combination
+    There is itertools for permutation and combination
 
-You can use a stack with recursion
+    You can use a stack with recursion
 
-You can use backtracking, thinking with a decision tree
+    You can use backtracking, thinking with a decision tree
 
-pop an element and call permute again on the smaller sequence
+    pop an element and call permute again on the smaller sequence
 
-before returning to the beginning of the loop, 
-append back the element you popped
-This way, you'll traverse the sequence exactly how you want.
+    before returning to the beginning of the loop, 
+    append back the element you popped
+    This way, you'll traverse the sequence exactly how you want.
 
 """
 
 from itertools import permutations
 
 class Solution:
-    def permute(self, nums: "list[int]") -> "list[list[int]]":
+    
+    def permute__(self, nums: "list[int]") -> "list[list[int]]":
         
         # first try
         # [0, 1]
@@ -56,7 +62,7 @@ class Solution:
         # print ("".join(perms) for perm in perms)
         return [i for i in perms]
 
-    def permute_with_stack(self, nums: "list[int]") -> "list[list[int]]":
+    def permute_(self, nums: "list[int]") -> "list[list[int]]":
         # a non recursive appproach with a stack
 
         # Initialize the stack with individual elements
@@ -82,7 +88,7 @@ class Solution:
     
         return permutations
 
-    def permute_neetcode(self, nums: "list[int]") -> "list[list[int]]":
+    def permute(self, nums: "list[int]") -> "list[list[int]]":
         
         # we can think of the problem as a decision tree
         #                     [1,2,3] 
@@ -121,6 +127,6 @@ if __name__ == "__main__":
     print(sol.permute(nums = [0,1]))
     print(sol.permute(nums = [1]))
 
-    print(sol.permute_with_stack(nums = [1,2,3]))
-    print(sol.permute_with_stack(nums = [0,1]))
-    print(sol.permute_with_stack(nums = [1]))
+    print(sol.permute_(nums = [1,2,3]))
+    print(sol.permute_(nums = [0,1]))
+    print(sol.permute_(nums = [1]))
