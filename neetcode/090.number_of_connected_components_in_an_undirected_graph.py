@@ -1,35 +1,40 @@
 """
-There is an undirected graph with n nodes. There is also 
-an edges array, where edges[i] = [a, b] means that there 
+There is an undirected graph with n nodes. 
+
+There is also an edges array, where edges[i] = [a, b] means that there 
 is an edge between node a and node b in the graph.
 
 Return the total number of connected components in that graph.
 
 Example 1:
 
-Input: n=3, edges=[[0,1], [0,2]]
-Output: 1
+    Input: n=3, edges=[[0,1], [0,2]]
+    
+    Output: 1
 
 Example 2:
 
-Input:  n=6, edges=[[0,1], [1,2], [2, 3], [4, 5]]
-Output: 2
+    Input:  n=6, edges=[[0,1], [1,2], [2, 3], [4, 5]]
+    
+    Output: 2
 
 Constraints:
 
-1 <= n <= 100
-0 <= edges.length <= n * (n - 1) / 2
+    1 <= n <= 100
+    
+    0 <= edges.length <= n * (n - 1) / 2
 
 Takeaway:
 
-Another chance to learn UnionFind.
+    Another chance to learn UnionFind.
 
-Both DFS and UnionFind will work.
+    Both DFS and UnionFind will work.
 
-If you have the edges you can make you own adjacency list
-
+    If you have the edges you can make you own adjacency list
 """
+
 class Solution:
+
     def countComponents(self, n: int, edges: list[list[int]]) -> int:
         """The dfs solution =) 
         """
