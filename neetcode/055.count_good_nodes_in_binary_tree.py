@@ -58,7 +58,7 @@ class TreeNode:
 class Solution:
 
     def goodNodes_(self, root: "TreeNode") -> int:
-        # first try
+        # first try, works!
 
         # we need a mechanism to hold every path
         # for each node in the tree
