@@ -1,7 +1,7 @@
 """
-Given a collection of candidate numbers (candidates) and a 
-target number (target), find all unique combinations in 
-candidates where the candidate numbers sum to target.
+Given a collection of candidate numbers (candidates) and a target 
+number (target), find all unique combinations in candidates where 
+the candidate numbers sum to target.
 
 Each number in candidates may only be used once in the combination.
 
@@ -9,23 +9,27 @@ Note: The solution set must not contain duplicate combinations.
 
 Example 1:
 
-Input: candidates = [10,1,2,7,6,1,5], target = 8
-Output: 
-[
-[1,1,6],
-[1,2,5],
-[1,7],
-[2,6]
-]
+    Input: candidates = [10,1,2,7,6,1,5], target = 8
+    
+    Output:
+
+        [
+        [1,1,6],
+        [1,2,5],
+        [1,7],
+        [2,6]
+        ]
 
 Example 2:
 
-Input: candidates = [2,5,2,1,2], target = 5
-Output: 
-[
-[1,2,2],
-[5]
-]
+    Input: candidates = [2,5,2,1,2], target = 5
+    
+    Output:
+
+        [
+        [1,2,2],
+        [5]
+        ]
 
 Constraints:
 
@@ -35,31 +39,30 @@ Constraints:
 
 Takeaway:
 
-for every element, we can include it or not include it
-time complexity will be 2^n
-        
-if we just brute force it
-there will be duplicate solutions
+    for every element, we can include it or not include it
+    time complexity will be 2^n
 
-to get rid of duplicate solutions
-subtract the element from the target and 
-make sure the left subtree is including the unique
-element and right subtree is not
+    if we just brute force it
+    there will be duplicate solutions
 
-this was we will make sure that the results will be unique
-[10, 1, 2, 7, 6, 1]
-sort it
-[1, 1, 2, 6, 7, 10]
+    to get rid of duplicate solutions
+    subtract the element from the target and 
+    make sure the left subtree is including the unique
+    element and right subtree is not
 
-for each subtree either add or not add the element 
-move the pointer accordingly
+    this was we will make sure that the results will be unique
+    [10, 1, 2, 7, 6, 1]
+    sort it
+    [1, 1, 2, 6, 7, 10]
+
+    for each subtree either add or not add the element 
+    move the pointer accordingly
 
 """
 
 class Solution:
     
-    
-    def combination_sum_2(self, candidates: "list[int]", target: int) -> "list[list[int]]":
+    def combinationSum2__(self, candidates: "list[int]", target: int) -> "list[list[int]]":
         # my first try
         # DOES NOT work
 
@@ -150,7 +153,9 @@ class Solution:
         return res
 
 
-    def combination_sum_2_faster(self, candidates: "list[int]", target: int) -> "list[list[int]]":
+    def combinationSum2_(self, candidates: "list[int]", target: int) -> "list[list[int]]":
+        # this works, and it is faster
+        
         def backtrack(start, path, target):
             if target == 0:
                 # found the solution
