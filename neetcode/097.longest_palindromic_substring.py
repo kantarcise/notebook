@@ -1,29 +1,31 @@
 """
-Given a string s, return the longest 
-palindromic substring in s.
+Given a string s, return the longest palindromic substring in s.
 
 Example 1:
 
-Input: s = "babad"
-Output: "bab"
-Explanation: "aba" is also a valid answer.
+    Input: s = "babad"
+    
+    Output: "bab"
+    
+    Explanation: "aba" is also a valid answer.
 
 Example 2:
 
-Input: s = "cbbd"
-Output: "bb"
+    Input: s = "cbbd"
+
+    Output: "bb"
 
 Constraints:
 
-1 <= s.length <= 1000
-s consist of only digits and English letters.
+    1 <= s.length <= 1000
+    
+    s consist of only digits and English letters.
 
 Takeaway:
 
-One liners are generally great dynamic programming questions
-
-you can check if palindrome by starting from middle
-
+    One liners are generally great dynamic programming questions
+    
+    you can check if palindrome by starting from middle
 """
 
 class Solution:
@@ -33,7 +35,6 @@ class Solution:
         # for checking if a substring is a palindrome:
         # you can either traverse the string
         # or you can start from middle and expand outwards
-        
         
         res = ""
         res_len = 0
@@ -93,7 +94,5 @@ class Solution:
                 size += 1
                 start = left
         
-        
         # return biggest substring
         return s[start:start+size]
-        
