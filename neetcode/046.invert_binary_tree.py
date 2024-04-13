@@ -50,7 +50,7 @@ class Solution:
     def invertTree_(self, root):
         # my first try
         # the approach was somewhat correct
-        # does not work though
+        # Does NOT work though
         
         # how do we invert a tree?
         # it it has a child, we should be switching it's children.
