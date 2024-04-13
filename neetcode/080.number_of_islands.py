@@ -1,52 +1,53 @@
 """
-Given an m x n 2D binary grid grid which represents 
-a map of '1's (land) and '0's (water), return the 
-number of islands.
+Given an m x n 2D binary grid grid which represents a map 
+of '1's (land) and '0's (water), return the number of islands.
 
-An island is surrounded by water and is formed by 
-connecting adjacent lands horizontally or vertically. 
+An island is surrounded by water and is formed by connecting 
+adjacent lands horizontally or vertically. 
+
 You may assume all four edges of the grid are all 
 surrounded by water.
 
-
 Example 1:
 
-Input: grid = [
-  ["1","1","1","1","0"],
-  ["1","1","0","1","0"],
-  ["1","1","0","0","0"],
-  ["0","0","0","0","0"]
-]
-Output: 1
+    Input: grid = [
+      ["1","1","1","1","0"],
+      ["1","1","0","1","0"],
+      ["1","1","0","0","0"],
+      ["0","0","0","0","0"]
+    ]
+    
+    Output: 1
+
 Example 2:
 
-Input: grid = [
-  ["1","1","0","0","0"],
-  ["1","1","0","0","0"],
-  ["0","0","1","0","0"],
-  ["0","0","0","1","1"]
-]
-Output: 3
- 
+    Input: grid = [
+      ["1","1","0","0","0"],
+      ["1","1","0","0","0"],
+      ["0","0","1","0","0"],
+      ["0","0","0","1","1"]
+    ]
+    Output: 3
+    
 
 Constraints:
 
-m == grid.length
-n == grid[i].length
-1 <= m, n <= 300
-grid[i][j] is '0' or '1'.
+    m == grid.length
+    n == grid[i].length
+    1 <= m, n <= 300
+    grid[i][j] is '0' or '1'.
 
 Takeaway:
 
-To solve this question, think like a kindergardener.
+    To solve this question, think like a kindergardener.
 
-How can you find a single island?
+    How can you find a single island?
 
-You look.
+    You look.
 
-For each 1, you need to check neighbours, this is clearly bfs or dfs.
+    For each 1, you need to check neighbours, this is clearly bfs or dfs.
 
-Setting the cell to 0 in order to not visit it again is pretty cool.
+    Setting the cell to 0 in order to not visit it again is pretty cool.
 """
 
 from collections import deque
@@ -93,8 +94,9 @@ class Solution:
 
         return islands
     
-    def numIslands_dfs(self, grid: list[list[str]]) -> int:
-        
+    def numIslands_(self, grid: list[list[str]]) -> int:
+        # dfs solution
+
         row = len(grid)
         column = len(grid[0])
         result = 0
@@ -128,4 +130,3 @@ class Solution:
                     dfs(i, j)
         
         return result
-        
