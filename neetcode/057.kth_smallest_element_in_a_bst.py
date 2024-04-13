@@ -1,50 +1,54 @@
 """
-Given the root of a binary search tree, and an 
-integer k, return the kth smallest value (1-indexed) of all 
-the values of the nodes in the tree.
+Given the root of a binary search tree, and an integer k, return 
+the kth smallest value (1-indexed) of all the values of the nodes in the tree.
 
 Example 1:
 
-Input: root = [3,1,4,null,2], k = 1
-Output: 1
+    Input: root = [3,1,4,null,2], k = 1
+    Output: 1
 
 Example 2:
 
-Input: root = [5,3,6,2,4,null,null,1], k = 3
-Output: 3
- 
+    Input: root = [5,3,6,2,4,null,null,1], k = 3
+    Output: 3
+    
 Constraints:
 
-The number of nodes in the tree is n.
-1 <= k <= n <= 104
-0 <= Node.val <= 104
+    The number of nodes in the tree is n.
+
+    1 <= k <= n <= 10^4
+    
+    0 <= Node.val <= 10^4
  
 
 Follow up: If the BST is modified often (i.e., we can do insert 
-and delete operations) and you need to find the kth smallest 
-frequently, how would you optimize?
+    and delete operations) and you need to find the kth smallest 
+    frequently, how would you optimize?
 
 Takeaway:
 
-We can make a recursive in order traversal and
-append all elements from smallest to kth smallest 
-on a temporary list
+    We can make a recursive in order traversal and
+        append all elements from smallest to kth smallest 
+        on a temporary list
 
-OR
+    OR
 
-lets use a stack and solve the question iteratively
-this is also in order traversal
+    lets use a stack and solve the question iteratively
+        this is also in order traversal
 
-make a stack
-add every node onto the stack until you get to 
-where node.left is None
-when you get that case, that is your leftmost element.
-pop it from the stack, check if it has a node.right
-than go one level up
+    make a stack
 
-when stack is empty, return
-number of elements visited
-once this is equal to k, return
+    add every node onto the stack until you get to 
+        where node.left is None
+    
+    when you get that case, that is your leftmost element.
+    
+    pop it from the stack, check if it has a node.right
+        than go one level up
+
+    when stack is empty, return number of elements visited
+    
+    once this is equal to k, return
 
 """
 
