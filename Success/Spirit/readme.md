@@ -27,6 +27,24 @@ What drove me? I think most creative people want to express appreciation for bei
 
 ---
 
+## Jordan 
+
+[Substitute adventure for security.](https://youtu.be/g6VNAM58a_U?t=4932)
+
+You are going to pursue security are you? How is that going to work ? You are going to die.
+
+You do not want security. You are not an infant. You are after adventure.
+
+So where is your adventure?
+
+Aim up and tell the truth.
+
+Adventure will come your way.
+
+That is way better than security. There is no looking back. That is uncharted teritory.
+
+---
+
 ## Shia LaBeouf
 
 [Chinese Story](https://www.youtube.com/watch?v=-irSq8M51Q4)
