@@ -1,42 +1,41 @@
 """
-
-Given the roots of two binary trees root and
- subRoot, return true if there is a subtree of root with
+Given the roots of two binary trees root and subRoot
+return True if there is a subtree of root with
 the same structure and node values of subRoot and
-false otherwise.
+False otherwise.
 
-A subtree of a binary tree tree is a tree that
- consists of a node in tree and all of this
-node's descendants. The tree tree could also
-be considered as a subtree of itself.
+A subtree of a binary tree tree is a tree that 
+consists of a node in tree and all of this node's 
+descendants. The tree tree could also be considered as 
+a subtree of itself.
 
 Example 1:
 
-Input: root = [3,4,5,1,2], subRoot = [4,1,2]
-Output: true
+    Input: root = [3,4,5,1,2], subRoot = [4,1,2]
+    Output: true
 
 Example 2:
 
-Input: root = [3,4,5,1,2,null,null,null,null,0], subRoot = [4,1,2]
-Output: false
+    Input: root = [3,4,5,1,2,null,null,null,null,0], subRoot = [4,1,2]
+    Output: false
 
 Constraints:
 
-The number of nodes in the root tree is in the range [1, 2000].
-The number of nodes in the subRoot tree is in the range [1, 1000].
--104 <= root.val <= 104
--104 <= subRoot.val <= 104
+    The number of nodes in the root tree is in the range [1, 2000].
+    The number of nodes in the subRoot tree is in the range [1, 1000].
+    -10^4 <= root.val <= 10^4
+    -10^4 <= subRoot.val <= 10^4
 
 Takeaway:
 
-The brute force algorithm will o(s *t)
+    The brute force algorithm will run in O(s * t)
 
-But most tree problems are easier when we think recursively.
+    Most tree problems are easier when we think recursively.
 
-However, do not forget the edge cases.
+    However, do not forget the edge cases.
 
-We basically just write the same_tree method and use it 
-in our is_subtree method
+    We basically just write the same_tree method and use it 
+    in our is_subtree method
 
 """
 # Definition for a binary tree node.
@@ -47,29 +46,19 @@ class TreeNode:
         self.right = right
 
 class Solution:
-    
-    def is_subtree_(self, root, subRoot) -> bool:
-        # my first approach
-        # not complete
-        def same_tree(s, q): pass
-        
-        # both None
-        if not root and not subRoot:
-            return True
-        
-        # one of the is None
-        if not root or not subRoot:
-            return True
-        
-        pass
-    
-    def is_subtree(self, root, subRoot):
+      
+    def isSubtree_(self, root, subRoot):
+        # We want to traverse the tree and check if there 
+        # is same tree within it
+
         # Helper function to check if two trees are the same.
         def same_tree(s, q):
             if not s and not q:
                 return True
             if not s or not q:
                 return False
+            
+            # check both sides and nodes themselves
             return s.val == q.val and same_tree(s.left, q.left) and same_tree(s.right, q.right)
 
         # Base case: If the current node of the root tree is None, return False.
@@ -81,11 +70,12 @@ class Solution:
             return True
 
         # If not, recursively check the left and right subtrees of the root tree.
-        return self.is_subtree(root.left, subRoot) or self.is_subtree(root.right, subRoot)
+        return self.isSubtree_(root.left, subRoot) or self.isSubtree_(root.right, subRoot)
 
 
     def isSubtree(self, root, subRoot) -> bool:
-        
+        # another approach would be to have an seperate method within the class.
+
         # if tree subRoot is None, return True
         if not subRoot:
             return True
@@ -107,12 +97,12 @@ class Solution:
         if not s and not t:
             return True
         
-        # if bothe trees are not None and they have same values
+        # if both trees are not None and they have same values
         if s and t and s.val == t.val:
             return (self.sameTree(s.left, t.left) and
                     self.sameTree(s.right, t.right))
         
-        # if one of them is empty and the othe is not
+        # if one of them is empty and the other is not
         return False
 
         
