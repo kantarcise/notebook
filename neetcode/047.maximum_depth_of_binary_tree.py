@@ -16,7 +16,7 @@ Example 2:
 
 Constraints:
 
-    The number of nodes in the tree is in the range [0, 104].
+    The number of nodes in the tree is in the range [0, 10^4].
     -100 <= Node.val <= 100
 
 Takeaway:
@@ -40,10 +40,12 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
+        
+
 class Solution:
     
     def maxDepth_(self, root):
-        # first try
+        # first try, works!
         
         if root is None:
             return 0
@@ -57,7 +59,7 @@ class Solution:
 
     
     def maxDepth(self, root) -> int:
-        # neetcode approach 
+        # really fast solution 
         # recursive DFS  
         if not root:
             return 0
