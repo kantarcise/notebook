@@ -3,8 +3,9 @@ The n-queens puzzle is the problem of placing n queens on an n x n
 chessboard such that no two queens attack each other.
 
 Given an integer n, return all distinct solutions to 
-the n-queens puzzle. You may return the answer 
-in any order.
+the n-queens puzzle. 
+
+You may return the answer in any order.
 
 Each solution contains a distinct board configuration of 
 the n-queens' placement, where 'Q' and '.' both indicate 
@@ -12,15 +13,19 @@ a queen and an empty space, respectively.
 
 Example 1:
 
-Input: n = 4
-Output: [[".Q..","...Q","Q...","..Q."],["..Q.","Q...","...Q",".Q.."]]
-Explanation: There exist two distinct solutions to 
-the 4-queens puzzle as shown above
+    Input: n = 4
+    
+    Output: [[".Q..","...Q","Q...","..Q."],["..Q.","Q...","...Q",".Q.."]]
+    
+    Explanation: 
+        There exist two distinct solutions to 
+            the 4-queens puzzle as shown above
 
 Example 2:
 
-Input: n = 1
-Output: [["Q"]]
+    Input: n = 1
+    
+    Output: [["Q"]]
 
 Constraints:
 
@@ -29,25 +34,26 @@ Constraints:
 Takeaway:
 
 
-Backtracking the positions of the queens, but since 
-queens can move horizontally vertically and 
-diagonally, we can’t put two queens together 
-in the same row (because they move horizontally 
-so would attack each other) and also can’t put 
-them in same column or diagonal. So when 
-backtracking, we place queen in a position in 
-row and make recursive call to place the other 
-in next row and keep track of:
+    Backtracking the positions of the queens, but since 
+        queens can move horizontally vertically and 
+        diagonally, we can’t put two queens together 
+        in the same row (because they move horizontally 
+        so would attack each other) and also can’t put 
+        them in same column or diagonal. So when 
+        backtracking, we place queen in a position in 
+        row and make recursive call to place the other 
+        in next row and keep track of:
 
-Column that queen was placed in
-Both diagonals of the queen (YES there are 
-TWO diagonals that the queen can move in, 
-positive slope and negative slope, so need 
-to keep track of both)
+    Column that queen was placed in
+        Both diagonals of the queen (YES there are 
+        TWO diagonals that the queen can move in, 
+        positive slope and negative slope, so need 
+        to keep track of both)
 """
 
-class Solution_:
-    def solveNQueens_(self, n: int) -> "list[list[str]]":
+class Solution:
+
+    def solveNQueens__(self, n: int) -> "list[list[str]]":
         # my first approach
         # did NOT work
         
@@ -76,8 +82,9 @@ class Solution_:
         backtrack(0, {})
         return result
 
-    def solveNQueens(self, n: int) -> "list[list[str]]":
-        # with llm 
+    def solveNQueens_(self, n: int) -> "list[list[str]]":
+        # with EXPERT help, works
+
         def is_valid(board, row, col):
             # Check the current column for a queen in any of the rows above
             for i in range(row):
@@ -118,9 +125,7 @@ class Solution_:
         backtrack(0)  # Start from the first row
         return result
 
-class Solution:
     def solveNQueens(self, n: int) -> "list[list[str]]":
-        # neet code
         # there is a slope 1 and slope -1
         # diagonals, 2 queens cannot be on same diagonals
 
@@ -158,5 +163,4 @@ class Solution:
                 board[r][c] = "."
 
         backtrack(0)
-
         return res
