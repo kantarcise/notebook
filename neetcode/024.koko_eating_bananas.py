@@ -29,8 +29,8 @@ Example 2:
 
 Example 3:
 
-Input: piles = [30,11,23,4,20], h = 6
-Output: 23
+    Input: piles = [30,11,23,4,20], h = 6
+    Output: 23
  
 Constraints:
 
@@ -55,7 +55,7 @@ import math
 
 class Solution:
 
-    def minEatingSpeed(self, piles: list[int], h: int) -> int:
+    def minEatingSpeed__(self, piles: list[int], h: int) -> int:
         # This causes timeout - does not work.
 
         # koko can only eat one pile at a time
@@ -84,7 +84,7 @@ class Solution:
 
         return result
 
-    def minEatingSpeed_(self, piles: list[int], h: int) -> int:
+    def minEatingSpeed(self, piles: list[int], h: int) -> int:
         # we dont have to try every single value of k
 
         # apply binary search to the k range
@@ -124,7 +124,7 @@ class Solution:
 
         return res
 
-    def minEatingSpeed__(self, piles: list[int], h: int) -> int:
+    def minEatingSpeed_(self, piles: list[int], h: int) -> int:
         # here is a tightly packed solution.
         l, r = 1, max(piles)
         while l < r:
