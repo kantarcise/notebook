@@ -82,7 +82,7 @@ class Node:
 
 class Solution:
 
-    def copy_random_list(self, head):
+    def copyRandomList__(self, head):
         # yeah OBVIOUSLY NOT
         answer = deepcopy(head)
         return answer
@@ -121,4 +121,5 @@ class Solution:
 
 if __name__ == "__main__":
     # Cannot really run this one
+    # check the website
     pass
