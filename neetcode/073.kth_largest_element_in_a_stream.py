@@ -1,132 +1,119 @@
 """
-You are given an array of integers stones where 
-stones[i] is the weight of the ith stone.
+Design a class to find the kth largest element in a stream. 
 
-We are playing a game with the stones. 
+Note that it is the kth largest element in the sorted order, not the 
+kth distinct element.
 
-On each turn, we choose the heaviest two stones and smash them together. 
+Implement KthLargest class:
 
-Suppose the heaviest two stones have weights x and y with x <= y. 
+    KthLargest(int k, int[] nums) Initializes the object with 
+        the integer k and the stream of integers nums.
 
-The result of this smash is:
-
-    If x == y, both stones are destroyed, and
-    
-    If x != y, the stone of weight x is destroyed, and the stone 
-        of weight y has new weight y - x.
-
-At the end of the game, there is at most one stone left.
-
-Return the weight of the last remaining stone. 
-
-If there are no stones left, return 0.
-
+    int add(int val) Appends the integer val to the stream 
+        and returns the element representing the kth 
+        largest element in the stream.
+ 
 Example 1:
 
-    Input: stones = [2,7,4,1,8,1]
+    Input:
+        ["KthLargest", "add", "add", "add", "add", "add"]
+        [[3, [4, 5, 8, 2]], [3], [5], [10], [9], [4]]
     
-    Output: 1
-    
-    Explanation: 
-        
-        We combine 7 and 8 to get 1 so the array converts to [2,4,1,1,1] then,
+    Output:
+        [null, 4, 5, 5, 8, 8]
 
-        we combine 2 and 4 to get 2 so the array converts to [2,1,1,1] then,
+    Explanation:
 
-        we combine 2 and 1 to get 1 so the array converts to [1,1,1] then,
-
-        we combine 1 and 1 to get 0 so the array converts to [1] then 
-        that's the value of the last stone.
-
-Example 2:
-
-    Input: stones = [1]
-    
-    Output: 1
+        KthLargest kthLargest = new KthLargest(3, [4, 5, 8, 2]);
+        kthLargest.add(3);   // return 4
+        kthLargest.add(5);   // return 5
+        kthLargest.add(10);  // return 5
+        kthLargest.add(9);   // return 8
+        kthLargest.add(4);   // return 8
  
 Constraints:
 
-    1 <= stones.length <= 30
+    1 <= k <= 10^4
     
-    1 <= stones[i] <= 1000
+    0 <= nums.length <= 10^4
+    
+    -10^4 <= nums[i] <= 10^4
+    
+    -10^4 <= val <= 10^4
+    
+    At most 10^4 calls will be made to add.
+    
+    It is guaranteed that there will be at least k elements 
+    
+    in the array when you search for the kth element.
 
 Takeaway:
 
-    if we use a sorted approach, we have to sort 
-    the list every time
+    if we use an array,
+    sorting would be n log n
+    finding where to insert would be o(n)
 
-    use a max heap, 
-    heapify takes o(n)
-    every time accessing max heap is o(log n) - possibly 
-    running n times
+    lets use a min heap of size k
+    we can get the min of min heap in o(1)
+    we can add an element in log n time
 
-    to make a max heap in Python, just multiply 
-    every value with -1
-
-    in the calculations, use the example in your mind.
-
+    kth element will be the smallest element in 
+    size k min heap
 """
 
-from heapq import heapify, heappop, heappush
+from heapq import heapify, heappush, heappop
 
-class Solution:
 
-    def lastStoneWeight_(self, stones: "list[int]") -> int:
-        # brute force approach
-        # did not work
-        def smash(seq):
-            if len(seq) == 1:
-                return seq
-            biggest = max(seq)
-            seq.remove(biggest)
-            second_biggest = max(seq)  # Note: Find the max from the updated seq list.
-            
-            if biggest == second_biggest:
-                seq.remove(second_biggest)
-            else:
-                seq.append(biggest - second_biggest)
-            
-            return seq  # Return the modified list
+class KthLargest_:
+    # THIS DOES NOT WORK
+    # Nice try but yeah.
+
+    def __init__(self, k: int, nums: "list[int]"):
+        """This was an attempt to make MaxHeap
+        Turns out its not needed."""
+        negative_nums = [-elem for elem in nums]
         
-        while len(stones) > 2:
-            stones = smash(stones)  # Update the stones list
+        heapify(negative_nums)
+        self.stream = negative_nums  
+        self.k = k
 
-        return stones[0]
+    def add(self, val: int) -> int:
+        # pushes a new item on the heap
+        heappush(self.stream,  (-1) * val)
+        #  return kth item on the heap without popping it
+        return self.stream[self.k - 1]
 
-    def lastStoneWeight(self, stones: "list[int]") -> int:
-        # if we use a sorted approach, we have to sort 
-        # the list every time
+class KthLargest:
 
-        # use a max heap, 
-        # heapify takes o(n)
-        # every time accessing max heap is o(log n) - possibly 
-        # running n times
+    # if we use an array,
+    # sorting would be n log n
+    # finding where to insert would be o(n)
 
-        # to make a max heap in Python, just multiply 
-        # every value with -1
-
-        stones = [-elem for elem in stones]
-        heapify(stones)
-
-        while len(stones) > 1:
-            first = heappop(stones)
-            second = heappop(stones)
-
-            if second > first:
-                # -5 - - 8 = 3
-                # so make it first - second instead of 
-                # second - first
-                heappush(stones, first - second)
-
-        # if there are not any stones in the sequence
-        stones.append(0)
-        return abs(stones[0])
-
-if __name__ == "__main__":
+    # lets use a min heap of size k
+    # we can get the min of min heap in o(1)
+    # we can add an element in log n time
     
-    sol = Solution()
-    print(sol.last_stone_weight(stones = [2,7,4,1,8,1]))
-    print(sol.last_stone_weight(stones = [1]))
+    def __init__(self, k: int,  nums: "list[int]"):
+        # minheap with K largest integers
+        self.heap = nums
+        self.k = k
+        # turn the list into a minimum heap
+        heapify(self.heap)
 
-    print(sol.last_stone_weight(stones = [2,7,4,1,8,1]))
-    print(sol.last_stone_weight(stones = [1]))
+        # we only need a heap with k elements
+        while len(self.heap) > k:
+            heappop(self.heap)
+
+    def add(self, val: int) -> int:
+        heappush(self.heap, val)
+
+        # if we have more elements than k
+        if len(self.heap) > self.k:
+            heappop(self.heap)
+
+        # kth element is the smallest now
+        return (self.heap[0])
+
+# Your KthLargest object will be instantiated and called as such:
+# obj = KthLargest(k, nums)
+# param_1 = obj.add(val)
