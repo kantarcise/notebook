@@ -46,7 +46,7 @@ Takeaway:
 
 class Solution:
     
-    def maxProfit(self, prices) -> int:
+    def maxProfit_(self, prices) -> int:
         # does not work
         
         # We should look for every opportunity where
@@ -66,7 +66,7 @@ class Solution:
 
         return max_profit
 
-    def maxProfit_(self, prices):
+    def maxProfit(self, prices):
         # simple binary search approach
 
         max_profit = 0
