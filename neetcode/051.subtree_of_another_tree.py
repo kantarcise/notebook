@@ -104,5 +104,3 @@ class Solution:
         
         # if one of them is empty and the other is not
         return False
-
-        
