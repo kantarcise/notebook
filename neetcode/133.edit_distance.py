@@ -10,49 +10,49 @@ You have the following three operations permitted on a word:
  
 Example 1:
 
-Input: word1 = "horse", word2 = "ros"
+    Input: word1 = "horse", word2 = "ros"
 
-Output: 3
+    Output: 3
 
-Explanation: 
-    
-    horse -> rorse (replace 'h' with 'r')
-    rorse -> rose (remove 'r')
-    rose -> ros (remove 'e')
+    Explanation: 
+
+        horse -> rorse (replace 'h' with 'r')
+        rorse -> rose (remove 'r')
+        rose -> ros (remove 'e')
 
 Example 2:
 
-Input: word1 = "intention", word2 = "execution"
+    Input: word1 = "intention", word2 = "execution"
 
-Output: 5
+    Output: 5
 
-Explanation: 
-    
-    intention -> inention (remove 't')
-    inention -> enention (replace 'i' with 'e')
-    enention -> exention (replace 'n' with 'x')
-    exention -> exection (replace 'n' with 'c')
-    exection -> execution (insert 'u')
+    Explanation: 
+
+        intention -> inention (remove 't')
+        inention -> enention (replace 'i' with 'e')
+        enention -> exention (replace 'n' with 'x')
+        exention -> exection (replace 'n' with 'c')
+        exection -> execution (insert 'u')
 
 Constraints:
 
     0 <= word1.length, word2.length <= 500
+    
     word1 and word2 consist of lowercase English letters.
 
 Takeaway:
 
-2D DP, using pointers within words
+    2D DP, using pointers within words
 
-starting from example to find the grid relation is really cool
+    starting from example to find the grid relation is really cool
 
-homie - from functools import cache ?
-
+    homie - from functools import cache ?
 """
 from functools import cache
 
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
-        # neet
+        # this works
         
         # analyze some simple cases
 
@@ -67,7 +67,6 @@ class Solution:
         # "abc"
         # same - we do not need to do anythin
         # result is 0
-
 
         # case 3
         # "abc"
