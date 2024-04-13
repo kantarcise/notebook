@@ -1,47 +1,51 @@
 """
-Given an integer array nums and an integer k, 
-return the kth largest element in the array.
+Given an integer array nums and an integer k, return the kth 
+largest element in the array.
 
-Note that it is the kth largest element in the 
-sorted order, not the kth distinct element.
+Note that it is the kth largest element in the sorted 
+order, not the kth distinct element.
 
 Can you solve it without sorting?
 
 Example 1:
 
-Input: nums = [3,2,1,5,6,4], k = 2
-Output: 5
+    Input: nums = [3,2,1,5,6,4], k = 2
+    
+    Output: 5
 
 Example 2:
 
-Input: nums = [3,2,3,1,2,4,5,5,6], k = 4
-Output: 4
+    Input: nums = [3,2,3,1,2,4,5,5,6], k = 4
+    
+    Output: 4
 
 Constraints:
 
-    1 <= k <= nums.length <= 105
-    -104 <= nums[i] <= 104
+    1 <= k <= nums.length <= 10^5
+    
+    -10^4 <= nums[i] <= 10^4
 
 Takeaway:
 
-instead of sorting - o(nlogn)
-we can use a heap
+    instead of sorting - o(nlogn)
+    we can use a heap
 
-every time we pop an element from the heap
-it is log n
-so this result will be - o(n + k log n)
+    every time we pop an element from the heap
+    it is log n
+    so this result will be - o(n + k log n)
 
-There is a solution whick uses quick_select
-which is kinda like quick_sort
-
+    There is a solution whick uses quick_select
+    which is kinda like quick_sort
 """
+
 from heapq import heapify, heappop
 
 class Solution:
 
-    def find_kth_largest(self, nums: "list[int]", k: int) -> int:
+    def findKthLargest__(self, nums: "list[int]", k: int) -> int:
         # instead of sorting - o(nlogn)
         # we can use a heap
+        # THIS WORKS
 
         # every time we pop an element from the heap
         # it is log n
@@ -57,13 +61,12 @@ class Solution:
             
         return -result
 
-    def find_kth_largest(self, nums: "list[int]", k: int) -> int:
+    def findKthLargest_(self, nums: "list[int]", k: int) -> int:
         # with sorting
         nums.sort(reverse = True)
         return nums[k - 1]
 
     def findKthLargest(self, nums: "list[int]", k: int) -> int:
-        # neet code 
         # quick select - kinda like quicksort
         # average case o(n) - worst case o(n**2)
         
