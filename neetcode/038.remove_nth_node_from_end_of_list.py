@@ -84,7 +84,7 @@ class Solution:
 
         return dummy.next
 
-    def remove_nth_from_end_(self, head, n):
+    def removeNthFromEnd_(self, head, n):
         # expert advice
 
         # Create a dummy node to handle edge cases.
