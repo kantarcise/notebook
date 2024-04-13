@@ -51,6 +51,8 @@ class Solution:
         # first try
         # the height difference between subtrees 
         # have to be at most 1
+
+        # Does not work!
         
         def return_max_depth(root):
             # HOW ?
