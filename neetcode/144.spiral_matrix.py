@@ -1,35 +1,42 @@
 """
-Given an m x n matrix, return all elements of the matrix in spiral order.
+Given an m x n matrix, return all elements of 
+the matrix in spiral order.
 
 Example 1:
 
-Input: matrix = [[1,2,3],[4,5,6],[7,8,9]]
-Output: [1,2,3,6,9,8,7,4,5]
+    Input: matrix = [[1,2,3],[4,5,6],[7,8,9]]
+    
+    Output: [1,2,3,6,9,8,7,4,5]
 
 Example 2:
 
-Input: matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]
-Output: [1,2,3,4,8,12,11,10,9,5,6,7]
+    Input: matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]
+    
+    Output: [1,2,3,4,8,12,11,10,9,5,6,7]
 
 Constraints:
 
-m == matrix.length
-n == matrix[i].length
-1 <= m, n <= 10
--100 <= matrix[i][j] <= 100
+    m == matrix.length
+    
+    n == matrix[i].length
+    
+    1 <= m, n <= 10
+    
+    -100 <= matrix[i][j] <= 100
 
 Takeaway:
 
-Using pointers to keep doing an operation is really smart.
+    Using pointers to keep doing an operation is really smart.
 
-Which is the main takeaway here honestly.
-
-
+    Which is the main takeaway here honestly.
 """
 
 class Solution:
+
     def spiralOrder__(self, matrix: list[list[int]]) -> list[int]:
         """This is NOT a great idea"""
+
+        # does not work, not really something to work here
 
         # we can use sizesof the matrix to decide our approach
         rows, cols = len(matrix), len(matrix[0])
@@ -50,7 +57,7 @@ class Solution:
             pass
         
     def spiralOrder_(self, matrix: list[list[int]]) -> list[int]:  
-        # unreal
+        # unreal, how ??
         res = []
         while matrix:
             res.extend(matrix.pop(0))
@@ -58,7 +65,7 @@ class Solution:
         return res
 
     def spiralOrder(self, matrix: list[list[int]]) -> list[int]:  
-        # neet
+        # works
         # we can use 4 pointers to decide 
         # where our algorithm should stop
         
