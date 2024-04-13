@@ -1,22 +1,21 @@
 """
-Given the root of a binary tree, return the level 
-order traversal of its nodes' values. (i.e., from 
-left to right, level by level).
+Given the root of a binary tree, return the level order 
+traversal of its nodes' values. (i.e., from left to right, level by level).
 
 Example 1:
 
-Input: root = [3,9,20,null,null,15,7]
-Output: [[3],[9,20],[15,7]]
+    Input: root = [3,9,20,null,null,15,7]
+    Output: [[3],[9,20],[15,7]]
 
 Example 2:
 
-Input: root = [1]
-Output: [[1]]
+    Input: root = [1]
+    Output: [[1]]
 
 Example 3:
 
-Input: root = []
-Output: []
+    Input: root = []
+    Output: []
 
 Constraints:
 
@@ -25,19 +24,18 @@ Constraints:
 
 Takeaway:
 
-use breadth-first search. We use queues for that.
+    use breadth-first search. We use queues for that.
 
-Initialize the queue with the root node
+    Initialize the queue with the root node
 
-For each level, make a list of nodes
-move on to (possibly) existing child nodes
+    For each level, make a list of nodes
+    move on to (possibly) existing child nodes
 
 """
 
 from collections import deque
 
 # Definition for a binary tree node.
-
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
@@ -46,10 +44,8 @@ class TreeNode:
 
 class Solution:
     
-    # llm approach sprinkled on mine
-    # honestly more simple solution
-    def level_order(self, root: "TreeNode") -> "list[list[int]]":
-        # lets use breadth-first search
+    def levelOrder_(self, root: "TreeNode") -> "list[list[int]]":
+        # Lets use breadth-first search!
 
         # simple edge case        
         if not root:
@@ -58,7 +54,7 @@ class Solution:
         result = []
         deq = deque()
         # Initialize the queue with the root node
-        deq.append(root)  
+        deq.append(root)
 
         while deq:
             # for that level
@@ -83,6 +79,7 @@ class Solution:
         # for each level, add all elements in the queue
         # when you are left with empty queue,
         # you can move on to the next level
+
         result = []
         q = deque()
         q.append(root)
