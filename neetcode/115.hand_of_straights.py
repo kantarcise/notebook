@@ -7,41 +7,45 @@ Given an integer array hand where hand[i] is the value written
 on the ith card and an integer groupSize, return true if she 
 can rearrange the cards, or false otherwise.
 
-
 Example 1:
 
-Input: hand = [1,2,3,6,2,3,4,7,8], groupSize = 3
-Output: true
-Explanation: Alice's hand can be rearranged as [1,2,3],[2,3,4],[6,7,8]
+    Input: hand = [1,2,3,6,2,3,4,7,8], groupSize = 3
+
+    Output: true
+    
+    Explanation: Alice's hand can be rearranged as [1,2,3],[2,3,4],[6,7,8]
 
 Example 2:
 
-Input: hand = [1,2,3,4,5], groupSize = 4
-Output: false
-Explanation: Alice's hand can not be rearranged into groups of 4.
+    Input: hand = [1,2,3,4,5], groupSize = 4
+    
+    Output: false
+    
+    Explanation: Alice's hand can not be rearranged into groups of 4.
 
 Constraints:
 
-1 <= hand.length <= 104
-0 <= hand[i] <= 109
-1 <= groupSize <= hand.length
+    1 <= hand.length <= 10^4
+    
+    0 <= hand[i] <= 10^9
+    
+    1 <= groupSize <= hand.length
 
 Takeaway:
 
-For counter, we can use a dict, a defaultdict, a Counter
+    For counter, we can use a dict, a defaultdict, a Counter
 
-We do not actually have to make the groups, we just have to 
-check the conditions.
-
+    We do not actually have to make the groups, we just have to 
+    check the conditions.
 """
+
 from collections import Counter
 from heapq import heapify, heappop
 from collections import defaultdict
 
 class Solution:
     def isNStraightHand__(self, hand: list[int], groupSize: int) -> bool:
-        # first try, bad
-        # does not work
+        # first try, bad, does not work
         
         # each group has group size
         # consists of groupSize consecutive cards.
@@ -59,8 +63,8 @@ class Solution:
         pass
         
     def isNStraightHand_(self, hand: list[int], groupSize: int) -> bool:
-        # neet
-        
+        # works 
+                
         # length of hand has to be divisable by groupSize
         if len(hand) % groupSize:
             # cannot make these groups
