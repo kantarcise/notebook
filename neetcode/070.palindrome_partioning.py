@@ -1,20 +1,21 @@
 """
-Given a string s, partition s such that every
-substring
-of the partition is a
-palindrome
-. Return all possible palindrome partitioning of s.
+Given a string s, partition s such that every substring
+of the partition is a palindrome. 
+
+Return all possible palindrome partitioning of s.
 
  
 Example 1:
 
-Input: s = "aab"
-Output: [["a","a","b"],["aa","b"]]
+    Input: s = "aab"
+    
+    Output: [["a","a","b"],["aa","b"]]
 
 Example 2:
 
-Input: s = "a"
-Output: [["a"]]
+    Input: s = "a"
+    
+    Output: [["a"]]
 
 Constraints:
 
@@ -23,27 +24,28 @@ Constraints:
 
 Takeaway:
 
-Palindrome is just a string - racecar
+    Palindrome is just a string - racecar
 
-Partitioning
+    Partitioning
 
-    [aabb]
-    /   \
-   aa    bb
+        [aabb]
+        /   \
+       aa    bb
 
-root is the string
-nodes are different choices
-think just like a labyrthn. 
- 
-Still need work on backtracking.
+    root is the string
+    nodes are different choices
+    think just like a labyrthn. 
+    
+    Still need work on backtracking.
 """
 
-class Solution_:
+class Solution:
 
-    # my first approach, 
-    # I am acting like I dont know backtracking
-    # which might be the case.
     def partition_(self, s: str) -> "list[list[str]]":
+        # my first approach, DOES NOT WORK
+        # I am acting like I dont know backtracking
+        # which might be the case.
+        
         # palindrome is racecar
         # every single string is viable
         result = []
@@ -74,8 +76,6 @@ class Solution_:
             string_size += 1
             
         return result
-
-class Solution:
 
     def partition(self, s: str) -> "list[list[str]]":
         # neetcode
