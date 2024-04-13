@@ -4,13 +4,15 @@ integers without using the operators + and -.
 
 Example 1:
 
-Input: a = 1, b = 2
-Output: 3
+    Input: a = 1, b = 2
+    
+    Output: 3
 
 Example 2:
 
-Input: a = 2, b = 3
-Output: 5
+    Input: a = 2, b = 3
+    
+    Output: 5
 
 Constraints:
 
@@ -19,17 +21,20 @@ Constraints:
 
 Takeaway:
 
-Addition without + - 
+    Addition without + - 
 
-You gotta think of bitwise operations!
+    You gotta think of bitwise operations!
 
-XOR for sum and Shifted AND for carry!
-
+    XOR for sum and Shifted AND for carry!
 """
+
 class Solution:
+    
     def getSum_(self, a: int, b: int) -> int:
+        # does not work
+
         # this runs infinitely becuase there is no 
-        # limit for an intereget in python
+        # limit for an integer in python
         while b != 0:
             temp = (a & b) << 1
             a = a ^ b
