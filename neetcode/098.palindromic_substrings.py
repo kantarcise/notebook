@@ -6,37 +6,41 @@ A string is a palindrome when it reads the same backward as forward.
 A substring is a contiguous sequence of characters within the string.
 
  
-
 Example 1:
 
-Input: s = "abc"
-Output: 3
-Explanation: Three palindromic strings: "a", "b", "c".
+    Input: s = "abc"
+    
+    Output: 3
+    
+    Explanation: Three palindromic strings: "a", "b", "c".
+
 Example 2:
 
-Input: s = "aaa"
-Output: 6
-Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
+    Input: s = "aaa"
+    
+    Output: 6
+    
+    Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
  
-
 Constraints:
 
-1 <= s.length <= 1000
-s consists of lowercase English letters.
+    1 <= s.length <= 1000
+    
+    s consists of lowercase English letters.
 
 Takeaway:
 
-There are ways to solve DP problems in single traversion.
+    There are ways to solve DP problems in single traversion.
 
-a a a b
+    a a a b
 
-index = 0  - a
+    index = 0  - a
 
-index = 1 - a AND a a a
-
+    index = 1 - a AND a a a
 """
 
 class Solution:
+
     def countSubstrings__(self, s: str) -> int:
         # brute force
         # check every combination
@@ -58,7 +62,8 @@ class Solution:
         return list(map(palindrome, combs)).count(1)
 
     def countSubstrings(self, s: str) -> int:
-        # neet
+        # this is really fast
+        
         count = 0
         for i in range(len(s)):
             # start from 0, check all indexes
@@ -93,7 +98,8 @@ class Solution:
         return count
     
     def countSubstrings_(self, s: str) -> int:
-        
+        # memoization solution
+
         n = len(s)
         # make a memoization list of lists
         dp = [[False] * n for _ in range(n)]
