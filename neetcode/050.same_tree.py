@@ -48,7 +48,8 @@ class TreeNode:
 class Solution:
     
     def isSameTree_(self, p, q ) -> bool:
-        # first try
+        # first try, works!
+        
         # the preorder traversal of same trees should be the same
         def preorder_traversal(root):
             if not root:
@@ -64,6 +65,7 @@ class Solution:
         # both None
         if not p and not q:
             return True
+        
         # only one of them is None
         if not p or not q:
             return False
