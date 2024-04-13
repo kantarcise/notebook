@@ -42,8 +42,9 @@ Takeaway:
 
 class Solution:
 
-    def lengthOfLongestSubstring__(self, s) -> int:
+    def lengthOfLongestSubstring_(self, s) -> int:
         # does not work
+        # it was just an attempt
 
         # abcabcbb
         # iterate over ever element,
@@ -101,4 +102,3 @@ if __name__ == "__main__":
     print(sol.lengthOfLongestSubstring("abcabcbb")) # 3
     print(sol.lengthOfLongestSubstring("bbbbb")) # 1
     print(sol.lengthOfLongestSubstring("pwwkew")) # 3
-
