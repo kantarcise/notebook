@@ -1,14 +1,16 @@
 """
-Serialization is the process of converting a data structure or 
-object into a sequence of bits so that it can be stored in a file or 
+Serialization is the process of converting a data structure or object 
+into a sequence of bits so that it can be stored in a file or 
 memory buffer, or transmitted across a network connection link to 
 be reconstructed later in the same or another computer environment.
 
-Design an algorithm to serialize and deserialize a binary tree. There 
-is no restriction on how your serialization/deserialization algorithm 
-should work. You just need to ensure that a binary tree can be 
-serialized to a string and this string can be deserialized to 
-the original tree structure.
+Design an algorithm to serialize and deserialize a binary tree. 
+
+There is no restriction on how your serialization/deserialization algorithm 
+should work. 
+
+You just need to ensure that a binary tree can be serialized to a string 
+and this string can be deserialized to the original tree structure.
 
 Clarification: The input/output format is the same as how LeetCode 
 serializes a binary tree. You do not necessarily need to follow 
@@ -17,13 +19,13 @@ approaches yourself.
 
 Example 1:
 
-Input: root = [1,2,3,null,null,4,5]
-Output: [1,2,3,null,null,4,5]
+    Input: root = [1,2,3,null,null,4,5]
+    Output: [1,2,3,null,null,4,5]
 
 Example 2:
 
-Input: root = []
-Output: []
+    Input: root = []
+    Output: []
 
 Constraints:
 
@@ -32,25 +34,25 @@ Constraints:
 
 Takeaway:
 
-You can solve the problem with breadth-first search
-or you can solve it with depth first search
-using preorder traversal
+    You can solve the problem with breadth-first search
+    or you can solve it with depth first search
+    using preorder traversal
 
-for the example tree
-     1
-    / \
-   2   3
-      / \
-     4   5
+    for the example tree
+         1
+        / \
+       2   3
+          / \
+         4   5
 
-"1,2,N,N,3,4,N,N,5,N,N"
-is the resulting string
-if we used N for None nodes
+    "1,2,N,N,3,4,N,N,5,N,N"
+    is the resulting string
+    if we used N for None nodes
 
-For each subtree, check the left and right nodes,
-and recursively go a level up
+    For each subtree, check the left and right nodes,
+    and recursively go a level up
 
-Also added the Breadth First Search Solution
+    Also added the Breadth First Search Solution
 
 """
 
@@ -62,9 +64,9 @@ class TreeNode(object):
         self.right = None
 
 
-# I TRIED REALLY HARD, BUT THIS WAS NOT ACCEPPTED.
-
 class SezaiCodec:
+    # I TRIED REALLY HARD, BUT THIS WAS NOT ACCEPPTED.
+
 
     def serialize(self, root):
         """Encodes a tree to a single string.
@@ -133,7 +135,6 @@ class SezaiCodec:
 # deser = Codec()
 # ans = deser.deserialize(ser.serialize(root))
 
-# NEETCODE
 class Codec:
 
     # You can solve the problem with breadth-first search
@@ -199,9 +200,9 @@ class Codec:
 
 from collections import deque
 
-# Breadth-first Search Solution
 class CodecSecond:
-   
+    # Breadth-first Search Solution
+
     def serialize(self, root):
         if root == None: 
             # let "#" be None node
@@ -249,41 +250,40 @@ class CodecSecond:
 
         return root
 
+if __name__ == "__main__":
+    # Make a binary tree:
+    #      1
+    #     / \
+    #    2   3
+    #       / \
+    #      4   5
+    root = TreeNode(1)
+    root.left = TreeNode(2)
+    root.right = TreeNode(3)
+    root.right.left = TreeNode(4)
+    root.right.right = TreeNode(5)
 
+    # Make a Codec instance
+    codec = Codec()
 
-# Create a binary tree:
-#      1
-#     / \
-#    2   3
-#       / \
-#      4   5
-root = TreeNode(1)
-root.left = TreeNode(2)
-root.right = TreeNode(3)
-root.right.left = TreeNode(4)
-root.right.right = TreeNode(5)
+    # Serialize the tree
+    serialized_tree = codec.serialize(root)
+    print("Serialized Tree:", serialized_tree)  
+    # Output: "1,2,*,*,3,4,*,*,5,*,*"
 
-# Create a Codec instance
-codec = Codec()
+    # Deserialize the tree
+    deserialized_tree = codec.deserialize(serialized_tree)
 
-# Serialize the tree
-serialized_tree = codec.serialize(root)
-print("Serialized Tree:", serialized_tree)  
-# Output: "1,2,*,*,3,4,*,*,5,*,*"
+    # Check if the deserialized tree is the same as the original tree
+    def are_trees_equal(node1, node2):
+        if not node1 and not node2:
+            return True
+        if (node1 and not node2) or (not node1 and node2):
+            return False
+        return (
+            node1.val == node2.val
+            and are_trees_equal(node1.left, node2.left)
+            and are_trees_equal(node1.right, node2.right)
+        )
 
-# Deserialize the tree
-deserialized_tree = codec.deserialize(serialized_tree)
-
-# Check if the deserialized tree is the same as the original tree
-def are_trees_equal(node1, node2):
-    if not node1 and not node2:
-        return True
-    if (node1 and not node2) or (not node1 and node2):
-        return False
-    return (
-        node1.val == node2.val
-        and are_trees_equal(node1.left, node2.left)
-        and are_trees_equal(node1.right, node2.right)
-    )
-
-print("Are Trees Equal:", are_trees_equal(root, deserialized_tree))  # Output: True
+    print("Are Trees Equal:", are_trees_equal(root, deserialized_tree))  # Output: True
