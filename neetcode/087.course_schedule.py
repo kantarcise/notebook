@@ -1,49 +1,59 @@
 """
 There are a total of numCourses courses you have to take, labeled 
-from 0 to numCourses - 1. You are given an array prerequisites 
-where prerequisites[i] = [ai, bi] indicates that you must take 
-course bi first if you want to take course ai.
+from 0 to numCourses - 1. 
+
+You are given an array prerequisites where prerequisites[i] = [ai, bi] 
+indicates that you must take course bi first if you want to take course ai.
 
     For example, the pair [0, 1], indicates that to take course 
-0 you have to first take course 1.
+        0 you have to first take course 1.
 
 Return true if you can finish all courses. Otherwise, return false.
 
 Example 1:
 
-Input: numCourses = 2, prerequisites = [[1,0]]
-Output: true
+    Input: numCourses = 2, prerequisites = [[1,0]]
+    
+    Output: true
 
-Explanation: There are a total of 2 courses to take. 
-To take course 1 you should have finished course 0. So it is possible.
+    Explanation: 
+    
+        There are a total of 2 courses to take. 
+            To take course 1 you should have finished course 0. So it is possible.
 
 Example 2:
 
-Input: numCourses = 2, prerequisites = [[1,0],[0,1]]
+    Input: numCourses = 2, prerequisites = [[1,0],[0,1]]
 
-Output: false
+    Output: false
 
-Explanation: There are a total of 2 courses to take. 
-To take course 1 you should have finished course 0, and to take 
-course 0 you should also have finished course 1. 
-So it is impossible.
+    Explanation: 
+    
+        There are a total of 2 courses to take. 
+        To take course 1 you should have finished course 0, and to take 
+        course 0 you should also have finished course 1. 
+        So it is impossible.
 
 Constraints:
 
     1 <= numCourses <= 2000
+    
     0 <= prerequisites.length <= 5000
+    
     prerequisites[i].length == 2
+    
     0 <= ai, bi < numCourses
+    
     All the pairs prerequisites[i] are unique.
 
 Takeaway:
 
-We can make an adjecancy list using a hashmap
+    We can make an adjecancy list using a hashmap
 
-we will check the possible cycles with a set.
+    we will check the possible cycles with a set.
 
-Because the graph is not connected, we have to run 
-dfs on every course =)
+    Because the graph is not connected, we have to run 
+    dfs on every course =)
 
 """
 from collections import defaultdict
@@ -120,7 +130,8 @@ class Solution:
     def canFinish(self, numCourses: int, prerequisites: list[list[int]]) -> bool:
         """Return True if one can finish their courses
         This one is the simplest approach"""
-        # neet guidance
+        # WORKS
+        
         # all courses and it's prequisites are edges 
         # time complexity is O(n + p) because we will move from 
         # every single node using every single edge
