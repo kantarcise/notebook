@@ -16,18 +16,21 @@ The following rules define a valid string:
 
 Example 1:
 
-Input: s = "()"
-Output: true
+    Input: s = "()"
+    
+    Output: true
 
 Example 2:
 
-Input: s = "(*)"
-Output: true
+    Input: s = "(*)"
+    
+    Output: true
 
 Example 3:
 
-Input: s = "(*))"
-Output: true
+    Input: s = "(*))"
+    
+    Output: true
 
 
 Constraints:
@@ -35,17 +38,17 @@ Constraints:
     1 <= s.length <= 100
     s[i] is '(', ')' or '*'.
 
-
 Takeaway:
 
-Using a counter for left and right is cool.
+    Using a counter for left and right is cool.
 
 """
 
 class Solution:
     def checkValidString_(self, s: str) -> bool:
-        # neet
-        # we basicall y have a joker! 
+        # works
+        
+        # we basically have a joker! 
         # "*" can be both left or right
         
         # we have to have matching number of 
