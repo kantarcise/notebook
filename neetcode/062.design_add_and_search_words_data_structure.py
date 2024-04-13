@@ -16,45 +16,54 @@ Implement the WordDictionary class:
 
 Example:
 
-Input
-["WordDictionary","addWord","addWord","addWord","search","search","search","search"]
-[[],["bad"],["dad"],["mad"],["pad"],["bad"],[".ad"],["b.."]]
-Output
-[null,null,null,null,false,true,true,true]
+    Input:
+        ["WordDictionary","addWord","addWord","addWord",
+            "search","search","search","search"]
+        
+        [[],["bad"],["dad"],["mad"],["pad"],
+            ["bad"],[".ad"],["b.."]]
 
-Explanation
-WordDictionary wordDictionary = new WordDictionary();
-wordDictionary.addWord("bad");
-wordDictionary.addWord("dad");
-wordDictionary.addWord("mad");
-wordDictionary.search("pad"); // return False
-wordDictionary.search("bad"); // return True
-wordDictionary.search(".ad"); // return True
-wordDictionary.search("b.."); // return True
+    Output:
+        [null,null,null,null,false,true,true,true]
+
+    Explanation:
+        
+        WordDictionary wordDictionary = new WordDictionary();
+        wordDictionary.addWord("bad");
+        wordDictionary.addWord("dad");
+        wordDictionary.addWord("mad");
+        wordDictionary.search("pad"); // return False
+        wordDictionary.search("bad"); // return True
+        wordDictionary.search(".ad"); // return True
+        wordDictionary.search("b.."); // return True
 
 Constraints:
 
     1 <= word.length <= 25
+    
     word in addWord consists of lowercase English letters.
+    
     word in search consist of '.' or lowercase English letters.
+    
     There will be at most 2 dots in word for search queries.
-    At most 104 calls will be made to addWord and search.
+    
+    At most 10^4 calls will be made to addWord and search.
 
 Takeaway:
 
-This is obviously a Trie (Prefix Tree) Question
-
-Because we are looking for all words starting 
-with some characters "ab." or "b.."
-
-A root and 26 children in the Trie
-
-"." character is a wildcard. It can be used instead any character
-We should use end of the word to show that word ended
-
-The Trie solution gives us time limit exceeded
-
-SO a hashmap solution is added.
+    This is obviously a Trie (Prefix Tree) Question
+    
+    Because we are looking for all words starting 
+    with some characters "ab." or "b.."
+    
+    A root and 26 children in the Trie
+    
+    "." character is a wildcard. It can be used instead any character
+    We should use end of the word to show that word ended
+    
+    The Trie solution gives us time limit exceeded
+    
+    SO a hashmap solution is added.
 
 """
 
