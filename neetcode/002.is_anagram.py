@@ -82,5 +82,5 @@ sol = Solution()
 print(sol.isAnagram(s = "rat", t  = "car")) # False
 print(sol.isAnagram(s = "anagram", t  = "nagaram")) # True
 
-print(sol.isAnagramMap(s = "rat", t  = "car")) # False
-print(sol.isAnagramMap(s = "anagram", t  = "nagaram")) # True
+print(sol.isAnagram_(s = "rat", t  = "car")) # False
+print(sol.isAnagram_(s = "anagram", t  = "nagaram")) # True
