@@ -53,6 +53,16 @@ So we need to be true to who we are and remember what’s really important to us
 
 14/08/2023
 
+These 3 ideas turned everything into meditation.
+
+- Substitute adventure for security. Where do you find your adventure? Aim up and tell the truth, adventure will come your way.
+
+- Removing the outcome has been the most liberating thing I have ever done. I cannot begin to tell you the joy that I am feeling in being truly present, because the work is the goal. We do not work hard, so that (stuff happens - outcome). We work hard, period.
+
+- Whatever happens to you when you tell the truth, is the best thing that could happen, no matter how it looks to you.
+
+15/04/2024
+
 ...
 
 # Celebrating Steve - Apple 
