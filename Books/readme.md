@@ -597,3 +597,64 @@ unjust tyranny of Chance. You are not a lottery ticket.
 ## 14 The Founder’s Paradox
 
 Conclusion: Stagnation or Singularity?
+
+
+---------------------------------------------------------------------------------------------------------
+
+<p align="center">
+  <img src="https://github.com/kantarcise/notebook/blob/master/Books/covers/build_tonyFadell.jpg" title="Build"/>
+</p>
+
+- **What they don’t teach you** (page 3): But all the stuff they don’t and can’t teach you in college- how to thrive in the workplace, how to make something amazing, how to deal with managers and eventually become one- it all slaps you in the face the second you step off campus.
+
+- **Inaction** (page 7): The only failure in your twenties is inaction. The rest is trial and error.
+
+- **Thinking** (page 13): I realized there was a whole world of thinking that was needed before a line of code should be written.
+
+- **Heroes** ( page 23): Any job working with your heroes is a good job.
+
+- **Junior IC’s** ( page 29): Junior Individual Contributors spend 80 percent of their time looking straight down - maybe a week or two out - to see the fine points of their day-to-day work.
+
+- **Outshine** (page 44) : As a manager ( when you become one) do not worry that your team will outshine you. In fact it is your goal.
+
+- **DEST** (page 47): At Apple, star individual contributors get recognized and awarded in Distinguished Engineer,Scientist or Technologist program.
+
+- **Stories** (page 63): It is what our all big choices ultimately come down to - believing a story we tell ourselves or someone else tells us.
+
+- **Leaving** (page 80): People won’t remember how you started. They will remember how you left.
+
+- **Customer Journey** (page 96): “Don’t tell me what’s so special about this object. Tell me what’s different about customer journey “ There is a wonderful graphic at the page 97.
+
+- **A good product Story** (page 107): It should appeal to people’s rational and emotional sides. It takes complicated concepts and makes them simple. It focuses on the “Why?”
+
+- **The Virus of Doubt** (page 109): If you can infect people with the virus of the doubt, “Maybe my experience isn’t good as I thought, maybe it could be better” then you prime them for your solution.
+
+- **Analogies** (page 112): That’s another thing I learned from Steve Jobs. He’d always say that analogies give customer superpowers. A great analogy allows a customer to instantly grasp a difficult feature and then describe that feature to others. That’s why “1000 songs in your pocket “ was so powerful.
+
+- **Press release** ( page 136): Typically your vision is much greater than what materializes in V1. There is always another revision.. Here is the trick, write a press release . Not when you are done. Write it when you start. It is an incredibly useful tool to narrow down what really matters.
+
+- **Launches** ( page 147): Have one big launch and another one to three smaller launches every year.
+
+- **Ideas** (page 172): The best ideas are painkillers, not vitamins. Vitamins are good for you but they are not essential. You can skip them for a day, a month, a lifetime and never notice the difference. But you will notice real quick if you forget a painkiller.
+
+- **Crisis** ( page 219): You will encounter crisis eventually. Everyone does. Keep your focus on the problem, not who to blame. As a leader you have to get into the weeds. Get advice. Your job once people get over the initial shock will be constant communication. It does not matter if the crisis is caused by your mistake or your team, accept responsibility for how it affected customers and apologize.
+
+- **Hiring** (page 229): Every young person you spend time training is an investment in the long-term health of your company.
+
+- **Guidence** (page 231): Someone took a risk on you once. Someone guided you through your mistakes, took the time help you grow. NOt only is it your duty to create that moment for the next generation, but it's also a good invesment in the long-term success of your company.
+
+- **Why did you quit your last job ?** (page 235): Not the most original question, but the answer matters. I am looking for a crisp clear story.
+
+- **Struggling** (page 238): Anyone who is struggling should be having weeklyt or twice monthly 1:1 meetings about that struggle. That's where issues are honestly discussed, solutions are attempted, and there is a follow-up about what worked, what did not and what is going to happen next.
+
+- **Growth** (page 243): It's either grow or die. Stasis is stagnation. Change is the only option.
+
+- **Writing** (page 258): Make every team write how they do things. Marketing, endgineering, phases for product. It cannot be just left in people's brains.
+
+- **Avoid Habituation** (page 262): Life is full of tiny and enormous inconveniences that you no longer notice because your brain simply acceppted them as unchangeable reality and filtered them out.
+
+- **Context in Marketing** (page 274): Your message needs toi fit the customer's context. You cannot say everything everywhere.
+
+- **Types of CEO's** (page 321): Babysitters, Parents and Incompentent CEO's.
+
+- **Board** (page 337): What kind of board members should you have? Why even have a board? 
