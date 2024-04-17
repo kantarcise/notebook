@@ -69,6 +69,8 @@ class Solution:
                         (abs(arr[j] - arr[k]) <= b) and
                         (abs(arr[i] - arr[k]) <= c)):
                         result += 1
-        
+
+        return result
+
 sol = Solution()
 print(sol.countGoodTriplets(arr = [3,0,1,1,9,7], a = 7, b = 2, c = 3))
