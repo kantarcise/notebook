@@ -1,3 +1,147 @@
+## Tony Robbins - On Leadership
+
+**Leadership** is a skill of influence and it is one of the most important skills you can have.
+
+It is not a position, it is a skill.
+
+Other people do not have to follow you to be a leader.
+
+You have to live your life on your terms. 
+
+Can you influence yourself?
+
+Ideas will die on your lips unless you can become a person of influence.
+
+
+
+### What is "destroying the limitations of your own mind" mean?
+
+Businesses are bottlenecked by skills or believes of the leader.
+
+When you allow the environment to control your psychology, you are not going to win.
+
+When you believed you tried everything possible, if you think you are maxed out, you are finished.
+
+The San Jose - found the gold after 27 years of search.
+
+You have to believe 3 things:
+
+- There is treasure out there.
+
+- I will find it.
+ 
+- It is worth it.
+
+Changing the psychology of the leader, is what will change a business really fast.
+
+
+
+### What are the mechanics of changing your limitations?
+
+People are not one way. We are reflection of the state we are living in.
+
+Overwhelmed, tired vs committed, passionate, determined.
+
+These are night and day different people.
+
+You got to learn how to change your state.
+
+If someone gets in a slump, you show someone a video of his/her best.
+
+The movement, the energy is different.
+
+2-Minute Power Pose: 20% More Testosterone, 18% Less Kortizole.
+
+Training yourself to be in a peak state every day. That is what great leaders need to do.
+
+
+
+
+### Can anyone be a leader?
+
+What is the scareset resource we have in our society today, is great leaders.
+
+Anyone can be a leader that they decided to become masterful in.
+
+You could be a leader of your own life.
+
+You should be the leader of your family.
+
+It is a skill, it starts by having something that you are committed to that is larger than yourself, a vision that is bigger than yourself.
+
+If there is a large enough vision, if you have enough passion for that vision, than you are going to have enough drive to actually start to execute on that vision.
+
+Life is not zero sum. My leadership does not take away from your leadership.
+
+As a leader, what will free you? Recruiting other leaders, training other leaders.
+
+What does a leader do? They get the result. They find a way to victory. They find a way to make breakthrough with teams.
+
+
+###  How to influence?
+
+In order to influence people, you have to know what already influences them.
+
+You cannot influence people the way you get influenced.
+
+There are 2 things that influence everyone.
+
+As a leader:
+
+- Have to know how to change other peoples states.
+
+- Blueprints ? What are they values? What do they believe? What do they fear?
+
+### How to change?
+
+If you want to produce change, you have to study what works.
+
+Success leaves clues.
+
+You could save yourself a decade, by spending a few weeks modeling somebody that strong.
+
+### Improvement?
+
+You have to retool yourself.
+
+The opportunity for self education is there.
+
+pSYCHOLOGY IS SUCH A WEIRD THING.
+
+I am going to do what everybody else does, I am angry that it does not work anymore.
+
+TO
+
+This is the greatest time to be alive if you are learning, growing and you are developing valuable skills.
+
+Where are the skillsets are valued in the marketplace.
+
+How do I work harder on myself than anything else?
+
+
+
+Progress == Happiness
+
+Enterpreneurs love risk.
+
+### Strategies
+
+You do not have to be the originator of an idea. 
+
+You can see a model that works and just execute better than someone else.
+
+See something that works to bring it somewhere else.
+
+Why not you?
+
+I have to break pattern for you.
+
+Failure is learning. It is a speedbump on the way to success.
+
+When you permenantly give up, that is failure.
+
+---
+
 ## Alex
 
 ["We do not work hard so that ......, we work hard. PERIOD."](https://youtu.be/ahslH-8qoFY?t=286)
