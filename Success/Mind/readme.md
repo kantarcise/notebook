@@ -1,3 +1,23 @@
+## Les Brown
+
+[Choosing your future](https://youtu.be/8Fd06U-3TAY?t=402)
+
+Not only it is important for you to know that it is possible for you to choose your future, but it is necessary.
+
+It is neccessary that you get the energy drainers out of your life. People who do not want anything.
+
+It is neccessary to know that everybody won't see it. 
+
+Everybody won't join you. Everybody won't have the vision.
+
+A lot people complain but they do not want to do anything about their situation.
+
+Even if noone else sees it for me, I must see it for myself.
+
+[The Longshot](https://youtu.be/8Fd06U-3TAY?t=960)
+
+It is a longshot.
+
 ## Tony Robbins - On Leadership
 
 **Leadership** is a skill of influence and it is one of the most important skills you can have.
