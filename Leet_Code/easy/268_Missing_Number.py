@@ -41,18 +41,55 @@ Takeaway:
 
   When told about a piece in range, always remember (n)(n + 1)/2
 
+  Brute force would be just to use a set and traverse input.
+
+  Bitwise operators - XOR magic
 """
 
 class Solution:
-    def missingNumber_(self, nums: List[int]) -> int:
+    def missingNumber___(self, nums: List[int]) -> int:
         # incredibly slow
         n = len(nums)
         for i in range(n+1):
             if i not in nums:
                 return i
             
-    def missingNumber(self, nums: List[int]) -> int:
+    def missingNumber__(self, nums: List[int]) -> int:
         # way faster and smarter
         n = len(nums)
         # just return the expected total subtracted by current sum
         return (n * (n + 1)) // 2 - sum(nums)
+    
+    def missingNumber_(self, nums : list[int]) -> int:
+        seen = set(nums)
+
+        for i in range(len(nums) + 1):
+            if i not in seen:
+                return i
+    
+    def missingNumber(self, nums: list[int]) -> int:
+        # what do we know ?
+        # a ^ a = 0
+        # a ^ 0 = a
+
+        # in a range of numbers:
+        # only a single number will not have 
+        # and index and a value together
+
+        # example
+        # [1, 3, 2]
+
+        # starting from 3 than traversing the list
+        # 3 ^ 0 ^ 1 ^ 3 ^ 1 ^ 2 ^ 2
+
+        # only non pair is the answer -> 0! 
+
+        # take the initial value as the length of nums
+        result = len(nums)
+        
+        # xor all numbers and indexes in the list
+
+        for idx, num in enumerate(nums):
+            result ^= idx ^ num
+        
+        return result
