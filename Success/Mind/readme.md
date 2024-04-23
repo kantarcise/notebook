@@ -1,3 +1,11 @@
+## Do Not Lie
+
+[How can you adapt to reality when you falsify it?](https://www.youtube.com/watch?v=uNM-VCdP8pw&t=123s) 
+
+You think, well I'm just lying to other people. No you are not. You cannot just lie to other people because what you say becomes you, especially if you practice it. 
+
+Because we build ourselves out of words.
+
 ## Steve
 
 [Death](https://youtu.be/sdvzYtgmIjs?t=4166)
