@@ -27,6 +27,28 @@ What drove me? I think most creative people want to express appreciation for bei
 
 ---
 
+## Mark Gainey
+
+[Just start building](https://youtu.be/ZJWbDPAm8Tc?list=PLoROMvodv4rPE-kcGtKBgYtSMqEJKbESC&t=484)
+
+“inch wide, mile deep” strategy.
+
+We did everything wrong. 
+
+We did not call them customers, they were our partners. 
+
+We understood what they valued. Cyclists value the climb.
+
+If we can capture the climb, give them a way to share this, that is the key.
+
+We focused on engagement.
+
+Customer based model.
+
+Acquisition - Engagement - Monetization.
+
+---
+
 ## Jordan 
 
 [Substitute adventure for security.](https://youtu.be/g6VNAM58a_U?t=4932)
