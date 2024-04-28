@@ -1,3 +1,10 @@
+## Steve 
+
+Being a pirate 🏴‍☠️
+
+[It's better to be a pirate than join the navy.](https://www.folklore.org/Pirate_Flag.html?sort=date?sort=date)
+
+
 ## Do Not Lie
 
 [How can you adapt to reality when you falsify it?](https://www.youtube.com/watch?v=uNM-VCdP8pw&t=123s) 
