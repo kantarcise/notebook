@@ -1,3 +1,9 @@
+## Tim
+
+Here is a simple question:
+
+[How will you serve humanity?](https://youtu.be/ckjkz8zuMMs?t=373)
+
 ## Steve 
 
 Being a pirate 🏴‍☠️
