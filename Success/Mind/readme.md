@@ -1,3 +1,9 @@
+## Jim Keller
+
+Steve Jobs and Elon are both visionary and hands on.
+
+[f around and find out video in a all hands meeting.](https://youtu.be/rfFuTgnvwgs?list=LL&t=1980)
+
 ## Tim
 
 Here is a simple question:
