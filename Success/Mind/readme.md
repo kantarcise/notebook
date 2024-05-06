@@ -1,3 +1,7 @@
+## Jordan
+
+The only way out is through. You take more of the thing that poisons you, until you turn it into a tonic that girdles the world around.
+
 ## Jim Keller
 
 Steve Jobs and Elon are both visionary and hands on.
