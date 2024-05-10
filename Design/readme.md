@@ -15,6 +15,16 @@
   <img src="https://i.stack.imgur.com/dvgZl.jpg" title="Magnificent"/>
 </p>
 
+---
+
+<p align="center">
+  <img src="img/sl55.png">
+</p>
+
+<div align="center">
+  <a href="https://github.com/kantarcise/notebook/blob/master/Design/2005-Mercedes-Benz-AMG-Class.pdf">Why did Steve chose an SL55?</a>  
+</div>
+
 
 ---
 
