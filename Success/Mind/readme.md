@@ -1,3 +1,11 @@
+## Leila
+
+[Did I do the things that felt once impossible?](https://youtu.be/eIPf1s2l-TM?t=3760)
+
+I want to know that I did everything that I was possibly capable of in life.
+
+That is what I will measure my life upon.
+
 ## Alex
 
 [Take pictures. Especially in hard times.](https://www.youtube.com/shorts/kUwPEfG8OQI) 
