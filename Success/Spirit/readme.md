@@ -27,6 +27,16 @@ What drove me? I think most creative people want to express appreciation for bei
 
 ---
 
+## Jordan
+
+What happens if you do not say what you have to say?
+
+You go to hell and you take everyone you love with you.
+
+[This is not just some story](https://youtu.be/B-MIrDCipTQ?t=500)
+
+---
+
 ## Mark Gainey
 
 [Just start building](https://youtu.be/ZJWbDPAm8Tc?list=PLoROMvodv4rPE-kcGtKBgYtSMqEJKbESC&t=484)
