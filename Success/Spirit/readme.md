@@ -29,6 +29,14 @@ What drove me? I think most creative people want to express appreciation for bei
 
 ## Jordan
 
+I will do good, no matter what.
+
+[No matter what.](https://www.youtube.com/watch?v=ERz_6q-t6NA)
+
+---
+
+## Jordan
+
 What happens if you do not say what you have to say?
 
 You go to hell and you take everyone you love with you.
