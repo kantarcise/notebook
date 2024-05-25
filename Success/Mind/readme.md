@@ -1,3 +1,9 @@
+## Why Do We Admire Certain People?
+
+It is based on your value structure.
+
+[Jordan](https://www.youtube.com/shorts/YKIpX_NjxLM)
+
 ## Leila
 
 [Did I do the things that felt once impossible?](https://youtu.be/eIPf1s2l-TM?t=3760)
