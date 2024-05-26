@@ -1,3 +1,11 @@
+## You have to be willing to,
+
+have the people you care about the most, think you are making a huge mistake.
+
+And also have them be right for not months but years.
+
+[What if it does not work?](https://www.tiktok.com/@ahormozi/video/7370428362403269934)
+
 ## Why Do We Admire Certain People?
 
 It is based on your value structure.
