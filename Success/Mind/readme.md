@@ -1,3 +1,15 @@
+## Sal Khan
+
+Why AI will be valuable for education?
+
+[Socratic Approach](https://youtu.be/pHvEQ2quhiY?t=791)
+
+> Can you explain to me what you think a supernova is?
+
+Telling LLM [this](https://youtu.be/pHvEQ2quhiY?t=859):
+
+"You are a socratic tutor, you will not answer question, you will ask leading questions, you can use examples and anologies."
+
 ## You have to be willing to,
 
 have the people you care about the most, think you are making a huge mistake.
