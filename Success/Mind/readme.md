@@ -1,3 +1,13 @@
+## Patrick Collison
+
+[Starting a writing culture.](https://youtu.be/az3D8DhyltY?t=2061)
+
+Bruno Lator talks about how priting press made scientific knowladge more rigid. 
+
+Because before it, all copies had to be made by hand. So people made errors.
+
+Robustness through time makes it easier to find flaws.
+
 ## Sal Khan
 
 Why AI will be valuable for education?
