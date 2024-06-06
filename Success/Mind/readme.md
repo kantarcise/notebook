@@ -1,3 +1,7 @@
+## Alex
+
+I stand here, [truthfully unafraid.](https://www.youtube.com/shorts/jd5aSTIfRz8)
+
 ## Patrick Collison
 
 [Starting a writing culture.](https://youtu.be/az3D8DhyltY?t=2061)
