@@ -1,3 +1,9 @@
+## Jordan 
+
+[Resentment - how to solve it?](https://youtu.be/YB0ikl8fNY0?t=510)
+
+When you have something to say, say it. You do not have to assume that you are right.
+
 ## Alex
 
 I stand here, [truthfully unafraid.](https://www.youtube.com/shorts/jd5aSTIfRz8)
