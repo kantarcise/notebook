@@ -1,3 +1,7 @@
+## What is Freedom?
+
+[Need nothing from noone](https://www.youtube.com/shorts/RYHxougVtik)
+
 ## Jordan 
 
 [Resentment - how to solve it?](https://youtu.be/YB0ikl8fNY0?t=510)
