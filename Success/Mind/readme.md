@@ -1,3 +1,11 @@
+## Time Flies
+
+If you don't reach what you can reach, I think you will regret it.
+
+You should demand more from you.
+
+[Jose Mourinho](https://www.youtube.com/watch?v=hhjgQVAkUIw)
+
 ## What is Freedom?
 
 [Need nothing from noone](https://www.youtube.com/shorts/RYHxougVtik)
