@@ -1,3 +1,14 @@
+## What do you need to avoid?
+
+Jim Keller - Starting from Atoms to Operating Systems.
+
+- Weak Leadership
+- Bad Goals
+- Functional Teams not Product Teams
+- Some Managers Play Favorites
+
+Here is [the link.](https://youtu.be/1TmuJSbms9c?t=7170)
+
 ## Time Flies
 
 If you don't reach what you can reach, I think you will regret it.
