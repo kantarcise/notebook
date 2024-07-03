@@ -1,3 +1,8 @@
+## I know I could do it.
+
+Kanye and [Dream Killers.](https://youtu.be/R-DciZrvZBw?t=21)
+
+
 ## What do you need to avoid?
 
 Jim Keller - Starting from Atoms to Operating Systems.
