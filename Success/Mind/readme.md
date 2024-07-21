@@ -18,6 +18,8 @@ Jim Keller - Starting from Atoms to Operating Systems.
 
 Here is [the link.](https://youtu.be/1TmuJSbms9c?t=7170)
 
+Computers have 3 components - Memory , Programs , I/O - [Link](https://youtu.be/1TmuJSbms9c?t=3712)
+
 ## Time Flies
 
 If you don't reach what you can reach, I think you will regret it.
