@@ -1,3 +1,7 @@
+## Look at what works, what doesnt
+
+Just repeat 100 times, [look at the top ones and bottom ones](https://www.youtube.com/shorts/kAQHIAOvgmY).
+
 ## Why I fight?
 
 We are fighting because the world needs heroes, and [there is noone else but us.](https://www.youtube.com/watch?v=mrTSnw_X2yE)
