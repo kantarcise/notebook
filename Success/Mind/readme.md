@@ -1,3 +1,7 @@
+## They just don't understand how many times we do things.
+
+[Yes.](https://www.youtube.com/shorts/UiPvEBaKL1c)
+
 ## Look at what works, what doesnt
 
 Just repeat 100 times, [look at the top ones and bottom ones](https://www.youtube.com/shorts/kAQHIAOvgmY).
