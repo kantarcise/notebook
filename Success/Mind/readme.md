@@ -1,3 +1,7 @@
+## Just read in your field
+
+[Function at a far higher level](https://youtu.be/KAGn_k1jHsY?t=1690)
+
 ## They just don't understand how many times we do things.
 
 [Yes.](https://www.youtube.com/shorts/UiPvEBaKL1c)
