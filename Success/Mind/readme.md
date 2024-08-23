@@ -1,3 +1,12 @@
+## books from Carl Sagan
+
+What an astonishing thing a book is. It’s a flat object made from a tree with flexible parts on which are imprinted lots of funny dark squiggles. But one glance at it and you’re inside the mind of another person, maybe somebody dead for thousands of years. 
+
+Books break the shackles of time.
+
+Carl Sagan, Cosmos: A Personal Voyage
+
+
 ## Just read in your field
 
 [Function at a far higher level](https://youtu.be/KAGn_k1jHsY?t=1690)
