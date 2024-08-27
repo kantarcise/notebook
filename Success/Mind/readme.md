@@ -1,3 +1,7 @@
+## You have a, what ? A tendency ?
+
+[World Class articulation, should make a video of it](https://www.tiktok.com/@infinite.vibrations/video/7405457983976525086).
+
 ## books from Carl Sagan
 
 What an astonishing thing a book is. It’s a flat object made from a tree with flexible parts on which are imprinted lots of funny dark squiggles. But one glance at it and you’re inside the mind of another person, maybe somebody dead for thousands of years. 
