@@ -1,3 +1,7 @@
+## [Small steps](https://www.youtube.com/shorts/AbMfVFNzrfA)
+
+You do it anyway. Why? You believe in a higher cause.
+
 ## You have a, what ? A tendency ?
 
 [World Class articulation, should make a video of it](https://www.tiktok.com/@infinite.vibrations/video/7405457983976525086).
