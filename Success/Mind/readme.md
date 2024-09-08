@@ -1,3 +1,8 @@
+## Jensen Huang’s life philosophy
+
+https://x.com/zfellows/status/1832495775571443899
+
+
 ## [Small steps](https://www.youtube.com/shorts/AbMfVFNzrfA)
 
 You do it anyway. Why? You believe in a higher cause.
