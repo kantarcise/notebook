@@ -1,3 +1,7 @@
+## what is the goal?
+
+[You should take the approach that you are wrong, you the enterpreneur are wrong. Your goal is to be less wrong.](https://youtu.be/-U5dEdWouDY?list=LL&t=811)
+
 ## Jensen Huang’s life philosophy
 
 https://x.com/zfellows/status/1832495775571443899
