@@ -1,3 +1,7 @@
+## what would you do if you were not afraid?
+
+[The key to big decisions](https://www.youtube.com/watch?v=dPK77PX2bYA).
+
 ## what is the goal?
 
 [You should take the approach that you are wrong, you the enterpreneur are wrong. Your goal is to be less wrong.](https://youtu.be/-U5dEdWouDY?list=LL&t=811)
