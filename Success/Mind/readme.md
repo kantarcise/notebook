@@ -1,3 +1,7 @@
+## What is technology?
+
+Doing more with less or being able to do things that you just couldn't do it at all before. Making new tools for people to use. [Sam](https://youtu.be/KsX3NI7STBg?t=1004).
+
 ## what would you do if you were not afraid?
 
 [The key to big decisions](https://www.youtube.com/watch?v=dPK77PX2bYA).
