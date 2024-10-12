@@ -1,3 +1,7 @@
+## Exceptional
+
+[Do not expect to be accepted.](https://www.youtube.com/shorts/OA2zxbmoW4c)
+
 ## What is technology?
 
 Doing more with less or being able to do things that you just couldn't do it at all before. Making new tools for people to use. [Sam](https://youtu.be/KsX3NI7STBg?t=1004).
