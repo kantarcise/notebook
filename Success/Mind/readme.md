@@ -1944,7 +1944,7 @@ Whatever information you're feeding your mind on a daily basis, whatever you foc
 
 ---
 
-[Growth Without Goals - Patrick O'Shaughnessy - https://www.joincolossus.com/blog/posts/growth-without-goals?ref=candosts-space&utm_source=substack&utm_medium=email
+[Growth Without Goals - Patrick O'Shaughnessy](https://github.com/kantarcise/notebook/blob/master/Success/Mind/growth_without_goals.md)
 
 **Man lives by time. Inventing the future has been his favorite game of escape.**
 **We think that changes in ourselves can come about in time, that order in ourselves can be**
