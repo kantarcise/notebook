@@ -1,6 +1,10 @@
 # Growth Without Goals
 
-I. Four years ago, soon after learning that my wife was pregnant with our first child, I was sitting on the Metro-North commuter train, reading. I was thinking about being a father; specifically, I was wondering what it would take to be a great father. Unconditional love and support seemed obvious. Patience too. But what could I teach my son Pierce and future kids that would help them live good, fulfilling lives? That day, I read the following passage from Jiddu Krishnamurti[i]:
+old link - https://joincolossus.com/blog/posts/growth-without-goals?ref=candosts-space&utm_source=substack&utm_medium=email
+
+I. 
+
+Four years ago, soon after learning that my wife was pregnant with our first child, I was sitting on the Metro-North commuter train, reading. I was thinking about being a father; specifically, I was wondering what it would take to be a great father. Unconditional love and support seemed obvious. Patience too. But what could I teach my son Pierce and future kids that would help them live good, fulfilling lives? That day, I read the following passage from Jiddu Krishnamurti[i]:
 
 Man lives by time. Inventing the future has been his favorite game of escape. We think that changes in ourselves can come about in time, that order in ourselves can be built up little by little, added to day by day. But time doesn’t bring order or peace, so we must stop thinking in terms of gradualness. This means that there is no tomorrow for us to be peaceful in. We have to be orderly on the instant.
 
