@@ -1,3 +1,7 @@
+## Just Keep Stacking Days
+
+[Nothing changes, just keep at it,](https://www.youtube.com/shorts/RTIK2YqMYdc)
+
 ## Exceptional
 
 [Do not expect to be accepted.](https://www.youtube.com/shorts/OA2zxbmoW4c)
