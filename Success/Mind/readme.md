@@ -1,3 +1,9 @@
+## Volume Negates Luck
+
+[Just move.](https://www.youtube.com/shorts/QHbtkrL_opc)
+
+The pottery class.
+
 ## Just Keep Stacking Days
 
 [Nothing changes, just keep at it,](https://www.youtube.com/shorts/RTIK2YqMYdc)
