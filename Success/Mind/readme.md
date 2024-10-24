@@ -1,3 +1,9 @@
+## Go on a different information diet
+
+[Different information diet needed](https://youtu.be/YFA8AS5Cu2w?t=261)
+
+[If the people in your life do not have bigger dreams for you than you do, just ignore them entirely.](https://youtu.be/YFA8AS5Cu2w?t=423)
+
 ## Volume Negates Luck
 
 [Just move.](https://www.youtube.com/shorts/QHbtkrL_opc)
