@@ -1,3 +1,7 @@
+## Let's play a game
+
+[You Should Move Forward Against All Odds](https://www.youtube.com/shorts/LD6xcTs2-BI)
+
 ## Go on a different information diet
 
 [Different information diet needed](https://youtu.be/YFA8AS5Cu2w?t=261)
