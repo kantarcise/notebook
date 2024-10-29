@@ -1,3 +1,9 @@
+## fastest way to learn
+
+[is to talk to experts](https://www.youtube.com/shorts/-h7dAolPkPc)
+
+because experts have already consolidated the information.
+
 ## Let's play a game
 
 [You Should Move Forward Against All Odds](https://www.youtube.com/shorts/LD6xcTs2-BI)
