@@ -1,3 +1,7 @@
+## keep pushing
+
+[Dr. Dre - Ice cube - K Dot](https://youtu.be/nJyss8iTWVw?t=1438)
+
 ## fastest way to learn
 
 [is to talk to experts](https://www.youtube.com/shorts/-h7dAolPkPc)
