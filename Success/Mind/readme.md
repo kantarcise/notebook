@@ -1,3 +1,7 @@
+## why goals matter more than any other person
+
+[The reason that the goals matter more than the person you are with, because the goals are actually relationship with yourself.](https://youtu.be/vK-NFXitqIM?t=774)
+
 ## keep pushing
 
 [Dr. Dre - Ice cube - K Dot](https://youtu.be/nJyss8iTWVw?t=1438)
