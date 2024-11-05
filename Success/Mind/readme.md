@@ -1,3 +1,7 @@
+## discomfort today
+
+It costs [discomfort](https://www.youtube.com/shorts/pqaB_P53T7g).
+
 ## why goals matter more than any other person
 
 [The reason that the goals matter more than the person you are with, because the goals are actually relationship with yourself.](https://youtu.be/vK-NFXitqIM?t=774)
