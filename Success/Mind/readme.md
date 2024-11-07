@@ -1,3 +1,18 @@
+## Insights from Google
+
+[Irina Stanescu from her time at Google](https://www.youtube.com/watch?v=bf3erhnXNTE)
+
+Play the [I'm new card](https://youtu.be/bf3erhnXNTE?t=1062) when you joined. Distribute your questions.
+
+- A career plan is really important. [Be intentional and have a goal in mind.](https://youtu.be/bf3erhnXNTE?t=2150)
+
+- Make a career plan and run it by your manager.
+- I need to develop these competencies, and show these impacts. List or Brainstorm on these.
+
+Influence is a combination of track record, credibility, visibility, social capital, giving.
+
+She is certified personal trainer. [GO FIGURE.](https://youtu.be/bf3erhnXNTE?t=3480)
+
 ## discomfort today
 
 It costs [discomfort](https://www.youtube.com/shorts/pqaB_P53T7g).
