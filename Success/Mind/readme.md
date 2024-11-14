@@ -1,3 +1,9 @@
+## 3 - 6  months for reskilling
+
+Ruth Porat - Chief Investment Officer Google
+
+[AI is the great equilizer.](https://www.youtube.com/watch?v=x3D8bna2lJU&t=643s)
+
 ## Insights from Google
 
 [Irina Stanescu from her time at Google](https://www.youtube.com/watch?v=bf3erhnXNTE)
