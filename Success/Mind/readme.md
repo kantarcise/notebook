@@ -1,3 +1,13 @@
+## Meritocracy
+
+Meritocracy (merit, from Latin mereō, and -cracy, from Ancient Greek κράτος kratos 'strength, power') is the notion of a political system in which economic goods or political power are vested in individual people based on ability and talent, rather than wealth or social class.
+
+VERSUS
+
+Nepotism is the act of granting an advantage, privilege, or position to relatives or friends in an occupation or field - for instance business, politics, academia, entertainment, religion or health care. In concept it is similar to cronyism.
+
+[Elon Viewpoint](https://www.youtube.com/shorts/aiU2HqQUVuU)
+
 ## 3 - 6  months for reskilling
 
 Ruth Porat - Chief Investment Officer Google
