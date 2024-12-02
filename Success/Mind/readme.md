@@ -1,3 +1,9 @@
+## Stolen Focus
+
+There is a [war on attention](https://www.amazon.com/Stolen-Focus-Attention-Think-Deeply/dp/0593138511#customerReviews).
+
+Protect the home.
+
 ## Meritocracy
 
 Meritocracy (merit, from Latin mereō, and -cracy, from Ancient Greek κράτος kratos 'strength, power') is the notion of a political system in which economic goods or political power are vested in individual people based on ability and talent, rather than wealth or social class.
