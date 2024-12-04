@@ -1,3 +1,12 @@
+## Success is multidimensional 
+
+[5 things?](https://youtu.be/kZC0J3NVtb4?t=1184)
+
+Success is [multi dimensional](https://youtu.be/kZC0J3NVtb4?t=1184). It is 5 dimensions: Money, Relationships, Energy, Skill, Brand.
+
+Brand is trusted distribution. Fame is the most efficient business model.
+
+
 ## Stolen Focus
 
 There is a [war on attention](https://www.amazon.com/Stolen-Focus-Attention-Think-Deeply/dp/0593138511#customerReviews).
