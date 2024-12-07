@@ -4,6 +4,8 @@
 
 Success is [multi dimensional](https://youtu.be/kZC0J3NVtb4?t=1184). It is 5 dimensions: Money, Relationships, Energy, Skill, Brand.
 
+You can trade one for the other.
+
 Brand is trusted distribution. Fame is the most efficient business model.
 
 
