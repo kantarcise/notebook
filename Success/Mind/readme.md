@@ -8,6 +8,7 @@ You can trade one for the other.
 
 Brand is trusted distribution. Fame is the most efficient business model.
 
+Operationalize genorosity [by not gating things](https://youtu.be/kZC0J3NVtb4?t=1423).
 
 ## Stolen Focus
 
