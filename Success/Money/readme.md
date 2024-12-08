@@ -1,3 +1,7 @@
+## The cold email handbook
+
+Maybe the only thing you need [to start](https://www.za-zu.com/blog/playbook?srsltid=AfmBOoroY990NxyCy2kOGGyn2UBjpcF-9ZBH04xOlN8P7MkerwsW7L9k)
+
 ## Actions | Daniel Fazio
 
 [The Meme](https://www.youtube.com/watch?v=cSzbmNnhPKI)
