@@ -27,6 +27,12 @@ What drove me? I think most creative people want to express appreciation for bei
 
 ---
 
+## Alex
+
+Only way to fail is to give up.
+
+[But.. What If It Doesn’t Work?](https://www.youtube.com/watch?v=MaaceEfJbrE)
+
 ## Jordan
 
 I will do good, no matter what.
