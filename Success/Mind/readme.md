@@ -1,3 +1,7 @@
+## Work Hard and ASK for HELP
+
+Hard work opens doors but [asking for help builds bridges.](https://x.com/LeilaHormozi/status/1868351926146040178)
+
 ## People constantly make stuff up
 
 [That has not happened yet.](https://youtu.be/ZX4AODxZpDA?t=874)
