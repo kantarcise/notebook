@@ -27,6 +27,14 @@ What drove me? I think most creative people want to express appreciation for bei
 
 ---
 
+## Jensen Huang - Message for me
+
+Your job is to make a unique contribution. Live a life of purpose. To do something that nobody else in the world would do or can do. 
+
+To make a unique contribution. So that in the event, that after you are done, everybody says the world was better because you were here.
+
+[Here is the speech](https://x.com/zfellows/status/1832495775571443899).
+
 ## Alex
 
 Only way to fail is to give up.
