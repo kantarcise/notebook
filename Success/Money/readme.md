@@ -1,3 +1,7 @@
+## Incentive Greatness
+
+[Hard to do and worth it.](https://youtu.be/cnbHgYYHzyE?t=8186)
+
 ## The cold email handbook
 
 Maybe the only thing you need [to start](https://www.za-zu.com/blog/playbook?srsltid=AfmBOoroY990NxyCy2kOGGyn2UBjpcF-9ZBH04xOlN8P7MkerwsW7L9k)
