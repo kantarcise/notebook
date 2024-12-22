@@ -1,3 +1,7 @@
+## People want Entertainment
+
+Maybe you should [make something people want](https://www.tiktok.com/@ledsign_lc_/video/7448090973244083488)
+
 ## Incentive Greatness
 
 [Hard to do and worth it.](https://youtu.be/cnbHgYYHzyE?t=8186)
