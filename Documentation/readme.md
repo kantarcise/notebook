@@ -16,7 +16,7 @@ Write it down, so you don't lose it in the sea :)
 ## Links
 
 - [Design Docs at Google](https://www.industrialempathy.com/posts/design-docs-at-google/)
-- [Ready, Set, Code: How Engineering Teams Use Trello](https://blog.trello.com/engineering-teams-sample-trello-boards)
+- [Ready, Set, Code: How Engineering Teams Use Trello](https://www.atlassian.com/blog/trello/engineering-teams-sample-trello-boards)
 - [Software Documentation Types and Best Practices](https://blog.prototypr.io/software-documentation-types-and-best-practices-1726ca595c7f)
 -----------------
   - [How to Write a Design Document - Berkeley - Old link is down at the moment](https://www.google.com/search?q=UC+Berkeley+CS+162+design+document+guide&sourceid=chrome&ie=UTF-8) Old link: `https://people.eecs.berkeley.edu/~kubitron/courses/cs162-F06/design.html`
