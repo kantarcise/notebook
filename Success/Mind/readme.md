@@ -1,3 +1,13 @@
+## As a Young Engineer, Lisa Su Heard:
+
+[Run towards problems](https://youtu.be/8Ve5SAFPYZ8?t=1387). 
+
+Look for that hardest problem to solve, volunteer to help.
+
+You are going to learn a lot in the process, you are going to distinguish yourself. 
+
+What is the worst thing that could happen? You make a mistake, okay fine. Get up, next day is another day.
+
 ## Work Hard and ASK for HELP
 
 Hard work opens doors but [asking for help builds bridges.](https://x.com/LeilaHormozi/status/1868351926146040178)
