@@ -1,3 +1,13 @@
+## Infinite Land
+
+You built a house on someone else's land, and then they tore it down. 
+
+Build a house on your own land. From there you can create roads, bridges, tunnels to other people's land. 
+
+On the web land is infinite. 
+
+[You can make your own land.](https://x.com/kepano/status/1876340659331965327)
+
 ## As a Young Engineer, Lisa Su Heard:
 
 [Run towards problems](https://youtu.be/8Ve5SAFPYZ8?t=1387). 
