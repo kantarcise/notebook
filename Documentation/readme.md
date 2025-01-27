@@ -17,7 +17,7 @@ Write it down, so you don't lose it in the sea :)
 
 - [Design Docs at Google](https://www.industrialempathy.com/posts/design-docs-at-google/)
 - [Ready, Set, Code: How Engineering Teams Use Trello](https://www.atlassian.com/blog/trello/engineering-teams-sample-trello-boards)
-- [Software Documentation Types and Best Practices](https://blog.prototypr.io/software-documentation-types-and-best-practices-1726ca595c7f)
+- [Software Documentation Types and Best Practices](https://www.google.com/search?q=Software+Documentation+Types+and+Best+Practices&oq=Software+Documentation+Types+and+Best+Practices&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg8MgYIAhBFGDwyBggDEEUYPNIBBzYwMmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8) - Medium link gets a 429 - `https://blog.prototypr.io/software-documentation-types-and-best-practices-1726ca595c7f`
 -----------------
   - [How to Write a Design Document - Berkeley - Old link is down at the moment](https://www.google.com/search?q=UC+Berkeley+CS+162+design+document+guide&sourceid=chrome&ie=UTF-8) Old link: `https://people.eecs.berkeley.edu/~kubitron/courses/cs162-F06/design.html`
 - How to write a good software design doc - Medium - Old Link: `https://medium.com/free-code-camp/how-to-write-a-good-software-design-document-66fcf019569c`
