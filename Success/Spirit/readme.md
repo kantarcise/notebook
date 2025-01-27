@@ -59,6 +59,24 @@ You go to hell and you take everyone you love with you.
 
 ---
 
+## David Whyte
+
+An individual who asked a question [“what do I do when I'm lost in the forest?”](https://www.youtube.com/watch?v=Yayx165hskU)
+
+The Elder says “Stand still: the trees ahead and bushes beside you are not lost. Stand still.”
+
+The trees ahead and the brushes beside you are not lost; wherever you are is called here and you must treat it as a powerful stranger.
+
+The forest knows where you are you must let it find you. That poem is you can say there are three things in this poem you see that are absolutely clear. 
+
+First of all the Elder says you cannot sleepwalk your way into your destiny you must wake up and pay attention. “Stand still the trees ahead and bushes beside you are not lost you must pay attention” Second stage is that in this in this teaching from the Elder there is this incredible feeling of Silence- That unless you have this Silence in your life (and you feel the silence in the poem when he says it), and I think what the Elder is saying there is that if you pay real attention- unless you have silence- an ability for silence in your body to do that- then you will get too frightened because all the voices inside you will drown out any real change. You’ll have a hundred reasons not to make any real change. 
+
+You see and you've got all the voices and all the reasons not to do it and so the ability for profound silence is being called on here and then that attention can can flower into something else. 
+
+The forest knows where you are you must let it find you.
+
+
+
 ## Mark Gainey
 
 [Just start building](https://youtu.be/ZJWbDPAm8Tc?list=PLoROMvodv4rPE-kcGtKBgYtSMqEJKbESC&t=484)
