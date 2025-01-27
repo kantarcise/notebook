@@ -1,0 +1,30 @@
+name: Generate Random Link
+
+on:
+  schedule:
+    - cron: '0 12 * * *' # Runs daily at 12:00 UTC (adjust as needed)
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  generate-link:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.9
+
+    - name: Generate Random Link
+      run: python .github/scripts/generate_random_link.py
+
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add random_link.md
+        git commit -m "Update random link"
+        git push
