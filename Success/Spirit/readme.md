@@ -35,6 +35,10 @@ To make a unique contribution. So that in the event, that after you are done, ev
 
 [Here is the speech](https://x.com/zfellows/status/1832495775571443899).
 
+## David Whyte
+
+Give up all the other worlds [except the one to which you belong.](https://onbeing.org/poetry/sweet-darkness/)
+
 ## Alex
 
 Only way to fail is to give up.
