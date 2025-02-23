@@ -1,3 +1,17 @@
+## Live in the future and build what's missing.
+
+What's common practice in one industry but unheard of in another?
+
+What can you do to increase the reach and resonance of someone else's message? 
+
+How often do you run into a problem with someone's product that you could suggest an easy fix for?
+
+**How would you want to be approached by someone looking for you to hire them? Keep that in mind when positioning your own services.**
+
+Most of us don't know what's missing because no one else has shown us. That's all the Permissionless Apprenticeship is.
+
+#### **Figure out what's missing, make it and show people.**
+
 ## Infinite Land
 
 You built a house on someone else's land, and then they tore it down. 
