@@ -1,3 +1,7 @@
+## Using Social Proof
+
+People's choices is affected by [information of what other people in similar situations](https://youtu.be/23n7DHXCokQ?t=50) have done.
+
 ## People want Entertainment
 
 Maybe you should [make something people want](https://www.tiktok.com/@ledsign_lc_/video/7448090973244083488)
