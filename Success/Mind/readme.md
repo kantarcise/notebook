@@ -1,3 +1,7 @@
+## You know, some people just choose to declare.
+
+[an all out attack](https://x.com/carrynointerest/status/1895629239543804017)
+
 ## Live in the future and build what's missing.
 
 What's common practice in one industry but unheard of in another?
