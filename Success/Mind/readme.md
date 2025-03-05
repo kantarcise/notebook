@@ -1,3 +1,7 @@
+## how to begin
+
+[just start producing things that show what you care about.](https://x.com/ishverduzco/status/1897101559361896827/photo/1)
+
 ## You know, some people just choose to declare.
 
 [an all out attack](https://x.com/carrynointerest/status/1895629239543804017)
