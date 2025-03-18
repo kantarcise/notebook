@@ -1,3 +1,7 @@
+## courage
+
+[nature loves courage](https://x.com/DylanoA4/status/1899447658147643678)
+
 ## Using Social Proof
 
 People's choices is affected by [information of what other people in similar situations](https://youtu.be/23n7DHXCokQ?t=50) have done.
