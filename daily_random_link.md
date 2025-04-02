@@ -1,3 +1,3 @@
 Here is a random link from the repository:
 
-https://youtu.be/io5IsuoLHuc?t=389
+https://www.youtube.com/shorts/-h7dAolPkPc
