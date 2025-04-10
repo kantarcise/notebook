@@ -1,3 +1,17 @@
+## listen to music that do not have lyrics
+
+Gaming industry's size is $500B. They know how to keep people in games with **adventures**.
+
+An adventure has:
+
+- An environment setup for it.
+- [Music without lyrics.](https://www.youtube.com/watch?v=BlOnnQ6z7rE)
+- An experience bar to show progress
+- Reward system.
+
+You can ignore this, or you can just use it to your advantage.
+
+
 ## how to begin
 
 [just start producing things that show what you care about.](https://x.com/ishverduzco/status/1897101559361896827/photo/1)
