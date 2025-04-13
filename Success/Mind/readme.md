@@ -1,3 +1,21 @@
+## jim keller interview
+
+[link](https://www.youtube.com/watch?v=Xh8nhK7WS80) - [text](https://archive.computerhistory.org/resources/access/text/2024/10/102809019-05-01-acc.pdf)
+
+So, it turns out the AI stack is really complicated from top to bottom. It's not like a person
+has an idea and they write a C program that runs through a compiler to a chip. There's about four or five
+levels of translation. 
+
+Like, PyTorch programs run very slowly, like 100 kilohertz. So, it takes you a while to
+get your brain wrapped around that. So, you're going to put a petaflop of compute on a computer program
+that's running at 100 kilohertz because it's parsing ops, and the ops are really big and then there's
+translation from the PyTorch level, what the programmer thinks he's doing, down through the software
+stack. 
+
+Then you need to build that in a way it's flexible and resilient to the new ideas they have at the high
+level, but translates into high-performance computing at the low level and that's the intellectual AI
+challenge that Tenstorrent's working on.
+
 ## listen to music that do not have lyrics
 
 Gaming industry's size is $500B. They know how to keep people in games with **adventures**.
