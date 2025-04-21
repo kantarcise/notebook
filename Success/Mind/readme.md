@@ -1,3 +1,8 @@
+## you can actually do this
+
+Be happy with what you have while working for what you want.
+
+
 ## jim keller interview
 
 [link](https://www.youtube.com/watch?v=Xh8nhK7WS80) - [text](https://archive.computerhistory.org/resources/access/text/2024/10/102809019-05-01-acc.pdf)
