@@ -1,3 +1,7 @@
+## new yorkers
+
+[wake up](https://youtu.be/unpbMMR63no?t=4842)
+
 ## you can actually do this
 
 Be happy with what you have while working for what you want.
