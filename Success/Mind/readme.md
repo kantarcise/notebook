@@ -1,3 +1,7 @@
+## Use Leverage for Heavy Things
+
+[If something feels heavy, then stack the leverage of something good that makes it feel like "oh, that's all I got to do not have the surgery, play with my kids, have a better relationship?"](https://www.youtube.com/watch?v=hEtk5FiWqwY&t=668s)
+
 ## new yorkers
 
 [wake up](https://youtu.be/unpbMMR63no?t=4842)
