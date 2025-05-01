@@ -1,3 +1,13 @@
+## Courses
+
+From Daniel on this [banger video](https://youtu.be/deAzlMzvhRU?t=712):
+
+> You have been psyoped into thinking that all courses are scam.
+
+> Every single person I know who makes an insane amount of money purchases courses and mentorships and spends more than he would otherwise think it's necessary.
+
+> Always. I do this all the time. I buy courses all the time.
+
 ## Use Leverage for Heavy Things
 
 [If something feels heavy, then stack the leverage of something good that makes it feel like "oh, that's all I got to do not have the surgery, play with my kids, have a better relationship?"](https://www.youtube.com/watch?v=hEtk5FiWqwY&t=668s)
