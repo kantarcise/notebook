@@ -1,3 +1,9 @@
+## Aura
+
+[Here](https://x.com/buridansridge/status/1903946876115923010) is the best definition I've seen.
+
+> Aura is concentrated depth, authenticity, and intensity - energetically emanated outward.
+
 ## Courses
 
 From Daniel on this [banger video](https://youtu.be/deAzlMzvhRU?t=712):
