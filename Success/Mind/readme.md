@@ -1,3 +1,7 @@
+## Now
+
+One day you will wake up and there won’t be any more time to do the things you’ve always wanted. Do it now.
+
 ## Aura
 
 [Here](https://x.com/buridansridge/status/1903946876115923010) is the best definition I've seen.
