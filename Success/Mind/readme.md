@@ -1,6 +1,6 @@
 ## The private work
 
-We do the private work to find the right perspectives. We ask the questions with 7 Levels Deep.
+We do the [private work](https://www.youtube.com/watch?v=_joAR4RyHf0) to find the right perspectives. We ask the questions with 7 Levels Deep.
 
 ## Now
 
