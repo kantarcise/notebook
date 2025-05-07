@@ -1,3 +1,7 @@
+## The private work
+
+We do the private work to find the right perspectives. We ask the questions with 7 Levels Deep.
+
 ## Now
 
 One day you will wake up and there won’t be any more time to do the things you’ve always wanted. Do it now.
