@@ -1,3 +1,7 @@
+## Fasting
+
+Body builders have been using [this for decades](https://youtu.be/fzverMYhE9Q?t=1163).
+
 ## [Greg](https://www.youtube.com/watch?v=uVxSgm2GGmY)
 
 There comes a day man, everyone is going to have this day..
