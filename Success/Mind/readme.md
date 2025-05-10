@@ -1,3 +1,43 @@
+## Dean 14 gifts
+
+[The Link](https://www.youtube.com/watch?v=h6fJxkbYdls)
+
+It’s 5:45 AM on a Saturday, and I feel like I just got off a call with one of the best mentors I could’ve asked for!
+
+What a privilege. Thank you Dan 💚
+
+- 0:56 Audit your inner circle
+- 4:01 Solve bigger problems
+- 6:30 It's on me
+- 7:55 Who is steering your ship?
+- 11:15 Selling is service
+- 13:39 Be Bold
+- 16:42 Know Your Ideal Client
+- 19:10 Focus on the Fix
+- 20:44 Say "No" More
+- 22:43 Look for the little things
+- 26:28 "I will persist until I succeed"
+- 28:57 Know where your focus should go
+- 31:25 Work on the business you are and the business you are becoming
+- 33:40 Who vs How
+
+Highlights:
+
+- Sum total of 5 people you hang around.
+- From Sean Stephenson "Don't dare dim your glow to match people around you"
+- Stop waiting for permission
+- Complete Ownership is extremely liberating
+- The most expensive advice is bad advice
+- When you truly what you do and love your prospect, selling is a service. You fall in love with the results they get.
+- Ask questions to your ideal client. Know them better than anybody else than you get to meet them where they are.
+- It's time to make a not-to-do list. You had a to-do list your whole life. Focus → Momentum → Growth
+- Everyone has routines. Just get a good routine. Little things move the needle.
+- Journaling every day is one of Dean's best disciplines.
+- You can use routines as a shield to fall back from old patterns. Dean listens to books in the mornings for this.
+- If you want a guarantee for Success - Persist.
+- Really helpful to understand the concept - "pay for speed"
+
+
 ## The private work
 
 We do the [private work](https://www.youtube.com/watch?v=_joAR4RyHf0) to find the right perspectives. We ask the questions with 7 Levels Deep.
