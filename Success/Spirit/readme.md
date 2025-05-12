@@ -391,3 +391,7 @@ You'll learn how to distinguish between chaos and order.
 
 ---
 
+## Jony Ive
+
+[Simplicity is about removing clutter.](https://youtu.be/wLb9g_8r-mE?t=931)
+
