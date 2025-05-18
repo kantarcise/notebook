@@ -1,3 +1,22 @@
+## the art
+
+[YES method](https://youtu.be/1MiURC1_78k?t=4131)
+
+- Your message matters
+  - Enter Conversations already in their mind
+  - People buy from you when they feel understood
+  - Sell them what they want, deliver them what they need
+
+- Elevate your offer
+  - Know their problems assist in solving them
+  - know their dreams and goals and fuel them
+  - make it irresistible they feel silly saying no
+
+- Sell through service
+  - Fall in love with your customer
+  - Fall in love with your product or service
+  - Fall in love with their outcomes and results so you fell bad not selling to them
+
 ## courage
 
 [nature loves courage](https://x.com/DylanoA4/status/1899447658147643678)
