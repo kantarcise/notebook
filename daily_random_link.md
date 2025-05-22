@@ -1,3 +1,3 @@
 Here is a random link from the repository:
 
-https://medicine.umich.edu/sites/default/files/content/downloads/Exposure-and-Desensitization.pdf
+https://www.youtube.com/watch?v=y5x-KjBME_E
