@@ -1,3 +1,7 @@
+## Hormozi Banger
+
+- [I am the output of my work](https://youtu.be/ln24y0FPJHo?t=212)
+
 ## Hormozi
 
 When you coach you you have no agenda. You have [100% context](https://youtu.be/RdAKXJlMIZM?t=2084).
