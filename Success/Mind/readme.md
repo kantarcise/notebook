@@ -1,3 +1,7 @@
+## Hormozi
+
+When you coach you you have no agenda. You have [100% context](https://youtu.be/RdAKXJlMIZM?t=2084).
+
 ## Dean 14 gifts
 
 [The Link](https://www.youtube.com/watch?v=h6fJxkbYdls)
