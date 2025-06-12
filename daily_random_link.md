@@ -1,3 +1,3 @@
 Here is a random link from the repository:
 
-https://www.youtube.com/watch?v=PWXdxRPfQJw&t=1792s
+https://x.com/JamesClear/status/1864733580284297503
