@@ -1,3 +1,7 @@
+## Communication
+
+the person [who communicates the best will be the best](https://youtu.be/U-fMsbY-kHY?t=29680) programmer.
+
 ## Hormozi Banger
 
 - [I am the output of my work](https://youtu.be/ln24y0FPJHo?t=212)
