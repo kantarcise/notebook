@@ -152,3 +152,9 @@
 
 
 ---
+
+## Boom Overture
+
+Here is [a detailed lecture](https://old.reddit.com/r/engineering/comments/1lfiztq/raes_toulouse_lecture_recording_on_supersonic/).
+
+Supersonic commercial flights are incoming.
