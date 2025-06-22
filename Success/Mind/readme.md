@@ -1,3 +1,7 @@
+## No time
+
+There are graveyards full of people who tought they [had time](https://x.com/thematrixwizard/status/1936026112192094268).
+
 ## Communication
 
 the person [who communicates the best will be the best](https://youtu.be/U-fMsbY-kHY?t=29680) programmer.
