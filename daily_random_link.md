@@ -1,3 +1,3 @@
 Here is a random link from the repository:
 
-https://x.com/AlexHormozi/status/1899275381917565199
+https://x.com/carrynointerest/status/1895629239543804017
