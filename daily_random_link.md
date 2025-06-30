@@ -1,3 +1,3 @@
 Here is a random link from the repository:
 
-https://youtu.be/o01mXS1ezgE?t=262
+https://www.tiktok.com/@ahormozi/video/7370428362403269934
