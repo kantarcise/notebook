@@ -1,3 +1,3 @@
 Here is a random link from the repository:
 
-https://x.com/buridansridge/status/1903946876115923010
+https://www.youtube.com/shorts/Ktsn1W5WlRI
