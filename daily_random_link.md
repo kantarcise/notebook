@@ -1,3 +1,3 @@
 Here is a random link from the repository:
 
-https://www.folklore.org/Pirate_Flag.html?sort=date?sort=date
+https://archive.computerhistory.org/resources/access/text/2024/10/102809019-05-01-acc.pdf
