@@ -1,3 +1,3 @@
 Here is a random link from the repository:
 
-https://x.com/nickcammarata/status/1876749765951562209
+https://youtu.be/c3b-JASoPi0?t=969
