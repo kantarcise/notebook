@@ -1,3 +1,9 @@
+## Being an owner
+
+When you are the owner [the whole game changes](https://youtu.be/xz-ymFOhBAE?t=3396).
+
+Then inflation can be my friend. I don't have to live in this fear "I can't have something".
+
 ## the art
 
 [YES method](https://youtu.be/1MiURC1_78k?t=4131)
