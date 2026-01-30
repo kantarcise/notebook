@@ -1,3 +1,3 @@
 Here is a random link from the repository:
 
-https://youtu.be/oOIjwhYUbHM?t=687
+https://x.com/LeilaHormozi/status/1868351926146040178
