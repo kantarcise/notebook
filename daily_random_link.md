@@ -1,3 +1,3 @@
 Here is a random link from the repository:
 
-https://www.youtube.com/watch?v=R7JOslrt51o
+https://github.com/kantarcise/notebook/blob/master/Success/Mind/growth_without_goals.md
