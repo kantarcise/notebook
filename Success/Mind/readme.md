@@ -1,3 +1,17 @@
+## Keep Thinking
+
+[Think](https://paulgraham.com/writes.html)
+
+Is that so bad? Isn't it common for skills to disappear when technology makes them obsolete? There aren't many blacksmiths left, and it doesn't seem to be a problem.
+
+Yes, it's bad. The reason is something I mentioned earlier: writing is thinking. In fact there's a kind of thinking that can only be done by writing.
+
+So a world divided into writes and write-nots is more dangerous than it sounds. It will be a world of thinks and think-nots. I know which half I want to be in, and I bet you do too.
+
+This situation is not unprecedented. In preindustrial times most people's jobs made them strong. Now if you want to be strong, you work out. So there are still strong people, but only those who choose to be.
+
+It will be the same with writing. There will still be smart people, but only those who choose to be.
+
 ## No time
 
 There are graveyards full of people who tought they [had time](https://x.com/thematrixwizard/status/1936026112192094268).
