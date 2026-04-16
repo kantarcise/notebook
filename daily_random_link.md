@@ -1,3 +1,3 @@
 Here is a random link from the repository:
 
-https://paulgraham.com/writes.html
+https://www.youtube.com/watch?v=rO9IIUkGbkQ
