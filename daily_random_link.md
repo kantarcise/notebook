@@ -1,3 +1,3 @@
 Here is a random link from the repository:
 
-https://www.youtube.com/watch?v=gOnASpAjvCE
+http://www.paulgraham.com/greatwork.html
