@@ -1,3 +1,3 @@
 Here is a random link from the repository:
 
-https://www.youtube.com/watch?v=UowtlZB2a70
+https://www.za-zu.com/blog/playbook?srsltid=AfmBOoroY990NxyCy2kOGGyn2UBjpcF-9ZBH04xOlN8P7MkerwsW7L9k
