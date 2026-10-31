@@ -5,18 +5,21 @@ on:
     - cron: '0 12 * * *' # Runs daily at 12:00 UTC (adjust as needed)
   workflow_dispatch: # Allows manual triggering
 
+permissions:
+  contents: write
+
 jobs:
   generate-link:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v7
 
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v7
       with:
-        python-version: 3.9
+        python-version: '3.13'
 
     - name: Generate Random Link
       run: python .github/scripts/generate_random_link.py
@@ -26,5 +29,9 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add daily_random_link.md
+        if git diff --cached --quiet; then
+          echo "Random link is unchanged; nothing to commit."
+          exit 0
+        fi
         git commit -m "Update random link"
         git push
