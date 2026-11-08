@@ -1,3 +1,3 @@
 Here is a random link from the repository:
 
-https://youtu.be/dTRBnHtHehQ?t=59
+https://x.com/AlexHormozi/status/1908925194003251544
