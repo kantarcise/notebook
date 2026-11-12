@@ -1,3 +1,3 @@
 Here is a random link from the repository:
 
-https://www.tiktok.com/@ledsign_lc_/video/7448090973244083488
+https://youtu.be/lJF__n_34ew?list=LL&t=256
